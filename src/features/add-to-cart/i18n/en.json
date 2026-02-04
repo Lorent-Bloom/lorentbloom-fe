@@ -1,0 +1,12 @@
+{
+  "addToCart": "Add to Cart",
+  "quantity": "Quantity",
+  "cancel": "Cancel",
+  "adding": "Adding...",
+  "addedSuccessfully": "Item added to cart successfully!",
+  "failedToAdd": "Failed to add item to cart",
+  "sessionExpired": "Your session has expired. Please sign in again.",
+  "rentalPeriod": "Rental Period",
+  "productOptions": "Product Options",
+  "selectOption": "Select {option}"
+}

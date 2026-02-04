@@ -1,0 +1,12 @@
+{
+  "startDate": "Начало",
+  "endDate": "Конец",
+  "pickStartDate": "Выберите даты аренды",
+  "pickEndDate": "Выберите дату окончания",
+  "selectStartDate": "Выберите дату начала",
+  "selectEndDate": "Теперь выберите дату окончания",
+  "clickToReselect": "Нажмите на любую дату для нового выбора",
+  "reset": "Сбросить",
+  "endDateMustBeAfterStart": "Дата окончания должна быть после даты начала",
+  "alreadyRented": "Уже арендовано"
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Customer Reviews",
+  "totalReviews": "{count, plural, =1 {1 Review} other {# Reviews}}",
+  "noReviews": "No reviews yet. Be the first to review this product!",
+  "ratingsBreakdown": "Rating Details",
+  "failedToLoad": "Failed to load reviews"
+}

@@ -1,0 +1,12 @@
+{
+  "myAccount": "My account",
+  "myProducts": "My products",
+  "myRents": "My rents",
+  "myProductRentals": "My product rentals",
+  "documents": "Documents",
+  "addresses": "Addresses",
+  "settings": "Settings",
+  "company": "Company",
+  "logout": "Logout",
+  "signIn": "Sign In"
+}

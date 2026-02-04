@@ -1,0 +1,27 @@
+{
+  "email": "Email",
+  "emailPlaceholder": "you@example.com",
+  "password": "Parolă",
+  "passwordPlaceholder": "••••••",
+  "firstname": "Prenume",
+  "firstnamePlaceholder": "Ion",
+  "lastname": "Nume de familie",
+  "lastnamePlaceholder": "Popescu",
+  "submit": "Trimite",
+  "submitting": "Se trimite...",
+  "error": "Ceva nu a mers bine",
+  "haveAccount": "Ai deja un cont?",
+  "signInLink": "Autentifică-te aici",
+  "errors": {
+    "accountCreated": "Cont creat cu succes!",
+    "signedIn": "Ai fost autentificat automat.",
+    "pleaseSignIn": "Vă rugăm să vă autentificați cu noul cont.",
+    "emailExists": "Un cont cu acest email există deja. Vă rugăm să folosiți un alt email sau să vă autentificați.",
+    "weakPassword": "Parola este prea slabă. Trebuie să conțină cel puțin 8 caractere, inclusiv majuscule, minuscule, cifre și caractere speciale.",
+    "invalidEmail": "Vă rugăm să introduceți o adresă de email validă.",
+    "invalidFirstname": "Vă rugăm să introduceți un prenume valid.",
+    "invalidLastname": "Vă rugăm să introduceți un nume de familie valid.",
+    "networkError": "Eroare de rețea. Vă rugăm să verificați conexiunea la internet și să încercați din nou.",
+    "unknownError": "A apărut o eroare neașteptată. Vă rugăm să încercați mai târziu."
+  }
+}

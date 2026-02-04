@@ -1,0 +1,69 @@
+{
+  "title": "Cookie Policy",
+  "lastUpdated": "Last Updated: January 25, 2026",
+  "intro": "This Cookie Policy (hereinafter referred to as the \"Policy\") explains how the Minimum platform (hereinafter referred to as \"Minimum\", \"we\", \"our service\") uses cookies and similar technologies when you visit and use our website. By using the Platform, you consent to the use of cookies in accordance with this Policy.",
+  "metadata": {
+    "title": "Cookie Policy - Minimum",
+    "description": "Learn how the Minimum platform uses cookies and how you can manage them."
+  },
+  "whatAreCookies": {
+    "heading": "1. What are cookies",
+    "content": "Cookies are small text files that are stored on your device (computer, smartphone, tablet) when you visit websites. They allow the website to recognize your device, ensure proper service operation, and improve user experience."
+  },
+  "cookieTypes": {
+    "heading": "2. Types of cookies we use",
+    "intro": "Minimum uses the following categories of cookies:",
+    "required": {
+      "heading": "2.1. Required (technical) cookies",
+      "content": "These cookies are necessary for the proper functioning of the Platform and cannot be disabled in system settings. They are used, in particular, for:",
+      "list": {
+        "item1": "user authentication;",
+        "item2": "session preservation;",
+        "item3": "security assurance;",
+        "item4": "proper functioning of core site features."
+      },
+      "note": "Without these cookies, the Platform cannot function properly."
+    },
+    "functional": {
+      "heading": "2.2. Functional cookies",
+      "content": "Functional cookies allow the Platform to remember your choices (such as language, region, interface settings) and provide a more personalized experience."
+    },
+    "analytics": {
+      "heading": "2.3. Analytics cookies",
+      "content": "Analytics cookies are used to collect anonymized information about how users interact with the Platform. This helps us:",
+      "list": {
+        "item1": "analyze traffic;",
+        "item2": "improve service functionality;",
+        "item3": "identify technical errors."
+      },
+      "note": "The collected data does not allow direct user identification."
+    }
+  },
+  "thirdPartyCookies": {
+    "heading": "3. Third-party cookies",
+    "content": "Minimum may use third-party services (such as analytics or payment providers) that may place cookies on your device as part of their operation.",
+    "disclaimer": "We do not control third-party cookies and recommend reviewing their privacy and cookie policies."
+  },
+  "managingCookies": {
+    "heading": "4. Managing cookies",
+    "content": "You can change your cookie settings in your browser at any time, including:",
+    "list": {
+      "item1": "blocking all cookies;",
+      "item2": "deleting saved cookies;",
+      "item3": "receiving notifications when cookies are saved."
+    },
+    "note": "Please note that disabling or restricting cookies may result in some Platform features not working properly."
+  },
+  "consent": {
+    "heading": "5. Consent to use cookies",
+    "content": "When you first visit the Platform, you may be shown a notice about the use of cookies. By continuing to use the site or clicking the consent button, you confirm your consent to the use of cookies in accordance with this Policy."
+  },
+  "changes": {
+    "heading": "6. Changes to Cookie Policy",
+    "content": "Minimum reserves the right to make changes to this Policy at any time. The updated version takes effect from the moment it is published on the Platform."
+  },
+  "contact": {
+    "heading": "7. Contact information",
+    "content": "If you have any questions about the use of cookies, please contact us at: support@minimum.com"
+  }
+}

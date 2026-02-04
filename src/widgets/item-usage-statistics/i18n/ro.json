@@ -1,0 +1,12 @@
+{
+  "title": "Problema pe care o rezolvam",
+  "subtitle": "Majoritatea lucrurilor cumparate stau nefolosite, irosind bani si spatiu. Minimum te ajuta sa accesezi ce ai nevoie fara povara proprietatii.",
+  "chartTitle": "Utilizarea lucrurilor cumparate",
+  "segments": {
+    "regular": "Folosite regulat",
+    "rarely": "Folosite rar",
+    "dust": "Aduna praf"
+  },
+  "highlightStat": "80% din lucruri sunt folosite mai putin de o data pe luna",
+  "highlightDescription": "nefolosite"
+}

@@ -1,0 +1,25 @@
+{
+  "pageTitle": "Результаты поиска",
+  "searchResultsFor": "Результаты поиска для \"{query}\"",
+  "showing": "Показаны {start}-{end} из {total} результатов",
+  "categoriesSection": "Категории",
+  "productsSection": "Товары",
+  "noResultsTitle": "Ничего не найдено",
+  "noResultsDescription": "Мы не смогли найти товары или категории, соответствующие вашему запросу.",
+  "noResultsSuggestions": "Попробуйте:",
+  "suggestion1": "Другие ключевые слова",
+  "suggestion2": "Более общие поисковые запросы",
+  "suggestion3": "Проверить правильность написания",
+  "noCategoriesFound": "Категории не найдены",
+  "noProductsFound": "Товары не найдены для этого запроса",
+  "noProductsHint": "Попробуйте просмотреть категории выше или измените фильтры",
+  "error": "Ошибка поиска",
+  "errorDescription": "Что-то пошло не так во время поиска. Пожалуйста, попробуйте еще раз.",
+  "perPage": "На странице",
+  "previous": "Предыдущая",
+  "next": "Следующая",
+  "metadata": {
+    "title": "Результаты поиска | Minimum",
+    "description": "Поиск товаров и категорий"
+  }
+}

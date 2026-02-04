@@ -1,0 +1,25 @@
+{
+  "pageTitle": "Rezultate cautare",
+  "searchResultsFor": "Rezultate cautare pentru \"{query}\"",
+  "showing": "Se afiseaza {start}-{end} din {total} rezultate",
+  "categoriesSection": "Categorii",
+  "productsSection": "Produse",
+  "noResultsTitle": "Nu au fost gasite rezultate",
+  "noResultsDescription": "Nu am putut gasi produse sau categorii care sa corespunda cautarii dumneavoastra.",
+  "noResultsSuggestions": "Incercati:",
+  "suggestion1": "Cuvinte cheie diferite",
+  "suggestion2": "Mai putine sau termeni mai generali",
+  "suggestion3": "Verificati ortografia",
+  "noCategoriesFound": "Nu au fost gasite categorii",
+  "noProductsFound": "Nu au fost gasite produse pentru aceasta cautare",
+  "noProductsHint": "Incercati sa rasfoiti categoriile de mai sus sau ajustati filtrele",
+  "error": "Eroare la cautare",
+  "errorDescription": "Ceva a mers gresit in timpul cautarii. Va rugam sa incercati din nou.",
+  "perPage": "Pe pagina",
+  "previous": "Anterior",
+  "next": "Urmator",
+  "metadata": {
+    "title": "Rezultate cautare | Minimum",
+    "description": "Cauta produse si categorii"
+  }
+}

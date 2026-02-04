@@ -1,0 +1,84 @@
+{
+  "title": "How to Rent Out Your Items",
+  "subtitle": "Turn your unused belongings into extra income",
+  "introduction": "Have items sitting around that you rarely use? Our platform makes it easy to rent out your personal belongings to people in your community. From power tools to camping gear, cameras to party supplies – if someone needs it temporarily, you can earn from it. Follow these simple steps to start renting out your items today.",
+  "steps": {
+    "title": "5 Simple Steps to Rent Out Your Items",
+    "step1": {
+      "title": "1. Prepare Your Item",
+      "description": "Make sure your item is clean, functional, and ready to rent. A well-maintained item builds trust and attracts more renters.",
+      "items": {
+        "item1": "Clean the item thoroughly and check that everything works properly",
+        "item2": "Gather all accessories, cables, manuals, or parts that go with it",
+        "item3": "Note any wear, scratches, or imperfections to mention in your listing"
+      }
+    },
+    "step2": {
+      "title": "2. Take Quality Photos",
+      "description": "Great photos help your listing stand out. Show potential renters exactly what they're getting.",
+      "items": {
+        "item1": "Use good lighting and a clean background",
+        "item2": "Capture multiple angles and close-ups of important details",
+        "item3": "Include photos of accessories and show the item in use if possible"
+      }
+    },
+    "step3": {
+      "title": "3. Create Your Listing",
+      "description": "Write a clear, honest description that answers questions renters might have.",
+      "items": {
+        "item1": "Describe what the item is, its condition, and key features",
+        "item2": "Set your rental price (daily, weekly, or custom periods)",
+        "item3": "Specify pickup location, availability, and any usage requirements"
+      }
+    },
+    "step4": {
+      "title": "4. Communicate with Renters",
+      "description": "Good communication builds trust and leads to successful rentals.",
+      "items": {
+        "item1": "Respond to inquiries promptly and answer questions thoroughly",
+        "item2": "Discuss rental dates, pickup/return details, and expectations",
+        "item3": "Be clear about deposit requirements and your cancellation policy"
+      }
+    },
+    "step5": {
+      "title": "5. Complete the Rental",
+      "description": "Make the handover smooth and professional to ensure a great experience for both parties.",
+      "items": {
+        "item1": "Meet in a safe location and verify the renter's identity",
+        "item2": "Walk through how to use the item and document its condition together",
+        "item3": "Collect payment and deposit, then confirm the return date"
+      }
+    }
+  },
+  "tips": {
+    "title": "Tips for Successful Renting",
+    "tip1": "Research similar items on the platform to set competitive prices",
+    "tip2": "Respond to messages quickly – fast replies lead to more bookings",
+    "tip3": "Keep your items well-maintained between rentals",
+    "tip4": "Be flexible with pickup times and locations when possible",
+    "tip5": "Build your reputation by providing excellent service and earning positive reviews"
+  },
+  "benefits": {
+    "title": "Why Rent Out on Rently?",
+    "benefit1": {
+      "title": "Earn Extra Income",
+      "description": "Turn items you rarely use into a steady source of extra money."
+    },
+    "benefit2": {
+      "title": "Easy Listing Process",
+      "description": "Create listings in minutes with our simple, guided process."
+    },
+    "benefit3": {
+      "title": "Verified Users",
+      "description": "All users are verified, so you can rent with confidence."
+    },
+    "benefit4": {
+      "title": "Support When You Need It",
+      "description": "Our team is here to help if any issues arise during a rental."
+    }
+  },
+  "cta": {
+    "title": "Ready to Start Earning?",
+    "description": "List your first item today and join thousands of people sharing what they have."
+  }
+}

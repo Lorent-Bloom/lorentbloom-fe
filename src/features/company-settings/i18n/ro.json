@@ -1,0 +1,24 @@
+{
+  "title": "Setări companie",
+  "fields": {
+    "companyName": "Nume companie",
+    "companyPhone": "Telefon companie",
+    "companyLogo": "Logo companie"
+  },
+  "placeholders": {
+    "companyName": "Introduceți numele companiei",
+    "companyPhone": "+40 712 345 678"
+  },
+  "uploadLogo": "Încarcă logo",
+  "dragDropHint": "Trage și plasează o imagine aici sau fă clic pentru a răsfoi",
+  "removeImage": "Elimină",
+  "uploadingImage": "Se încarcă...",
+  "uploadError": "Nu s-a putut încărca imaginea. Încearcă din nou.",
+  "uploadFailed": "Încărcare eșuată",
+  "invalidFileType": "Te rugăm să încarci o imagine validă (PNG, JPG, JPEG)",
+  "fileTooLarge": "Dimensiunea fișierului trebuie să fie mai mică de 4MB",
+  "saveChanges": "Salvare modificări",
+  "saving": "Se salvează...",
+  "success": "Setările companiei au fost actualizate cu succes",
+  "error": "Nu s-au putut actualiza setările companiei"
+}

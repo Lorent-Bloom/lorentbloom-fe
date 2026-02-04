@@ -1,0 +1,12 @@
+{
+  "title": "The Problem We're Solving",
+  "subtitle": "Most items we buy sit unused, wasting money and space. Minimum helps you access what you need without the burden of ownership.",
+  "chartTitle": "Usage of Purchased Items",
+  "segments": {
+    "regular": "Used regularly",
+    "rarely": "Used rarely",
+    "dust": "Collecting dust"
+  },
+  "highlightStat": "80% of items are used less than once a month",
+  "highlightDescription": "underused"
+}

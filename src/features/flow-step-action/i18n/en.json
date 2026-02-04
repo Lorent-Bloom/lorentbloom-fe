@@ -1,0 +1,13 @@
+{
+  "allStepsCompleted": "All steps completed!",
+  "imagesRequired": "Please upload images to complete this step",
+  "imagesRequiredHint": "Images are required for this step",
+  "addImages": "Add images",
+  "confirmStep": "Confirm & Complete Step",
+  "completing": "Completing...",
+  "stepCompleted": "Step completed successfully",
+  "stepFailed": "Failed to complete step",
+  "waitingFor": "Waiting for {party} to complete this step",
+  "owner": "owner",
+  "customer": "customer"
+}

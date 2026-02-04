@@ -1,0 +1,84 @@
+{
+  "title": "Cum să dai în chirie",
+  "subtitle": "Transformă lucrurile nefolosite în venit suplimentar",
+  "introduction": "Ai lucruri pe care le folosești rar? Platforma noastră îți permite să închiriezi ușor bunurile personale oamenilor din comunitatea ta. De la scule electrice la echipament de camping, de la camere foto la articole de petrecere – dacă cineva are nevoie temporar, tu poți câștiga din asta. Urmează acești pași simpli pentru a începe să închiriezi lucrurile tale astăzi.",
+  "steps": {
+    "title": "5 pași simpli pentru a-ți închiria lucrurile",
+    "step1": {
+      "title": "1. Pregătește articolul",
+      "description": "Asigură-te că articolul tău este curat, funcțional și gata de închiriat. Un articol bine întreținut creează încredere și atrage mai mulți chiriași.",
+      "items": {
+        "item1": "Curăță bine articolul și verifică dacă totul funcționează corect",
+        "item2": "Adună toate accesoriile, cablurile, manualele sau piesele aferente",
+        "item3": "Notează orice urmă de uzură sau zgârieturi pentru a le menționa în anunț"
+      }
+    },
+    "step2": {
+      "title": "2. Fă fotografii de calitate",
+      "description": "Fotografiile bune ajută anunțul tău să iasă în evidență. Arată potențialilor chiriași exact ce vor primi.",
+      "items": {
+        "item1": "Folosește iluminare bună și un fundal curat",
+        "item2": "Fotografiază din mai multe unghiuri și de aproape detaliile importante",
+        "item3": "Include fotografii ale accesoriilor și arată articolul în utilizare, dacă e posibil"
+      }
+    },
+    "step3": {
+      "title": "3. Creează anunțul",
+      "description": "Scrie o descriere clară și onestă care răspunde la întrebările pe care le-ar putea avea chiriașii.",
+      "items": {
+        "item1": "Descrie ce este articolul, starea lui și caracteristicile principale",
+        "item2": "Stabilește prețul de închiriere (pe zi, săptămână sau altă perioadă)",
+        "item3": "Specifică locul de ridicare, disponibilitatea și cerințele de utilizare"
+      }
+    },
+    "step4": {
+      "title": "4. Comunică cu chiriașii",
+      "description": "Comunicarea bună creează încredere și duce la închirieri reușite.",
+      "items": {
+        "item1": "Răspunde prompt la solicitări și răspunde detaliat la întrebări",
+        "item2": "Discută datele de închiriere, detaliile de predare/returnare și așteptările",
+        "item3": "Fii clar în privința cerințelor de garanție și a politicii de anulare"
+      }
+    },
+    "step5": {
+      "title": "5. Finalizează închirierea",
+      "description": "Fă predarea lină și profesională pentru o experiență excelentă pentru ambele părți.",
+      "items": {
+        "item1": "Întâlnește-te într-un loc sigur și verifică identitatea chiriașului",
+        "item2": "Explică cum se folosește articolul și documentați împreună starea lui",
+        "item3": "Colectează plata și garanția, apoi confirmă data returnării"
+      }
+    }
+  },
+  "tips": {
+    "title": "Sfaturi pentru închiriere de succes",
+    "tip1": "Cercetează articole similare pe platformă pentru a stabili prețuri competitive",
+    "tip2": "Răspunde rapid la mesaje – răspunsurile rapide duc la mai multe rezervări",
+    "tip3": "Menține-ți articolele în stare bună între închirieri",
+    "tip4": "Fii flexibil cu orele și locurile de predare când este posibil",
+    "tip5": "Construiește-ți reputația oferind servicii excelente și primind recenzii pozitive"
+  },
+  "benefits": {
+    "title": "De ce să închiriezi pe Rently?",
+    "benefit1": {
+      "title": "Venit suplimentar",
+      "description": "Transformă lucrurile pe care le folosești rar într-o sursă constantă de bani în plus."
+    },
+    "benefit2": {
+      "title": "Listare ușoară",
+      "description": "Creează anunțuri în câteva minute cu procesul nostru simplu."
+    },
+    "benefit3": {
+      "title": "Utilizatori verificați",
+      "description": "Toți utilizatorii sunt verificați, așa că poți închiria cu încredere."
+    },
+    "benefit4": {
+      "title": "Suport când ai nevoie",
+      "description": "Echipa noastră este aici să ajute dacă apar probleme în timpul închirierii."
+    }
+  },
+  "cta": {
+    "title": "Gata să începi să câștigi?",
+    "description": "Listează primul tău articol astăzi și alătură-te miilor de oameni care împărtășesc ce au."
+  }
+}

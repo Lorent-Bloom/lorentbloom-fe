@@ -1,0 +1,18 @@
+{
+  "title": "Products",
+  "subtitle": "Browse our collection",
+  "showing": "Showing {start}-{end} of {total} products",
+  "error": "Failed to load products",
+  "errorDescription": "There was an error loading the products. Please try again later.",
+  "perPage": "Per page:",
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "metadata": {
+    "title": "All Products | Minimum",
+    "description": "Browse all available products for rent",
+    "categoryTitle": "Category | Minimum",
+    "categoryDescription": "Browse products by category"
+  }
+}

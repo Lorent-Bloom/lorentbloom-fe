@@ -1,0 +1,9 @@
+{
+  "addToWishlist": "Adaugă la favorite",
+  "removeFromWishlist": "Elimină din favorite",
+  "wishlist": "Favorite",
+  "emptyWishlist": "Lista ta de favorite este goală",
+  "emptyWishlistDescription": "Începe să adaugi produse la favorite pentru a le salva pentru mai târziu",
+  "itemsCount": "{count} articole",
+  "clearWishlist": "Șterge favoritele"
+}

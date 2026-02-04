@@ -1,0 +1,41 @@
+{
+  "message": "We use cookies to improve your experience. Some are essential for the site to function, while others help us understand how you use it.",
+  "acceptAll": "Accept All",
+  "rejectAll": "Reject All",
+  "manage": "Manage Preferences",
+  "preferences": {
+    "title": "Cookie Preferences",
+    "description": "Choose which cookies you want to allow. Essential cookies are always active as they are necessary for the site to function.",
+    "save": "Save Preferences"
+  },
+  "categories": {
+    "functionality": {
+      "title": "Essential",
+      "description": "Required for the website to function. These cannot be disabled."
+    },
+    "security": {
+      "title": "Security",
+      "description": "Help ensure the security of your session and prevent fraud."
+    },
+    "analytics": {
+      "title": "Analytics",
+      "description": "Help us understand how visitors interact with our website."
+    },
+    "ads": {
+      "title": "Advertising",
+      "description": "Used to deliver relevant advertisements and track ad campaigns."
+    },
+    "adUserData": {
+      "title": "Ad User Data",
+      "description": "Allows sharing of user data with advertising services."
+    },
+    "adPersonalization": {
+      "title": "Ad Personalization",
+      "description": "Enables personalized advertising based on your interests."
+    },
+    "personalization": {
+      "title": "Personalization",
+      "description": "Allow the site to remember your preferences and customize content."
+    }
+  }
+}

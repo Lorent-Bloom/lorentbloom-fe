@@ -1,0 +1,13 @@
+{
+  "title": "Сообщения",
+  "orderTitle": "Заказ #{orderNumber}",
+  "chatWith": "Чат с {name}",
+  "viewOrder": "Просмотреть детали заказа",
+  "selectConversation": "Выберите диалог для начала общения",
+  "noConversations": "Пока нет диалогов",
+  "noConversationsDescription": "Диалоги появятся здесь, когда вы разместите или получите заказы.",
+  "noMessages": "Пока нет сообщений. Начните разговор!",
+  "conversationNotFound": "Диалог не найден",
+  "owner": "Владелец",
+  "customer": "Покупатель"
+}

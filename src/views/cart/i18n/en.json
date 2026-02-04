@@ -1,0 +1,21 @@
+{
+  "emptyCartTitle": "Your cart is empty",
+  "emptyCartDescription": "Add items to your cart to see them here",
+  "continueShoppingButton": "Continue Shopping",
+  "pageTitle": "Shopping Cart",
+  "cartItemsTitle": "Cart Items",
+  "item": "item",
+  "items": "items",
+  "sku": "SKU:",
+  "removeButton": "Remove",
+  "orderSummaryTitle": "Order Summary",
+  "subtotal": "Subtotal",
+  "total": "Total",
+  "proceedToCheckout": "Proceed to Checkout",
+  "sessionExpired": "Your session has expired. Please sign in again.",
+  "failedToRemoveItem": "Failed to remove item",
+  "itemRemoved": "Item removed from cart",
+  "rentalPeriod": "Rental Period",
+  "from": "From:",
+  "to": "To:"
+}

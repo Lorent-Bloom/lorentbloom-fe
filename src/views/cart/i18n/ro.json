@@ -1,0 +1,21 @@
+{
+  "emptyCartTitle": "Cosul dumneavoastra este gol",
+  "emptyCartDescription": "Adaugati produse in cos pentru a le vedea aici",
+  "continueShoppingButton": "Continua cumparaturile",
+  "pageTitle": "Cos de cumparaturi",
+  "cartItemsTitle": "Produse in cos",
+  "item": "produs",
+  "items": "produse",
+  "sku": "Cod:",
+  "removeButton": "Sterge",
+  "orderSummaryTitle": "Sumar comanda",
+  "subtotal": "Subtotal",
+  "total": "Total",
+  "proceedToCheckout": "Continua la plata",
+  "sessionExpired": "Sesiunea a expirat. Va rugam sa va autentificati din nou.",
+  "failedToRemoveItem": "Nu s-a putut sterge produsul",
+  "itemRemoved": "Produs sters din cos",
+  "rentalPeriod": "Perioada de inchiriere",
+  "from": "De la:",
+  "to": "Pana la:"
+}

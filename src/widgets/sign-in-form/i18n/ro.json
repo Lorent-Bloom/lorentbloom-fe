@@ -1,0 +1,18 @@
+{
+  "email": "Email",
+  "emailPlaceholder": "you@example.com",
+  "password": "Parolă",
+  "passwordPlaceholder": "••••••",
+  "submit": "Trimite",
+  "noAccount": "Nu ai un cont?",
+  "signUpLink": "Creează unul aici",
+  "errors": {
+    "success": "Te-ai autentificat cu succes!",
+    "invalidCredentials": "Email sau parolă invalide. Vă rugăm să verificați datele și să încercați din nou.",
+    "accountLocked": "Contul dvs. a fost blocat. Vă rugăm să contactați serviciul de asistență.",
+    "accountNotConfirmed": "Contul dvs. nu a fost încă confirmat. Vă rugăm să verificați emailul pentru link-ul de confirmare.",
+    "noTokenReceived": "Autentificare eșuată. Vă rugăm să încercați din nou.",
+    "networkError": "Eroare de rețea. Vă rugăm să verificați conexiunea la internet și să încercați din nou.",
+    "unknownError": "A apărut o eroare neașteptată. Vă rugăm să încercați mai târziu."
+  }
+}

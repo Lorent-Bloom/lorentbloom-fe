@@ -1,0 +1,48 @@
+{
+  "items": [
+    {
+      "question": "Ce pot închiria?",
+      "answer": "Puteți închiria o gamă largă de articole, inclusiv electronice, unelte, echipamente, vehicule, imobiliare și multe altele. Platforma noastră conectează chiriașii cu proprietarii pentru tranzacții sigure și convenabile."
+    },
+    {
+      "question": "Cum creez un anunț?",
+      "answer": "Pentru a crea un anunț, conectați-vă la contul dvs., faceți clic pe 'Creează anunț', completați toate informațiile necesare despre articolul dvs., inclusiv descrierea, prețul și disponibilitatea, apoi faceți clic pe 'Publică'."
+    },
+    {
+      "question": "Cum editez anunțul meu?",
+      "answer": "Navigați la anunțurile dvs., selectați cel pe care doriți să-l modificați, faceți clic pe 'Editează', faceți modificările și salvați. Anunțul dvs. va fi actualizat imediat."
+    },
+    {
+      "question": "Cum șterg un anunț?",
+      "answer": "Deschideți anunțul pe care doriți să-l eliminați, faceți clic pe 'Editează', apoi selectați 'Șterge din publicație'. Anunțul nu va mai fi vizibil altor utilizatori."
+    },
+    {
+      "question": "Sunt informațiile mele de plată sigure?",
+      "answer": "Da, folosim criptare standard din industrie și gateway-uri de plată securizate pentru a vă proteja informațiile financiare. Nu stocăm niciodată detaliile complete de plată pe serverele noastre."
+    },
+    {
+      "question": "Cum funcționează procesul de închiriere?",
+      "answer": "Răsfoiți articolele disponibile, selectați perioada de închiriere, trimiteți o cerere de rezervare, completați plata, aranjați ridicarea sau livrarea cu proprietarul și returnați articolul la sfârșitul perioadei de închiriere."
+    },
+    {
+      "question": "Ce se întâmplă dacă un articol este deteriorat în timpul închirierii?",
+      "answer": "Raportați imediat orice deteriorare prin platforma noastră. În funcție de acordul de închiriere și de asigurarea achiziționată, puteți fi responsabil pentru costurile de reparație sau înlocuire."
+    },
+    {
+      "question": "Pot anula o închiriere?",
+      "answer": "Politicile de anulare variază în funcție de anunț. Verificați politica de anulare a anunțului specific înainte de rezervare. Unele închirieri oferă rambursări complete dacă sunt anulate într-un anumit termen."
+    },
+    {
+      "question": "Cum contactez asistența?",
+      "answer": "Puteți contacta echipa noastră de asistență prin pagina 'Contactează-ne' sau prin e-mail la support@minimum.com. De obicei răspundem în 24 de ore."
+    },
+    {
+      "question": "Ce comisioane percepe platforma?",
+      "answer": "Percepem un mic comision de serviciu pentru fiecare tranzacție pentru a menține platforma și a asigura procesarea securizată a plăților. Comisionul exact este afișat înainte de confirmarea rezervării."
+    },
+    {
+      "question": "Cum las o recenzie?",
+      "answer": "După finalizarea unei închirieri, veți primi o solicitare de a lăsa o recenzie. Puteți naviga și în istoricul închirierilor pentru a lăsa recenzii pentru tranzacțiile anterioare."
+    }
+  ]
+}

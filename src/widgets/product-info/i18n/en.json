@@ -1,0 +1,11 @@
+{
+  "sku": "SKU",
+  "inStock": "In Stock",
+  "outOfStock": "Out of Stock",
+  "quantityAvailable": "{count} available",
+  "onlyXLeft": "Only {count} left in stock",
+  "manufacturer": "Manufacturer",
+  "addToCart": "Add to Cart",
+  "notifyWhenAvailable": "Notify me when available",
+  "listedBy": "Listed by"
+}

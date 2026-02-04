@@ -1,0 +1,38 @@
+{
+  "completed": "Finalizat",
+  "allComplete": "Toți pașii sunt completați",
+  "steps": {
+    "orderCreated": {
+      "name": "Comandă creată",
+      "description": "Comanda de închiriere a fost plasată și confirmată."
+    },
+    "photosSent": {
+      "name": "Fotografii produs",
+      "description": "Proprietarul trimite fotografii ale produsului înainte de expediere."
+    },
+    "moneySent": {
+      "name": "Banii trimiși",
+      "description": "Plata a fost trimisă de chiriaș."
+    },
+    "moneyReceived": {
+      "name": "Banii primiți",
+      "description": "Plata a fost primită de proprietar."
+    },
+    "packageSent": {
+      "name": "Pachetul trimis",
+      "description": "Articolul de închiriat a fost expediat."
+    },
+    "packageReceived": {
+      "name": "Pachetul primit",
+      "description": "Articolul de închiriat a fost primit de chiriaș."
+    },
+    "packageSentBack": {
+      "name": "Pachetul trimis înapoi",
+      "description": "Articolul de închiriat a fost returnat de chiriaș."
+    },
+    "packageReceivedBack": {
+      "name": "Pachetul primit înapoi",
+      "description": "Articolul de închiriat a fost primit înapoi de proprietar."
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "uploadImages": "Upload Images",
+  "dragDropImages": "Drag and drop images here, or click to select",
+  "removeImage": "Remove image",
+  "setAsMain": "Set as main image",
+  "mainImage": "Main",
+  "reorderUp": "Move up",
+  "reorderDown": "Move down",
+  "maxImagesReached": "Maximum {{max}} images allowed",
+  "uploadingImage": "Uploading...",
+  "invalidFileType": "Only PNG and JPEG images are allowed",
+  "fileTooLarge": "File size must be less than 5MB"
+}

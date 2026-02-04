@@ -1,0 +1,8 @@
+{
+  "title": "Product Details",
+  "aboutProduct": "About Product",
+  "metadata": {
+    "productNotFound": "Product Not Found",
+    "buyProductPrefix": "Buy "
+  }
+}

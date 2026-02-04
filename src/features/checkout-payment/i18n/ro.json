@@ -1,0 +1,6 @@
+{
+  "selectPaymentMethod": "Selectați metoda de plată",
+  "noPaymentMethods": "Nu există metode de plată disponibile",
+  "paymentMethodRequired": "Vă rugăm să selectați o metodă de plată",
+  "failedToLoad": "Nu s-au putut încărca metodele de plată"
+}

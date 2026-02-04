@@ -1,0 +1,15 @@
+{
+  "noProducts": "No products found",
+  "noProductsDescription": "Try adjusting your search or filters",
+  "loading": "Loading products...",
+  "noImage": "No Image",
+  "percentOff": "% off",
+  "perDay": "day",
+  "save": "Save",
+  "inStock": "{count} left",
+  "outOfStock": "Out of stock",
+  "addToWishlist": "Add to wishlist",
+  "removeFromWishlist": "Remove from wishlist",
+  "addedToWishlist": "Added to favorites",
+  "removedFromWishlist": "Removed from favorites"
+}

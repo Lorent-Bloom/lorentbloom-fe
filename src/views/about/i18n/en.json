@@ -1,0 +1,31 @@
+{
+  "title": "About Us",
+  "ourStory": {
+    "title": "Our Story",
+    "paragraph1": "Minimum was founded with a simple idea: why buy things you only need temporarily? We created a platform where people can rent electronics, tools, equipment, sports gear, and much more from each other.",
+    "paragraph2": "From our beginnings in Moldova to becoming a trusted marketplace, we've remained committed to building a community where sharing makes sense. We connect people who have items with those who need them."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "description": "Our mission is to make renting easy and accessible for everyone. We believe that sharing resources is smarter, more economical, and better for the environment. Through our platform, we help item owners earn from their belongings while renters get access to what they need without the commitment of buying."
+  },
+  "values": {
+    "title": "Our Values",
+    "quality": {
+      "title": "Quality",
+      "description": "We ensure every listing meets our standards with accurate descriptions, real photos, and verified information so you know exactly what you're renting."
+    },
+    "trust": {
+      "title": "Trust",
+      "description": "Building trust between owners and renters is at the heart of what we do. We verify users, protect payments, and provide support for every transaction."
+    },
+    "innovation": {
+      "title": "Innovation",
+      "description": "We continuously improve our platform to make finding and renting items as simple as possible, with smart search, secure messaging, and easy booking."
+    },
+    "support": {
+      "title": "Customer Support",
+      "description": "Our dedicated team is here to help with any questions about listings, rentals, or payments. We're with you every step of the way."
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "cart": "Coș",
+  "cartAriaLabel": "Coș de cumpărături",
+  "cartEmpty": "Coșul tău este gol",
+  "itemsInCart": "{count} produse în coș",
+  "badgeOverflow": "99+"
+}

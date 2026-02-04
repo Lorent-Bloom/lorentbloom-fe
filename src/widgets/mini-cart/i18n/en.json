@@ -1,0 +1,19 @@
+{
+  "shoppingCart": "Shopping Cart",
+  "cartEmpty": "Your cart is empty",
+  "continueShopping": "Continue Shopping",
+  "viewAllItems": "View all {count} items",
+  "viewCart": "View Cart",
+  "checkout": "Checkout",
+  "subtotal": "Subtotal",
+  "loading": "Loading...",
+  "itemRemoved": "Item removed from cart",
+  "failedToUpdate": "Failed to update cart",
+  "failedToRemove": "Failed to remove item",
+  "sku": "SKU:",
+  "remove": "Remove",
+  "sessionExpired": "Your session has expired. Please sign in again.",
+  "rentalPeriod": "Rental Period",
+  "from": "From:",
+  "to": "To:"
+}

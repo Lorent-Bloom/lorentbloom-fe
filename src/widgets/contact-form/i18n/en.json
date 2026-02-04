@@ -1,0 +1,12 @@
+{
+  "name": "Full Name",
+  "namePlaceholder": "Enter your full name",
+  "email": "Email Address",
+  "emailPlaceholder": "Enter your email address",
+  "message": "Message",
+  "messagePlaceholder": "How can we help you?",
+  "submit": "Send Message",
+  "submitting": "Sending...",
+  "success": "Thank you! Your message has been sent. We'll get back to you soon.",
+  "error": "Failed to send message. Please try again later."
+}

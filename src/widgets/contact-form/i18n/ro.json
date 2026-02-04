@@ -1,0 +1,12 @@
+{
+  "name": "Nume complet",
+  "namePlaceholder": "Introduceti numele complet",
+  "email": "Adresa de email",
+  "emailPlaceholder": "Introduceti adresa de email",
+  "message": "Mesaj",
+  "messagePlaceholder": "Cu ce va putem ajuta?",
+  "submit": "Trimite mesaj",
+  "submitting": "Se trimite...",
+  "success": "Multumim! Mesajul dvs. a fost trimis. Va vom raspunde in curand.",
+  "error": "Nu s-a putut trimite mesajul. Va rugam sa incercati din nou mai tarziu."
+}

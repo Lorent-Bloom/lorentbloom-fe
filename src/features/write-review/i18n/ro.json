@@ -1,0 +1,18 @@
+{
+  "title": "Scrieți o recenzie",
+  "subtitle": "Distribuiți experiența dvs. cu acest produs",
+  "overallRating": "Evaluare generală",
+  "nickname": "Numele dvs.",
+  "nicknamePlaceholder": "Introduceți numele dvs.",
+  "summary": "Rezumat",
+  "summaryPlaceholder": "Rezumat scurt al recenziei dvs.",
+  "review": "Recenzia dvs.",
+  "reviewPlaceholder": "Spuneți-ne despre experiența dvs. cu acest produs...",
+  "selectRating": "Selectați o evaluare",
+  "submit": "Trimiteți recenzia",
+  "submitting": "Se trimite...",
+  "loadRatingsFailed": "Nu s-au putut încărca opțiunile de evaluare",
+  "submitSuccess": "Recenzia a fost trimisă cu succes!",
+  "submitFailed": "Nu s-a putut trimite recenzia",
+  "unexpectedError": "A apărut o eroare neașteptată"
+}

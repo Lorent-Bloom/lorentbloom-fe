@@ -1,0 +1,12 @@
+{
+  "addToCart": "Добавить в корзину",
+  "quantity": "Количество",
+  "cancel": "Отмена",
+  "adding": "Добавление...",
+  "addedSuccessfully": "Товар успешно добавлен в корзину!",
+  "failedToAdd": "Не удалось добавить товар в корзину",
+  "sessionExpired": "Ваша сессия истекла. Пожалуйста, войдите снова.",
+  "rentalPeriod": "Период аренды",
+  "productOptions": "Опции товара",
+  "selectOption": "Выберите {option}"
+}

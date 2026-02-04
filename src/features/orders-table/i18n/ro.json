@@ -1,0 +1,20 @@
+{
+  "title": "Închirierile mele",
+  "totalRents": "{count, plural, =0 {Nicio închiriere} =1 {1 închiriere} other {# închirieri}}",
+  "orderNumber": "Comanda #",
+  "date": "Data",
+  "items": "Articole",
+  "itemsCount": "{count, plural, =1 {1 articol} other {# articole}}",
+  "total": "Total",
+  "status": "Status",
+  "status_pending": "În așteptare",
+  "status_processing": "În procesare",
+  "status_complete": "Finalizată",
+  "status_completed": "Finalizată",
+  "status_canceled": "Anulată",
+  "status_cancelled": "Anulată",
+  "status_on_hold": "În așteptare",
+  "noRents": "Nicio închiriere",
+  "noRentsDescription": "Nu ați închiriat nimic încă.",
+  "failedToLoadOrders": "Nu s-au putut incarca comenzile"
+}

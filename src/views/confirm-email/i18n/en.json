@@ -1,0 +1,30 @@
+{
+  "title": "Confirm Your Email",
+  "card": {
+    "title": "Email Confirmation",
+    "description": "Click the button below to confirm your email address and activate your account.",
+    "emailLabel": "Email to confirm:",
+    "confirmButton": "Confirm Email",
+    "confirming": "Confirming..."
+  },
+  "success": {
+    "title": "Email Confirmed!",
+    "description": "Your email has been successfully confirmed. You can now sign in to your account.",
+    "signInButton": "Go to Sign In"
+  },
+  "invalidParams": {
+    "title": "Invalid Link",
+    "alertTitle": "Missing Parameters",
+    "alertDescription": "The confirmation link appears to be invalid or incomplete. Please check your email and try again."
+  },
+  "error": {
+    "title": "Confirmation Failed"
+  },
+  "errors": {
+    "linkExpired": "This confirmation link has expired. Please request a new confirmation email.",
+    "alreadyConfirmed": "This email has already been confirmed. You can sign in to your account.",
+    "customerNotFound": "No account found with this email address.",
+    "unknownError": "Something went wrong. Please try again later.",
+    "successToast": "Email confirmed successfully!"
+  }
+}

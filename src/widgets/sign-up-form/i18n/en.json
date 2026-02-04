@@ -1,0 +1,27 @@
+{
+  "email": "Email",
+  "emailPlaceholder": "you@example.com",
+  "password": "Password",
+  "passwordPlaceholder": "••••••",
+  "firstname": "First Name",
+  "firstnamePlaceholder": "John",
+  "lastname": "Last Name",
+  "lastnamePlaceholder": "Doe",
+  "submit": "Submit",
+  "submitting": "Submitting...",
+  "error": "Something went wrong",
+  "haveAccount": "Already have an account?",
+  "signInLink": "Sign in here",
+  "errors": {
+    "accountCreated": "Account created successfully!",
+    "signedIn": "You have been signed in automatically.",
+    "pleaseSignIn": "Please sign in with your new account.",
+    "emailExists": "An account with this email already exists. Please use a different email or sign in.",
+    "weakPassword": "Password is too weak. It must contain at least 8 characters, including uppercase, lowercase, numbers, and special characters.",
+    "invalidEmail": "Please enter a valid email address.",
+    "invalidFirstname": "Please enter a valid first name.",
+    "invalidLastname": "Please enter a valid last name.",
+    "networkError": "Network error. Please check your internet connection and try again.",
+    "unknownError": "An unexpected error occurred. Please try again later."
+  }
+}

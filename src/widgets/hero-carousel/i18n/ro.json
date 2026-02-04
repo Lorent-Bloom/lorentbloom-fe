@@ -1,0 +1,22 @@
+{
+  "slides": {
+    "0": {
+      "title": "Inchiriati echipamente premium astazi",
+      "description": "Acces la echipamente de inalta calitate fara angajamentul de a cumpara. Termeni flexibili de inchiriere pentru toate nevoile dumneavoastra.",
+      "cta": "Rasfoiti produsele"
+    },
+    "1": {
+      "title": "Economisiti bani, obtineti mai mult",
+      "description": "De ce sa cumparati cand puteti inchiria? Obtineti cele mai noi echipamente la o fractiune din cost.",
+      "cta": "Vezi ofertele"
+    },
+    "2": {
+      "title": "Serviciu rapid si fiabil",
+      "description": "Livrare rapida, returnari usoare si asistenta clienti 24/7. Inchirierea devine simpla.",
+      "cta": "Incepeti"
+    }
+  },
+  "previousSlide": "Slide-ul anterior",
+  "nextSlide": "Slide-ul urmator",
+  "goToSlide": "Mergi la slide-ul {number}"
+}

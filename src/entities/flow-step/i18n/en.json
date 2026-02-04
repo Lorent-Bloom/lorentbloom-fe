@@ -1,0 +1,38 @@
+{
+  "completed": "Completed",
+  "allComplete": "All steps complete",
+  "steps": {
+    "orderCreated": {
+      "name": "Order Created",
+      "description": "The rental order has been placed and confirmed."
+    },
+    "photosSent": {
+      "name": "Photos Sent",
+      "description": "The owner sends photos of the product before shipping."
+    },
+    "moneySent": {
+      "name": "Money Sent",
+      "description": "Payment has been sent by the renter."
+    },
+    "moneyReceived": {
+      "name": "Money Received",
+      "description": "Payment has been received by the owner."
+    },
+    "packageSent": {
+      "name": "Package Sent",
+      "description": "The rental item has been shipped."
+    },
+    "packageReceived": {
+      "name": "Package Received",
+      "description": "The rental item has been received by the renter."
+    },
+    "packageSentBack": {
+      "name": "Package Sent Back",
+      "description": "The rental item has been returned by the renter."
+    },
+    "packageReceivedBack": {
+      "name": "Package Received Back",
+      "description": "The rental item has been received back by the owner."
+    }
+  }
+}

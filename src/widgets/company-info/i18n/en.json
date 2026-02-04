@@ -1,0 +1,50 @@
+{
+  "about": {
+    "title": "About Minimum",
+    "description": "Minimum is your trusted partner for premium equipment rentals. We believe in making high-quality gear accessible to everyone without the burden of ownership. Whether you're a professional, hobbyist, or just need something for a special occasion, we've got you covered with our extensive inventory and exceptional service."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "description": "To democratize access to premium equipment through flexible rental solutions, enabling individuals and businesses to achieve their goals without the financial commitment of purchasing."
+  },
+  "values": {
+    "title": "Our Values"
+  },
+  "stats": {
+    "0": {
+      "value": "5+",
+      "label": "Years in Business"
+    },
+    "1": {
+      "value": "10K+",
+      "label": "Happy Customers"
+    },
+    "2": {
+      "value": "5K+",
+      "label": "Products Available"
+    },
+    "3": {
+      "value": "4.9",
+      "label": "Average Rating"
+    }
+  },
+  "features": {
+    "title": "Why Choose Minimum?",
+    "0": {
+      "title": "Quality Guaranteed",
+      "description": "All equipment is professionally maintained and inspected before every rental to ensure peak performance."
+    },
+    "1": {
+      "title": "Flexible Terms",
+      "description": "Rent for a day, week, month, or longer. No hidden fees, no surprises. Cancel or extend anytime."
+    },
+    "2": {
+      "title": "Premium Selection",
+      "description": "Access to the latest models and top brands across all categories. Updated inventory every season."
+    },
+    "3": {
+      "title": "24/7 Support",
+      "description": "Our dedicated support team is always available to help with setup, troubleshooting, or any questions."
+    }
+  }
+}

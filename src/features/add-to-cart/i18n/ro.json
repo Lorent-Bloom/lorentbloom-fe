@@ -1,0 +1,12 @@
+{
+  "addToCart": "Adaugă în coș",
+  "quantity": "Cantitate",
+  "cancel": "Anulează",
+  "adding": "Se adaugă...",
+  "addedSuccessfully": "Produsul a fost adăugat cu succes în coș!",
+  "failedToAdd": "Nu s-a putut adăuga produsul în coș",
+  "sessionExpired": "Sesiunea ta a expirat. Te rugăm să te autentifici din nou.",
+  "rentalPeriod": "Perioada de închiriere",
+  "productOptions": "Opțiuni produs",
+  "selectOption": "Selectează {option}"
+}

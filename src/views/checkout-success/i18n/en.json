@@ -1,0 +1,11 @@
+{
+  "title": "Order Confirmed!",
+  "thankYouMessage": "Thank you for your order. Your payment has been processed successfully.",
+  "orderNumberLabel": "Order Number",
+  "confirmationEmailMessage": "A confirmation email has been sent to your email address with the order details.",
+  "viewOrderButton": "View Order",
+  "continueShoppingButton": "Continue Shopping",
+  "downloadContract": "Download Contract",
+  "contractPending": "Contract is pending owner signature",
+  "contractSigned": "Contract fully signed"
+}

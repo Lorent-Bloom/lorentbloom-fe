@@ -1,0 +1,30 @@
+{
+  "title": "Change Settings",
+  "sections": {
+    "name": "Update Name",
+    "email": "Change Email",
+    "password": "Change Password"
+  },
+  "fields": {
+    "firstname": "First Name",
+    "lastname": "Last Name",
+    "telephone": "Phone Number",
+    "personal_number": "Personal Number (IDNP)",
+    "email": "Email Address",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password"
+  },
+  "saveChanges": "Save Changes",
+  "saving": "Saving...",
+  "success": {
+    "allUpdated": "All changes saved successfully",
+    "partiallyUpdated": "Some changes were saved successfully"
+  },
+  "errors": {
+    "noSectionsEnabled": "Please select at least one section to update",
+    "sessionExpired": "Your session has expired. Please sign in again.",
+    "updateFailed": "Failed to update settings",
+    "unknownError": "An unexpected error occurred"
+  }
+}

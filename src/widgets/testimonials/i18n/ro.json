@@ -1,0 +1,56 @@
+{
+  "statsTitle": "Platforma noastra in cifre",
+  "badge": "Recenzii Verificate",
+  "title": "Recenzii Reale de la Clienti Reali",
+  "subtitle": "Alaturati-va miilor de clienti multumiti care au ales Minimum. Acestea sunt recenzii autentice de la clienti verificati.",
+  "stats": {
+    "2": {
+      "value": "0",
+      "label": "Produse disponibile"
+    },
+    "3": {
+      "value": "0",
+      "label": "Categorii"
+    },
+    "4": {
+      "value": "0",
+      "label": "Total comenzi"
+    },
+    "5": {
+      "value": "0",
+      "label": "Utilizatori activi"
+    }
+  },
+  "reviews": {
+    "0": {
+      "name": "Mihai Chen",
+      "role": "Fotograf profesionist",
+      "content": "Minimum m-a ajutat sa economisesc mii pe echipamente foto. Calitatea este mereu excelenta, iar livrarea incredibil de rapida."
+    },
+    "1": {
+      "name": "Sara Popescu",
+      "role": "Organizator evenimente",
+      "content": "Ca organizator de evenimente, am nevoie de echipamente fiabile in termene scurte. Minimum nu m-a dezamagit niciodata."
+    },
+    "2": {
+      "name": "Alex Ionescu",
+      "role": "Pasionat de outdoor",
+      "content": "Inchiriez echipamente camping si drumetii pentru toate aventurile. De ce sa cumperi echipamente scumpe pe care le folosesti o data pe an?"
+    },
+    "3": {
+      "name": "Emma Tomescu",
+      "role": "Videograf freelancer",
+      "content": "Varietatea de echipamente video disponibile este uimitoare. Pot inchiria echipamente de top fara investitii uriase. Un avantaj major pentru afacerea mea!"
+    },
+    "4": {
+      "name": "David Popa",
+      "role": "Aventurier de weekend",
+      "content": "Am inceput sa inchiriez echipament de schi iarna trecuta si nu m-am mai intors inapoi. Stare perfecta de fiecare data, fara griji de depozitare."
+    },
+    "5": {
+      "name": "Lisa Marinescu",
+      "role": "Proprietar afacere mica",
+      "content": "Inchiriem echipamente pentru evenimente pop-up si targuri. Procesul de rezervare e simplu, iar calitatea impresoneaza mereu clientii nostri."
+    }
+  }
+}

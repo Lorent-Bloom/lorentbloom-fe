@@ -1,0 +1,2034 @@
+{
+  "review-list": {
+    "title": "Customer Reviews",
+    "totalReviews": "{count, plural, =1 {1 Review} other {# Reviews}}",
+    "noReviews": "No reviews yet. Be the first to review this product!",
+    "ratingsBreakdown": "Rating Details",
+    "failedToLoad": "Failed to load reviews"
+  },
+  "account-sidebar": {
+    "myAccount": "My Account",
+    "myProducts": "My Products",
+    "myRents": "My Rents",
+    "myProductRentals": "My Product Rentals",
+    "documents": "Documents",
+    "addresses": "Addresses",
+    "settings": "Settings",
+    "company": "Company"
+  },
+  "header": {
+    "nav": {
+      "menu": "Menu",
+      "home": "Home",
+      "products": "Products",
+      "wishlist": "Wishlist",
+      "about": "About",
+      "howToRentOut": "Rent Out",
+      "faq": "FAQ"
+    },
+    "logoAlt": "Minimum Logo",
+    "brandName": "Minimum",
+    "announcement": "Free delivery on your first rental! Use code: FIRSTRENT",
+    "catalog": "CATALOG",
+    "categories": "Categories",
+    "allProducts": "All Products",
+    "loadingCategories": "Loading categories...",
+    "viewAll": "View All {category}",
+    "viewAllInCategory": "View all in {category}",
+    "more": "more",
+    "toggleMenu": "Toggle menu",
+    "closeMenu": "Close menu",
+    "toggleCategory": "Toggle {category}",
+    "expandCategory": "Expand {category}",
+    "categoryNames": {
+      "electronics": "Electronics",
+      "computers": "Computers",
+      "laptops": "Laptops",
+      "desktop-computers": "Desktop PCs",
+      "game-consoles": "Gaming Consoles",
+      "tablet": "Tablets",
+      "beauty-and-personal-care": "Beauty and Personal Care",
+      "hair-dryers": "Hair Dryers",
+      "electric-shavers": "Electric Shavers",
+      "epilators": "Epilators",
+      "audio": "Audio",
+      "acoustics-columns": "Speakers",
+      "headphones": "Headphones",
+      "microphones": "Microphones",
+      "home-audio": "Home Audio",
+      "portable-audio": "Portable Audio",
+      "home-cinema": "Home Cinema",
+      "tv-video": "TV & Video",
+      "tv": "TVs",
+      "projectors": "Projectors",
+      "photography": "Photography",
+      "digital-cameras": "Cameras",
+      "lenses-cvetofiltry": "Lenses & Filters",
+      "accessories-photo": "Photo Accessories",
+      "tripods-monopods": "Tripods",
+      "studio-equipment": "Studio Equipment",
+      "audio-studio": "Studio Audio",
+      "studio-lighting": "Studio Lighting",
+      "studio-video": "Studio Video",
+      "household-appliances": "Household Appliances",
+      "coffee-machines": "Coffee Machines",
+      "blenders": "Blenders",
+      "multicookers": "Multicookers",
+      "kettles": "Kettles",
+      "toasters": "Toasters",
+      "juicers": "Juicers",
+      "vacuum-cleaners": "Vacuum Cleaners",
+      "robot-vacuum-cleaners": "Robot Vacuums",
+      "clothes-iron": "Irons",
+      "sewing-machines": "Sewing Machines",
+      "mobile-phones": "Mobile Phones",
+      "cordless-phones": "Landline Phones",
+      "gadgets": "Gadgets",
+      "gadget": "Smart Watches",
+      "drones": "Drones",
+      "vr-headset": "VR Headsets",
+      "office-equipment": "Office Equipment",
+      "printers": "Printers",
+      "scanners": "Scanners",
+      "construction-and-repair": "Construction and Repair",
+      "power-tools": "Power Tools",
+      "saws": "Saws",
+      "impact-drivers": "Impact Drivers",
+      "drills": "Drills",
+      "hammer-drill": "Hammer Drills",
+      "sanders": "Sanders",
+      "welding-machine": "Welding Machines",
+      "concrete-mixers": "Concrete Mixers",
+      "equipment-tools": "Equipment & Tools",
+      "gas-powered": "Gas-Powered Tools",
+      "hand-tool": "Hand Tools",
+      "construction-equipment": "Construction Equipment",
+      "clothes-and-shoes": "Clothing, Shoes and Accessories",
+      "mens-clothing": "Men's Clothing",
+      "mens-jackets-and-suits": "Suits",
+      "womens-clothing": "Women's Clothing",
+      "womens-dresses": "Dresses",
+      "footwear": "Footwear",
+      "shoes-for-women": "Women's Shoes",
+      "shoes-for-men": "Men's Shoes",
+      "children": "Children",
+      "kids-clothing": "Children's Clothing",
+      "carnival-costumes": "Carnival Costumes",
+      "accessories": "Accessories",
+      "hats": "Hats",
+      "watches": "Watches",
+      "glasses": "Eyewear",
+      "jewelry": "Jewelry",
+      "all-else": "Miscellaneous",
+      "handmade": "Handmade",
+      "self-defense-and-security": "Self-Defense",
+      "agriculture": "Agriculture",
+      "animals": "Animals",
+      "equipment": "Equipment",
+      "farm-equipment": "Farm Equipment",
+      "tools": "Tools",
+      "sports-health": "Sports",
+      "sports-equipment": "Sports Equipment",
+      "exercise-equipment": "Exercise Equipment",
+      "dumbbells-barbells-kettlebells": "Weights",
+      "fitness-gymnastics": "Fitness",
+      "boxing-martial-arts": "Boxing & Martial Arts",
+      "swimming-and-diving": "Swimming",
+      "scooters-winter-sports": "Scooters & Winter Sports",
+      "scooters": "Scooters",
+      "skateboards": "Skateboards",
+      "rollers": "Inline Skates",
+      "ice-skates": "Ice Skates",
+      "skis": "Skis",
+      "snowboards": "Snowboards",
+      "medical-equipment": "Medical Equipment",
+      "massage-equipment": "Massage Equipment",
+      "rehabilitation": "Rehabilitation",
+      "devices": "Medical Devices",
+      "tourism-and-entertainment": "Tourism and Entertainment",
+      "outdoor-equipment": "Outdoor Equipment",
+      "tents": "Tents",
+      "sleeping-bags-and-mats": "Sleeping Bags",
+      "backpacks-and-bags": "Travel Bags",
+      "recreation-goods": "Recreation Goods",
+      "braziers-grills": "Grills & BBQ",
+      "camping-tables-and-chairs": "Camping Furniture",
+      "games": "Games",
+      "fishing-rods-and-tackles": "Fishing",
+      "musical-instruments": "Musical Instruments",
+      "instruments": "Instruments",
+      "guitars": "Guitars",
+      "keyboard-instruments": "Keyboards",
+      "percussion": "Percussion",
+      "winds": "Wind Instruments",
+      "strings": "Strings",
+      "accordions": "Accordions",
+      "music-equipment": "Equipment",
+      "amplifiers": "Amplifiers",
+      "audio-mixers": "Mixers",
+      "dj-equipment": "DJ Equipment",
+      "stage-equipment": "Stage Equipment",
+      "all-for-events": "Holidays and events",
+      "wedding": "Wedding",
+      "wedding-clothes": "Wedding Clothing",
+      "wedding-shoes": "Wedding Shoes",
+      "wedding-accessories": "Wedding Accessories",
+      "children-world": "Children",
+      "toys": "Toys",
+      "constructors-and-puzzles": "Constructors & Puzzles",
+      "dolls-houses": "Dolls",
+      "plush-baby-toys": "Plush Toys",
+      "robots-and-figurines": "Robots & Figurines",
+      "educational-toys": "Educational Toys",
+      "tabletop-games": "Board Games",
+      "childrens-transport": "Children's Transport",
+      "childrens-products": "Children's Products",
+      "stroller": "Strollers",
+      "car": "Car Seats",
+      "furniture-for-children": "Children's Furniture",
+      "childrens-books": "Children's Books"
+    }
+  },
+  "sign-up-form": {
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "password": "Password",
+    "passwordPlaceholder": "••••••",
+    "firstname": "First Name",
+    "firstnamePlaceholder": "John",
+    "lastname": "Last Name",
+    "lastnamePlaceholder": "Doe",
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "error": "Something went wrong",
+    "haveAccount": "Already have an account?",
+    "signInLink": "Sign in here",
+    "errors": {
+      "accountCreated": "Account created successfully!",
+      "signedIn": "You have been signed in automatically.",
+      "pleaseSignIn": "Please sign in with your new account.",
+      "emailExists": "An account with this email already exists. Please use a different email or sign in.",
+      "weakPassword": "Password is too weak. It must contain at least 8 characters, including uppercase, lowercase, numbers, and special characters.",
+      "invalidEmail": "Please enter a valid email address.",
+      "invalidFirstname": "Please enter a valid first name.",
+      "invalidLastname": "Please enter a valid last name.",
+      "networkError": "Network error. Please check your internet connection and try again.",
+      "unknownError": "An unexpected error occurred. Please try again later."
+    }
+  },
+  "sign-in-form": {
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "password": "Password",
+    "passwordPlaceholder": "••••••",
+    "submit": "Submit",
+    "noAccount": "Don't have an account?",
+    "signUpLink": "Create one here",
+    "errors": {
+      "success": "Successfully signed in!",
+      "invalidCredentials": "Invalid email or password. Please check your credentials and try again.",
+      "accountLocked": "Your account has been locked. Please contact support for assistance.",
+      "accountNotConfirmed": "Your account has not been confirmed yet. Please check your email for a confirmation link.",
+      "noTokenReceived": "Authentication failed. Please try again.",
+      "networkError": "Network error. Please check your internet connection and try again.",
+      "unknownError": "An unexpected error occurred. Please try again later."
+    }
+  },
+  "product-info": {
+    "sku": "SKU",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "quantityAvailable": "{count} available",
+    "onlyXLeft": "Only {count} left in stock",
+    "manufacturer": "Manufacturer",
+    "addToCart": "Add to Cart",
+    "notifyWhenAvailable": "Notify me when available",
+    "listedBy": "Listed by"
+  },
+  "header-search": {
+    "placeholder": "Search products...",
+    "searching": "Searching...",
+    "noResults": "No products found",
+    "seeAllResults": "See all results for \"{query}\"",
+    "clear": "Clear"
+  },
+  "item-usage-statistics": {
+    "title": "The Problem We're Solving",
+    "subtitle": "Most items we buy sit unused, wasting money and space. Minimum helps you access what you need without the burden of ownership.",
+    "chartTitle": "Usage of Purchased Items",
+    "segments": {
+      "regular": "Used regularly",
+      "rarely": "Used rarely",
+      "dust": "Collecting dust"
+    },
+    "highlightStat": "80% of items are used less than once a month",
+    "highlightDescription": "underused"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About",
+    "faq": "FAQ",
+    "howToRentOut": "How to Rent",
+    "termsOfPolicy": "Terms of Policy",
+    "accountSettings": "Account Settings",
+    "profile": "Profile",
+    "account": "Account",
+    "addresses": "Addresses",
+    "security": "Security",
+    "signIn": "Sign In",
+    "signUp": "Sign Up"
+  },
+  "featured-products": {
+    "badge": "Trending Now",
+    "title": "Popular Rentals",
+    "subtitle": "Discover our most rented items. Quality equipment loved by thousands of customers.",
+    "viewAll": "View All Products"
+  },
+  "hero-carousel": {
+    "slides": {
+      "0": {
+        "title": "Rent Premium Equipment Today",
+        "description": "Access high-quality gear without the commitment of buying. Flexible rental terms for all your needs.",
+        "cta": "Browse Products"
+      },
+      "1": {
+        "title": "Save Money, Get More",
+        "description": "Why buy when you can rent? Get the latest equipment at a fraction of the cost.",
+        "cta": "View Deals"
+      },
+      "2": {
+        "title": "Fast & Reliable Service",
+        "description": "Quick delivery, easy returns, and 24/7 customer support. Renting made simple.",
+        "cta": "Get Started"
+      }
+    },
+    "previousSlide": "Previous slide",
+    "nextSlide": "Next slide",
+    "goToSlide": "Go to slide {number}"
+  },
+  "similar-products-carousel": {
+    "title": "You May Also Like"
+  },
+  "product-description": {
+    "description": "Description",
+    "specifications": "Specifications",
+    "vendorInfo": "Vendor Information",
+    "manufacturer": "Manufacturer"
+  },
+  "cookie-consent": {
+    "message": "We use cookies to improve your experience. Some are essential for the site to function, while others help us understand how you use it.",
+    "acceptAll": "Accept All",
+    "rejectAll": "Reject All",
+    "manage": "Manage Preferences",
+    "preferences": {
+      "title": "Cookie Preferences",
+      "description": "Choose which cookies you want to allow. Essential cookies are always active as they are necessary for the site to function.",
+      "save": "Save Preferences"
+    },
+    "categories": {
+      "functionality": {
+        "title": "Essential",
+        "description": "Required for the website to function. These cannot be disabled."
+      },
+      "security": {
+        "title": "Security",
+        "description": "Help ensure the security of your session and prevent fraud."
+      },
+      "analytics": {
+        "title": "Analytics",
+        "description": "Help us understand how visitors interact with our website."
+      },
+      "ads": {
+        "title": "Advertising",
+        "description": "Used to deliver relevant advertisements and track ad campaigns."
+      },
+      "adUserData": {
+        "title": "Ad User Data",
+        "description": "Allows sharing of user data with advertising services."
+      },
+      "adPersonalization": {
+        "title": "Ad Personalization",
+        "description": "Enables personalized advertising based on your interests."
+      },
+      "personalization": {
+        "title": "Personalization",
+        "description": "Allow the site to remember your preferences and customize content."
+      }
+    }
+  },
+  "home-cta": {
+    "title": "Ready to Start Renting?",
+    "subtitle": "Join thousands of smart consumers who save money and reduce waste by renting instead of buying.",
+    "primaryCta": "Browse Products",
+    "secondaryCta": "Create Account",
+    "features": {
+      "0": "Free cancellation",
+      "1": "Quality guaranteed",
+      "2": "24/7 support"
+    }
+  },
+  "product-grid": {
+    "noProducts": "No products found",
+    "noProductsDescription": "Try adjusting your search or filters",
+    "loading": "Loading products...",
+    "noImage": "No Image",
+    "percentOff": "% off",
+    "perDay": "day",
+    "save": "Save",
+    "inStock": "{count} left",
+    "outOfStock": "Out of stock",
+    "addToWishlist": "Add to wishlist",
+    "removeFromWishlist": "Remove from wishlist",
+    "addedToWishlist": "Added to favorites",
+    "removedFromWishlist": "Removed from favorites"
+  },
+  "category-search-results": {
+    "title": "Categories",
+    "matchesCount": "{count} categories found",
+    "noResults": "No matching categories",
+    "productsCount": "{count} products",
+    "viewCategory": "View category"
+  },
+  "home-hero": {
+    "badge": "The Future of Renting",
+    "headline": {
+      "line1": "Rent Anything.",
+      "line2": "Own the Experience."
+    },
+    "subheadline": "Access premium equipment, electronics, and gear without the commitment of buying. Flexible terms, quality guaranteed.",
+    "browseButton": "Browse Products",
+    "categoriesButton": "Browse Categories",
+    "trustedBy": "products available",
+    "rating": "from {count} reviews"
+  },
+  "product-gallery": {
+    "noImagesAvailable": "No images available"
+  },
+  "chat-sidebar": {
+    "title": "Messages",
+    "orderTitle": "Order #{orderNumber}",
+    "chatWith": "Chat with {name}",
+    "viewOrder": "View order details",
+    "selectConversation": "Select a conversation to start messaging",
+    "noConversations": "No conversations yet",
+    "noConversationsDescription": "Conversations will appear here when you place or receive orders.",
+    "noMessages": "No messages yet. Start the conversation!",
+    "conversationNotFound": "Conversation not found",
+    "owner": "Owner",
+    "customer": "Customer"
+  },
+  "how-it-works": {
+    "title": "How Minimum Works",
+    "subtitle": "Renting has never been easier. Get started in three simple steps.",
+    "steps": {
+      "0": {
+        "title": "Browse & Select",
+        "description": "Explore our curated collection of premium equipment. Filter by category, price, or availability to find exactly what you need."
+      },
+      "1": {
+        "title": "Choose Your Terms",
+        "description": "Select your rental duration - from a single day to months. Flexible scheduling that fits your timeline and budget."
+      },
+      "2": {
+        "title": "Receive & Enjoy",
+        "description": "Sign the agreement, receive your package, and enjoy your rental. After the rental period, simply return it to the owner."
+      }
+    },
+    "cta": "Start Renting Now"
+  },
+  "contact-form": {
+    "name": "Full Name",
+    "namePlaceholder": "Enter your full name",
+    "email": "Email Address",
+    "emailPlaceholder": "Enter your email address",
+    "message": "Message",
+    "messagePlaceholder": "How can we help you?",
+    "submit": "Send Message",
+    "submitting": "Sending...",
+    "success": "Thank you! Your message has been sent. We'll get back to you soon.",
+    "error": "Failed to send message. Please try again later."
+  },
+  "category-showcase": {
+    "badge": "Categories",
+    "title": "Explore Our Collection",
+    "subtitle": "From electronics to outdoor gear, find everything you need to rent for your next adventure or project.",
+    "subcategories": "subcategories",
+    "subcategory": "Subcategory",
+    "noCategories": "No categories available yet. Check back soon for our curated selection."
+  },
+  "settings-sidebar": {
+    "profile": "Profile",
+    "account": "Account",
+    "addresses": "Addresses",
+    "security": "Security"
+  },
+  "related-products": {
+    "title": "Related Products"
+  },
+  "faq-list": {
+    "items": [
+      {
+        "question": "What can I rent?",
+        "answer": "You can rent a wide variety of items including electronics, tools, equipment, vehicles, real estate, and much more. Our platform connects renters with item owners for safe and convenient transactions."
+      },
+      {
+        "question": "How do I create a listing?",
+        "answer": "To create a listing, log into your account, click on 'Create Listing', fill in all required information about your item including description, price, and availability, then click 'Publish' to make it live."
+      },
+      {
+        "question": "How do I edit my listing?",
+        "answer": "Navigate to your listings, select the one you want to modify, click 'Edit', make your changes, and save. Your listing will be updated immediately."
+      },
+      {
+        "question": "How do I remove a listing?",
+        "answer": "Open the listing you want to remove, click 'Edit', then select 'Remove from Publication'. The listing will no longer be visible to other users."
+      },
+      {
+        "question": "Is my payment information secure?",
+        "answer": "Yes, we use industry-standard encryption and secure payment gateways to protect your financial information. We never store your complete payment details on our servers."
+      },
+      {
+        "question": "How does the rental process work?",
+        "answer": "Browse available items, select your rental period, submit a booking request, complete payment, arrange pickup or delivery with the owner, and return the item at the end of your rental period."
+      },
+      {
+        "question": "What if an item is damaged during rental?",
+        "answer": "Report any damage immediately through our platform. Depending on the rental agreement and any insurance purchased, you may be responsible for repair or replacement costs."
+      },
+      {
+        "question": "Can I cancel a rental?",
+        "answer": "Cancellation policies vary by listing. Check the specific listing's cancellation policy before booking. Some rentals offer full refunds if cancelled within a certain timeframe."
+      },
+      {
+        "question": "How do I contact support?",
+        "answer": "You can reach our support team through the 'Contact Us' page or by emailing support@minimum.com. We typically respond within 24 hours."
+      },
+      {
+        "question": "What fees does the platform charge?",
+        "answer": "We charge a small service fee on each transaction to maintain the platform and provide secure payment processing. The exact fee is displayed before you confirm any booking."
+      },
+      {
+        "question": "How do I leave a review?",
+        "answer": "After completing a rental, you'll receive a prompt to leave a review. You can also navigate to your rental history and leave reviews for past transactions."
+      }
+    ]
+  },
+  "company-info": {
+    "about": {
+      "title": "About Minimum",
+      "description": "Minimum is your trusted partner for premium equipment rentals. We believe in making high-quality gear accessible to everyone without the burden of ownership. Whether you're a professional, hobbyist, or just need something for a special occasion, we've got you covered with our extensive inventory and exceptional service."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To democratize access to premium equipment through flexible rental solutions, enabling individuals and businesses to achieve their goals without the financial commitment of purchasing."
+    },
+    "values": {
+      "title": "Our Values"
+    },
+    "stats": {
+      "0": {
+        "value": "5+",
+        "label": "Years in Business"
+      },
+      "1": {
+        "value": "10K+",
+        "label": "Happy Customers"
+      },
+      "2": {
+        "value": "5K+",
+        "label": "Products Available"
+      },
+      "3": {
+        "value": "4.9",
+        "label": "Average Rating"
+      }
+    },
+    "features": {
+      "0": {
+        "title": "Quality Guaranteed",
+        "description": "All equipment is professionally maintained and inspected before every rental to ensure peak performance."
+      },
+      "1": {
+        "title": "Flexible Terms",
+        "description": "Rent for a day, week, month, or longer. No hidden fees, no surprises. Cancel or extend anytime."
+      },
+      "2": {
+        "title": "Premium Selection",
+        "description": "Access to the latest models and top brands across all categories. Updated inventory every season."
+      },
+      "3": {
+        "title": "24/7 Support",
+        "description": "Our dedicated support team is always available to help with setup, troubleshooting, or any questions."
+      },
+      "title": "Why Choose Minimum?"
+    }
+  },
+  "testimonials": {
+    "statsTitle": "Our Platform in Numbers",
+    "badge": "Verified Reviews",
+    "title": "Real Reviews from Real Customers",
+    "subtitle": "Join thousands of satisfied renters who chose Minimum for their equipment needs. These are genuine reviews from verified customers.",
+    "stats": {
+      "2": {
+        "value": "0",
+        "label": "Products Available"
+      },
+      "3": {
+        "value": "0",
+        "label": "Categories"
+      },
+      "4": {
+        "value": "0",
+        "label": "Total Orders"
+      },
+      "5": {
+        "value": "0",
+        "label": "Active Users"
+      }
+    },
+    "reviews": {
+      "0": {
+        "name": "Michael Chen",
+        "role": "Professional Photographer",
+        "content": "Minimum saved me thousands on camera equipment. The quality is always top-notch, and the delivery is incredibly fast. I've been a loyal customer for 2 years now."
+      },
+      "1": {
+        "name": "Sarah Johnson",
+        "role": "Event Planner",
+        "content": "As an event planner, I need reliable equipment on short notice. Minimum has never let me down. Their customer service is exceptional, and the flexibility is unmatched."
+      },
+      "2": {
+        "name": "Alex Rodriguez",
+        "role": "Outdoor Enthusiast",
+        "content": "I rent camping and hiking gear for all my adventures. Why buy expensive equipment you'll use once a year? Minimum makes it affordable to try new activities."
+      },
+      "3": {
+        "name": "Emma Thompson",
+        "role": "Freelance Videographer",
+        "content": "The variety of video equipment available is amazing. I can rent high-end gear for specific projects without the massive upfront investment. Game changer for my business!"
+      },
+      "4": {
+        "name": "David Park",
+        "role": "Weekend Adventurer",
+        "content": "Started renting ski equipment last winter and haven't looked back. Perfect condition every time, and I don't have to worry about storage or maintenance."
+      },
+      "5": {
+        "name": "Lisa Martinez",
+        "role": "Small Business Owner",
+        "content": "We rent office equipment for pop-up events and trade shows. The booking process is seamless, and the quality always impresses our clients. Highly recommend!"
+      }
+    }
+  },
+  "cart-menu": {
+    "shoppingCart": "Shopping Cart",
+    "cartAriaLabel": "Shopping cart",
+    "badgeOverflow": "99+",
+    "sessionExpired": "Your session has expired. Please sign in again."
+  },
+  "mini-cart": {
+    "shoppingCart": "Shopping Cart",
+    "cartEmpty": "Your cart is empty",
+    "continueShopping": "Continue Shopping",
+    "viewAllItems": "View all {count} items",
+    "viewCart": "View Cart",
+    "checkout": "Checkout",
+    "subtotal": "Subtotal",
+    "loading": "Loading...",
+    "itemRemoved": "Item removed from cart",
+    "failedToUpdate": "Failed to update cart",
+    "failedToRemove": "Failed to remove item",
+    "sku": "SKU:",
+    "remove": "Remove",
+    "sessionExpired": "Your session has expired. Please sign in again.",
+    "rentalPeriod": "Rental Period",
+    "from": "From:",
+    "to": "To:"
+  },
+  "footer": {
+    "brand": {
+      "tagline": "The trusted marketplace for renting products. Connecting people who want to share with those who need."
+    },
+    "contact": {
+      "email": "support@minimum.com"
+    },
+    "sections": {
+      "help": "Help",
+      "information": "Information"
+    },
+    "links": {
+      "faq": "FAQ",
+      "howToRent": "How to Rent",
+      "contact": "Contact Us",
+      "about": "About Us",
+      "terms": "Terms & Conditions",
+      "cookies": "Cookie Policy"
+    },
+    "copyright": "© {year} Minimum. All rights reserved."
+  },
+  "product-reviews-section": {
+    "reviews": "Reviews"
+  },
+  "my-product-rentals-table": {
+    "title": "My Product Rentals",
+    "totalRentals": "{count, plural, =0 {No rentals} =1 {1 rental} other {# rentals}}",
+    "productSku": "SKU",
+    "productName": "Product",
+    "fromDate": "From",
+    "toDate": "To",
+    "orderId": "Order #",
+    "filterByDate": "Filter by date",
+    "filterFrom": "From",
+    "filterTo": "To",
+    "selectStartDate": "Select start date",
+    "selectEndDate": "Now select end date",
+    "clickToReselect": "Click any date to start new selection",
+    "reset": "Reset",
+    "applyFilter": "Filter",
+    "clearFilter": "Clear",
+    "noRentals": "No rentals yet",
+    "noRentalsDescription": "Your products haven't been rented by anyone yet.",
+    "fetchError": "Failed to load rentals",
+    "sessionExpired": "Your session has expired. Please sign in again.",
+    "previous": "Previous",
+    "next": "Next",
+    "pageInfo": "Page {current} of {total}"
+  },
+  "checkout-billing-address": {
+    "select_billing_address": "Select Billing Address",
+    "add_new_address": "Add new billing address",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "company_optional": "Company (Optional)",
+    "street_address": "Street Address",
+    "city": "City",
+    "postal_code": "Postal Code",
+    "country": "Country",
+    "select_country": "Select country",
+    "phone_number": "Phone Number",
+    "continue_to_payment": "Continue to Payment",
+    "save_billing_address": "Save Billing Address",
+    "saving": "Saving...",
+    "placeholder_first_name": "John",
+    "placeholder_last_name": "Doe",
+    "placeholder_company": "Company name",
+    "placeholder_street": "Street name",
+    "placeholder_city": "Chisinau",
+    "placeholder_postal_code": "MD-2001",
+    "placeholder_phone": "+373 123 456 789",
+    "country_md": "Moldova"
+  },
+  "rented-products-table": {
+    "title": "Rented Products",
+    "totalRentals": "{count, plural, =0 {No rentals} =1 {1 rental} other {# rentals}}",
+    "image": "Image",
+    "productImageAlt": "Product",
+    "productName": "Product Name",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "quantity": "Quantity",
+    "totalPrice": "Total Price",
+    "status": "Status",
+    "status_active": "Active",
+    "status_completed": "Completed",
+    "status_cancelled": "Cancelled",
+    "actions": "Actions",
+    "edit": "Edit Rental",
+    "cancelRental": "Cancel Rental",
+    "cancel": "Cancel",
+    "noRentals": "No rented products",
+    "noRentalsDescription": "You haven't rented any products yet.",
+    "cancelTitle": "Cancel Rental",
+    "cancelDescription": "Are you sure you want to cancel this rental? This action cannot be undone.",
+    "cancelSuccess": "Rental cancelled successfully",
+    "cancelFailed": "Failed to cancel rental",
+    "sessionExpired": "Your session has expired. Please sign in again.",
+    "previous": "Previous",
+    "next": "Next",
+    "noImage": "No Image"
+  },
+  "theme-toggle": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "unified-account-settings": {
+    "title": "Change Settings",
+    "sections": {
+      "name": "Update Name",
+      "email": "Change Email",
+      "password": "Change Password"
+    },
+    "fields": {
+      "firstname": "First Name",
+      "lastname": "Last Name",
+      "telephone": "Phone Number",
+      "personal_number": "Personal Number (IDNP)",
+      "email": "Email Address",
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm Password"
+    },
+    "saveChanges": "Save Changes",
+    "saving": "Saving...",
+    "success": {
+      "allUpdated": "All changes saved successfully",
+      "partiallyUpdated": "Some changes were saved successfully"
+    },
+    "errors": {
+      "noSectionsEnabled": "Please select at least one section to update",
+      "sessionExpired": "Your session has expired. Please sign in again.",
+      "updateFailed": "Failed to update settings",
+      "unknownError": "An unexpected error occurred"
+    }
+  },
+  "rental-date-selector": {
+    "startDate": "Start",
+    "endDate": "End",
+    "pickStartDate": "Select rental dates",
+    "pickEndDate": "Pick an end date",
+    "selectStartDate": "Select start date",
+    "selectEndDate": "Now select end date",
+    "clickToReselect": "Click any date to start new selection",
+    "reset": "Reset",
+    "endDateMustBeAfterStart": "End date must be after start date",
+    "alreadyRented": "Already rented"
+  },
+  "product-filters": {
+    "filters": "Filters",
+    "filtersAndSort": "Filters & Sort",
+    "priceRange": "Price Range",
+    "minPrice": "Min Price",
+    "maxPrice": "Max Price",
+    "min": "Min",
+    "max": "Max",
+    "minPlaceholder": "0",
+    "maxPlaceholder": "1000",
+    "apply": "Apply Filters",
+    "clear": "Clear Filters",
+    "clearAll": "Clear All",
+    "clearAllFilters": "Clear All Filters",
+    "showFilters": "Show Filters",
+    "hideFilters": "Hide Filters",
+    "labels": {
+      "city": "City",
+      "price": "Price"
+    },
+    "cities": {
+      "Balti": "Balti",
+      "Biruinta": "Biruinta",
+      "Briceni": "Briceni",
+      "Costesti": "Costesti",
+      "Cupcini": "Cupcini",
+      "Donduseni": "Donduseni",
+      "Drochia": "Drochia",
+      "Edinet": "Edinet",
+      "Falesti": "Falesti",
+      "Floresti": "Floresti",
+      "Frunza": "Frunza",
+      "Ghindest": "Ghindest",
+      "Glodeni": "Glodeni",
+      "Lipcani": "Lipcani",
+      "Marculesti": "Marculesti",
+      "Ocnita": "Ocnita",
+      "Otaci": "Otaci",
+      "Riscani": "Riscani",
+      "Singerei": "Singerei",
+      "Soroca": "Soroca",
+      "Anenii Noi": "Anenii Noi",
+      "Bucovat": "Bucovat",
+      "Cainari": "Cainari",
+      "Calarasi": "Calarasi",
+      "Causeni": "Causeni",
+      "Cornesti": "Cornesti",
+      "Criuleni": "Criuleni",
+      "Hincesti": "Hincesti",
+      "Ialoveni": "Ialoveni",
+      "Nisporeni": "Nisporeni",
+      "Orhei": "Orhei",
+      "Rezina": "Rezina",
+      "Straseni": "Straseni",
+      "Soldanesti": "Soldanesti",
+      "Stefan Voda": "Stefan Voda",
+      "Telenesti": "Telenesti",
+      "Bender (Tighina)": "Bender (Tighina)",
+      "Ungheni": "Ungheni",
+      "Chisinau": "Chisinau",
+      "Codru": "Codru",
+      "Cricova": "Cricova",
+      "Durlesti": "Durlesti",
+      "Singera": "Singera",
+      "Vadul lui Voda": "Vadul lui Voda",
+      "Vatra": "Vatra",
+      "Basarabeasca": "Basarabeasca",
+      "Cantemir": "Cantemir",
+      "Cahul": "Cahul",
+      "Cimislia": "Cimislia",
+      "Iargara": "Iargara",
+      "Leova": "Leova",
+      "Taraclia": "Taraclia",
+      "Tvardița": "Tvardița",
+      "Camenca": "Camenca",
+      "Crasnoe": "Crasnoe",
+      "Dnestrovsk": "Dnestrovsk",
+      "Dubasari": "Dubasari",
+      "Grigoriopol": "Grigoriopol",
+      "Ribnita": "Ribnita",
+      "Maiac": "Maiac",
+      "Slobozia": "Slobozia",
+      "Tiraspol": "Tiraspol",
+      "New Tiraspol": "New Tiraspol",
+      "Ceadir-Lunga": "Ceadir-Lunga",
+      "Comrat": "Comrat",
+      "Vulcanesti": "Vulcanesti"
+    }
+  },
+  "checkout-shipping-address": {
+    "title": "Shipping Address",
+    "selectAddress": "Select Shipping Address",
+    "addNewAddress": "Add new shipping address",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "company_optional": "Company (Optional)",
+    "street_address": "Street Address",
+    "city": "City",
+    "postal_code": "Postal Code",
+    "country": "Country",
+    "select_country": "Select country",
+    "phone_number": "Phone Number",
+    "save_shipping_address": "Save Shipping Address",
+    "saving": "Saving...",
+    "placeholder_first_name": "John",
+    "placeholder_last_name": "Doe",
+    "placeholder_company": "Company name",
+    "placeholder_street": "Street name",
+    "placeholder_city": "Chisinau",
+    "placeholder_postal_code": "MD-2001",
+    "placeholder_phone": "+373 123 456 789",
+    "country_md": "Moldova"
+  },
+  "checkout-order-summary": {
+    "order_summary": "Order Summary",
+    "subtotal": "Subtotal",
+    "items": "items",
+    "total": "Total",
+    "billing_address": "Billing Address",
+    "qty": "Quantity:"
+  },
+  "multi-image-upload": {
+    "uploadImages": "Upload Images",
+    "dragDropImages": "Drag and drop images here, or click to select",
+    "removeImage": "Remove image",
+    "setAsMain": "Set as main image",
+    "mainImage": "Main",
+    "reorderUp": "Move up",
+    "reorderDown": "Move down",
+    "maxImagesReached": "Maximum {{max}} images allowed",
+    "uploadingImage": "Uploading...",
+    "invalidFileType": "Only PNG and JPEG images are allowed",
+    "fileTooLarge": "File size must be less than 5MB"
+  },
+  "address-management": {
+    "addressesTitle": "Addresses",
+    "addressesDescription": "Manage your billing and shipping addresses",
+    "phone": "Phone Number",
+    "defaultBilling": "Default Billing",
+    "defaultShipping": "Default Shipping",
+    "editAddress": "Edit Address",
+    "addAddress": "Add Address",
+    "editAddressDescription": "Update your address information",
+    "addAddressDescription": "Add a new address to your account",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "company": "Company (Optional)",
+    "streetAddress": "Street Address",
+    "streetAddress2": "Street Address Line 2 (Optional)",
+    "city": "City",
+    "region": "State/Province",
+    "postcode": "Postal Code",
+    "country": "Country",
+    "selectCountry": "Select country",
+    "countryMd": "Moldova",
+    "setAsDefaultShipping": "Set as default shipping address",
+    "setAsDefaultBilling": "Set as default billing address",
+    "cancel": "Cancel",
+    "save": "Save",
+    "saving": "Saving...",
+    "addressCreatedSuccess": "Address created successfully",
+    "addressUpdatedSuccess": "Address updated successfully",
+    "addressDeletedSuccess": "Address deleted successfully",
+    "addressError": "Failed to save address",
+    "addressDeleteError": "Failed to delete address",
+    "sessionExpired": "Your session has expired. Please sign in again.",
+    "confirmDelete": "Are you sure you want to delete this address?",
+    "noAddresses": "No addresses yet",
+    "noAddressesDescription": "Add your first address to get started",
+    "addFirstAddress": "Add First Address",
+    "addressCount": "{count} {count, plural, one {address} other {addresses}}",
+    "delete": "Delete",
+    "edit": "Edit"
+  },
+  "my-products-table": {
+    "title": "My Products",
+    "totalProducts": "{count} total products",
+    "searchPlaceholder": "Search products by name...",
+    "addProduct": "Add Product",
+    "addFirstProduct": "Add Your First Product",
+    "noProducts": "No products yet",
+    "noProductsDescription": "Try changing your search or add new products",
+    "image": "Image",
+    "productImageAlt": "Product",
+    "name": "Name",
+    "city": "City",
+    "price": "Price",
+    "quantity": "Qty",
+    "isActive": "Active",
+    "productStatus": "Status",
+    "productStatus_pending": "Pending",
+    "productStatus_approved": "Approved",
+    "productStatus_rejected": "Rejected",
+    "active": "Active",
+    "disabled": "Disabled",
+    "includeDisabled": "Include disabled products",
+    "approvalStatusCreated": "Created",
+    "approvalStatusApproved": "Approved",
+    "approvalStatusPending": "Pending",
+    "approvalStatusRejected": "Rejected",
+    "actions": "Actions",
+    "edit": "Edit",
+    "disable": "Disable",
+    "enable": "Enable",
+    "disableTitle": "Disable Product",
+    "enableTitle": "Enable Product",
+    "disableDescription": "Are you sure you want to disable this product? It will no longer be visible to customers.",
+    "enableDescription": "Are you sure you want to enable this product? It will become visible to customers.",
+    "cancel": "Cancel",
+    "disableSuccess": "Product disabled successfully",
+    "enableSuccess": "Product enabled successfully",
+    "statusChangeFailed": "Failed to change product status",
+    "sessionExpired": "Your session has expired. Please sign in again",
+    "clearSearch": "Clear search",
+    "previous": "Previous",
+    "next": "Next",
+    "noImage": "No Image",
+    "failedToLoadProducts": "Failed to load products",
+    "idnpRequired": "Personal Number (IDNP) Required",
+    "idnpRequiredDescription": "You must add your personal number (IDNP) before creating products.",
+    "goToSettings": "Go to Settings"
+  },
+  "orders-table": {
+    "title": "My Rents",
+    "totalRents": "{count, plural, =0 {No rents} =1 {1 rent} other {# rents}}",
+    "orderNumber": "Order #",
+    "date": "Date",
+    "items": "Items",
+    "itemsCount": "{count, plural, =1 {1 item} other {# items}}",
+    "total": "Total",
+    "status": "Status",
+    "status_pending": "Pending",
+    "status_processing": "Processing",
+    "status_complete": "Complete",
+    "status_completed": "Completed",
+    "status_canceled": "Canceled",
+    "status_cancelled": "Cancelled",
+    "status_on_hold": "On Hold",
+    "noRents": "No rents yet",
+    "noRentsDescription": "You haven't rented anything yet.",
+    "failedToLoadOrders": "Failed to load orders"
+  },
+  "contact-icon": {
+    "tooltip": "Contact Us",
+    "ariaLabel": "Contact us"
+  },
+  "user-avatar": {
+    "myAccount": "My account",
+    "myProducts": "My products",
+    "myRents": "My rents",
+    "myProductRentals": "My product rentals",
+    "documents": "Documents",
+    "addresses": "Addresses",
+    "settings": "Settings",
+    "company": "Company",
+    "logout": "Logout",
+    "signIn": "Sign In"
+  },
+  "add-to-cart": {
+    "addToCart": "Add to Cart",
+    "quantity": "Quantity",
+    "cancel": "Cancel",
+    "adding": "Adding...",
+    "addedSuccessfully": "Item added to cart successfully!",
+    "failedToAdd": "Failed to add item to cart",
+    "sessionExpired": "Your session has expired. Please sign in again.",
+    "rentalPeriod": "Rental Period",
+    "productOptions": "Product Options",
+    "selectOption": "Select {option}"
+  },
+  "rental-form": {
+    "title": "Edit Rental",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "quantity": "Quantity",
+    "status": "Status",
+    "pickDate": "Pick a date",
+    "selectStatus": "Select a status",
+    "startDateDescription": "Select the date when your rental period begins",
+    "endDateDescription": "Select the date when your rental period ends",
+    "quantityDescription": "Number of items to rent (1-100)",
+    "statusDescription": "Current status of the rental",
+    "statusActive": "Active",
+    "statusCompleted": "Completed",
+    "statusCancelled": "Cancelled",
+    "save": "Save Changes",
+    "saving": "Saving...",
+    "cancel": "Cancel",
+    "updateSuccess": "Rental updated successfully",
+    "updateFailed": "Failed to update rental",
+    "sessionExpired": "Your session has expired. Please sign in again.",
+    "breadcrumb": {
+      "rentedProducts": "Rented Products",
+      "editRental": "Edit Rental"
+    }
+  },
+  "cart-icon": {
+    "cart": "Cart",
+    "cartAriaLabel": "Shopping cart",
+    "cartEmpty": "Your cart is empty",
+    "itemsInCart": "{count} items in cart",
+    "badgeOverflow": "99+"
+  },
+  "product-sort": {
+    "sortBy": "Sort by",
+    "position": "Position",
+    "nameAsc": "Name: A-Z",
+    "nameDesc": "Name: Z-A",
+    "priceAsc": "Price: Low to High",
+    "priceDesc": "Price: High to Low",
+    "newest": "Newest"
+  },
+  "flow-step-action": {
+    "allStepsCompleted": "All steps completed!",
+    "imagesRequired": "Please upload images to complete this step",
+    "imagesRequiredHint": "Images are required for this step",
+    "addImages": "Add images",
+    "confirmStep": "Confirm & Complete Step",
+    "completing": "Completing...",
+    "stepCompleted": "Step completed successfully",
+    "stepFailed": "Failed to complete step",
+    "waitingFor": "Waiting for {party} to complete this step",
+    "owner": "owner",
+    "customer": "customer"
+  },
+  "account-settings": {
+    "title": "Account Settings",
+    "description": "Manage your account information and preferences",
+    "profileTitle": "Profile",
+    "profileDescription": "Manage your public profile information",
+    "accountTitle": "Account",
+    "accountDescription": "Manage your account settings and email",
+    "securityTitle": "Security",
+    "securityDescription": "Manage your password and security settings",
+    "updateName": "Update Name",
+    "updateNameDescription": "Change your first and last name",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "updateEmail": "Update Email",
+    "updateEmailDescription": "Change your email address. You'll need to verify your password.",
+    "email": "Email",
+    "currentPassword": "Current Password",
+    "changePassword": "Change Password",
+    "changePasswordDescription": "Update your password. Make sure it's at least 8 characters long.",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "saveChanges": "Save Changes",
+    "saving": "Saving...",
+    "nameUpdatedSuccess": "Your name has been updated successfully",
+    "nameUpdatedError": "Failed to update your name. Please try again.",
+    "emailUpdatedSuccess": "Your email has been updated successfully",
+    "emailUpdatedError": "Failed to update your email. Please check your password and try again.",
+    "passwordChangedSuccess": "Your password has been changed successfully",
+    "passwordChangedError": "Failed to change your password. Please check your current password and try again.",
+    "sessionExpired": "Your session has expired. Please sign in again."
+  },
+  "chat-report": {
+    "reportButton": "Report a problem",
+    "modalTitle": "Report a Problem",
+    "modalDescription": "Describe the issue you're experiencing with this conversation. Our team will review your report.",
+    "descriptionLabel": "Problem Description",
+    "descriptionPlaceholder": "Please describe the problem in detail...",
+    "cancel": "Cancel",
+    "submit": "Submit Report",
+    "submitting": "Submitting...",
+    "submitSuccess": "Report submitted successfully. Our team will review it shortly.",
+    "submitFailed": "Failed to submit report. Please try again.",
+    "unexpectedError": "An unexpected error occurred"
+  },
+  "chat-icon": {
+    "ariaLabel": "Open messages",
+    "messages": "Messages"
+  },
+  "product-form": {
+    "createProduct": "Create New Product",
+    "editProduct": "Edit Product",
+    "name": "Product Name",
+    "namePlaceholder": "Enter product name",
+    "description": "Full Description",
+    "descriptionPlaceholder": "Enter detailed product description",
+    "shortDescription": "Short Description",
+    "shortDescriptionPlaceholder": "Enter brief product description",
+    "category": "Category",
+    "categoryPlaceholder": "Select category",
+    "subcategory": "Subcategory",
+    "subcategoryPlaceholder": "Select subcategory",
+    "subSubcategory": "Sub-subcategory",
+    "subSubcategoryPlaceholder": "Select sub-subcategory",
+    "city": "City",
+    "cityPlaceholder": "Select city",
+    "color": "Color",
+    "colorPlaceholder": "Select color",
+    "manufacturer": "Manufacturer",
+    "manufacturerPlaceholder": "Enter manufacturer name",
+    "price": "Price",
+    "pricePlaceholder": "0.00",
+    "quantity": "Quantity",
+    "quantityPlaceholder": "0",
+    "images": "Product Images",
+    "isActive": "Product Active",
+    "save": "Save Product",
+    "saving": "Saving...",
+    "cancel": "Cancel",
+    "createSuccess": "Product created successfully",
+    "updateSuccess": "Product updated successfully",
+    "saveFailed": "Failed to save product",
+    "sessionExpired": "Your session has expired. Please sign in again",
+    "idnpRequired": "Personal Number (IDNP) Required",
+    "idnpRequiredDescription": "You must add your personal number (IDNP) before creating products.",
+    "goToSettings": "Go to Settings",
+    "categoryTree": "Category tree",
+    "selectedPath": "Selected",
+    "noCategories": "No categories available",
+    "addNewCategory": "Add new category",
+    "addNewSubcategory": "Add new subcategory",
+    "addNewSubSubcategory": "Add new sub-subcategory",
+    "addCategoryPlaceholder": "Enter category name"
+  },
+  "wishlist-icon": {
+    "wishlist": "Wishlist",
+    "itemCount": "{count} items",
+    "badgeOverflow": "99+"
+  },
+  "product-search": {
+    "placeholder": "Search products...",
+    "clear": "Clear search"
+  },
+  "company-settings": {
+    "title": "Company Settings",
+    "fields": {
+      "companyName": "Company Name",
+      "companyPhone": "Company Phone",
+      "companyLogo": "Company Logo"
+    },
+    "placeholders": {
+      "companyName": "Enter company name",
+      "companyPhone": "+1 (555) 123-4567"
+    },
+    "uploadLogo": "Upload Logo",
+    "dragDropHint": "Drag and drop an image here, or click to browse",
+    "removeImage": "Remove",
+    "uploadingImage": "Uploading...",
+    "uploadError": "Failed to upload image. Please try again.",
+    "uploadFailed": "Upload failed",
+    "invalidFileType": "Please upload a valid image file (PNG, JPG, JPEG)",
+    "fileTooLarge": "File size must be less than 4MB",
+    "saveChanges": "Save Changes",
+    "saving": "Saving...",
+    "success": "Company settings updated successfully",
+    "error": "Failed to update company settings"
+  },
+  "write-review": {
+    "title": "Write a Review",
+    "subtitle": "Share your experience with this product",
+    "overallRating": "Overall Rating",
+    "nickname": "Your Name",
+    "nicknamePlaceholder": "Enter your name",
+    "summary": "Summary",
+    "summaryPlaceholder": "Brief summary of your review",
+    "review": "Your Review",
+    "reviewPlaceholder": "Tell us about your experience with this product...",
+    "selectRating": "Select a rating",
+    "submit": "Submit Review",
+    "submitting": "Submitting...",
+    "loadRatingsFailed": "Failed to load rating options",
+    "submitSuccess": "Review submitted successfully!",
+    "submitFailed": "Failed to submit review",
+    "unexpectedError": "An unexpected error occurred"
+  },
+  "checkout-payment": {
+    "selectPaymentMethod": "Select Payment Method",
+    "noPaymentMethods": "No payment methods available",
+    "paymentMethodRequired": "Please select a payment method",
+    "failedToLoad": "Failed to load payment methods"
+  },
+  "chat-input": {
+    "placeholder": "Type a message...",
+    "send": "Send message",
+    "uploadImage": "Upload image",
+    "removeImage": "Remove image",
+    "uploading": "Uploading..."
+  },
+  "document-signing": {
+    "signatureTitle": "Your Signature",
+    "signatureHint": "Sign here with your mouse or finger",
+    "signatureComplete": "Signature captured",
+    "signatureRequired": "Signature required to continue",
+    "clearSignature": "Clear",
+    "contractPreview": "Contract Preview",
+    "openFullScreen": "Open Full Screen",
+    "generatingPreview": "Generating contract preview...",
+    "noPreviewAvailable": "Contract preview not available",
+    "previewDisclaimer": "Please review the contract carefully before signing. Your signature is legally binding.",
+    "acceptTermsLabel": "I have read and understood the rental contract. I agree that my electronic signature is legally binding and has the same effect as a handwritten signature in accordance with Moldova Law No. 124/2022.",
+    "readyToSign": "Ready to sign! Click the button below to complete your signature.",
+    "cancel": "Cancel",
+    "signing": "Signing...",
+    "signAndContinue": "Sign & Continue to Payment",
+    "signContract": "Sign Contract",
+    "dismiss": "Dismiss",
+    "signContractTitle": "Sign Rental Contract",
+    "signContractDescription": "Please review and sign the rental contract to proceed with your order.",
+    "ownerSigningTitle": "Owner Signature Required",
+    "ownerSigningDescription": "Please review the contract and add your signature to confirm the rental agreement.",
+    "contractSigned": "Contract Signed Successfully",
+    "contractSignedDescription": "The contract has been signed and sent to both parties.",
+    "waitingForOwner": "Waiting for owner to sign the contract",
+    "downloadContract": "Download Contract",
+    "missingContractData": "Contract data is missing. Please try again.",
+    "failedToSign": "Failed to sign the contract. Please try again.",
+    "idnpLabel": "IDNP (Personal Identification Number)",
+    "idnpPlaceholder": "2001234567890",
+    "idnpHint": "Enter your Moldovan IDNP (13 digits starting with 2)",
+    "invalidIdnp": "Invalid IDNP format. Must be 13 digits starting with 2.",
+    "previewLanguage": "Preview Language",
+    "previewLanguageHint": "Preview the contract in different languages. The signed document will always be in Romanian."
+  },
+  "conversation": {
+    "orderTitle": "Order #{orderNumber}",
+    "customer": "Customer",
+    "owner": "Owner",
+    "systemMessage": "System notification",
+    "noConversations": "No conversations yet",
+    "noConversationsDescription": "Conversations will appear here when you place or receive orders."
+  },
+  "wishlist": {
+    "addToWishlist": "Add to Wishlist",
+    "removeFromWishlist": "Remove from Wishlist",
+    "wishlist": "Wishlist",
+    "emptyWishlist": "Your wishlist is empty",
+    "emptyWishlistDescription": "Start adding products to your wishlist to save them for later",
+    "itemsCount": "{count} items",
+    "clearWishlist": "Clear Wishlist",
+    "title": "My Wishlist",
+    "clearAll": "Clear All",
+    "confirmClear": "Are you sure you want to clear your entire wishlist?",
+    "emptyTitle": "Your wishlist is empty",
+    "emptyDescription": "Browse our products and add items you love to your wishlist"
+  },
+  "customer-product": {
+    "product": "Product",
+    "products": "Products",
+    "myProducts": "My Products"
+  },
+  "message": {
+    "systemUpdate": "System update",
+    "messagePlaceholder": "Type a message...",
+    "send": "Send",
+    "uploadImage": "Upload image",
+    "uploading": "Uploading...",
+    "sendFailed": "Failed to send message",
+    "image": "Image"
+  },
+  "flow-step": {
+    "completed": "Completed",
+    "allComplete": "All steps complete",
+    "steps": {
+      "orderCreated": {
+        "name": "Order Created",
+        "description": "The rental order has been placed and confirmed."
+      },
+      "photosSent": {
+        "name": "Photos Sent",
+        "description": "The owner sends photos of the product before shipping."
+      },
+      "moneySent": {
+        "name": "Money Sent",
+        "description": "Payment has been sent by the renter."
+      },
+      "moneyReceived": {
+        "name": "Money Received",
+        "description": "Payment has been received by the owner."
+      },
+      "packageSent": {
+        "name": "Package Sent",
+        "description": "The rental item has been shipped."
+      },
+      "packageReceived": {
+        "name": "Package Received",
+        "description": "The rental item has been received by the renter."
+      },
+      "packageSentBack": {
+        "name": "Package Sent Back",
+        "description": "The rental item has been returned by the renter."
+      },
+      "packageReceivedBack": {
+        "name": "Package Received Back",
+        "description": "The rental item has been received back by the owner."
+      }
+    }
+  },
+  "account": {
+    "title": "Account",
+    "description": "Manage your account settings and personal information",
+    "accountInfo": "Account Information",
+    "accountInfoDescription": "View and manage your personal information",
+    "contactInformation": "Contact Information",
+    "edit": "Edit",
+    "name": "Name",
+    "email": "Email",
+    "addresses": "Addresses",
+    "defaultBillingAddress": "Default Billing Address",
+    "defaultShippingAddress": "Default Shipping Address",
+    "noDefaultAddresses": "No default addresses set",
+    "noAddresses": "No addresses added yet",
+    "company": "Company",
+    "companyDescription": "Manage your company information and settings",
+    "companyInformation": "Company Information",
+    "companyName": "Company Name",
+    "companyPhone": "Company Phone",
+    "companyLogo": "Company Logo",
+    "notSet": "Not set",
+    "companyComingSoon": "Company features are coming soon"
+  },
+  "confirm-email": {
+    "title": "Confirm Your Email",
+    "card": {
+      "title": "Email Confirmation",
+      "description": "Click the button below to confirm your email address and activate your account.",
+      "emailLabel": "Email to confirm:",
+      "confirmButton": "Confirm Email",
+      "confirming": "Confirming..."
+    },
+    "success": {
+      "title": "Email Confirmed!",
+      "description": "Your email has been successfully confirmed. You can now sign in to your account.",
+      "signInButton": "Go to Sign In"
+    },
+    "invalidParams": {
+      "title": "Invalid Link",
+      "alertTitle": "Missing Parameters",
+      "alertDescription": "The confirmation link appears to be invalid or incomplete. Please check your email and try again."
+    },
+    "error": {
+      "title": "Confirmation Failed"
+    },
+    "errors": {
+      "linkExpired": "This confirmation link has expired. Please request a new confirmation email.",
+      "alreadyConfirmed": "This email has already been confirmed. You can sign in to your account.",
+      "customerNotFound": "No account found with this email address.",
+      "unknownError": "Something went wrong. Please try again later.",
+      "successToast": "Email confirmed successfully!"
+    }
+  },
+  "order-detail": {
+    "breadcrumb": {
+      "myRents": "My Rents"
+    },
+    "orderTitle": "Order #{number}",
+    "orderConfirmationSent": "The order confirmation email was sent",
+    "orderDate": "Order Date",
+    "orderStatus": "Order Status",
+    "purchasedFrom": "Purchased From",
+    "placedFromIP": "Placed from IP",
+    "accountInformation": "Account Information",
+    "customerName": "Customer Name",
+    "email": "Email",
+    "customerGroup": "Customer Group",
+    "addressInformation": "Address Information",
+    "billingAddress": "Billing Address",
+    "shippingAddress": "Shipping Address",
+    "noAddress": "No address available",
+    "phone": "T",
+    "paymentShippingMethod": "Payment & Shipping Method",
+    "paymentInformation": "Payment Information",
+    "shippingHandlingInformation": "Shipping & Handling Information",
+    "itemsOrdered": "Items Ordered",
+    "table": {
+      "product": "Product",
+      "itemStatus": "Status",
+      "originalPrice": "Original Price",
+      "price": "Price",
+      "qty": "Quantity",
+      "subtotal": "Subtotal",
+      "taxAmount": "Tax Amount",
+      "taxPercent": "Tax Percent",
+      "discountAmount": "Discount Amount",
+      "rowTotal": "Total"
+    },
+    "sku": "SKU",
+    "ordered": "Ordered",
+    "rentalPeriod": "Rental Period",
+    "orderTotals": "Order Totals",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping & Handling",
+    "tax": "Tax",
+    "grandTotal": "Total",
+    "orderNotFound": "Order not found",
+    "backToMyRents": "Back to My Rents",
+    "edit": "Edit",
+    "rentalContract": "Rental Contract",
+    "downloadContract": "Download Contract",
+    "contractPending": "Pending owner signature",
+    "contractSigned": "Fully signed",
+    "contractPendingSignatures": "Pending signatures"
+  },
+  "documents": {
+    "title": "My Documents",
+    "itemsCount": "{count, plural, =1 {1 document} other {# documents}}",
+    "emptyTitle": "No Documents",
+    "emptyDescription": "You don't have any documents yet. Documents will appear here after placing rental orders.",
+    "table": {
+      "order": "Order",
+      "type": "Type",
+      "role": "Your Role",
+      "status": "Status",
+      "date": "Date",
+      "actions": "Actions"
+    },
+    "type": {
+      "rentalContract": "Rental Contract"
+    },
+    "role": {
+      "owner": "Owner",
+      "renter": "Renter"
+    },
+    "status": {
+      "pending": "Pending",
+      "partiallySigned": "Awaiting Signature",
+      "signed": "Signed"
+    },
+    "actions": {
+      "sign": "Sign",
+      "download": "Download"
+    }
+  },
+  "sign-in": {
+    "title": "Sign In Page"
+  },
+  "product-not-found": {
+    "title": "Product Not Found",
+    "description": "The product you're looking for doesn't exist or has been removed.",
+    "browseProducts": "Browse Products",
+    "goHome": "Go Home"
+  },
+  "checkout-failed": {
+    "title": "Payment Failed",
+    "errorMessage": "We encountered an issue processing your payment.",
+    "helpText": "Please check your payment details and try again. If the problem persists, contact support.",
+    "tryAgainButton": "Try Again",
+    "backToCartButton": "Back to Cart",
+    "defaultError": "Payment failed. Please try again."
+  },
+  "cart": {
+    "emptyCartTitle": "Your cart is empty",
+    "emptyCartDescription": "Add items to your cart to see them here",
+    "continueShoppingButton": "Continue Shopping",
+    "pageTitle": "Shopping Cart",
+    "cartItemsTitle": "Cart Items",
+    "item": "item",
+    "items": "items",
+    "sku": "SKU:",
+    "removeButton": "Remove",
+    "orderSummaryTitle": "Order Summary",
+    "subtotal": "Subtotal",
+    "total": "Total",
+    "proceedToCheckout": "Proceed to Checkout",
+    "sessionExpired": "Your session has expired. Please sign in again.",
+    "failedToRemoveItem": "Failed to remove item",
+    "itemRemoved": "Item removed from cart",
+    "rentalPeriod": "Rental Period",
+    "from": "From:",
+    "to": "To:"
+  },
+  "search": {
+    "pageTitle": "Search Results",
+    "searchResultsFor": "Search results for \"{query}\"",
+    "showing": "Showing {start}-{end} of {total} results",
+    "categoriesSection": "Categories",
+    "productsSection": "Products",
+    "noResultsTitle": "No results found",
+    "noResultsDescription": "We couldn't find any products or categories matching your search.",
+    "noResultsSuggestions": "Try:",
+    "suggestion1": "Different keywords",
+    "suggestion2": "Fewer or broader search terms",
+    "suggestion3": "Checking your spelling",
+    "noCategoriesFound": "No matching categories",
+    "noProductsFound": "No products found for this search",
+    "noProductsHint": "Try browsing categories above or adjust your filters",
+    "error": "Search error",
+    "errorDescription": "Something went wrong while searching. Please try again.",
+    "perPage": "Per page",
+    "previous": "Previous",
+    "next": "Next",
+    "metadata": {
+      "title": "Search Results | Minimum",
+      "description": "Search for products and categories"
+    }
+  },
+  "checkout": {
+    "pageTitle": "Checkout",
+    "billingAddressTitle": "Billing Address",
+    "shippingAddressTitle": "Shipping Address",
+    "newBillingAddress": "New Billing Address",
+    "enterBillingAddress": "Enter Billing Address",
+    "newShippingAddress": "New Shipping Address",
+    "enterShippingAddress": "Enter Shipping Address",
+    "continueToPayment": "Continue to Payment",
+    "continueToContract": "Continue to Sign Contract",
+    "settingAddresses": "Setting addresses...",
+    "placingOrder": "Placing Order...",
+    "placeOrder": "Place Order",
+    "failedToSetBillingAddress": "Failed to set billing address",
+    "billingAddressSaved": "Billing address saved successfully",
+    "failedToSetShippingAddress": "Failed to set shipping address",
+    "shippingAddressSaved": "Shipping address saved successfully",
+    "failedToSetAddresses": "Failed to set addresses. Please try again.",
+    "pleaseSelectBillingAddress": "Please select a billing address",
+    "pleaseSelectShippingAddress": "Please select a shipping address",
+    "pleaseSelectAddresses": "Please select billing and shipping addresses",
+    "pleaseSelectPaymentMethod": "Please select a payment method",
+    "pleaseSignContract": "Please sign the rental contract before placing your order",
+    "missingContractData": "Unable to generate contract. Please ensure all information is complete.",
+    "failedToSetShippingMethod": "Failed to set shipping method. Please refresh and try again.",
+    "failedToSetPaymentMethod": "Failed to set payment method",
+    "failedToPlaceOrder": "Failed to place order",
+    "failedToPlaceOrderRetry": "Failed to place order. Please try again.",
+    "noShippingMethodsAvailable": "No shipping methods available. Please check your shipping address."
+  },
+  "about": {
+    "title": "About Us",
+    "ourStory": {
+      "title": "Our Story",
+      "paragraph1": "Minimum was founded with a simple idea: why buy things you only need temporarily? We created a platform where people can rent electronics, tools, equipment, sports gear, and much more from each other.",
+      "paragraph2": "From our beginnings in Moldova to becoming a trusted marketplace, we've remained committed to building a community where sharing makes sense. We connect people who have items with those who need them."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "Our mission is to make renting easy and accessible for everyone. We believe that sharing resources is smarter, more economical, and better for the environment. Through our platform, we help item owners earn from their belongings while renters get access to what they need without the commitment of buying."
+    },
+    "values": {
+      "title": "Our Values",
+      "quality": {
+        "title": "Quality",
+        "description": "We ensure every listing meets our standards with accurate descriptions, real photos, and verified information so you know exactly what you're renting."
+      },
+      "trust": {
+        "title": "Trust",
+        "description": "Building trust between owners and renters is at the heart of what we do. We verify users, protect payments, and provide support for every transaction."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We continuously improve our platform to make finding and renting items as simple as possible, with smart search, secure messaging, and easy booking."
+      },
+      "support": {
+        "title": "Customer Support",
+        "description": "Our dedicated team is here to help with any questions about listings, rentals, or payments. We're with you every step of the way."
+      }
+    }
+  },
+  "how-to-rent-out": {
+    "title": "How to Rent Out Your Items",
+    "subtitle": "Turn your unused belongings into extra income",
+    "introduction": "Have items sitting around that you rarely use? Our platform makes it easy to rent out your personal belongings to people in your community. From power tools to camping gear, cameras to party supplies – if someone needs it temporarily, you can earn from it. Follow these simple steps to start renting out your items today.",
+    "steps": {
+      "title": "5 Simple Steps to Rent Out Your Items",
+      "step1": {
+        "title": "1. Prepare Your Item",
+        "description": "Make sure your item is clean, functional, and ready to rent. A well-maintained item builds trust and attracts more renters.",
+        "items": {
+          "item1": "Clean the item thoroughly and check that everything works properly",
+          "item2": "Gather all accessories, cables, manuals, or parts that go with it",
+          "item3": "Note any wear, scratches, or imperfections to mention in your listing"
+        }
+      },
+      "step2": {
+        "title": "2. Take Quality Photos",
+        "description": "Great photos help your listing stand out. Show potential renters exactly what they're getting.",
+        "items": {
+          "item1": "Use good lighting and a clean background",
+          "item2": "Capture multiple angles and close-ups of important details",
+          "item3": "Include photos of accessories and show the item in use if possible"
+        }
+      },
+      "step3": {
+        "title": "3. Create Your Listing",
+        "description": "Write a clear, honest description that answers questions renters might have.",
+        "items": {
+          "item1": "Describe what the item is, its condition, and key features",
+          "item2": "Set your rental price (daily, weekly, or custom periods)",
+          "item3": "Specify pickup location, availability, and any usage requirements"
+        }
+      },
+      "step4": {
+        "title": "4. Communicate with Renters",
+        "description": "Good communication builds trust and leads to successful rentals.",
+        "items": {
+          "item1": "Respond to inquiries promptly and answer questions thoroughly",
+          "item2": "Discuss rental dates, pickup/return details, and expectations",
+          "item3": "Be clear about deposit requirements and your cancellation policy"
+        }
+      },
+      "step5": {
+        "title": "5. Complete the Rental",
+        "description": "Make the handover smooth and professional to ensure a great experience for both parties.",
+        "items": {
+          "item1": "Meet in a safe location and verify the renter's identity",
+          "item2": "Walk through how to use the item and document its condition together",
+          "item3": "Collect payment and deposit, then confirm the return date"
+        }
+      }
+    },
+    "tips": {
+      "title": "Tips for Successful Renting",
+      "tip1": "Research similar items on the platform to set competitive prices",
+      "tip2": "Respond to messages quickly – fast replies lead to more bookings",
+      "tip3": "Keep your items well-maintained between rentals",
+      "tip4": "Be flexible with pickup times and locations when possible",
+      "tip5": "Build your reputation by providing excellent service and earning positive reviews"
+    },
+    "benefits": {
+      "title": "Why Rent Out on Rently?",
+      "benefit1": {
+        "title": "Earn Extra Income",
+        "description": "Turn items you rarely use into a steady source of extra money."
+      },
+      "benefit2": {
+        "title": "Easy Listing Process",
+        "description": "Create listings in minutes with our simple, guided process."
+      },
+      "benefit3": {
+        "title": "Verified Users",
+        "description": "All users are verified, so you can rent with confidence."
+      },
+      "benefit4": {
+        "title": "Support When You Need It",
+        "description": "Our team is here to help if any issues arise during a rental."
+      }
+    },
+    "cta": {
+      "title": "Ready to Start Earning?",
+      "description": "List your first item today and join thousands of people sharing what they have."
+    }
+  },
+  "terms-of-policy": {
+    "title": "Terms and Conditions",
+    "lastUpdated": "Last Updated: January 25, 2026",
+    "metadata": {
+      "title": "Terms and Conditions - Minimum",
+      "description": "Read the terms and conditions of the Minimum platform and learn about your rights and responsibilities."
+    },
+    "introduction": {
+      "heading": "1. Introduction",
+      "content": "Welcome to the Minimum platform (hereinafter referred to as \"Platform\", \"Service\", \"Minimum\"). These Terms and Conditions govern access to and use of the Minimum website and related services.",
+      "description": "Minimum is an online platform that provides users with the technical capability to post rental listings and interact with each other. Minimum is not a party to transactions concluded between users.",
+      "agreement": "By using the Platform, you confirm your agreement to these Terms."
+    },
+    "acceptanceOfTerms": {
+      "heading": "2. Acceptance of Terms",
+      "content": "By creating an account, posting listings, or using any features of the Platform, you confirm that you have:",
+      "list": {
+        "item1": "read and understood these Terms;",
+        "item2": "agree to comply with them in full;",
+        "item3": "accept Minimum's Privacy Policy as an integral part of these Terms."
+      },
+      "warning": "If you do not agree to the terms, you must stop using the Platform."
+    },
+    "minimumStatus": {
+      "heading": "3. Minimum's Status and Disclaimer",
+      "point1": "3.1. Minimum is not a lessor, lessee, agent, broker, carrier, or insurer.",
+      "point2": "3.2. All arrangements regarding rental, transfer, return, condition of items, payment, deposit, delivery, and any other terms occur exclusively between users.",
+      "point3": "3.3. Minimum:",
+      "list": {
+        "item1": "does not verify the quality, safety, legality, or condition of items;",
+        "item2": "does not guarantee the integrity of users;",
+        "item3": "is not responsible for the fulfillment or non-fulfillment of obligations by users."
+      }
+    },
+    "userAccount": {
+      "heading": "4. User Account",
+      "point1": "4.1. To use the Service, you must create an account and provide accurate, current, and complete information.",
+      "point2": "4.2. The user is fully responsible for:",
+      "list": {
+        "item1": "the security of login credentials and password;",
+        "item2": "all actions performed under their account."
+      },
+      "point3": "4.3. You must immediately notify Minimum of any unauthorized access or suspicion thereof.",
+      "point4": "4.4. Minimum reserves the right to refuse registration or delete an account without explanation for violation of these Terms."
+    },
+    "userObligations": {
+      "heading": "5. User Obligations",
+      "content": "Users agree to:",
+      "list": {
+        "item1": "comply with applicable laws of the Republic of Moldova;",
+        "item2": "use the Platform in good faith;",
+        "item3": "provide truthful information about items;",
+        "item4": "independently verify counterparties before entering into transactions;",
+        "item5": "resolve all disputes directly with other users."
+      }
+    },
+    "rentalRisks": {
+      "heading": "6. Rental Items and Risks",
+      "point1": "6.1. All risks associated with rental, including but not limited to:",
+      "riskList": {
+        "item1": "loss;",
+        "item2": "damage;",
+        "item3": "theft;",
+        "item4": "late return;",
+        "item5": "non-conformity with description,"
+      },
+      "riskConclusion": "are borne exclusively by the users participating in the transaction.",
+      "point2": "6.2. Minimum is not responsible for:",
+      "liabilityList": {
+        "item1": "physical harm;",
+        "item2": "property damage;",
+        "item3": "financial losses;",
+        "item4": "lost profits."
+      },
+      "point3": "6.3. Users independently resolve matters of insurance, deposit, and identity verification."
+    },
+    "payments": {
+      "heading": "7. Payments",
+      "point1": "7.1. Minimum may provide the technical capability to process payments but does not control or guarantee their correctness.",
+      "point2": "7.2. All financial claims must be resolved between users themselves."
+    },
+    "prohibitedActivities": {
+      "heading": "8. Prohibited Activities",
+      "content": "The following is prohibited:",
+      "list": {
+        "item1": "violating the law;",
+        "item2": "posting illegal or dangerous items;",
+        "item3": "providing false information;",
+        "item4": "engaging in fraudulent activities;",
+        "item5": "interfering with the Platform's operation;",
+        "item6": "using the Platform for harassment or threats."
+      }
+    },
+    "intellectualProperty": {
+      "heading": "9. Intellectual Property",
+      "content": "All Platform content (code, design, texts, logos) is the property of Minimum or its licensors and is protected by law.",
+      "warning": "Use of content without written consent from Minimum is prohibited.",
+      "userContent": {
+        "heading": "9.1. User Content",
+        "content": "Users bear full responsibility for any content they post on the Platform, including listings, item descriptions, images, reviews, and other materials.",
+        "disclaimer": "Minimum does not pre-screen user content and is not responsible for its accuracy, legality, relevance, or truthfulness.",
+        "confirmation": "By posting content, the user confirms that they have all necessary rights and permissions to use and post it."
+      }
+    },
+    "limitation": {
+      "heading": "10. Limitation of Liability",
+      "content": "To the maximum extent permitted by law, Minimum is not liable for:",
+      "list": {
+        "item1": "any indirect or incidental damages;",
+        "item2": "actions or inactions of users;",
+        "item3": "any damage arising from rental transactions."
+      },
+      "warning": "Use of the Platform is at your own risk.",
+      "disclaimer": {
+        "heading": "10.1. Disclaimer of Warranties",
+        "content": "The Platform and all related services are provided on an \"as is\" and \"as available\" basis. Minimum makes no express or implied warranties, including but not limited to warranties of uninterrupted service, accuracy of information, fitness for a particular purpose, or absence of errors.",
+        "noGuarantee": "Minimum does not guarantee that the Platform will function without failures, delays, or technical malfunctions."
+      }
+    },
+    "termination": {
+      "heading": "11. Access Termination",
+      "content": "Minimum reserves the right at any time to:",
+      "list": {
+        "item1": "suspend or terminate user access;",
+        "item2": "delete accounts;",
+        "item3": "remove content without prior notice."
+      },
+      "indemnity": {
+        "heading": "11.1. Indemnification",
+        "content": "The user agrees to indemnify and hold Minimum harmless from any claims, demands, losses, fines, and expenses (including legal fees) arising from:",
+        "list": {
+          "item1": "user's violation of these Terms;",
+          "item2": "violation of third-party rights;",
+          "item3": "user's actions or inactions while using the Platform."
+        }
+      }
+    },
+    "disputeResolution": {
+      "heading": "12. Dispute Resolution",
+      "point1": "12.1. All disputes between users shall be resolved directly between them.",
+      "point2": "12.2. Disputes between a user and Minimum are subject to pre-trial settlement within 30 business days.",
+      "point3": "12.3. If a dispute cannot be resolved, it shall be considered by the courts of the Republic of Moldova.",
+      "forceMajeure": {
+        "heading": "12.4. Force Majeure",
+        "content": "Minimum is not liable for full or partial non-fulfillment of obligations under these Terms if such non-fulfillment is caused by force majeure circumstances, including but not limited to: natural disasters, fires, military actions, government decisions, failures in communication networks, power supply, or third-party services."
+      }
+    },
+    "privacyPolicy": {
+      "heading": "13. Privacy Policy",
+      "intro": "Processing of users' personal data is carried out in accordance with Law No. 133 of 07.08.2011 of the Republic of Moldova \"On Personal Data Protection\".",
+      "purposes": {
+        "content": "Minimum processes personal data exclusively for the purposes of:",
+        "list": {
+          "item1": "providing access to the Platform and its functionality;",
+          "item2": "user identification;",
+          "item3": "ensuring technical operation of the service;",
+          "item4": "compliance with legal requirements."
+        }
+      },
+      "thirdParty": "Minimum does not transfer personal data to third parties, except in cases directly provided by law or necessary for service provision (payment providers, hosting providers, and other technical partners).",
+      "dataTypes": {
+        "content": "Personal data may include, among others:",
+        "list": {
+          "item1": "first and last name;",
+          "item2": "phone number;",
+          "item3": "email address;",
+          "item4": "IP address;",
+          "item5": "payment transaction data;",
+          "item6": "identity document data (if necessary)."
+        }
+      },
+      "consent": "The user confirms that they provide their personal data voluntarily and consent to its processing for the stated purposes.",
+      "moreInfo": "Detailed terms of processing, storage, and protection of personal data are set out in a separate document — the Privacy Policy posted on the Platform."
+    },
+    "changes": {
+      "heading": "14. Changes to Terms",
+      "content": "We reserve the right to modify these terms at any time. We will notify users of any material changes by posting the new terms on this page. Your continued use of the service after such changes constitutes acceptance of the new terms."
+    },
+    "contact": {
+      "heading": "15. Contact Information",
+      "content": "If you have any questions about these Terms and Conditions, please contact us at support@minimum.com"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions about our rental platform"
+  },
+  "checkout-success": {
+    "title": "Order Confirmed!",
+    "thankYouMessage": "Thank you for your order. Your payment has been processed successfully.",
+    "orderNumberLabel": "Order Number",
+    "confirmationEmailMessage": "A confirmation email has been sent to your email address with the order details.",
+    "viewOrderButton": "View Order",
+    "continueShoppingButton": "Continue Shopping",
+    "downloadContract": "Download Contract",
+    "contractPending": "Contract is pending owner signature",
+    "contractSigned": "Contract fully signed"
+  },
+  "cookie-policy": {
+    "title": "Cookie Policy",
+    "lastUpdated": "Last Updated: January 25, 2026",
+    "intro": "This Cookie Policy (hereinafter referred to as the \"Policy\") explains how the Minimum platform (hereinafter referred to as \"Minimum\", \"we\", \"our service\") uses cookies and similar technologies when you visit and use our website. By using the Platform, you consent to the use of cookies in accordance with this Policy.",
+    "metadata": {
+      "title": "Cookie Policy - Minimum",
+      "description": "Learn how the Minimum platform uses cookies and how you can manage them."
+    },
+    "whatAreCookies": {
+      "heading": "1. What are cookies",
+      "content": "Cookies are small text files that are stored on your device (computer, smartphone, tablet) when you visit websites. They allow the website to recognize your device, ensure proper service operation, and improve user experience."
+    },
+    "cookieTypes": {
+      "heading": "2. Types of cookies we use",
+      "intro": "Minimum uses the following categories of cookies:",
+      "required": {
+        "heading": "2.1. Required (technical) cookies",
+        "content": "These cookies are necessary for the proper functioning of the Platform and cannot be disabled in system settings. They are used, in particular, for:",
+        "list": {
+          "item1": "user authentication;",
+          "item2": "session preservation;",
+          "item3": "security assurance;",
+          "item4": "proper functioning of core site features."
+        },
+        "note": "Without these cookies, the Platform cannot function properly."
+      },
+      "functional": {
+        "heading": "2.2. Functional cookies",
+        "content": "Functional cookies allow the Platform to remember your choices (such as language, region, interface settings) and provide a more personalized experience."
+      },
+      "analytics": {
+        "heading": "2.3. Analytics cookies",
+        "content": "Analytics cookies are used to collect anonymized information about how users interact with the Platform. This helps us:",
+        "list": {
+          "item1": "analyze traffic;",
+          "item2": "improve service functionality;",
+          "item3": "identify technical errors."
+        },
+        "note": "The collected data does not allow direct user identification."
+      }
+    },
+    "thirdPartyCookies": {
+      "heading": "3. Third-party cookies",
+      "content": "Minimum may use third-party services (such as analytics or payment providers) that may place cookies on your device as part of their operation.",
+      "disclaimer": "We do not control third-party cookies and recommend reviewing their privacy and cookie policies."
+    },
+    "managingCookies": {
+      "heading": "4. Managing cookies",
+      "content": "You can change your cookie settings in your browser at any time, including:",
+      "list": {
+        "item1": "blocking all cookies;",
+        "item2": "deleting saved cookies;",
+        "item3": "receiving notifications when cookies are saved."
+      },
+      "note": "Please note that disabling or restricting cookies may result in some Platform features not working properly."
+    },
+    "consent": {
+      "heading": "5. Consent to use cookies",
+      "content": "When you first visit the Platform, you may be shown a notice about the use of cookies. By continuing to use the site or clicking the consent button, you confirm your consent to the use of cookies in accordance with this Policy."
+    },
+    "changes": {
+      "heading": "6. Changes to Cookie Policy",
+      "content": "Minimum reserves the right to make changes to this Policy at any time. The updated version takes effect from the moment it is published on the Platform."
+    },
+    "contact": {
+      "heading": "7. Contact information",
+      "content": "If you have any questions about the use of cookies, please contact us at: support@minimum.com"
+    }
+  },
+  "product-detail": {
+    "title": "Product Details",
+    "aboutProduct": "About Product",
+    "metadata": {
+      "productNotFound": "Product Not Found",
+      "buyProductPrefix": "Buy "
+    }
+  },
+  "products": {
+    "title": "Products",
+    "subtitle": "Browse our collection",
+    "showing": "Showing {start}-{end} of {total} products",
+    "error": "Failed to load products",
+    "errorDescription": "There was an error loading the products. Please try again later.",
+    "perPage": "Per page:",
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "metadata": {
+      "title": "All Products | Minimum",
+      "description": "Browse all available products for rent",
+      "categoryTitle": "Category | Minimum",
+      "categoryDescription": "Browse products by category"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Have a question or feedback? We'd love to hear from you."
+  },
+  "sign-up": {
+    "title": "Sign Up Page"
+  },
+  "home": {
+    "title": "Home Page"
+  }
+}

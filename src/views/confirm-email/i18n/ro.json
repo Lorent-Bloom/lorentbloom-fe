@@ -1,0 +1,30 @@
+{
+  "title": "Confirmati-va adresa de email",
+  "card": {
+    "title": "Confirmare Email",
+    "description": "Faceti clic pe butonul de mai jos pentru a confirma adresa de email si a activa contul.",
+    "emailLabel": "Email de confirmat:",
+    "confirmButton": "Confirma Email",
+    "confirming": "Se confirma..."
+  },
+  "success": {
+    "title": "Email Confirmat!",
+    "description": "Email-ul dvs. a fost confirmat cu succes. Acum va puteti autentifica in cont.",
+    "signInButton": "Mergi la Autentificare"
+  },
+  "invalidParams": {
+    "title": "Link Invalid",
+    "alertTitle": "Parametri Lipsa",
+    "alertDescription": "Linkul de confirmare pare a fi invalid sau incomplet. Verificati email-ul si incercati din nou."
+  },
+  "error": {
+    "title": "Confirmare Esuata"
+  },
+  "errors": {
+    "linkExpired": "Acest link de confirmare a expirat. Va rugam sa solicitati un email de confirmare nou.",
+    "alreadyConfirmed": "Acest email a fost deja confirmat. Va puteti autentifica in cont.",
+    "customerNotFound": "Nu a fost gasit niciun cont cu aceasta adresa de email.",
+    "unknownError": "Ceva a mers prost. Va rugam sa incercati din nou mai tarziu.",
+    "successToast": "Email confirmat cu succes!"
+  }
+}

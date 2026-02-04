@@ -1,0 +1,41 @@
+{
+  "message": "Folosim cookie-uri pentru a vă îmbunătăți experiența. Unele sunt esențiale pentru funcționarea site-ului, iar altele ne ajută să înțelegem cum îl utilizați.",
+  "acceptAll": "Acceptă toate",
+  "rejectAll": "Respinge toate",
+  "manage": "Gestionează",
+  "preferences": {
+    "title": "Preferințe Cookie",
+    "description": "Alegeți ce cookie-uri doriți să permiteți. Cookie-urile esențiale sunt întotdeauna active, deoarece sunt necesare pentru funcționarea site-ului.",
+    "save": "Salvează preferințele"
+  },
+  "categories": {
+    "functionality": {
+      "title": "Esențiale",
+      "description": "Necesare pentru funcționarea site-ului. Nu pot fi dezactivate."
+    },
+    "security": {
+      "title": "Securitate",
+      "description": "Asigură securitatea sesiunii și previn frauda."
+    },
+    "analytics": {
+      "title": "Analiză",
+      "description": "Ne ajută să înțelegem cum interacționează vizitatorii cu site-ul nostru."
+    },
+    "ads": {
+      "title": "Publicitate",
+      "description": "Folosite pentru a afișa reclame relevante și a urmări campaniile publicitare."
+    },
+    "adUserData": {
+      "title": "Date utilizator pentru publicitate",
+      "description": "Permit partajarea datelor utilizatorului cu serviciile de publicitate."
+    },
+    "adPersonalization": {
+      "title": "Personalizare publicitate",
+      "description": "Permite afișarea publicității personalizate pe baza intereselor dvs."
+    },
+    "personalization": {
+      "title": "Personalizare",
+      "description": "Permit site-ului să rețină preferințele și să personalizeze conținutul."
+    }
+  }
+}

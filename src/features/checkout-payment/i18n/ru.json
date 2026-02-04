@@ -1,0 +1,6 @@
+{
+  "selectPaymentMethod": "Выберите способ оплаты",
+  "noPaymentMethods": "Нет доступных способов оплаты",
+  "paymentMethodRequired": "Пожалуйста, выберите способ оплаты",
+  "failedToLoad": "Не удалось загрузить способы оплаты"
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Account",
+  "description": "Manage your account settings and personal information",
+  "accountInfo": "Account Information",
+  "accountInfoDescription": "View and manage your personal information",
+  "contactInformation": "Contact Information",
+  "edit": "Edit",
+  "name": "Name",
+  "email": "Email",
+  "addresses": "Addresses",
+  "defaultBillingAddress": "Default Billing Address",
+  "defaultShippingAddress": "Default Shipping Address",
+  "noDefaultAddresses": "No default addresses set",
+  "noAddresses": "No addresses added yet",
+  "company": "Company",
+  "companyDescription": "Manage your company information and settings",
+  "companyInformation": "Company Information",
+  "companyName": "Company Name",
+  "companyPhone": "Company Phone",
+  "companyLogo": "Company Logo",
+  "notSet": "Not set",
+  "companyComingSoon": "Company features are coming soon"
+}

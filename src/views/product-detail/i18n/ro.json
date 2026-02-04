@@ -1,0 +1,8 @@
+{
+  "title": "Detalii produs",
+  "aboutProduct": "Despre produs",
+  "metadata": {
+    "productNotFound": "Produs negasit",
+    "buyProductPrefix": "Cumpara "
+  }
+}

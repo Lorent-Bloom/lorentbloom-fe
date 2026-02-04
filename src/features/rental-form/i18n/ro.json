@@ -1,0 +1,26 @@
+{
+  "title": "Editează închirierea",
+  "startDate": "Data începerii",
+  "endDate": "Data finalizării",
+  "quantity": "Cantitate",
+  "status": "Stare",
+  "pickDate": "Alege o dată",
+  "selectStatus": "Selectează o stare",
+  "startDateDescription": "Selectează data când începe perioada de închiriere",
+  "endDateDescription": "Selectează data când se încheie perioada de închiriere",
+  "quantityDescription": "Numărul de articole de închiriat (1-100)",
+  "statusDescription": "Starea curentă a închirierii",
+  "statusActive": "Activ",
+  "statusCompleted": "Finalizat",
+  "statusCancelled": "Anulat",
+  "save": "Salvează modificările",
+  "saving": "Se salvează...",
+  "cancel": "Anulare",
+  "updateSuccess": "Închiriere actualizată cu succes",
+  "updateFailed": "Eșec la actualizarea închirierii",
+  "sessionExpired": "Sesiunea ta a expirat. Te rugăm să te autentifici din nou.",
+  "breadcrumb": {
+    "rentedProducts": "Produse inchiriate",
+    "editRental": "Editeaza inchirierea"
+  }
+}

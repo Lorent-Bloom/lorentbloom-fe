@@ -1,0 +1,11 @@
+{
+  "title": "Заказ подтвержден!",
+  "thankYouMessage": "Спасибо за ваш заказ. Ваш платеж успешно обработан.",
+  "orderNumberLabel": "Номер заказа",
+  "confirmationEmailMessage": "Письмо с подтверждением отправлено на ваш email с деталями заказа.",
+  "viewOrderButton": "Просмотреть заказ",
+  "continueShoppingButton": "Продолжить покупки",
+  "downloadContract": "Скачать договор",
+  "contractPending": "Договор ожидает подписи владельца",
+  "contractSigned": "Договор полностью подписан"
+}

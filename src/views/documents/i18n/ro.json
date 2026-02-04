@@ -1,0 +1,30 @@
+{
+  "title": "Documentele Mele",
+  "itemsCount": "{count, plural, =1 {1 document} other {# documente}}",
+  "emptyTitle": "Fara Documente",
+  "emptyDescription": "Nu aveti niciun document inca. Documentele vor aparea aici dupa plasarea comenzilor de inchiriere.",
+  "table": {
+    "order": "Comanda",
+    "type": "Tip",
+    "role": "Rolul Dvs.",
+    "status": "Status",
+    "date": "Data",
+    "actions": "Actiuni"
+  },
+  "type": {
+    "rentalContract": "Contract de Inchiriere"
+  },
+  "role": {
+    "owner": "Proprietar",
+    "renter": "Chirias"
+  },
+  "status": {
+    "pending": "In asteptare",
+    "partiallySigned": "Asteptam Semnatura",
+    "signed": "Semnat"
+  },
+  "actions": {
+    "sign": "Semneaza",
+    "download": "Descarca"
+  }
+}

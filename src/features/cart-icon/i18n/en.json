@@ -1,0 +1,7 @@
+{
+  "cart": "Cart",
+  "cartAriaLabel": "Shopping cart",
+  "cartEmpty": "Your cart is empty",
+  "itemsInCart": "{count} items in cart",
+  "badgeOverflow": "99+"
+}

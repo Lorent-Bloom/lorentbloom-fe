@@ -1,0 +1,21 @@
+{
+  "brand": {
+    "tagline": "The trusted marketplace for renting products. Connecting people who want to share with those who need."
+  },
+  "contact": {
+    "email": "support@minimum.com"
+  },
+  "sections": {
+    "help": "Help",
+    "information": "Information"
+  },
+  "links": {
+    "faq": "FAQ",
+    "howToRent": "How to Rent",
+    "contact": "Contact Us",
+    "about": "About Us",
+    "terms": "Terms & Conditions",
+    "cookies": "Cookie Policy"
+  },
+  "copyright": "© {year} Minimum. All rights reserved."
+}

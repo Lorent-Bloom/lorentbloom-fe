@@ -1,0 +1,7 @@
+{
+  "title": "Recenzii clienți",
+  "totalReviews": "{count, plural, =1 {1 recenzie} other {# recenzii}}",
+  "noReviews": "Încă nu există recenzii. Fiți primul care evaluează acest produs!",
+  "ratingsBreakdown": "Detalii evaluare",
+  "failedToLoad": "Nu s-au putut încărca recenziile"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Produse",
+  "subtitle": "Rasfoieste colectia noastra",
+  "showing": "Se afiseaza {start}-{end} din {total} produse",
+  "error": "Nu s-au putut incarca produsele",
+  "errorDescription": "A aparut o eroare la incarcarea produselor. Va rugam sa incercati din nou mai tarziu.",
+  "perPage": "Pe pagina:",
+  "pagination": {
+    "previous": "Anterior",
+    "next": "Următor"
+  },
+  "metadata": {
+    "title": "Toate Produsele | Minimum",
+    "description": "Rasfoieste toate produsele disponibile pentru inchiriere",
+    "categoryTitle": "Categorie | Minimum",
+    "categoryDescription": "Rasfoieste produse pe categorii"
+  }
+}

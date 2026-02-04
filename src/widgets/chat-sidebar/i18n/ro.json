@@ -1,0 +1,13 @@
+{
+  "title": "Mesaje",
+  "orderTitle": "Comanda #{orderNumber}",
+  "chatWith": "Chat cu {name}",
+  "viewOrder": "Vezi detaliile comenzii",
+  "selectConversation": "Selectează o conversație pentru a începe să trimiți mesaje",
+  "noConversations": "Nu există conversații încă",
+  "noConversationsDescription": "Conversațiile vor apărea aici când plasați sau primiți comenzi.",
+  "noMessages": "Nu există mesaje încă. Începe conversația!",
+  "conversationNotFound": "Conversația nu a fost găsită",
+  "owner": "Proprietar",
+  "customer": "Client"
+}

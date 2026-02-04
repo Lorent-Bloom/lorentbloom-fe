@@ -1,0 +1,6 @@
+{
+  "selectPaymentMethod": "Select Payment Method",
+  "noPaymentMethods": "No payment methods available",
+  "paymentMethodRequired": "Please select a payment method",
+  "failedToLoad": "Failed to load payment methods"
+}

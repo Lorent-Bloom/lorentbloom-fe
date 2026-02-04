@@ -1,0 +1,9 @@
+{
+  "systemUpdate": "System update",
+  "messagePlaceholder": "Type a message...",
+  "send": "Send",
+  "uploadImage": "Upload image",
+  "uploading": "Uploading...",
+  "sendFailed": "Failed to send message",
+  "image": "Image"
+}

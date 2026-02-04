@@ -1,0 +1,30 @@
+{
+  "title": "Изменить настройки",
+  "sections": {
+    "name": "Обновить имя",
+    "email": "Изменить email",
+    "password": "Изменить пароль"
+  },
+  "fields": {
+    "firstname": "Имя",
+    "lastname": "Фамилия",
+    "telephone": "Номер телефона",
+    "personal_number": "Персональный номер (IDNP)",
+    "email": "Email адрес",
+    "currentPassword": "Текущий пароль",
+    "newPassword": "Новый пароль",
+    "confirmPassword": "Подтвердите пароль"
+  },
+  "saveChanges": "Сохранить изменения",
+  "saving": "Сохранение...",
+  "success": {
+    "allUpdated": "Все изменения успешно сохранены",
+    "partiallyUpdated": "Некоторые изменения были успешно сохранены"
+  },
+  "errors": {
+    "noSectionsEnabled": "Пожалуйста, выберите хотя бы один раздел для обновления",
+    "sessionExpired": "Ваша сессия истекла. Пожалуйста, войдите снова.",
+    "updateFailed": "Не удалось обновить настройки",
+    "unknownError": "Произошла неожиданная ошибка"
+  }
+}

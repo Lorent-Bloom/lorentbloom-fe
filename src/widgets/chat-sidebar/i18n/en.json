@@ -1,0 +1,13 @@
+{
+  "title": "Messages",
+  "orderTitle": "Order #{orderNumber}",
+  "chatWith": "Chat with {name}",
+  "viewOrder": "View order details",
+  "selectConversation": "Select a conversation to start messaging",
+  "noConversations": "No conversations yet",
+  "noConversationsDescription": "Conversations will appear here when you place or receive orders.",
+  "noMessages": "No messages yet. Start the conversation!",
+  "conversationNotFound": "Conversation not found",
+  "owner": "Owner",
+  "customer": "Customer"
+}

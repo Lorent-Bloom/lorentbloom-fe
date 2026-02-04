@@ -1,0 +1,13 @@
+{
+  "allStepsCompleted": "Toți pașii sunt completați!",
+  "imagesRequired": "Vă rugăm să încărcați imagini pentru a finaliza acest pas",
+  "imagesRequiredHint": "Imaginile sunt necesare pentru acest pas",
+  "addImages": "Adaugă imagini",
+  "confirmStep": "Confirmă și finalizează pasul",
+  "completing": "Se finalizează...",
+  "stepCompleted": "Pasul a fost finalizat cu succes",
+  "stepFailed": "Nu s-a putut finaliza pasul",
+  "waitingFor": "Se așteaptă ca {party} să finalizeze acest pas",
+  "owner": "proprietarul",
+  "customer": "clientul"
+}

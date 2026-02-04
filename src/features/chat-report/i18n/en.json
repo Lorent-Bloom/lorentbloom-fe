@@ -1,0 +1,13 @@
+{
+  "reportButton": "Report a problem",
+  "modalTitle": "Report a Problem",
+  "modalDescription": "Describe the issue you're experiencing with this conversation. Our team will review your report.",
+  "descriptionLabel": "Problem Description",
+  "descriptionPlaceholder": "Please describe the problem in detail...",
+  "cancel": "Cancel",
+  "submit": "Submit Report",
+  "submitting": "Submitting...",
+  "submitSuccess": "Report submitted successfully. Our team will review it shortly.",
+  "submitFailed": "Failed to submit report. Please try again.",
+  "unexpectedError": "An unexpected error occurred"
+}

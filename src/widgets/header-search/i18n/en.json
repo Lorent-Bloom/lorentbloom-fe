@@ -1,0 +1,7 @@
+{
+  "placeholder": "Search products...",
+  "searching": "Searching...",
+  "noResults": "No products found",
+  "seeAllResults": "See all results for \"{query}\"",
+  "clear": "Clear"
+}

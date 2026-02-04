@@ -1,0 +1,23 @@
+{
+  "title": "Cont",
+  "description": "Gestionați setările contului și informațiile personale",
+  "accountInfo": "Informații cont",
+  "accountInfoDescription": "Vizualizați și gestionați informațiile personale",
+  "contactInformation": "Informații de contact",
+  "edit": "Editare",
+  "name": "Nume",
+  "email": "Email",
+  "addresses": "Adrese",
+  "defaultBillingAddress": "Adresa de facturare implicită",
+  "defaultShippingAddress": "Adresa de livrare implicită",
+  "noDefaultAddresses": "Nu sunt setate adrese implicite",
+  "noAddresses": "Încă nu au fost adăugate adrese",
+  "company": "Companie",
+  "companyDescription": "Gestionați informațiile și setările companiei",
+  "companyInformation": "Informații despre companie",
+  "companyName": "Nume companie",
+  "companyPhone": "Telefon companie",
+  "companyLogo": "Logo companie",
+  "notSet": "Nesetat",
+  "companyComingSoon": "Funcțiile pentru companie vor fi disponibile în curând"
+}

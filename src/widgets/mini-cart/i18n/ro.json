@@ -1,0 +1,19 @@
+{
+  "shoppingCart": "Cos de cumparaturi",
+  "cartEmpty": "Cosul tau este gol",
+  "continueShopping": "Continua cumparaturile",
+  "viewAllItems": "Vezi toate cele {count} produse",
+  "viewCart": "Vezi cosul",
+  "checkout": "Finalizeaza comanda",
+  "subtotal": "Subtotal",
+  "loading": "Se incarca...",
+  "itemRemoved": "Produsul a fost eliminat din cos",
+  "failedToUpdate": "Nu s-a putut actualiza cosul",
+  "failedToRemove": "Nu s-a putut elimina produsul",
+  "sku": "Cod:",
+  "remove": "Sterge",
+  "sessionExpired": "Sesiunea ta a expirat. Te rugăm să te autentifici din nou.",
+  "rentalPeriod": "Perioada de inchiriere",
+  "from": "De la:",
+  "to": "Pana la:"
+}

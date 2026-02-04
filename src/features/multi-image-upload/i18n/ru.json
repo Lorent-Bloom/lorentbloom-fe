@@ -1,0 +1,13 @@
+{
+  "uploadImages": "Загрузить изображения",
+  "dragDropImages": "Перетащите изображения сюда или нажмите для выбора",
+  "removeImage": "Удалить изображение",
+  "setAsMain": "Установить как главное",
+  "mainImage": "Главное",
+  "reorderUp": "Переместить вверх",
+  "reorderDown": "Переместить вниз",
+  "maxImagesReached": "Максимум {{max}} изображений",
+  "uploadingImage": "Загрузка...",
+  "invalidFileType": "Разрешены только PNG и JPEG изображения",
+  "fileTooLarge": "Размер файла должен быть меньше 5 МБ"
+}

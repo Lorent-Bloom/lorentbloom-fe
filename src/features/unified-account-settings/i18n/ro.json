@@ -1,0 +1,30 @@
+{
+  "title": "Schimbă setările",
+  "sections": {
+    "name": "Actualizare nume",
+    "email": "Schimbare email",
+    "password": "Schimbare parolă"
+  },
+  "fields": {
+    "firstname": "Prenume",
+    "lastname": "Nume",
+    "telephone": "Număr de telefon",
+    "personal_number": "Număr personal (IDNP)",
+    "email": "Adresă email",
+    "currentPassword": "Parolă curentă",
+    "newPassword": "Parolă nouă",
+    "confirmPassword": "Confirmare parolă"
+  },
+  "saveChanges": "Salvare modificări",
+  "saving": "Se salvează...",
+  "success": {
+    "allUpdated": "Toate modificările au fost salvate cu succes",
+    "partiallyUpdated": "Unele modificări au fost salvate cu succes"
+  },
+  "errors": {
+    "noSectionsEnabled": "Vă rugăm să selectați cel puțin o secțiune pentru actualizare",
+    "sessionExpired": "Sesiunea dvs. a expirat. Vă rugăm să vă autentificați din nou.",
+    "updateFailed": "Nu s-au putut actualiza setările",
+    "unknownError": "A apărut o eroare neașteptată"
+  }
+}

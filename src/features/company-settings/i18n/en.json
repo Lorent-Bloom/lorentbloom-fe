@@ -1,0 +1,24 @@
+{
+  "title": "Company Settings",
+  "fields": {
+    "companyName": "Company Name",
+    "companyPhone": "Company Phone",
+    "companyLogo": "Company Logo"
+  },
+  "placeholders": {
+    "companyName": "Enter company name",
+    "companyPhone": "+1 (555) 123-4567"
+  },
+  "uploadLogo": "Upload Logo",
+  "dragDropHint": "Drag and drop an image here, or click to browse",
+  "removeImage": "Remove",
+  "uploadingImage": "Uploading...",
+  "uploadError": "Failed to upload image. Please try again.",
+  "uploadFailed": "Upload failed",
+  "invalidFileType": "Please upload a valid image file (PNG, JPG, JPEG)",
+  "fileTooLarge": "File size must be less than 4MB",
+  "saveChanges": "Save Changes",
+  "saving": "Saving...",
+  "success": "Company settings updated successfully",
+  "error": "Failed to update company settings"
+}

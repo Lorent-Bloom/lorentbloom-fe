@@ -1,0 +1,7 @@
+{
+  "cart": "Корзина",
+  "cartAriaLabel": "Корзина покупок",
+  "cartEmpty": "Ваша корзина пуста",
+  "itemsInCart": "{count} товаров в корзине",
+  "badgeOverflow": "99+"
+}

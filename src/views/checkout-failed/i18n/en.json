@@ -1,0 +1,8 @@
+{
+  "title": "Payment Failed",
+  "errorMessage": "We encountered an issue processing your payment.",
+  "helpText": "Please check your payment details and try again. If the problem persists, contact support.",
+  "tryAgainButton": "Try Again",
+  "backToCartButton": "Back to Cart",
+  "defaultError": "Payment failed. Please try again."
+}

@@ -1,0 +1,22 @@
+{
+  "slides": {
+    "0": {
+      "title": "Rent Premium Equipment Today",
+      "description": "Access high-quality gear without the commitment of buying. Flexible rental terms for all your needs.",
+      "cta": "Browse Products"
+    },
+    "1": {
+      "title": "Save Money, Get More",
+      "description": "Why buy when you can rent? Get the latest equipment at a fraction of the cost.",
+      "cta": "View Deals"
+    },
+    "2": {
+      "title": "Fast & Reliable Service",
+      "description": "Quick delivery, easy returns, and 24/7 customer support. Renting made simple.",
+      "cta": "Get Started"
+    }
+  },
+  "previousSlide": "Previous slide",
+  "nextSlide": "Next slide",
+  "goToSlide": "Go to slide {number}"
+}

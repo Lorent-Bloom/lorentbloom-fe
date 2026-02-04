@@ -1,0 +1,19 @@
+{
+  "title": "Cum functioneaza Minimum",
+  "subtitle": "Inchirierea nu a fost niciodata mai usoara. Incepeti in trei pasi simpli.",
+  "steps": {
+    "0": {
+      "title": "Cautati & Selectati",
+      "description": "Explorati colectia noastra de echipamente premium. Filtrati dupa categorie, pret sau disponibilitate."
+    },
+    "1": {
+      "title": "Alegeti Termenii",
+      "description": "Selectati durata inchirierii - de la o zi la luni. Programare flexibila pentru bugetul dvs."
+    },
+    "2": {
+      "title": "Primiti & Bucurati-va",
+      "description": "Semnati acordul, primiti coletul si bucurati-va de inchiriere. Dupa perioada de inchiriere, returnati-l proprietarului."
+    }
+  },
+  "cta": "Incepe Inchirierea"
+}

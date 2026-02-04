@@ -1,0 +1,13 @@
+{
+  "reportButton": "Raportează o problemă",
+  "modalTitle": "Raportează o Problemă",
+  "modalDescription": "Descrie problema pe care o întâmpini cu această conversație. Echipa noastră va analiza raportul tău.",
+  "descriptionLabel": "Descrierea Problemei",
+  "descriptionPlaceholder": "Te rugăm să descrii problema în detaliu...",
+  "cancel": "Anulează",
+  "submit": "Trimite Raportul",
+  "submitting": "Se trimite...",
+  "submitSuccess": "Raportul a fost trimis cu succes. Echipa noastră îl va analiza în curând.",
+  "submitFailed": "Nu s-a putut trimite raportul. Te rugăm să încerci din nou.",
+  "unexpectedError": "A apărut o eroare neașteptată"
+}

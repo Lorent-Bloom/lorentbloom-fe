@@ -1,0 +1,8 @@
+{
+  "title": "My Wishlist",
+  "itemsCount": "{count} items",
+  "clearAll": "Clear All",
+  "confirmClear": "Are you sure you want to clear your entire wishlist?",
+  "emptyTitle": "Your wishlist is empty",
+  "emptyDescription": "Browse our products and add items you love to your wishlist"
+}

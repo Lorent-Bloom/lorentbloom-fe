@@ -1,0 +1,8 @@
+{
+  "title": "Plata esuata",
+  "errorMessage": "Am intampinat o problema la procesarea platii dumneavoastra.",
+  "helpText": "Va rugam verificati detaliile platii si incercati din nou. Daca problema persista, contactati suportul.",
+  "tryAgainButton": "Incearca din nou",
+  "backToCartButton": "Inapoi la cos",
+  "defaultError": "Plata a esuat. Va rugam incercati din nou."
+}

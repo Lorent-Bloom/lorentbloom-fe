@@ -1,0 +1,11 @@
+{
+  "sku": "Артикул",
+  "inStock": "В наличии",
+  "outOfStock": "Нет в наличии",
+  "quantityAvailable": "Доступно: {count}",
+  "onlyXLeft": "Осталось только {count}",
+  "manufacturer": "Производитель",
+  "addToCart": "Добавить в корзину",
+  "notifyWhenAvailable": "Уведомить о поступлении",
+  "listedBy": "Разместил"
+}

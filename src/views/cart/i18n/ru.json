@@ -1,0 +1,21 @@
+{
+  "emptyCartTitle": "Ваша корзина пуста",
+  "emptyCartDescription": "Добавьте товары в корзину, чтобы увидеть их здесь",
+  "continueShoppingButton": "Продолжить покупки",
+  "pageTitle": "Корзина",
+  "cartItemsTitle": "Товары в корзине",
+  "item": "товар",
+  "items": "товаров",
+  "sku": "Артикул:",
+  "removeButton": "Удалить",
+  "orderSummaryTitle": "Сводка заказа",
+  "subtotal": "Подытог",
+  "total": "Итого",
+  "proceedToCheckout": "Оформить заказ",
+  "sessionExpired": "Сессия истекла. Пожалуйста, войдите снова.",
+  "failedToRemoveItem": "Не удалось удалить товар",
+  "itemRemoved": "Товар удален из корзины",
+  "rentalPeriod": "Период аренды",
+  "from": "С:",
+  "to": "По:"
+}

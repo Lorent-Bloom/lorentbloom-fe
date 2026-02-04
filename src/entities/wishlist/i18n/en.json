@@ -1,0 +1,9 @@
+{
+  "addToWishlist": "Add to Wishlist",
+  "removeFromWishlist": "Remove from Wishlist",
+  "wishlist": "Wishlist",
+  "emptyWishlist": "Your wishlist is empty",
+  "emptyWishlistDescription": "Start adding products to your wishlist to save them for later",
+  "itemsCount": "{count} items",
+  "clearWishlist": "Clear Wishlist"
+}

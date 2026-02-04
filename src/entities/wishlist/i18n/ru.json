@@ -1,0 +1,9 @@
+{
+  "addToWishlist": "Добавить в избранное",
+  "removeFromWishlist": "Удалить из избранного",
+  "wishlist": "Избранное",
+  "emptyWishlist": "Ваше избранное пусто",
+  "emptyWishlistDescription": "Начните добавлять товары в избранное, чтобы сохранить их на потом",
+  "itemsCount": "{count} товаров",
+  "clearWishlist": "Очистить избранное"
+}

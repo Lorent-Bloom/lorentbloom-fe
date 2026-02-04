@@ -1,0 +1,26 @@
+{
+  "title": "Edit Rental",
+  "startDate": "Start Date",
+  "endDate": "End Date",
+  "quantity": "Quantity",
+  "status": "Status",
+  "pickDate": "Pick a date",
+  "selectStatus": "Select a status",
+  "startDateDescription": "Select the date when your rental period begins",
+  "endDateDescription": "Select the date when your rental period ends",
+  "quantityDescription": "Number of items to rent (1-100)",
+  "statusDescription": "Current status of the rental",
+  "statusActive": "Active",
+  "statusCompleted": "Completed",
+  "statusCancelled": "Cancelled",
+  "save": "Save Changes",
+  "saving": "Saving...",
+  "cancel": "Cancel",
+  "updateSuccess": "Rental updated successfully",
+  "updateFailed": "Failed to update rental",
+  "sessionExpired": "Your session has expired. Please sign in again.",
+  "breadcrumb": {
+    "rentedProducts": "Rented Products",
+    "editRental": "Edit Rental"
+  }
+}

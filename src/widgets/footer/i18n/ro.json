@@ -1,0 +1,21 @@
+{
+  "brand": {
+    "tagline": "Platforma de încredere pentru închirierea produselor. Conectăm oamenii care vor să împărtășească cu cei care au nevoie."
+  },
+  "contact": {
+    "email": "support@minimum.com"
+  },
+  "sections": {
+    "help": "Ajutor",
+    "information": "Informații"
+  },
+  "links": {
+    "faq": "Întrebări frecvente",
+    "howToRent": "Cum să închiriezi",
+    "contact": "Contactează-ne",
+    "about": "Despre noi",
+    "terms": "Termeni și condiții",
+    "cookies": "Politica Cookie"
+  },
+  "copyright": "© {year} Minimum. Toate drepturile rezervate."
+}

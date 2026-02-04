@@ -1,0 +1,18 @@
+{
+  "title": "Write a Review",
+  "subtitle": "Share your experience with this product",
+  "overallRating": "Overall Rating",
+  "nickname": "Your Name",
+  "nicknamePlaceholder": "Enter your name",
+  "summary": "Summary",
+  "summaryPlaceholder": "Brief summary of your review",
+  "review": "Your Review",
+  "reviewPlaceholder": "Tell us about your experience with this product...",
+  "selectRating": "Select a rating",
+  "submit": "Submit Review",
+  "submitting": "Submitting...",
+  "loadRatingsFailed": "Failed to load rating options",
+  "submitSuccess": "Review submitted successfully!",
+  "submitFailed": "Failed to submit review",
+  "unexpectedError": "An unexpected error occurred"
+}

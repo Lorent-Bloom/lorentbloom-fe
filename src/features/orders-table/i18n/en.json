@@ -1,0 +1,20 @@
+{
+  "title": "My Rents",
+  "totalRents": "{count, plural, =0 {No rents} =1 {1 rent} other {# rents}}",
+  "orderNumber": "Order #",
+  "date": "Date",
+  "items": "Items",
+  "itemsCount": "{count, plural, =1 {1 item} other {# items}}",
+  "total": "Total",
+  "status": "Status",
+  "status_pending": "Pending",
+  "status_processing": "Processing",
+  "status_complete": "Complete",
+  "status_completed": "Completed",
+  "status_canceled": "Canceled",
+  "status_cancelled": "Cancelled",
+  "status_on_hold": "On Hold",
+  "noRents": "No rents yet",
+  "noRentsDescription": "You haven't rented anything yet.",
+  "failedToLoadOrders": "Failed to load orders"
+}

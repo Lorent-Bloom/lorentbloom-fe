@@ -1,0 +1,11 @@
+{
+  "title": "Comanda confirmata!",
+  "thankYouMessage": "Va multumim pentru comanda. Plata dumneavoastra a fost procesata cu succes.",
+  "orderNumberLabel": "Numar comanda",
+  "confirmationEmailMessage": "Un email de confirmare a fost trimis la adresa dumneavoastra de email cu detaliile comenzii.",
+  "viewOrderButton": "Vezi comanda",
+  "continueShoppingButton": "Continua cumparaturile",
+  "downloadContract": "Descarca Contractul",
+  "contractPending": "Contractul asteapta semnatura proprietarului",
+  "contractSigned": "Contract semnat complet"
+}

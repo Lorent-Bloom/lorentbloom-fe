@@ -1,0 +1,13 @@
+{
+  "uploadImages": "Încărcați imagini",
+  "dragDropImages": "Trageți și plasați imaginile aici sau faceți clic pentru a selecta",
+  "removeImage": "Ștergeți imaginea",
+  "setAsMain": "Setați ca imagine principală",
+  "mainImage": "Principal",
+  "reorderUp": "Mutați în sus",
+  "reorderDown": "Mutați în jos",
+  "maxImagesReached": "Maxim {{max}} imagini permise",
+  "uploadingImage": "Se încarcă...",
+  "invalidFileType": "Sunt permise doar imagini PNG și JPEG",
+  "fileTooLarge": "Dimensiunea fișierului trebuie să fie mai mică de 5 MB"
+}

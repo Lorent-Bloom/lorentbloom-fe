@@ -1,0 +1,19 @@
+{
+  "title": "How Minimum Works",
+  "subtitle": "Renting has never been easier. Get started in three simple steps.",
+  "steps": {
+    "0": {
+      "title": "Browse & Select",
+      "description": "Explore our curated collection of premium equipment. Filter by category, price, or availability to find exactly what you need."
+    },
+    "1": {
+      "title": "Choose Your Terms",
+      "description": "Select your rental duration - from a single day to months. Flexible scheduling that fits your timeline and budget."
+    },
+    "2": {
+      "title": "Receive & Enjoy",
+      "description": "Sign the agreement, receive your package, and enjoy your rental. After the rental period, simply return it to the owner."
+    }
+  },
+  "cta": "Start Renting Now"
+}

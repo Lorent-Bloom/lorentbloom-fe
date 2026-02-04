@@ -1,0 +1,25 @@
+{
+  "pageTitle": "Search Results",
+  "searchResultsFor": "Search results for \"{query}\"",
+  "showing": "Showing {start}-{end} of {total} results",
+  "categoriesSection": "Categories",
+  "productsSection": "Products",
+  "noResultsTitle": "No results found",
+  "noResultsDescription": "We couldn't find any products or categories matching your search.",
+  "noResultsSuggestions": "Try:",
+  "suggestion1": "Different keywords",
+  "suggestion2": "Fewer or broader search terms",
+  "suggestion3": "Checking your spelling",
+  "noCategoriesFound": "No matching categories",
+  "noProductsFound": "No products found for this search",
+  "noProductsHint": "Try browsing categories above or adjust your filters",
+  "error": "Search error",
+  "errorDescription": "Something went wrong while searching. Please try again.",
+  "perPage": "Per page",
+  "previous": "Previous",
+  "next": "Next",
+  "metadata": {
+    "title": "Search Results | Minimum",
+    "description": "Search for products and categories"
+  }
+}

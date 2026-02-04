@@ -1,0 +1,2034 @@
+{
+  "review-list": {
+    "title": "Recenzii clienți",
+    "totalReviews": "{count, plural, =1 {1 recenzie} other {# recenzii}}",
+    "noReviews": "Încă nu există recenzii. Fiți primul care evaluează acest produs!",
+    "ratingsBreakdown": "Detalii evaluare",
+    "failedToLoad": "Nu s-au putut încărca recenziile"
+  },
+  "account-sidebar": {
+    "myAccount": "Contul meu",
+    "myProducts": "Produsele mele",
+    "myRents": "Închirierile mele",
+    "myProductRentals": "Închirierile produselor mele",
+    "documents": "Documente",
+    "addresses": "Adrese",
+    "settings": "Setări",
+    "company": "Companie"
+  },
+  "header": {
+    "nav": {
+      "menu": "Meniu",
+      "home": "Acasa",
+      "products": "Produse",
+      "wishlist": "Favorite",
+      "about": "Despre noi",
+      "howToRentOut": "Inchiriaza",
+      "faq": "FAQ"
+    },
+    "logoAlt": "Logo Minimum",
+    "brandName": "Minimum",
+    "announcement": "Livrare gratuita la prima inchiriere! Cod: FIRSTRENT",
+    "catalog": "CATALOG",
+    "categories": "Categorii",
+    "allProducts": "Toate produsele",
+    "loadingCategories": "Se incarca categoriile...",
+    "viewAll": "Vezi toate {category}",
+    "viewAllInCategory": "Vezi tot in {category}",
+    "more": "mai mult",
+    "toggleMenu": "Comuta meniul",
+    "closeMenu": "Inchide meniul",
+    "toggleCategory": "Comuta {category}",
+    "expandCategory": "Extinde {category}",
+    "categoryNames": {
+      "electronics": "Calculatoare și birotică",
+      "computers": "Calculatoare",
+      "laptops": "Laptopuri",
+      "desktop-computers": "PC desktop",
+      "game-consoles": "Console de jocuri",
+      "tablet": "Tablete",
+      "beauty-and-personal-care": "Frumusețe și îngrijire",
+      "hair-dryers": "Uscătoare păr",
+      "electric-shavers": "Aparate ras",
+      "epilators": "Epilatoare",
+      "audio": "Audio",
+      "acoustics-columns": "Boxe",
+      "headphones": "Căști",
+      "microphones": "Microfoane",
+      "home-audio": "Audio casă",
+      "portable-audio": "Audio portabil",
+      "home-cinema": "Home cinema",
+      "tv-video": "TV și Video",
+      "tv": "Televizoare",
+      "projectors": "Proiectoare",
+      "photography": "Foto",
+      "digital-cameras": "Aparate foto",
+      "lenses-cvetofiltry": "Obiective",
+      "accessories-photo": "Accesorii foto",
+      "tripods-monopods": "Trepieduri",
+      "studio-equipment": "Echipament studio",
+      "audio-studio": "Audio studio",
+      "studio-lighting": "Iluminat studio",
+      "studio-video": "Video studio",
+      "household-appliances": "Tehnică de uz casnic",
+      "coffee-machines": "Espressoare",
+      "blenders": "Blendere",
+      "multicookers": "Multicooker",
+      "kettles": "Fierbătoare",
+      "toasters": "Prăjitoare",
+      "juicers": "Storcătoare",
+      "vacuum-cleaners": "Aspiratoare",
+      "robot-vacuum-cleaners": "Roboți aspirator",
+      "clothes-iron": "Fiere de călcat",
+      "sewing-machines": "Mașini de cusut",
+      "mobile-phones": "Telefoane mobile",
+      "cordless-phones": "Telefoane fixe",
+      "gadgets": "Gadgeturi",
+      "gadget": "Ceasuri inteligente",
+      "drones": "Drone",
+      "vr-headset": "Ochelari VR",
+      "office-equipment": "Echipament birou",
+      "printers": "Imprimante",
+      "scanners": "Scanere",
+      "construction-and-repair": "Construcții și reparații",
+      "power-tools": "Scule electrice",
+      "saws": "Fierăstraie",
+      "impact-drivers": "Șurubelnițe",
+      "drills": "Boruri",
+      "hammer-drill": "Perforatoare",
+      "sanders": "Șlefuitoare",
+      "welding-machine": "Aparate sudură",
+      "concrete-mixers": "Betoniere",
+      "equipment-tools": "Echipamente și instrumente",
+      "gas-powered": "Instrumente benzină",
+      "hand-tool": "Instrumente manuale",
+      "construction-equipment": "Tehnica construcții",
+      "clothes-and-shoes": "Îmbrăcăminte, încălțăminte și accesorii",
+      "mens-clothing": "Îmbrăcăminte bărbați",
+      "mens-jackets-and-suits": "Costume",
+      "womens-clothing": "Îmbrăcăminte femei",
+      "womens-dresses": "Rochii",
+      "footwear": "Încălțăminte",
+      "shoes-for-women": "Încălțăminte femei",
+      "shoes-for-men": "Încălțăminte bărbați",
+      "children": "Copii",
+      "kids-clothing": "Îmbrăcăminte copii",
+      "carnival-costumes": "Costume carnaval",
+      "accessories": "Accesorii",
+      "hats": "Pălării",
+      "watches": "Ceasuri",
+      "glasses": "Ochelari",
+      "jewelry": "Bijuterii",
+      "all-else": "Diverse",
+      "handmade": "Handmade",
+      "self-defense-and-security": "Autoapărare",
+      "agriculture": "Agricultură",
+      "animals": "Animale",
+      "equipment": "Echipament",
+      "farm-equipment": "Echipament fermă",
+      "tools": "Instrumente",
+      "sports-health": "Sport și sănătate",
+      "sports-equipment": "Echipament sportiv",
+      "exercise-equipment": "Aparate fitness",
+      "dumbbells-barbells-kettlebells": "Greutăți",
+      "fitness-gymnastics": "Fitness",
+      "boxing-martial-arts": "Box și arte marțiale",
+      "swimming-and-diving": "Înot",
+      "scooters-winter-sports": "Trotinete și sporturi de iarnă",
+      "scooters": "Trotinete",
+      "skateboards": "Skateboard-uri",
+      "rollers": "Role",
+      "ice-skates": "Patine",
+      "skis": "Schiuri",
+      "snowboards": "Snowboard-uri",
+      "medical-equipment": "Echipament medical",
+      "massage-equipment": "Echipament masaj",
+      "rehabilitation": "Reabilitare",
+      "devices": "Aparate medicale",
+      "tourism-and-entertainment": "Turism, recreație și divertisment",
+      "outdoor-equipment": "Echipament turistic",
+      "tents": "Corturi",
+      "sleeping-bags-and-mats": "Saci de dormit",
+      "backpacks-and-bags": "Rucsacuri",
+      "recreation-goods": "Produse recreere",
+      "braziers-grills": "Grătare",
+      "camping-tables-and-chairs": "Mese camping",
+      "games": "Jocuri",
+      "fishing-rods-and-tackles": "Pescuit",
+      "musical-instruments": "Instrumente muzicale",
+      "instruments": "Instrumente",
+      "guitars": "Chitare",
+      "keyboard-instruments": "Clape",
+      "percussion": "Percuție",
+      "winds": "Suflători",
+      "strings": "Coarde",
+      "accordions": "Acordeoane",
+      "music-equipment": "Echipament",
+      "amplifiers": "Amplificatoare",
+      "audio-mixers": "Mixere",
+      "dj-equipment": "Echipament DJ",
+      "stage-equipment": "Echipament scenă",
+      "all-for-events": "Totul pentru sărbători",
+      "wedding": "Nuntă",
+      "wedding-clothes": "Haine nuntă",
+      "wedding-shoes": "Încălțăminte nuntă",
+      "wedding-accessories": "Accesorii nuntă",
+      "children-world": "Lumea copiilor",
+      "toys": "Jucării",
+      "constructors-and-puzzles": "Constructori și puzzle",
+      "dolls-houses": "Păpuși",
+      "plush-baby-toys": "Jucării de pluș",
+      "robots-and-figurines": "Roboți și figurine",
+      "educational-toys": "Jucării educative",
+      "tabletop-games": "Jocuri de masă",
+      "childrens-transport": "Transport copii",
+      "childrens-products": "Produse copii",
+      "stroller": "Cărucioare",
+      "car": "Scaune auto",
+      "furniture-for-children": "Mobilier copii",
+      "childrens-books": "Cărți copii"
+    }
+  },
+  "sign-up-form": {
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "password": "Parolă",
+    "passwordPlaceholder": "••••••",
+    "firstname": "Prenume",
+    "firstnamePlaceholder": "Ion",
+    "lastname": "Nume de familie",
+    "lastnamePlaceholder": "Popescu",
+    "submit": "Trimite",
+    "submitting": "Se trimite...",
+    "error": "Ceva nu a mers bine",
+    "haveAccount": "Ai deja un cont?",
+    "signInLink": "Autentifică-te aici",
+    "errors": {
+      "accountCreated": "Cont creat cu succes!",
+      "signedIn": "Ai fost autentificat automat.",
+      "pleaseSignIn": "Vă rugăm să vă autentificați cu noul cont.",
+      "emailExists": "Un cont cu acest email există deja. Vă rugăm să folosiți un alt email sau să vă autentificați.",
+      "weakPassword": "Parola este prea slabă. Trebuie să conțină cel puțin 8 caractere, inclusiv majuscule, minuscule, cifre și caractere speciale.",
+      "invalidEmail": "Vă rugăm să introduceți o adresă de email validă.",
+      "invalidFirstname": "Vă rugăm să introduceți un prenume valid.",
+      "invalidLastname": "Vă rugăm să introduceți un nume de familie valid.",
+      "networkError": "Eroare de rețea. Vă rugăm să verificați conexiunea la internet și să încercați din nou.",
+      "unknownError": "A apărut o eroare neașteptată. Vă rugăm să încercați mai târziu."
+    }
+  },
+  "sign-in-form": {
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "password": "Parolă",
+    "passwordPlaceholder": "••••••",
+    "submit": "Trimite",
+    "noAccount": "Nu ai un cont?",
+    "signUpLink": "Creează unul aici",
+    "errors": {
+      "success": "Te-ai autentificat cu succes!",
+      "invalidCredentials": "Email sau parolă invalide. Vă rugăm să verificați datele și să încercați din nou.",
+      "accountLocked": "Contul dvs. a fost blocat. Vă rugăm să contactați serviciul de asistență.",
+      "accountNotConfirmed": "Contul dvs. nu a fost încă confirmat. Vă rugăm să verificați emailul pentru link-ul de confirmare.",
+      "noTokenReceived": "Autentificare eșuată. Vă rugăm să încercați din nou.",
+      "networkError": "Eroare de rețea. Vă rugăm să verificați conexiunea la internet și să încercați din nou.",
+      "unknownError": "A apărut o eroare neașteptată. Vă rugăm să încercați mai târziu."
+    }
+  },
+  "product-info": {
+    "sku": "Cod produs",
+    "inStock": "În stoc",
+    "outOfStock": "Stoc epuizat",
+    "quantityAvailable": "{count} disponibile",
+    "onlyXLeft": "Doar {count} în stoc",
+    "manufacturer": "Producător",
+    "addToCart": "Adaugă în coș",
+    "notifyWhenAvailable": "Notifică-mă când este disponibil",
+    "listedBy": "Publicat de"
+  },
+  "header-search": {
+    "placeholder": "Căutare produse...",
+    "searching": "Se caută...",
+    "noResults": "Nu au fost găsite produse",
+    "seeAllResults": "Vezi toate rezultatele pentru \"{query}\"",
+    "clear": "Șterge"
+  },
+  "item-usage-statistics": {
+    "title": "Problema pe care o rezolvam",
+    "subtitle": "Majoritatea lucrurilor cumparate stau nefolosite, irosind bani si spatiu. Minimum te ajuta sa accesezi ce ai nevoie fara povara proprietatii.",
+    "chartTitle": "Utilizarea lucrurilor cumparate",
+    "segments": {
+      "regular": "Folosite regulat",
+      "rarely": "Folosite rar",
+      "dust": "Aduna praf"
+    },
+    "highlightStat": "80% din lucruri sunt folosite mai putin de o data pe luna",
+    "highlightDescription": "nefolosite"
+  },
+  "breadcrumb": {
+    "home": "Acasă",
+    "products": "Produse",
+    "about": "Despre noi",
+    "faq": "Întrebări frecvente",
+    "howToRentOut": "Cum să închiriezi",
+    "termsOfPolicy": "Termeni și condiții",
+    "accountSettings": "Setări cont",
+    "profile": "Profil",
+    "account": "Cont",
+    "addresses": "Adrese",
+    "security": "Securitate",
+    "signIn": "Autentificare",
+    "signUp": "Înregistrare"
+  },
+  "featured-products": {
+    "badge": "In Trend",
+    "title": "Inchirieri Populare",
+    "subtitle": "Descopera cele mai inchiriate produse. Echipamente de calitate iubite de mii de clienti.",
+    "viewAll": "Vezi Toate Produsele"
+  },
+  "hero-carousel": {
+    "slides": {
+      "0": {
+        "title": "Inchiriati echipamente premium astazi",
+        "description": "Acces la echipamente de inalta calitate fara angajamentul de a cumpara. Termeni flexibili de inchiriere pentru toate nevoile dumneavoastra.",
+        "cta": "Rasfoiti produsele"
+      },
+      "1": {
+        "title": "Economisiti bani, obtineti mai mult",
+        "description": "De ce sa cumparati cand puteti inchiria? Obtineti cele mai noi echipamente la o fractiune din cost.",
+        "cta": "Vezi ofertele"
+      },
+      "2": {
+        "title": "Serviciu rapid si fiabil",
+        "description": "Livrare rapida, returnari usoare si asistenta clienti 24/7. Inchirierea devine simpla.",
+        "cta": "Incepeti"
+      }
+    },
+    "previousSlide": "Slide-ul anterior",
+    "nextSlide": "Slide-ul urmator",
+    "goToSlide": "Mergi la slide-ul {number}"
+  },
+  "similar-products-carousel": {
+    "title": "S-ar putea să vă placă și"
+  },
+  "product-description": {
+    "description": "Descriere",
+    "specifications": "Specificații",
+    "vendorInfo": "Informații despre vânzător",
+    "manufacturer": "Producător"
+  },
+  "cookie-consent": {
+    "message": "Folosim cookie-uri pentru a vă îmbunătăți experiența. Unele sunt esențiale pentru funcționarea site-ului, iar altele ne ajută să înțelegem cum îl utilizați.",
+    "acceptAll": "Acceptă toate",
+    "rejectAll": "Respinge toate",
+    "manage": "Gestionează",
+    "preferences": {
+      "title": "Preferințe Cookie",
+      "description": "Alegeți ce cookie-uri doriți să permiteți. Cookie-urile esențiale sunt întotdeauna active, deoarece sunt necesare pentru funcționarea site-ului.",
+      "save": "Salvează preferințele"
+    },
+    "categories": {
+      "functionality": {
+        "title": "Esențiale",
+        "description": "Necesare pentru funcționarea site-ului. Nu pot fi dezactivate."
+      },
+      "security": {
+        "title": "Securitate",
+        "description": "Asigură securitatea sesiunii și previn frauda."
+      },
+      "analytics": {
+        "title": "Analiză",
+        "description": "Ne ajută să înțelegem cum interacționează vizitatorii cu site-ul nostru."
+      },
+      "ads": {
+        "title": "Publicitate",
+        "description": "Folosite pentru a afișa reclame relevante și a urmări campaniile publicitare."
+      },
+      "adUserData": {
+        "title": "Date utilizator pentru publicitate",
+        "description": "Permit partajarea datelor utilizatorului cu serviciile de publicitate."
+      },
+      "adPersonalization": {
+        "title": "Personalizare publicitate",
+        "description": "Permite afișarea publicității personalizate pe baza intereselor dvs."
+      },
+      "personalization": {
+        "title": "Personalizare",
+        "description": "Permit site-ului să rețină preferințele și să personalizeze conținutul."
+      }
+    }
+  },
+  "home-cta": {
+    "title": "Gata sa incepi inchirierea?",
+    "subtitle": "Alaturati-va miilor de consumatori inteligenti care economisesc bani si reduc risipa inchiriind in loc sa cumpere.",
+    "primaryCta": "Vezi produsele",
+    "secondaryCta": "Creaza cont",
+    "features": {
+      "0": "Anulare gratuita",
+      "1": "Calitate garantata",
+      "2": "Suport 24/7"
+    }
+  },
+  "product-grid": {
+    "noProducts": "Nu s-au gasit produse",
+    "noProductsDescription": "Incercati sa ajustati cautarea sau filtrele",
+    "loading": "Se incarca produsele...",
+    "noImage": "Fara imagine",
+    "percentOff": "% reducere",
+    "perDay": "zi",
+    "save": "Economisesti",
+    "inStock": "{count} disponibile",
+    "outOfStock": "Indisponibil",
+    "addToWishlist": "Adauga la favorite",
+    "removeFromWishlist": "Sterge din favorite",
+    "addedToWishlist": "Adaugat la favorite",
+    "removedFromWishlist": "Sters din favorite"
+  },
+  "category-search-results": {
+    "title": "Categorii",
+    "matchesCount": "{count} categorii găsite",
+    "noResults": "Nu au fost găsite categorii",
+    "productsCount": "{count} produse",
+    "viewCategory": "Vezi categoria"
+  },
+  "home-hero": {
+    "badge": "Viitorul Inchirierii",
+    "headline": {
+      "line1": "Inchiriaza Orice.",
+      "line2": "Traieste Experienta."
+    },
+    "subheadline": "Acces la echipamente premium, electronice si accesorii fara angajamentul cumpararii. Termeni flexibili, calitate garantata.",
+    "browseButton": "Vezi Produsele",
+    "categoriesButton": "Categorii",
+    "trustedBy": "produse disponibile",
+    "rating": "din {count} recenzii"
+  },
+  "product-gallery": {
+    "noImagesAvailable": "Nu sunt disponibile imagini"
+  },
+  "chat-sidebar": {
+    "title": "Mesaje",
+    "orderTitle": "Comanda #{orderNumber}",
+    "chatWith": "Chat cu {name}",
+    "viewOrder": "Vezi detaliile comenzii",
+    "selectConversation": "Selectează o conversație pentru a începe să trimiți mesaje",
+    "noConversations": "Nu există conversații încă",
+    "noConversationsDescription": "Conversațiile vor apărea aici când plasați sau primiți comenzi.",
+    "noMessages": "Nu există mesaje încă. Începe conversația!",
+    "conversationNotFound": "Conversația nu a fost găsită",
+    "owner": "Proprietar",
+    "customer": "Client"
+  },
+  "how-it-works": {
+    "title": "Cum functioneaza Minimum",
+    "subtitle": "Inchirierea nu a fost niciodata mai usoara. Incepeti in trei pasi simpli.",
+    "steps": {
+      "0": {
+        "title": "Cautati & Selectati",
+        "description": "Explorati colectia noastra de echipamente premium. Filtrati dupa categorie, pret sau disponibilitate."
+      },
+      "1": {
+        "title": "Alegeti Termenii",
+        "description": "Selectati durata inchirierii - de la o zi la luni. Programare flexibila pentru bugetul dvs."
+      },
+      "2": {
+        "title": "Primiti & Bucurati-va",
+        "description": "Semnati acordul, primiti coletul si bucurati-va de inchiriere. Dupa perioada de inchiriere, returnati-l proprietarului."
+      }
+    },
+    "cta": "Incepe Inchirierea"
+  },
+  "contact-form": {
+    "name": "Nume complet",
+    "namePlaceholder": "Introduceti numele complet",
+    "email": "Adresa de email",
+    "emailPlaceholder": "Introduceti adresa de email",
+    "message": "Mesaj",
+    "messagePlaceholder": "Cu ce va putem ajuta?",
+    "submit": "Trimite mesaj",
+    "submitting": "Se trimite...",
+    "success": "Multumim! Mesajul dvs. a fost trimis. Va vom raspunde in curand.",
+    "error": "Nu s-a putut trimite mesajul. Va rugam sa incercati din nou mai tarziu."
+  },
+  "category-showcase": {
+    "badge": "Categorii",
+    "title": "Explorati Colectia Noastra",
+    "subtitle": "De la electronice la echipamente outdoor, gasiti tot ce aveti nevoie pentru urmatorul proiect.",
+    "subcategories": "subcategorii",
+    "subcategory": "Subcategorie",
+    "noCategories": "Nu sunt categorii disponibile inca. Reveniti curand pentru selectia noastra."
+  },
+  "settings-sidebar": {
+    "profile": "Profil",
+    "account": "Cont",
+    "addresses": "Adrese",
+    "security": "Securitate"
+  },
+  "related-products": {
+    "title": "Produse similare"
+  },
+  "faq-list": {
+    "items": {
+      "0": {
+        "question": "Ce pot închiria?",
+        "answer": "Puteți închiria o gamă largă de articole, inclusiv electronice, unelte, echipamente, vehicule, imobiliare și multe altele. Platforma noastră conectează chiriașii cu proprietarii pentru tranzacții sigure și convenabile."
+      },
+      "1": {
+        "question": "Cum creez un anunț?",
+        "answer": "Pentru a crea un anunț, conectați-vă la contul dvs., faceți clic pe 'Creează anunț', completați toate informațiile necesare despre articolul dvs., inclusiv descrierea, prețul și disponibilitatea, apoi faceți clic pe 'Publică'."
+      },
+      "2": {
+        "question": "Cum editez anunțul meu?",
+        "answer": "Navigați la anunțurile dvs., selectați cel pe care doriți să-l modificați, faceți clic pe 'Editează', faceți modificările și salvați. Anunțul dvs. va fi actualizat imediat."
+      },
+      "3": {
+        "question": "Cum șterg un anunț?",
+        "answer": "Deschideți anunțul pe care doriți să-l eliminați, faceți clic pe 'Editează', apoi selectați 'Șterge din publicație'. Anunțul nu va mai fi vizibil altor utilizatori."
+      },
+      "4": {
+        "question": "Sunt informațiile mele de plată sigure?",
+        "answer": "Da, folosim criptare standard din industrie și gateway-uri de plată securizate pentru a vă proteja informațiile financiare. Nu stocăm niciodată detaliile complete de plată pe serverele noastre."
+      },
+      "5": {
+        "question": "Cum funcționează procesul de închiriere?",
+        "answer": "Răsfoiți articolele disponibile, selectați perioada de închiriere, trimiteți o cerere de rezervare, completați plata, aranjați ridicarea sau livrarea cu proprietarul și returnați articolul la sfârșitul perioadei de închiriere."
+      },
+      "6": {
+        "question": "Ce se întâmplă dacă un articol este deteriorat în timpul închirierii?",
+        "answer": "Raportați imediat orice deteriorare prin platforma noastră. În funcție de acordul de închiriere și de asigurarea achiziționată, puteți fi responsabil pentru costurile de reparație sau înlocuire."
+      },
+      "7": {
+        "question": "Pot anula o închiriere?",
+        "answer": "Politicile de anulare variază în funcție de anunț. Verificați politica de anulare a anunțului specific înainte de rezervare. Unele închirieri oferă rambursări complete dacă sunt anulate într-un anumit termen."
+      },
+      "8": {
+        "question": "Cum contactez asistența?",
+        "answer": "Puteți contacta echipa noastră de asistență prin pagina 'Contactează-ne' sau prin e-mail la support@minimum.com. De obicei răspundem în 24 de ore."
+      },
+      "9": {
+        "question": "Ce comisioane percepe platforma?",
+        "answer": "Percepem un mic comision de serviciu pentru fiecare tranzacție pentru a menține platforma și a asigura procesarea securizată a plăților. Comisionul exact este afișat înainte de confirmarea rezervării."
+      },
+      "10": {
+        "question": "Cum las o recenzie?",
+        "answer": "După finalizarea unei închirieri, veți primi o solicitare de a lăsa o recenzie. Puteți naviga și în istoricul închirierilor pentru a lăsa recenzii pentru tranzacțiile anterioare."
+      }
+    }
+  },
+  "company-info": {
+    "about": {
+      "title": "Despre Minimum",
+      "description": "Minimum este partenerul dvs. de încredere pentru închirierea echipamentelor premium. Credem că echipamentele de înaltă calitate ar trebui să fie accesibile tuturor fără povara proprietății. Fie că sunteți profesionist, pasionat sau aveți nevoie de ceva pentru o ocazie specială, vă acoperim cu inventarul nostru extins și serviciul excepțional."
+    },
+    "mission": {
+      "title": "Misiunea noastră",
+      "description": "Să democratizăm accesul la echipamente premium prin soluții flexibile de închiriere, permițând persoanelor fizice și întreprinderilor să își atingă obiectivele fără angajamentul financiar al achiziționării."
+    },
+    "values": {
+      "title": "Valorile noastre"
+    },
+    "stats": {
+      "0": {
+        "value": "5+",
+        "label": "Ani în afaceri"
+      },
+      "1": {
+        "value": "10K+",
+        "label": "Clienți mulțumiți"
+      },
+      "2": {
+        "value": "5K+",
+        "label": "Produse disponibile"
+      },
+      "3": {
+        "value": "4.9",
+        "label": "Rating mediu"
+      }
+    },
+    "features": {
+      "0": {
+        "title": "Calitate garantată",
+        "description": "Toate echipamentele sunt întreținute profesional și inspectate înainte de fiecare închiriere pentru a asigura performanța maximă."
+      },
+      "1": {
+        "title": "Termeni flexibili",
+        "description": "Închiriați pentru o zi, săptămână, lună sau mai mult. Fără taxe ascunse, fără surprize. Anulați sau prelungiți oricând."
+      },
+      "2": {
+        "title": "Selecție premium",
+        "description": "Acces la cele mai noi modele și branduri de top din toate categoriile. Inventar actualizat în fiecare sezon."
+      },
+      "3": {
+        "title": "Suport 24/7",
+        "description": "Echipa noastră dedicată de suport este întotdeauna disponibilă pentru a ajuta la configurare, depanare sau orice întrebări."
+      },
+      "title": "De ce să alegeți Minimum?"
+    }
+  },
+  "testimonials": {
+    "statsTitle": "Platforma noastra in cifre",
+    "badge": "Recenzii Verificate",
+    "title": "Recenzii Reale de la Clienti Reali",
+    "subtitle": "Alaturati-va miilor de clienti multumiti care au ales Minimum. Acestea sunt recenzii autentice de la clienti verificati.",
+    "stats": {
+      "2": {
+        "value": "0",
+        "label": "Produse disponibile"
+      },
+      "3": {
+        "value": "0",
+        "label": "Categorii"
+      },
+      "4": {
+        "value": "0",
+        "label": "Total comenzi"
+      },
+      "5": {
+        "value": "0",
+        "label": "Utilizatori activi"
+      }
+    },
+    "reviews": {
+      "0": {
+        "name": "Mihai Chen",
+        "role": "Fotograf profesionist",
+        "content": "Minimum m-a ajutat sa economisesc mii pe echipamente foto. Calitatea este mereu excelenta, iar livrarea incredibil de rapida."
+      },
+      "1": {
+        "name": "Sara Popescu",
+        "role": "Organizator evenimente",
+        "content": "Ca organizator de evenimente, am nevoie de echipamente fiabile in termene scurte. Minimum nu m-a dezamagit niciodata."
+      },
+      "2": {
+        "name": "Alex Ionescu",
+        "role": "Pasionat de outdoor",
+        "content": "Inchiriez echipamente camping si drumetii pentru toate aventurile. De ce sa cumperi echipamente scumpe pe care le folosesti o data pe an?"
+      },
+      "3": {
+        "name": "Emma Tomescu",
+        "role": "Videograf freelancer",
+        "content": "Varietatea de echipamente video disponibile este uimitoare. Pot inchiria echipamente de top fara investitii uriase. Un avantaj major pentru afacerea mea!"
+      },
+      "4": {
+        "name": "David Popa",
+        "role": "Aventurier de weekend",
+        "content": "Am inceput sa inchiriez echipament de schi iarna trecuta si nu m-am mai intors inapoi. Stare perfecta de fiecare data, fara griji de depozitare."
+      },
+      "5": {
+        "name": "Lisa Marinescu",
+        "role": "Proprietar afacere mica",
+        "content": "Inchiriem echipamente pentru evenimente pop-up si targuri. Procesul de rezervare e simplu, iar calitatea impresoneaza mereu clientii nostri."
+      }
+    }
+  },
+  "cart-menu": {
+    "shoppingCart": "Coș de cumpărături",
+    "cartAriaLabel": "Coș de cumpărături",
+    "badgeOverflow": "99+",
+    "sessionExpired": "Sesiunea ta a expirat. Te rugăm să te autentifici din nou."
+  },
+  "mini-cart": {
+    "shoppingCart": "Cos de cumparaturi",
+    "cartEmpty": "Cosul tau este gol",
+    "continueShopping": "Continua cumparaturile",
+    "viewAllItems": "Vezi toate cele {count} produse",
+    "viewCart": "Vezi cosul",
+    "checkout": "Finalizeaza comanda",
+    "subtotal": "Subtotal",
+    "loading": "Se incarca...",
+    "itemRemoved": "Produsul a fost eliminat din cos",
+    "failedToUpdate": "Nu s-a putut actualiza cosul",
+    "failedToRemove": "Nu s-a putut elimina produsul",
+    "sku": "Cod:",
+    "remove": "Sterge",
+    "sessionExpired": "Sesiunea ta a expirat. Te rugăm să te autentifici din nou.",
+    "rentalPeriod": "Perioada de inchiriere",
+    "from": "De la:",
+    "to": "Pana la:"
+  },
+  "footer": {
+    "brand": {
+      "tagline": "Platforma de încredere pentru închirierea produselor. Conectăm oamenii care vor să împărtășească cu cei care au nevoie."
+    },
+    "contact": {
+      "email": "support@minimum.com"
+    },
+    "sections": {
+      "help": "Ajutor",
+      "information": "Informații"
+    },
+    "links": {
+      "faq": "Întrebări frecvente",
+      "howToRent": "Cum să închiriezi",
+      "contact": "Contactează-ne",
+      "about": "Despre noi",
+      "terms": "Termeni și condiții",
+      "cookies": "Politica Cookie"
+    },
+    "copyright": "© {year} Minimum. Toate drepturile rezervate."
+  },
+  "product-reviews-section": {
+    "reviews": "Recenzii"
+  },
+  "my-product-rentals-table": {
+    "title": "Închirierile produselor mele",
+    "totalRentals": "{count, plural, =0 {Nicio închiriere} =1 {1 închiriere} other {# închirieri}}",
+    "productSku": "SKU",
+    "productName": "Produs",
+    "fromDate": "De la",
+    "toDate": "Până la",
+    "orderId": "Comandă #",
+    "filterByDate": "Filtrează după dată",
+    "filterFrom": "De la",
+    "filterTo": "Până la",
+    "selectStartDate": "Selectează data de început",
+    "selectEndDate": "Acum selectează data de sfârșit",
+    "clickToReselect": "Apasă pe orice dată pentru a selecta din nou",
+    "reset": "Resetează",
+    "applyFilter": "Filtrează",
+    "clearFilter": "Șterge",
+    "noRentals": "Nicio închiriere încă",
+    "noRentalsDescription": "Produsele tale nu au fost încă închiriate de nimeni.",
+    "fetchError": "Nu s-au putut încărca închirierile",
+    "sessionExpired": "Sesiunea ta a expirat. Te rugăm să te autentifici din nou.",
+    "previous": "Înapoi",
+    "next": "Înainte",
+    "pageInfo": "Pagina {current} din {total}"
+  },
+  "checkout-billing-address": {
+    "select_billing_address": "Selectați adresa de facturare",
+    "add_new_address": "Adăugați o adresă de facturare nouă",
+    "first_name": "Prenume",
+    "last_name": "Nume",
+    "company_optional": "Companie (opțional)",
+    "street_address": "Adresa străzii",
+    "city": "Oraș",
+    "postal_code": "Cod poștal",
+    "country": "Țară",
+    "select_country": "Selectați țara",
+    "phone_number": "Număr de telefon",
+    "continue_to_payment": "Continuați la plată",
+    "save_billing_address": "Salvați adresa de facturare",
+    "saving": "Se salvează...",
+    "placeholder_first_name": "Ion",
+    "placeholder_last_name": "Popescu",
+    "placeholder_company": "Numele companiei",
+    "placeholder_street": "Str. Principală 123",
+    "placeholder_city": "Chișinău",
+    "placeholder_postal_code": "MD-2001",
+    "placeholder_phone": "+373 123 456 789",
+    "country_md": "Moldova"
+  },
+  "rented-products-table": {
+    "title": "Produse închiriate",
+    "totalRentals": "{count, plural, =0 {Nicio închiriere} =1 {1 închiriere} other {# închirieri}}",
+    "image": "Imagine",
+    "productImageAlt": "Produs",
+    "productName": "Nume produs",
+    "startDate": "Data începerii",
+    "endDate": "Data finalizării",
+    "quantity": "Cantitate",
+    "totalPrice": "Preț total",
+    "status": "Stare",
+    "status_active": "Activ",
+    "status_completed": "Finalizat",
+    "status_cancelled": "Anulat",
+    "actions": "Acțiuni",
+    "edit": "Editează închirierea",
+    "cancelRental": "Anulează închirierea",
+    "cancel": "Anulare",
+    "noRentals": "Nicio închiriere",
+    "noRentalsDescription": "Nu ai închiriat încă niciun produs.",
+    "cancelTitle": "Anulează închirierea",
+    "cancelDescription": "Ești sigur că dorești să anulezi această închiriere? Această acțiune nu poate fi anulată.",
+    "cancelSuccess": "Închiriere anulată cu succes",
+    "cancelFailed": "Eșec la anularea închirierii",
+    "sessionExpired": "Sesiunea ta a expirat. Te rugăm să te autentifici din nou.",
+    "previous": "Anterior",
+    "next": "Următor",
+    "noImage": "Fara imagine"
+  },
+  "theme-toggle": {
+    "light": "Deschisă",
+    "dark": "Întunecată",
+    "system": "Sistem"
+  },
+  "unified-account-settings": {
+    "title": "Schimbă setările",
+    "sections": {
+      "name": "Actualizare nume",
+      "email": "Schimbare email",
+      "password": "Schimbare parolă"
+    },
+    "fields": {
+      "firstname": "Prenume",
+      "lastname": "Nume",
+      "telephone": "Număr de telefon",
+      "personal_number": "Număr personal (IDNP)",
+      "email": "Adresă email",
+      "currentPassword": "Parolă curentă",
+      "newPassword": "Parolă nouă",
+      "confirmPassword": "Confirmare parolă"
+    },
+    "saveChanges": "Salvare modificări",
+    "saving": "Se salvează...",
+    "success": {
+      "allUpdated": "Toate modificările au fost salvate cu succes",
+      "partiallyUpdated": "Unele modificări au fost salvate cu succes"
+    },
+    "errors": {
+      "noSectionsEnabled": "Vă rugăm să selectați cel puțin o secțiune pentru actualizare",
+      "sessionExpired": "Sesiunea dvs. a expirat. Vă rugăm să vă autentificați din nou.",
+      "updateFailed": "Nu s-au putut actualiza setările",
+      "unknownError": "A apărut o eroare neașteptată"
+    }
+  },
+  "rental-date-selector": {
+    "startDate": "Început",
+    "endDate": "Sfârșit",
+    "pickStartDate": "Selectează datele de închiriere",
+    "pickEndDate": "Alege data de sfârșit",
+    "selectStartDate": "Selectează data de început",
+    "selectEndDate": "Acum selectează data de sfârșit",
+    "clickToReselect": "Apasă pe orice dată pentru a selecta din nou",
+    "reset": "Resetează",
+    "endDateMustBeAfterStart": "Data de sfârșit trebuie să fie după data de început",
+    "alreadyRented": "Deja închiriat"
+  },
+  "product-filters": {
+    "filters": "Filtre",
+    "filtersAndSort": "Filtre și sortare",
+    "priceRange": "Interval de preț",
+    "minPrice": "Preț min",
+    "maxPrice": "Preț max",
+    "min": "Min",
+    "max": "Max",
+    "minPlaceholder": "0",
+    "maxPlaceholder": "1000",
+    "apply": "Aplică filtrele",
+    "clear": "Șterge filtrele",
+    "clearAll": "Șterge tot",
+    "clearAllFilters": "Șterge toate filtrele",
+    "showFilters": "Arată filtrele",
+    "hideFilters": "Ascunde filtrele",
+    "labels": {
+      "city": "Oraș",
+      "price": "Preț"
+    },
+    "cities": {
+      "Balti": "Bălți",
+      "Biruinta": "Biruința",
+      "Briceni": "Briceni",
+      "Costesti": "Costești",
+      "Cupcini": "Cupcini",
+      "Donduseni": "Dondușeni",
+      "Drochia": "Drochia",
+      "Edinet": "Edineț",
+      "Falesti": "Fălești",
+      "Floresti": "Florești",
+      "Frunza": "Frunză",
+      "Ghindest": "Ghindești",
+      "Glodeni": "Glodeni",
+      "Lipcani": "Lipcani",
+      "Marculesti": "Mărculeşti",
+      "Ocnita": "Ocnița",
+      "Otaci": "Otaci",
+      "Riscani": "Râșcani",
+      "Singerei": "Sângerei",
+      "Soroca": "Soroca",
+      "Anenii Noi": "Anenii Noi",
+      "Bucovat": "Bucovăț",
+      "Cainari": "Căinari",
+      "Calarasi": "Călărași",
+      "Causeni": "Căușeni",
+      "Cornesti": "Cornești",
+      "Criuleni": "Criuleni",
+      "Hincesti": "Hîncești",
+      "Ialoveni": "Ialoveni",
+      "Nisporeni": "Nisporeni",
+      "Orhei": "Orhei",
+      "Rezina": "Rezina",
+      "Straseni": "Strășeni",
+      "Soldanesti": "Șoldănești",
+      "Stefan Voda": "Ștefan Vodă",
+      "Telenesti": "Telenești",
+      "Bender (Tighina)": "Bender (Tighina)",
+      "Ungheni": "Ungheni",
+      "Chisinau": "Chișinău",
+      "Codru": "Codru",
+      "Cricova": "Cricova",
+      "Durlesti": "Durlești",
+      "Singera": "Sîngera",
+      "Vadul lui Voda": "Vadul lui Vodă",
+      "Vatra": "Vatra",
+      "Basarabeasca": "Basarabeasca",
+      "Cantemir": "Cantemir",
+      "Cahul": "Cahul",
+      "Cimislia": "Cimișlia",
+      "Iargara": "Iargara",
+      "Leova": "Leova",
+      "Taraclia": "Taraclia",
+      "Tvardița": "Tvardița",
+      "Camenca": "Camenca",
+      "Crasnoe": "Crasnoe",
+      "Dnestrovsk": "Dnestrovsc",
+      "Dubasari": "Dubăsari",
+      "Grigoriopol": "Grigoriopol",
+      "Ribnita": "Râbnița",
+      "Maiac": "Maiac",
+      "Slobozia": "Slobozia",
+      "Tiraspol": "Tiraspol",
+      "New Tiraspol": "Tiraspol Nou",
+      "Ceadir-Lunga": "Ceadîr-Lunga",
+      "Comrat": "Comrat",
+      "Vulcanesti": "Vulcănești"
+    }
+  },
+  "checkout-shipping-address": {
+    "title": "Adresă de livrare",
+    "selectAddress": "Selectați adresa de livrare",
+    "addNewAddress": "Adăugați o nouă adresă de livrare",
+    "first_name": "Prenume",
+    "last_name": "Nume",
+    "company_optional": "Companie (opțional)",
+    "street_address": "Adresa străzii",
+    "city": "Oraș",
+    "postal_code": "Cod poștal",
+    "country": "Țară",
+    "select_country": "Selectați țara",
+    "phone_number": "Număr de telefon",
+    "save_shipping_address": "Salvați adresa de livrare",
+    "saving": "Se salvează...",
+    "placeholder_first_name": "Ion",
+    "placeholder_last_name": "Popescu",
+    "placeholder_company": "Numele companiei",
+    "placeholder_street": "Str. Principală 123",
+    "placeholder_city": "Chișinău",
+    "placeholder_postal_code": "MD-2001",
+    "placeholder_phone": "+373 123 456 789",
+    "country_md": "Moldova"
+  },
+  "checkout-order-summary": {
+    "order_summary": "Rezumatul comenzii",
+    "subtotal": "Subtotal",
+    "items": "articole",
+    "total": "Total",
+    "billing_address": "Adresa de facturare",
+    "qty": "Cantitate:"
+  },
+  "multi-image-upload": {
+    "uploadImages": "Încărcați imagini",
+    "dragDropImages": "Trageți și plasați imaginile aici sau faceți clic pentru a selecta",
+    "removeImage": "Ștergeți imaginea",
+    "setAsMain": "Setați ca imagine principală",
+    "mainImage": "Principal",
+    "reorderUp": "Mutați în sus",
+    "reorderDown": "Mutați în jos",
+    "maxImagesReached": "Maxim {{max}} imagini permise",
+    "uploadingImage": "Se încarcă...",
+    "invalidFileType": "Sunt permise doar imagini PNG și JPEG",
+    "fileTooLarge": "Dimensiunea fișierului trebuie să fie mai mică de 5 MB"
+  },
+  "address-management": {
+    "addressesTitle": "Adrese",
+    "addressesDescription": "Gestionați adresele de facturare și livrare",
+    "phone": "Număr de telefon",
+    "defaultBilling": "Adresă de facturare implicită",
+    "defaultShipping": "Adresă de livrare implicită",
+    "editAddress": "Editează adresa",
+    "addAddress": "Adaugă adresă",
+    "editAddressDescription": "Actualizați informațiile despre adresă",
+    "addAddressDescription": "Adăugați o adresă nouă în contul dvs.",
+    "firstName": "Prenume",
+    "lastName": "Nume",
+    "company": "Companie (opțional)",
+    "streetAddress": "Adresa",
+    "streetAddress2": "Linia 2 a adresei (opțional)",
+    "city": "Oraș",
+    "region": "Județ/Regiune",
+    "postcode": "Cod poștal",
+    "country": "Țară",
+    "selectCountry": "Selectați țara",
+    "countryMd": "Moldova",
+    "setAsDefaultShipping": "Setează ca adresă de livrare implicită",
+    "setAsDefaultBilling": "Setează ca adresă de facturare implicită",
+    "cancel": "Anulează",
+    "save": "Salvează",
+    "saving": "Se salvează...",
+    "addressCreatedSuccess": "Adresa a fost creată cu succes",
+    "addressUpdatedSuccess": "Adresa a fost actualizată cu succes",
+    "addressDeletedSuccess": "Adresa a fost ștearsă cu succes",
+    "addressError": "Nu s-a putut salva adresa",
+    "addressDeleteError": "Nu s-a putut șterge adresa",
+    "sessionExpired": "Sesiunea dvs. a expirat. Vă rugăm să vă autentificați din nou.",
+    "confirmDelete": "Sigur doriți să ștergeți această adresă?",
+    "noAddresses": "Încă nu aveți adrese",
+    "noAddressesDescription": "Adăugați prima adresă pentru a începe",
+    "addFirstAddress": "Adaugă prima adresă",
+    "addressCount": "{count} {count, plural, one {adresă} other {adrese}}",
+    "delete": "Șterge",
+    "edit": "Editează"
+  },
+  "my-products-table": {
+    "title": "Produsele mele",
+    "totalProducts": "{count} produse în total",
+    "searchPlaceholder": "Caută produse după nume...",
+    "addProduct": "Adaugă produs",
+    "addFirstProduct": "Adaugă primul tău produs",
+    "noProducts": "Încă nu ai produse",
+    "noProductsDescription": "Încearcă să modifici căutarea sau adaugă produse noi",
+    "image": "Imagine",
+    "productImageAlt": "Produs",
+    "name": "Nume",
+    "city": "Oraș",
+    "price": "Preț",
+    "quantity": "Cant.",
+    "isActive": "Activ",
+    "productStatus": "Status",
+    "productStatus_pending": "În așteptare",
+    "productStatus_approved": "Aprobat",
+    "productStatus_rejected": "Respins",
+    "active": "Activ",
+    "disabled": "Dezactivat",
+    "includeDisabled": "Include produsele dezactivate",
+    "approvalStatusCreated": "Creat",
+    "approvalStatusApproved": "Aprobat",
+    "approvalStatusPending": "În așteptare",
+    "approvalStatusRejected": "Respins",
+    "actions": "Acțiuni",
+    "edit": "Editează",
+    "disable": "Dezactivează",
+    "enable": "Activează",
+    "disableTitle": "Dezactivează produsul",
+    "enableTitle": "Activează produsul",
+    "disableDescription": "Ești sigur că vrei să dezactivezi acest produs? Nu va mai fi vizibil pentru clienți.",
+    "enableDescription": "Ești sigur că vrei să activezi acest produs? Va deveni vizibil pentru clienți.",
+    "cancel": "Anulează",
+    "disableSuccess": "Produsul a fost dezactivat cu succes",
+    "enableSuccess": "Produsul a fost activat cu succes",
+    "statusChangeFailed": "Nu s-a putut schimba starea produsului",
+    "sessionExpired": "Sesiunea ta a expirat. Te rugăm să te autentifici din nou",
+    "clearSearch": "Șterge căutarea",
+    "previous": "Anterior",
+    "next": "Următor",
+    "noImage": "Fara imagine",
+    "failedToLoadProducts": "Nu s-au putut incarca produsele",
+    "idnpRequired": "Număr personal (IDNP) necesar",
+    "idnpRequiredDescription": "Trebuie să adaugi numărul tău personal (IDNP) înainte de a crea produse.",
+    "goToSettings": "Mergi la setări"
+  },
+  "orders-table": {
+    "title": "Închirierile mele",
+    "totalRents": "{count, plural, =0 {Nicio închiriere} =1 {1 închiriere} other {# închirieri}}",
+    "orderNumber": "Comanda #",
+    "date": "Data",
+    "items": "Articole",
+    "itemsCount": "{count, plural, =1 {1 articol} other {# articole}}",
+    "total": "Total",
+    "status": "Status",
+    "status_pending": "În așteptare",
+    "status_processing": "În procesare",
+    "status_complete": "Finalizată",
+    "status_completed": "Finalizată",
+    "status_canceled": "Anulată",
+    "status_cancelled": "Anulată",
+    "status_on_hold": "În așteptare",
+    "noRents": "Nicio închiriere",
+    "noRentsDescription": "Nu ați închiriat nimic încă.",
+    "failedToLoadOrders": "Nu s-au putut incarca comenzile"
+  },
+  "contact-icon": {
+    "tooltip": "Contactati-ne",
+    "ariaLabel": "Contactati-ne"
+  },
+  "user-avatar": {
+    "myAccount": "Contul meu",
+    "myProducts": "Produsele mele",
+    "myRents": "Chiriile mele",
+    "myProductRentals": "Închirierile produselor mele",
+    "documents": "Documente",
+    "addresses": "Adrese",
+    "settings": "Setări",
+    "company": "Companie",
+    "logout": "Deconectare",
+    "signIn": "Autentificare"
+  },
+  "add-to-cart": {
+    "addToCart": "Adaugă în coș",
+    "quantity": "Cantitate",
+    "cancel": "Anulează",
+    "adding": "Se adaugă...",
+    "addedSuccessfully": "Produsul a fost adăugat cu succes în coș!",
+    "failedToAdd": "Nu s-a putut adăuga produsul în coș",
+    "sessionExpired": "Sesiunea ta a expirat. Te rugăm să te autentifici din nou.",
+    "rentalPeriod": "Perioada de închiriere",
+    "productOptions": "Opțiuni produs",
+    "selectOption": "Selectează {option}"
+  },
+  "rental-form": {
+    "title": "Editează închirierea",
+    "startDate": "Data începerii",
+    "endDate": "Data finalizării",
+    "quantity": "Cantitate",
+    "status": "Stare",
+    "pickDate": "Alege o dată",
+    "selectStatus": "Selectează o stare",
+    "startDateDescription": "Selectează data când începe perioada de închiriere",
+    "endDateDescription": "Selectează data când se încheie perioada de închiriere",
+    "quantityDescription": "Numărul de articole de închiriat (1-100)",
+    "statusDescription": "Starea curentă a închirierii",
+    "statusActive": "Activ",
+    "statusCompleted": "Finalizat",
+    "statusCancelled": "Anulat",
+    "save": "Salvează modificările",
+    "saving": "Se salvează...",
+    "cancel": "Anulare",
+    "updateSuccess": "Închiriere actualizată cu succes",
+    "updateFailed": "Eșec la actualizarea închirierii",
+    "sessionExpired": "Sesiunea ta a expirat. Te rugăm să te autentifici din nou.",
+    "breadcrumb": {
+      "rentedProducts": "Produse inchiriate",
+      "editRental": "Editeaza inchirierea"
+    }
+  },
+  "cart-icon": {
+    "cart": "Coș",
+    "cartAriaLabel": "Coș de cumpărături",
+    "cartEmpty": "Coșul tău este gol",
+    "itemsInCart": "{count} produse în coș",
+    "badgeOverflow": "99+"
+  },
+  "product-sort": {
+    "sortBy": "Sortează după",
+    "position": "Poziție",
+    "nameAsc": "Nume: A-Z",
+    "nameDesc": "Nume: Z-A",
+    "priceAsc": "Preț: Crescător",
+    "priceDesc": "Preț: Descrescător",
+    "newest": "Cele mai noi"
+  },
+  "flow-step-action": {
+    "allStepsCompleted": "Toți pașii sunt completați!",
+    "imagesRequired": "Vă rugăm să încărcați imagini pentru a finaliza acest pas",
+    "imagesRequiredHint": "Imaginile sunt necesare pentru acest pas",
+    "addImages": "Adaugă imagini",
+    "confirmStep": "Confirmă și finalizează pasul",
+    "completing": "Se finalizează...",
+    "stepCompleted": "Pasul a fost finalizat cu succes",
+    "stepFailed": "Nu s-a putut finaliza pasul",
+    "waitingFor": "Se așteaptă ca {party} să finalizeze acest pas",
+    "owner": "proprietarul",
+    "customer": "clientul"
+  },
+  "account-settings": {
+    "title": "Setări cont",
+    "description": "Gestionați informațiile și preferințele contului dumneavoastră",
+    "profileTitle": "Profil",
+    "profileDescription": "Gestionați informațiile profilului public",
+    "accountTitle": "Cont",
+    "accountDescription": "Gestionați setările contului și email-ul",
+    "securityTitle": "Securitate",
+    "securityDescription": "Gestionați parola și setările de securitate",
+    "updateName": "Actualizare nume",
+    "updateNameDescription": "Schimbați-vă prenumele și numele de familie",
+    "firstName": "Prenume",
+    "lastName": "Nume",
+    "updateEmail": "Actualizare email",
+    "updateEmailDescription": "Schimbați adresa de email. Va trebui să verificați parola.",
+    "email": "Email",
+    "currentPassword": "Parola curentă",
+    "changePassword": "Schimbare parolă",
+    "changePasswordDescription": "Actualizați-vă parola. Asigurați-vă că are cel puțin 8 caractere.",
+    "newPassword": "Parolă nouă",
+    "confirmPassword": "Confirmați parola",
+    "saveChanges": "Salvează modificările",
+    "saving": "Se salvează...",
+    "nameUpdatedSuccess": "Numele dumneavoastră a fost actualizat cu succes",
+    "nameUpdatedError": "Nu s-a putut actualiza numele. Vă rugăm să încercați din nou.",
+    "emailUpdatedSuccess": "Email-ul dumneavoastră a fost actualizat cu succes",
+    "emailUpdatedError": "Nu s-a putut actualiza email-ul. Verificați parola și încercați din nou.",
+    "passwordChangedSuccess": "Parola dumneavoastră a fost schimbată cu succes",
+    "passwordChangedError": "Nu s-a putut schimba parola. Verificați parola curentă și încercați din nou.",
+    "sessionExpired": "Sesiunea dumneavoastră a expirat. Vă rugăm să vă conectați din nou."
+  },
+  "chat-report": {
+    "reportButton": "Raportează o problemă",
+    "modalTitle": "Raportează o Problemă",
+    "modalDescription": "Descrie problema pe care o întâmpini cu această conversație. Echipa noastră va analiza raportul tău.",
+    "descriptionLabel": "Descrierea Problemei",
+    "descriptionPlaceholder": "Te rugăm să descrii problema în detaliu...",
+    "cancel": "Anulează",
+    "submit": "Trimite Raportul",
+    "submitting": "Se trimite...",
+    "submitSuccess": "Raportul a fost trimis cu succes. Echipa noastră îl va analiza în curând.",
+    "submitFailed": "Nu s-a putut trimite raportul. Te rugăm să încerci din nou.",
+    "unexpectedError": "A apărut o eroare neașteptată"
+  },
+  "chat-icon": {
+    "ariaLabel": "Deschide mesajele",
+    "messages": "Mesaje"
+  },
+  "product-form": {
+    "createProduct": "Creează produs nou",
+    "editProduct": "Editează produsul",
+    "name": "Nume produs",
+    "namePlaceholder": "Introdu numele produsului",
+    "description": "Descriere completă",
+    "descriptionPlaceholder": "Introdu descrierea detaliată a produsului",
+    "shortDescription": "Descriere scurtă",
+    "shortDescriptionPlaceholder": "Introdu descrierea scurtă a produsului",
+    "category": "Categorie",
+    "categoryPlaceholder": "Selectează categoria",
+    "subcategory": "Subcategorie",
+    "subcategoryPlaceholder": "Selectează subcategoria",
+    "subSubcategory": "Sub-subcategorie",
+    "subSubcategoryPlaceholder": "Selectează sub-subcategoria",
+    "city": "Oraș",
+    "cityPlaceholder": "Selectează orașul",
+    "color": "Culoare",
+    "colorPlaceholder": "Selectează culoarea",
+    "manufacturer": "Producător",
+    "manufacturerPlaceholder": "Introdu numele producătorului",
+    "price": "Preț",
+    "pricePlaceholder": "0.00",
+    "quantity": "Cantitate",
+    "quantityPlaceholder": "0",
+    "images": "Imagini produs",
+    "isActive": "Produs activ",
+    "save": "Salvează produsul",
+    "saving": "Se salvează...",
+    "cancel": "Anulează",
+    "createSuccess": "Produsul a fost creat cu succes",
+    "updateSuccess": "Produsul a fost actualizat cu succes",
+    "saveFailed": "Nu s-a putut salva produsul",
+    "sessionExpired": "Sesiunea ta a expirat. Te rugăm să te autentifici din nou",
+    "idnpRequired": "Număr personal (IDNP) necesar",
+    "idnpRequiredDescription": "Trebuie să adaugi numărul tău personal (IDNP) înainte de a crea produse.",
+    "goToSettings": "Mergi la setări",
+    "categoryTree": "Arborele categoriilor",
+    "selectedPath": "Selectat",
+    "noCategories": "Nu sunt categorii disponibile",
+    "addNewCategory": "Adaugă categorie nouă",
+    "addNewSubcategory": "Adaugă subcategorie nouă",
+    "addNewSubSubcategory": "Adaugă sub-subcategorie nouă",
+    "addCategoryPlaceholder": "Introdu numele categoriei"
+  },
+  "wishlist-icon": {
+    "wishlist": "Favorite",
+    "itemCount": "{count} articole",
+    "badgeOverflow": "99+"
+  },
+  "product-search": {
+    "placeholder": "Căutare produse...",
+    "clear": "Șterge căutarea"
+  },
+  "company-settings": {
+    "title": "Setări companie",
+    "fields": {
+      "companyName": "Nume companie",
+      "companyPhone": "Telefon companie",
+      "companyLogo": "Logo companie"
+    },
+    "placeholders": {
+      "companyName": "Introduceți numele companiei",
+      "companyPhone": "+40 712 345 678"
+    },
+    "uploadLogo": "Încarcă logo",
+    "dragDropHint": "Trage și plasează o imagine aici sau fă clic pentru a răsfoi",
+    "removeImage": "Elimină",
+    "uploadingImage": "Se încarcă...",
+    "uploadError": "Nu s-a putut încărca imaginea. Încearcă din nou.",
+    "uploadFailed": "Încărcare eșuată",
+    "invalidFileType": "Te rugăm să încarci o imagine validă (PNG, JPG, JPEG)",
+    "fileTooLarge": "Dimensiunea fișierului trebuie să fie mai mică de 4MB",
+    "saveChanges": "Salvare modificări",
+    "saving": "Se salvează...",
+    "success": "Setările companiei au fost actualizate cu succes",
+    "error": "Nu s-au putut actualiza setările companiei"
+  },
+  "write-review": {
+    "title": "Scrieți o recenzie",
+    "subtitle": "Distribuiți experiența dvs. cu acest produs",
+    "overallRating": "Evaluare generală",
+    "nickname": "Numele dvs.",
+    "nicknamePlaceholder": "Introduceți numele dvs.",
+    "summary": "Rezumat",
+    "summaryPlaceholder": "Rezumat scurt al recenziei dvs.",
+    "review": "Recenzia dvs.",
+    "reviewPlaceholder": "Spuneți-ne despre experiența dvs. cu acest produs...",
+    "selectRating": "Selectați o evaluare",
+    "submit": "Trimiteți recenzia",
+    "submitting": "Se trimite...",
+    "loadRatingsFailed": "Nu s-au putut încărca opțiunile de evaluare",
+    "submitSuccess": "Recenzia a fost trimisă cu succes!",
+    "submitFailed": "Nu s-a putut trimite recenzia",
+    "unexpectedError": "A apărut o eroare neașteptată"
+  },
+  "checkout-payment": {
+    "selectPaymentMethod": "Selectați metoda de plată",
+    "noPaymentMethods": "Nu există metode de plată disponibile",
+    "paymentMethodRequired": "Vă rugăm să selectați o metodă de plată",
+    "failedToLoad": "Nu s-au putut încărca metodele de plată"
+  },
+  "chat-input": {
+    "placeholder": "Scrie un mesaj...",
+    "send": "Trimite mesaj",
+    "uploadImage": "Încarcă imagine",
+    "removeImage": "Șterge imagine",
+    "uploading": "Se încarcă..."
+  },
+  "document-signing": {
+    "signatureTitle": "Semnatura Dvs.",
+    "signatureHint": "Semnati aici cu mouse-ul sau degetul",
+    "signatureComplete": "Semnatura capturata",
+    "signatureRequired": "Semnatura este obligatorie pentru a continua",
+    "clearSignature": "Sterge",
+    "contractPreview": "Previzualizare Contract",
+    "openFullScreen": "Deschide pe Tot Ecranul",
+    "generatingPreview": "Se genereaza previzualizarea contractului...",
+    "noPreviewAvailable": "Previzualizarea contractului nu este disponibila",
+    "previewDisclaimer": "Va rugam sa cititi cu atentie contractul inainte de a semna. Semnatura dvs. este obligatorie din punct de vedere legal.",
+    "acceptTermsLabel": "Am citit si inteles contractul de locatiune. Sunt de acord ca semnatura mea electronica este obligatorie din punct de vedere legal si are acelasi efect ca o semnatura olografa, in conformitate cu Legea nr. 124/2022 a Republicii Moldova.",
+    "readyToSign": "Sunteti gata sa semnati! Apasati butonul de mai jos pentru a finaliza semnatura.",
+    "cancel": "Anuleaza",
+    "signing": "Se semneaza...",
+    "signAndContinue": "Semneaza si Continua la Plata",
+    "signContract": "Semneaza Contractul",
+    "dismiss": "Inchide",
+    "signContractTitle": "Semnarea Contractului de Locatiune",
+    "signContractDescription": "Va rugam sa verificati si sa semnati contractul de locatiune pentru a continua cu comanda.",
+    "ownerSigningTitle": "Este necesara semnatura proprietarului",
+    "ownerSigningDescription": "Va rugam sa verificati contractul si sa adaugati semnatura pentru a confirma acordul de inchiriere.",
+    "contractSigned": "Contract Semnat cu Succes",
+    "contractSignedDescription": "Contractul a fost semnat si trimis ambelor parti.",
+    "waitingForOwner": "Se asteapta semnatura proprietarului",
+    "downloadContract": "Descarca Contractul",
+    "missingContractData": "Datele contractului lipsesc. Va rugam sa incercati din nou.",
+    "failedToSign": "Nu s-a putut semna contractul. Va rugam sa incercati din nou.",
+    "idnpLabel": "IDNP (Numar de Identificare Personala)",
+    "idnpPlaceholder": "2001234567890",
+    "idnpHint": "Introduceti IDNP-ul dvs. (13 cifre incepand cu 2)",
+    "invalidIdnp": "Format IDNP invalid. Trebuie sa contina 13 cifre incepand cu 2.",
+    "previewLanguage": "Limba Previzualizarii",
+    "previewLanguageHint": "Previzualizati contractul in diferite limbi. Documentul semnat va fi intotdeauna in limba romana."
+  },
+  "conversation": {
+    "orderTitle": "Comanda #{orderNumber}",
+    "customer": "Client",
+    "owner": "Proprietar",
+    "systemMessage": "Notificare de sistem",
+    "noConversations": "Nu există conversații",
+    "noConversationsDescription": "Conversațiile vor apărea aici când plasați sau primiți comenzi."
+  },
+  "wishlist": {
+    "addToWishlist": "Adaugă la favorite",
+    "removeFromWishlist": "Elimină din favorite",
+    "wishlist": "Favorite",
+    "emptyWishlist": "Lista ta de favorite este goală",
+    "emptyWishlistDescription": "Începe să adaugi produse la favorite pentru a le salva pentru mai târziu",
+    "itemsCount": "{count} articole",
+    "clearWishlist": "Șterge favoritele",
+    "title": "Favoritele mele",
+    "clearAll": "Șterge tot",
+    "confirmClear": "Ești sigur că vrei să ștergi toate favoritele?",
+    "emptyTitle": "Lista ta de favorite este goală",
+    "emptyDescription": "Răsfoiește produsele noastre și adaugă articolele pe care le iubești la favorite"
+  },
+  "customer-product": {
+    "product": "Produs",
+    "products": "Produse",
+    "myProducts": "Produsele mele"
+  },
+  "message": {
+    "systemUpdate": "Actualizare de sistem",
+    "messagePlaceholder": "Scrie un mesaj...",
+    "send": "Trimite",
+    "uploadImage": "Încarcă imagine",
+    "uploading": "Se încarcă...",
+    "sendFailed": "Nu s-a putut trimite mesajul",
+    "image": "Imagine"
+  },
+  "flow-step": {
+    "completed": "Finalizat",
+    "allComplete": "Toți pașii sunt completați",
+    "steps": {
+      "orderCreated": {
+        "name": "Comandă creată",
+        "description": "Comanda de închiriere a fost plasată și confirmată."
+      },
+      "photosSent": {
+        "name": "Fotografii produs",
+        "description": "Proprietarul trimite fotografii ale produsului înainte de expediere."
+      },
+      "moneySent": {
+        "name": "Banii trimiși",
+        "description": "Plata a fost trimisă de chiriaș."
+      },
+      "moneyReceived": {
+        "name": "Banii primiți",
+        "description": "Plata a fost primită de proprietar."
+      },
+      "packageSent": {
+        "name": "Pachetul trimis",
+        "description": "Articolul de închiriat a fost expediat."
+      },
+      "packageReceived": {
+        "name": "Pachetul primit",
+        "description": "Articolul de închiriat a fost primit de chiriaș."
+      },
+      "packageSentBack": {
+        "name": "Pachetul trimis înapoi",
+        "description": "Articolul de închiriat a fost returnat de chiriaș."
+      },
+      "packageReceivedBack": {
+        "name": "Pachetul primit înapoi",
+        "description": "Articolul de închiriat a fost primit înapoi de proprietar."
+      }
+    }
+  },
+  "account": {
+    "title": "Cont",
+    "description": "Gestionați setările contului și informațiile personale",
+    "accountInfo": "Informații cont",
+    "accountInfoDescription": "Vizualizați și gestionați informațiile personale",
+    "contactInformation": "Informații de contact",
+    "edit": "Editare",
+    "name": "Nume",
+    "email": "Email",
+    "addresses": "Adrese",
+    "defaultBillingAddress": "Adresa de facturare implicită",
+    "defaultShippingAddress": "Adresa de livrare implicită",
+    "noDefaultAddresses": "Nu sunt setate adrese implicite",
+    "noAddresses": "Încă nu au fost adăugate adrese",
+    "company": "Companie",
+    "companyDescription": "Gestionați informațiile și setările companiei",
+    "companyInformation": "Informații despre companie",
+    "companyName": "Nume companie",
+    "companyPhone": "Telefon companie",
+    "companyLogo": "Logo companie",
+    "notSet": "Nesetat",
+    "companyComingSoon": "Funcțiile pentru companie vor fi disponibile în curând"
+  },
+  "confirm-email": {
+    "title": "Confirmati-va adresa de email",
+    "card": {
+      "title": "Confirmare Email",
+      "description": "Faceti clic pe butonul de mai jos pentru a confirma adresa de email si a activa contul.",
+      "emailLabel": "Email de confirmat:",
+      "confirmButton": "Confirma Email",
+      "confirming": "Se confirma..."
+    },
+    "success": {
+      "title": "Email Confirmat!",
+      "description": "Email-ul dvs. a fost confirmat cu succes. Acum va puteti autentifica in cont.",
+      "signInButton": "Mergi la Autentificare"
+    },
+    "invalidParams": {
+      "title": "Link Invalid",
+      "alertTitle": "Parametri Lipsa",
+      "alertDescription": "Linkul de confirmare pare a fi invalid sau incomplet. Verificati email-ul si incercati din nou."
+    },
+    "error": {
+      "title": "Confirmare Esuata"
+    },
+    "errors": {
+      "linkExpired": "Acest link de confirmare a expirat. Va rugam sa solicitati un email de confirmare nou.",
+      "alreadyConfirmed": "Acest email a fost deja confirmat. Va puteti autentifica in cont.",
+      "customerNotFound": "Nu a fost gasit niciun cont cu aceasta adresa de email.",
+      "unknownError": "Ceva a mers prost. Va rugam sa incercati din nou mai tarziu.",
+      "successToast": "Email confirmat cu succes!"
+    }
+  },
+  "order-detail": {
+    "breadcrumb": {
+      "myRents": "Închirierile mele"
+    },
+    "orderTitle": "Comanda #{number}",
+    "orderConfirmationSent": "Emailul de confirmare a comenzii a fost trimis",
+    "orderDate": "Data comenzii",
+    "orderStatus": "Starea comenzii",
+    "purchasedFrom": "Achiziționat de la",
+    "placedFromIP": "Plasat de la IP",
+    "accountInformation": "Informații cont",
+    "customerName": "Numele clientului",
+    "email": "Email",
+    "customerGroup": "Grupul clientului",
+    "addressInformation": "Informații adresă",
+    "billingAddress": "Adresa de facturare",
+    "shippingAddress": "Adresa de livrare",
+    "noAddress": "Adresa nu este disponibilă",
+    "phone": "T",
+    "paymentShippingMethod": "Metodă de plată și livrare",
+    "paymentInformation": "Informații de plată",
+    "shippingHandlingInformation": "Informații despre livrare",
+    "itemsOrdered": "Articole comandate",
+    "table": {
+      "product": "Produs",
+      "itemStatus": "Status",
+      "originalPrice": "Preț original",
+      "price": "Preț",
+      "qty": "Cantitate",
+      "subtotal": "Subtotal",
+      "taxAmount": "Suma taxei",
+      "taxPercent": "Procent taxă",
+      "discountAmount": "Suma reducerii",
+      "rowTotal": "Total"
+    },
+    "sku": "SKU",
+    "ordered": "Comandat",
+    "rentalPeriod": "Perioada de închiriere",
+    "orderTotals": "Totaluri comandă",
+    "subtotal": "Subtotal",
+    "shipping": "Livrare",
+    "tax": "Taxă",
+    "grandTotal": "Total",
+    "orderNotFound": "Comanda nu a fost găsită",
+    "backToMyRents": "Înapoi la închirierile mele",
+    "edit": "Editează",
+    "rentalContract": "Contract de Închiriere",
+    "downloadContract": "Descarcă Contractul",
+    "contractPending": "Așteptăm semnătura proprietarului",
+    "contractSigned": "Semnat complet",
+    "contractPendingSignatures": "Așteptăm semnăturile"
+  },
+  "documents": {
+    "title": "Documentele Mele",
+    "itemsCount": "{count, plural, =1 {1 document} other {# documente}}",
+    "emptyTitle": "Fara Documente",
+    "emptyDescription": "Nu aveti niciun document inca. Documentele vor aparea aici dupa plasarea comenzilor de inchiriere.",
+    "table": {
+      "order": "Comanda",
+      "type": "Tip",
+      "role": "Rolul Dvs.",
+      "status": "Status",
+      "date": "Data",
+      "actions": "Actiuni"
+    },
+    "type": {
+      "rentalContract": "Contract de Inchiriere"
+    },
+    "role": {
+      "owner": "Proprietar",
+      "renter": "Chirias"
+    },
+    "status": {
+      "pending": "In asteptare",
+      "partiallySigned": "Asteptam Semnatura",
+      "signed": "Semnat"
+    },
+    "actions": {
+      "sign": "Semneaza",
+      "download": "Descarca"
+    }
+  },
+  "sign-in": {
+    "title": "Pagina de autentificare"
+  },
+  "product-not-found": {
+    "title": "Produs negăsit",
+    "description": "Produsul pe care îl căutați nu există sau a fost eliminat.",
+    "browseProducts": "Răsfoiește produse",
+    "goHome": "Acasă"
+  },
+  "checkout-failed": {
+    "title": "Plata esuata",
+    "errorMessage": "Am intampinat o problema la procesarea platii dumneavoastra.",
+    "helpText": "Va rugam verificati detaliile platii si incercati din nou. Daca problema persista, contactati suportul.",
+    "tryAgainButton": "Incearca din nou",
+    "backToCartButton": "Inapoi la cos",
+    "defaultError": "Plata a esuat. Va rugam incercati din nou."
+  },
+  "cart": {
+    "emptyCartTitle": "Cosul dumneavoastra este gol",
+    "emptyCartDescription": "Adaugati produse in cos pentru a le vedea aici",
+    "continueShoppingButton": "Continua cumparaturile",
+    "pageTitle": "Cos de cumparaturi",
+    "cartItemsTitle": "Produse in cos",
+    "item": "produs",
+    "items": "produse",
+    "sku": "Cod:",
+    "removeButton": "Sterge",
+    "orderSummaryTitle": "Sumar comanda",
+    "subtotal": "Subtotal",
+    "total": "Total",
+    "proceedToCheckout": "Continua la plata",
+    "sessionExpired": "Sesiunea a expirat. Va rugam sa va autentificati din nou.",
+    "failedToRemoveItem": "Nu s-a putut sterge produsul",
+    "itemRemoved": "Produs sters din cos",
+    "rentalPeriod": "Perioada de inchiriere",
+    "from": "De la:",
+    "to": "Pana la:"
+  },
+  "search": {
+    "pageTitle": "Rezultate cautare",
+    "searchResultsFor": "Rezultate cautare pentru \"{query}\"",
+    "showing": "Se afiseaza {start}-{end} din {total} rezultate",
+    "categoriesSection": "Categorii",
+    "productsSection": "Produse",
+    "noResultsTitle": "Nu au fost gasite rezultate",
+    "noResultsDescription": "Nu am putut gasi produse sau categorii care sa corespunda cautarii dumneavoastra.",
+    "noResultsSuggestions": "Incercati:",
+    "suggestion1": "Cuvinte cheie diferite",
+    "suggestion2": "Mai putine sau termeni mai generali",
+    "suggestion3": "Verificati ortografia",
+    "noCategoriesFound": "Nu au fost gasite categorii",
+    "noProductsFound": "Nu au fost gasite produse pentru aceasta cautare",
+    "noProductsHint": "Incercati sa rasfoiti categoriile de mai sus sau ajustati filtrele",
+    "error": "Eroare la cautare",
+    "errorDescription": "Ceva a mers gresit in timpul cautarii. Va rugam sa incercati din nou.",
+    "perPage": "Pe pagina",
+    "previous": "Anterior",
+    "next": "Urmator",
+    "metadata": {
+      "title": "Rezultate cautare | Minimum",
+      "description": "Cauta produse si categorii"
+    }
+  },
+  "checkout": {
+    "pageTitle": "Finalizare comanda",
+    "billingAddressTitle": "Adresa de facturare",
+    "shippingAddressTitle": "Adresa de livrare",
+    "newBillingAddress": "Adresa de facturare noua",
+    "enterBillingAddress": "Introduceti adresa de facturare",
+    "newShippingAddress": "Adresa de livrare noua",
+    "enterShippingAddress": "Introduceti adresa de livrare",
+    "continueToPayment": "Continua la plata",
+    "continueToContract": "Continua la semnarea contractului",
+    "settingAddresses": "Se seteaza adresele...",
+    "placingOrder": "Se plaseaza comanda...",
+    "placeOrder": "Plaseaza comanda",
+    "failedToSetBillingAddress": "Nu s-a putut seta adresa de facturare",
+    "billingAddressSaved": "Adresa de facturare salvata cu succes",
+    "failedToSetShippingAddress": "Nu s-a putut seta adresa de livrare",
+    "shippingAddressSaved": "Adresa de livrare salvata cu succes",
+    "failedToSetAddresses": "Nu s-au putut seta adresele. Va rugam incercati din nou.",
+    "pleaseSelectBillingAddress": "Va rugam selectati o adresa de facturare",
+    "pleaseSelectShippingAddress": "Va rugam selectati o adresa de livrare",
+    "pleaseSelectAddresses": "Va rugam selectati adresele de facturare si livrare",
+    "pleaseSelectPaymentMethod": "Va rugam selectati o metoda de plata",
+    "pleaseSignContract": "Va rugam semnati contractul de locatiune inainte de a plasa comanda",
+    "missingContractData": "Nu s-a putut genera contractul. Asigurati-va ca toate informatiile sunt complete.",
+    "failedToSetShippingMethod": "Nu s-a putut seta metoda de livrare. Va rugam reincarcati pagina.",
+    "failedToSetPaymentMethod": "Nu s-a putut seta metoda de plata",
+    "failedToPlaceOrder": "Nu s-a putut plasa comanda",
+    "failedToPlaceOrderRetry": "Nu s-a putut plasa comanda. Va rugam incercati din nou.",
+    "noShippingMethodsAvailable": "Nu sunt disponibile metode de livrare. Verificati adresa de livrare."
+  },
+  "about": {
+    "title": "Despre noi",
+    "ourStory": {
+      "title": "Povestea noastră",
+      "paragraph1": "Minimum a fost fondat cu o idee simplă: de ce să cumperi lucruri de care ai nevoie doar temporar? Am creat o platformă unde oamenii pot închiria unii de la alții electronice, unelte, echipamente, articole sportive și multe altele.",
+      "paragraph2": "De la începuturile noastre în Moldova până la a deveni o piață de încredere, am rămas dedicați construirii unei comunități unde partajarea are sens. Conectăm persoanele care au articole cu cele care au nevoie de ele."
+    },
+    "mission": {
+      "title": "Misiunea noastră",
+      "description": "Misiunea noastră este de a face închirierea ușoară și accesibilă pentru toți. Credem că partajarea resurselor este mai inteligentă, mai economică și mai bună pentru mediu. Prin platforma noastră, ajutăm proprietarii de articole să câștige din bunurile lor, iar chiriașii să aibă acces la ce au nevoie fără angajamentul de a cumpăra."
+    },
+    "values": {
+      "title": "Valorile noastre",
+      "quality": {
+        "title": "Calitate",
+        "description": "Ne asigurăm că fiecare anunț îndeplinește standardele noastre cu descrieri precise, fotografii reale și informații verificate."
+      },
+      "trust": {
+        "title": "Încredere",
+        "description": "Construirea încrederii între proprietari și chiriași este în centrul a ceea ce facem. Verificăm utilizatorii, protejăm plățile și oferim suport pentru fiecare tranzacție."
+      },
+      "innovation": {
+        "title": "Inovație",
+        "description": "Îmbunătățim continuu platforma pentru a face găsirea și închirierea articolelor cât mai simplă posibil — căutare inteligentă, mesagerie securizată și rezervare ușoară."
+      },
+      "support": {
+        "title": "Asistență clienți",
+        "description": "Echipa noastră dedicată este aici pentru a ajuta cu orice întrebări despre anunțuri, închirieri sau plăți. Suntem alături de tine la fiecare pas."
+      }
+    }
+  },
+  "how-to-rent-out": {
+    "title": "Cum să dai în chirie",
+    "subtitle": "Transformă lucrurile nefolosite în venit suplimentar",
+    "introduction": "Ai lucruri pe care le folosești rar? Platforma noastră îți permite să închiriezi ușor bunurile personale oamenilor din comunitatea ta. De la scule electrice la echipament de camping, de la camere foto la articole de petrecere – dacă cineva are nevoie temporar, tu poți câștiga din asta. Urmează acești pași simpli pentru a începe să închiriezi lucrurile tale astăzi.",
+    "steps": {
+      "title": "5 pași simpli pentru a-ți închiria lucrurile",
+      "step1": {
+        "title": "1. Pregătește articolul",
+        "description": "Asigură-te că articolul tău este curat, funcțional și gata de închiriat. Un articol bine întreținut creează încredere și atrage mai mulți chiriași.",
+        "items": {
+          "item1": "Curăță bine articolul și verifică dacă totul funcționează corect",
+          "item2": "Adună toate accesoriile, cablurile, manualele sau piesele aferente",
+          "item3": "Notează orice urmă de uzură sau zgârieturi pentru a le menționa în anunț"
+        }
+      },
+      "step2": {
+        "title": "2. Fă fotografii de calitate",
+        "description": "Fotografiile bune ajută anunțul tău să iasă în evidență. Arată potențialilor chiriași exact ce vor primi.",
+        "items": {
+          "item1": "Folosește iluminare bună și un fundal curat",
+          "item2": "Fotografiază din mai multe unghiuri și de aproape detaliile importante",
+          "item3": "Include fotografii ale accesoriilor și arată articolul în utilizare, dacă e posibil"
+        }
+      },
+      "step3": {
+        "title": "3. Creează anunțul",
+        "description": "Scrie o descriere clară și onestă care răspunde la întrebările pe care le-ar putea avea chiriașii.",
+        "items": {
+          "item1": "Descrie ce este articolul, starea lui și caracteristicile principale",
+          "item2": "Stabilește prețul de închiriere (pe zi, săptămână sau altă perioadă)",
+          "item3": "Specifică locul de ridicare, disponibilitatea și cerințele de utilizare"
+        }
+      },
+      "step4": {
+        "title": "4. Comunică cu chiriașii",
+        "description": "Comunicarea bună creează încredere și duce la închirieri reușite.",
+        "items": {
+          "item1": "Răspunde prompt la solicitări și răspunde detaliat la întrebări",
+          "item2": "Discută datele de închiriere, detaliile de predare/returnare și așteptările",
+          "item3": "Fii clar în privința cerințelor de garanție și a politicii de anulare"
+        }
+      },
+      "step5": {
+        "title": "5. Finalizează închirierea",
+        "description": "Fă predarea lină și profesională pentru o experiență excelentă pentru ambele părți.",
+        "items": {
+          "item1": "Întâlnește-te într-un loc sigur și verifică identitatea chiriașului",
+          "item2": "Explică cum se folosește articolul și documentați împreună starea lui",
+          "item3": "Colectează plata și garanția, apoi confirmă data returnării"
+        }
+      }
+    },
+    "tips": {
+      "title": "Sfaturi pentru închiriere de succes",
+      "tip1": "Cercetează articole similare pe platformă pentru a stabili prețuri competitive",
+      "tip2": "Răspunde rapid la mesaje – răspunsurile rapide duc la mai multe rezervări",
+      "tip3": "Menține-ți articolele în stare bună între închirieri",
+      "tip4": "Fii flexibil cu orele și locurile de predare când este posibil",
+      "tip5": "Construiește-ți reputația oferind servicii excelente și primind recenzii pozitive"
+    },
+    "benefits": {
+      "title": "De ce să închiriezi pe Rently?",
+      "benefit1": {
+        "title": "Venit suplimentar",
+        "description": "Transformă lucrurile pe care le folosești rar într-o sursă constantă de bani în plus."
+      },
+      "benefit2": {
+        "title": "Listare ușoară",
+        "description": "Creează anunțuri în câteva minute cu procesul nostru simplu."
+      },
+      "benefit3": {
+        "title": "Utilizatori verificați",
+        "description": "Toți utilizatorii sunt verificați, așa că poți închiria cu încredere."
+      },
+      "benefit4": {
+        "title": "Suport când ai nevoie",
+        "description": "Echipa noastră este aici să ajute dacă apar probleme în timpul închirierii."
+      }
+    },
+    "cta": {
+      "title": "Gata să începi să câștigi?",
+      "description": "Listează primul tău articol astăzi și alătură-te miilor de oameni care împărtășesc ce au."
+    }
+  },
+  "terms-of-policy": {
+    "title": "Termeni și Condiții",
+    "lastUpdated": "Ultima actualizare: 25 ianuarie 2026",
+    "metadata": {
+      "title": "Termeni și Condiții - Minimum",
+      "description": "Citiți termenii și condițiile platformei Minimum și aflați despre drepturile și responsabilitățile dumneavoastră."
+    },
+    "introduction": {
+      "heading": "1. Introducere",
+      "content": "Bine ați venit pe platforma Minimum (denumită în continuare \"Platformă\", \"Serviciu\", \"Minimum\"). Acești Termeni și Condiții reglementează accesul și utilizarea site-ului web Minimum și a serviciilor conexe.",
+      "description": "Minimum este o platformă online care oferă utilizatorilor posibilitatea tehnică de a publica anunțuri de închiriere și de a interacționa între ei. Minimum nu este parte la tranzacțiile încheiate între utilizatori.",
+      "agreement": "Prin utilizarea Platformei, confirmați acordul dumneavoastră cu acești Termeni."
+    },
+    "acceptanceOfTerms": {
+      "heading": "2. Acceptarea Termenilor",
+      "content": "Prin crearea unui cont, publicarea anunțurilor sau utilizarea oricăror funcții ale Platformei, confirmați că:",
+      "list": {
+        "item1": "ați citit și înțeles acești Termeni;",
+        "item2": "sunteți de acord să îi respectați în totalitate;",
+        "item3": "acceptați Politica de Confidențialitate a Minimum ca parte integrantă a acestor Termeni."
+      },
+      "warning": "Dacă nu sunteți de acord cu termenii, trebuie să încetați utilizarea Platformei."
+    },
+    "minimumStatus": {
+      "heading": "3. Statutul Minimum și Declinarea Responsabilității",
+      "point1": "3.1. Minimum nu este locator, locatar, agent, broker, transportator sau asigurator.",
+      "point2": "3.2. Toate aranjamentele privind închirierea, transferul, returnarea, starea bunurilor, plata, garanția, livrarea și orice alte condiții au loc exclusiv între utilizatori.",
+      "point3": "3.3. Minimum:",
+      "list": {
+        "item1": "nu verifică calitatea, siguranța, legalitatea sau starea bunurilor;",
+        "item2": "nu garantează integritatea utilizatorilor;",
+        "item3": "nu este responsabil pentru îndeplinirea sau neîndeplinirea obligațiilor de către utilizatori."
+      }
+    },
+    "userAccount": {
+      "heading": "4. Contul de Utilizator",
+      "point1": "4.1. Pentru a utiliza Serviciul, trebuie să creați un cont și să furnizați informații exacte, actuale și complete.",
+      "point2": "4.2. Utilizatorul este pe deplin responsabil pentru:",
+      "list": {
+        "item1": "securitatea datelor de autentificare și a parolei;",
+        "item2": "toate acțiunile efectuate sub contul său."
+      },
+      "point3": "4.3. Trebuie să notificați imediat Minimum despre orice acces neautorizat sau suspiciune în acest sens.",
+      "point4": "4.4. Minimum își rezervă dreptul de a refuza înregistrarea sau de a șterge un cont fără explicații pentru încălcarea acestor Termeni."
+    },
+    "userObligations": {
+      "heading": "5. Obligațiile Utilizatorilor",
+      "content": "Utilizatorii se angajează să:",
+      "list": {
+        "item1": "respecte legislația aplicabilă a Republicii Moldova;",
+        "item2": "utilizeze Platforma cu bună-credință;",
+        "item3": "furnizeze informații veridice despre bunuri;",
+        "item4": "verifice independent contrapartea înainte de a încheia tranzacții;",
+        "item5": "rezolve toate disputele direct cu alți utilizatori."
+      }
+    },
+    "rentalRisks": {
+      "heading": "6. Închirierea Bunurilor și Riscurile",
+      "point1": "6.1. Toate riscurile asociate cu închirierea, inclusiv, dar fără a se limita la:",
+      "riskList": {
+        "item1": "pierdere;",
+        "item2": "deteriorare;",
+        "item3": "furt;",
+        "item4": "returnare întârziată;",
+        "item5": "neconformitate cu descrierea,"
+      },
+      "riskConclusion": "sunt suportate exclusiv de utilizatorii participanți la tranzacție.",
+      "point2": "6.2. Minimum nu este responsabil pentru:",
+      "liabilityList": {
+        "item1": "vătămări fizice;",
+        "item2": "daune materiale;",
+        "item3": "pierderi financiare;",
+        "item4": "profituri pierdute."
+      },
+      "point3": "6.3. Utilizatorii rezolvă independent chestiunile legate de asigurare, garanție și verificarea identității."
+    },
+    "payments": {
+      "heading": "7. Plăți",
+      "point1": "7.1. Minimum poate oferi capacitatea tehnică de a procesa plăți, dar nu controlează și nu garantează corectitudinea acestora.",
+      "point2": "7.2. Toate pretențiile financiare trebuie rezolvate între utilizatori."
+    },
+    "prohibitedActivities": {
+      "heading": "8. Activități Interzise",
+      "content": "Este interzis:",
+      "list": {
+        "item1": "încălcarea legii;",
+        "item2": "publicarea de articole ilegale sau periculoase;",
+        "item3": "furnizarea de informații false;",
+        "item4": "implicarea în activități frauduloase;",
+        "item5": "interferența cu funcționarea Platformei;",
+        "item6": "utilizarea Platformei pentru hărțuire sau amenințări."
+      }
+    },
+    "intellectualProperty": {
+      "heading": "9. Proprietate Intelectuală",
+      "content": "Tot conținutul Platformei (cod, design, texte, logo-uri) este proprietatea Minimum sau a licențiatorilor săi și este protejat de lege.",
+      "warning": "Utilizarea conținutului fără acordul scris al Minimum este interzisă.",
+      "userContent": {
+        "heading": "9.1. Conținutul Utilizatorului",
+        "content": "Utilizatorii poartă întreaga responsabilitate pentru orice conținut pe care îl publică pe Platformă, inclusiv anunțuri, descrieri ale bunurilor, imagini, recenzii și alte materiale.",
+        "disclaimer": "Minimum nu verifică în prealabil conținutul utilizatorului și nu este responsabil pentru acuratețea, legalitatea, relevanța sau veridicitatea acestuia.",
+        "confirmation": "Prin publicarea conținutului, utilizatorul confirmă că deține toate drepturile și permisiunile necesare pentru a-l utiliza și publica."
+      }
+    },
+    "limitation": {
+      "heading": "10. Limitarea Răspunderii",
+      "content": "În măsura maximă permisă de lege, Minimum nu este răspunzător pentru:",
+      "list": {
+        "item1": "orice daune indirecte sau accidentale;",
+        "item2": "acțiunile sau inacțiunile utilizatorilor;",
+        "item3": "orice daună rezultată din tranzacțiile de închiriere."
+      },
+      "warning": "Utilizarea Platformei se face pe propriul risc.",
+      "disclaimer": {
+        "heading": "10.1. Declinarea Garanțiilor",
+        "content": "Platforma și toate serviciile conexe sunt furnizate \"ca atare\" și \"după cum sunt disponibile\". Minimum nu oferă garanții exprese sau implicite, inclusiv, dar fără a se limita la garanții de funcționare neîntreruptă a serviciului, acuratețea informațiilor, adecvarea pentru un anumit scop sau absența erorilor.",
+        "noGuarantee": "Minimum nu garantează că Platforma va funcționa fără defecțiuni, întârzieri sau defecțiuni tehnice."
+      }
+    },
+    "termination": {
+      "heading": "11. Încetarea Accesului",
+      "content": "Minimum își rezervă dreptul în orice moment să:",
+      "list": {
+        "item1": "suspende sau să înceteze accesul utilizatorului;",
+        "item2": "șteargă conturile;",
+        "item3": "elimine conținutul fără notificare prealabilă."
+      },
+      "indemnity": {
+        "heading": "11.1. Despăgubire",
+        "content": "Utilizatorul este de acord să despăgubească și să exonereze Minimum de orice pretenții, cereri, pierderi, amenzi și cheltuieli (inclusiv onorarii de avocat) rezultate din:",
+        "list": {
+          "item1": "încălcarea de către utilizator a acestor Termeni;",
+          "item2": "încălcarea drepturilor terților;",
+          "item3": "acțiunile sau inacțiunile utilizatorului în timpul utilizării Platformei."
+        }
+      }
+    },
+    "disputeResolution": {
+      "heading": "12. Soluționarea Disputelor",
+      "point1": "12.1. Toate disputele între utilizatori vor fi rezolvate direct între ei.",
+      "point2": "12.2. Disputele dintre un utilizator și Minimum sunt supuse soluționării pre-judiciare în termen de 30 de zile lucrătoare.",
+      "point3": "12.3. Dacă o dispută nu poate fi rezolvată, aceasta va fi examinată de instanțele Republicii Moldova.",
+      "forceMajeure": {
+        "heading": "12.4. Forță Majoră",
+        "content": "Minimum nu este răspunzător pentru neîndeplinirea totală sau parțială a obligațiilor în conformitate cu acești Termeni dacă această neîndeplinire este cauzată de circumstanțe de forță majoră, inclusiv, dar fără a se limita la: dezastre naturale, incendii, acțiuni militare, decizii guvernamentale, defecțiuni în rețelele de comunicații, alimentarea cu energie electrică sau serviciile terților."
+      }
+    },
+    "privacyPolicy": {
+      "heading": "13. Politica de Confidențialitate",
+      "intro": "Prelucrarea datelor personale ale utilizatorilor se efectuează în conformitate cu Legea nr. 133 din 07.08.2011 a Republicii Moldova \"Cu privire la protecția datelor cu caracter personal\".",
+      "purposes": {
+        "content": "Minimum prelucrează datele personale exclusiv în scopurile:",
+        "list": {
+          "item1": "furnizării accesului la Platformă și funcționalitatea acesteia;",
+          "item2": "identificării utilizatorilor;",
+          "item3": "asigurării funcționării tehnice a serviciului;",
+          "item4": "respectării cerințelor legale."
+        }
+      },
+      "thirdParty": "Minimum nu transferă datele personale către terți, cu excepția cazurilor prevăzute direct de lege sau necesare pentru furnizarea serviciului (furnizori de plăți, furnizori de găzduire și alți parteneri tehnici).",
+      "dataTypes": {
+        "content": "Datele personale pot include, printre altele:",
+        "list": {
+          "item1": "prenume și nume;",
+          "item2": "număr de telefon;",
+          "item3": "adresă de email;",
+          "item4": "adresă IP;",
+          "item5": "date despre tranzacțiile de plată;",
+          "item6": "date din documentele de identitate (dacă este necesar)."
+        }
+      },
+      "consent": "Utilizatorul confirmă că furnizează datele personale în mod voluntar și consimte la prelucrarea acestora în scopurile menționate.",
+      "moreInfo": "Condițiile detaliate de prelucrare, stocare și protecție a datelor personale sunt stabilite într-un document separat — Politica de Confidențialitate publicată pe Platformă."
+    },
+    "changes": {
+      "heading": "14. Modificări ale Termenilor",
+      "content": "Ne rezervăm dreptul de a modifica acești termeni în orice moment. Vom notifica utilizatorii despre orice modificări importante prin publicarea noilor termeni pe această pagină. Continuarea utilizării serviciului după astfel de modificări constituie acceptarea noilor termeni."
+    },
+    "contact": {
+      "heading": "15. Informații de Contact",
+      "content": "Dacă aveți întrebări despre acești Termeni și Condiții, vă rugăm să ne contactați la support@minimum.com"
+    }
+  },
+  "faq": {
+    "title": "Întrebări frecvente",
+    "subtitle": "Găsiți răspunsuri la întrebările comune despre platforma noastră de închiriere"
+  },
+  "checkout-success": {
+    "title": "Comanda confirmata!",
+    "thankYouMessage": "Va multumim pentru comanda. Plata dumneavoastra a fost procesata cu succes.",
+    "orderNumberLabel": "Numar comanda",
+    "confirmationEmailMessage": "Un email de confirmare a fost trimis la adresa dumneavoastra de email cu detaliile comenzii.",
+    "viewOrderButton": "Vezi comanda",
+    "continueShoppingButton": "Continua cumparaturile",
+    "downloadContract": "Descarca Contractul",
+    "contractPending": "Contractul asteapta semnatura proprietarului",
+    "contractSigned": "Contract semnat complet"
+  },
+  "cookie-policy": {
+    "title": "Politica privind Cookie-urile",
+    "lastUpdated": "Ultima actualizare: 25 ianuarie 2026",
+    "intro": "Această Politică privind cookie-urile (denumită în continuare «Politica») explică modul în care platforma Minimum (denumită în continuare «Minimum», «noi», «serviciul nostru») utilizează cookie-urile și tehnologii similare atunci când vizitați și utilizați site-ul web. Prin utilizarea Platformei, sunteți de acord cu utilizarea cookie-urilor în conformitate cu această Politică.",
+    "metadata": {
+      "title": "Politica Cookie - Minimum",
+      "description": "Aflați cum platforma Minimum utilizează cookie-urile și cum le puteți gestiona."
+    },
+    "whatAreCookies": {
+      "heading": "1. Ce sunt cookie-urile",
+      "content": "Cookie-urile sunt fișiere text mici care sunt stocate pe dispozitivul dumneavoastră (computer, smartphone, tabletă) atunci când vizitați site-uri web. Acestea permit site-ului să recunoască dispozitivul dumneavoastră, să asigure funcționarea corectă a serviciului și să îmbunătățească experiența utilizatorului."
+    },
+    "cookieTypes": {
+      "heading": "2. Tipurile de cookie-uri pe care le folosim",
+      "intro": "Minimum utilizează următoarele categorii de cookie-uri:",
+      "required": {
+        "heading": "2.1. Cookie-uri obligatorii (tehnice)",
+        "content": "Aceste cookie-uri sunt necesare pentru funcționarea corectă a Platformei și nu pot fi dezactivate în setările sistemului. Acestea sunt utilizate, în special, pentru:",
+        "list": {
+          "item1": "autentificarea utilizatorilor;",
+          "item2": "păstrarea sesiunii;",
+          "item3": "asigurarea securității;",
+          "item4": "funcționarea corectă a funcțiilor de bază ale site-ului."
+        },
+        "note": "Fără aceste cookie-uri, utilizarea Platformei nu este posibilă."
+      },
+      "functional": {
+        "heading": "2.2. Cookie-uri funcționale",
+        "content": "Cookie-urile funcționale permit Platformei să rețină alegerile dumneavoastră (cum ar fi limba, regiunea, setările interfeței) și să ofere o experiență mai personalizată."
+      },
+      "analytics": {
+        "heading": "2.3. Cookie-uri analitice",
+        "content": "Cookie-urile analitice sunt utilizate pentru a colecta informații anonimizate despre modul în care utilizatorii interacționează cu Platforma. Acest lucru ne ajută să:",
+        "list": {
+          "item1": "analizăm traficul;",
+          "item2": "îmbunătățim funcționalitatea serviciului;",
+          "item3": "identificăm erori tehnice."
+        },
+        "note": "Datele colectate nu permit identificarea directă a utilizatorului."
+      }
+    },
+    "thirdPartyCookies": {
+      "heading": "3. Cookie-uri terțe",
+      "content": "Minimum poate utiliza servicii terțe (cum ar fi furnizori de analiză sau de plăți) care pot plasa cookie-uri pe dispozitivul dumneavoastră în cadrul funcționării lor.",
+      "disclaimer": "Nu controlăm cookie-urile terților și vă recomandăm să consultați politicile lor de confidențialitate și de utilizare a cookie-urilor."
+    },
+    "managingCookies": {
+      "heading": "4. Gestionarea cookie-urilor",
+      "content": "Puteți modifica oricând setările cookie-urilor în browserul dumneavoastră, inclusiv:",
+      "list": {
+        "item1": "blocarea tuturor cookie-urilor;",
+        "item2": "ștergerea cookie-urilor salvate;",
+        "item3": "primirea notificărilor când cookie-urile sunt salvate."
+      },
+      "note": "Vă rugăm să rețineți că dezactivarea sau restricționarea cookie-urilor poate duce la funcționarea incorectă a unor funcții ale Platformei."
+    },
+    "consent": {
+      "heading": "5. Consimțământul pentru utilizarea cookie-urilor",
+      "content": "La prima vizită pe Platformă, vi se poate afișa o notificare despre utilizarea cookie-urilor. Continuând să utilizați site-ul sau făcând clic pe butonul de consimțământ, confirmați acordul dumneavoastră pentru utilizarea cookie-urilor în conformitate cu această Politică."
+    },
+    "changes": {
+      "heading": "6. Modificări ale Politicii Cookie",
+      "content": "Minimum își rezervă dreptul de a aduce modificări acestei Politici în orice moment. Versiunea actualizată intră în vigoare din momentul publicării pe Platformă."
+    },
+    "contact": {
+      "heading": "7. Informații de contact",
+      "content": "Dacă aveți întrebări legate de utilizarea cookie-urilor, vă rugăm să ne contactați la: support@minimum.com"
+    }
+  },
+  "product-detail": {
+    "title": "Detalii produs",
+    "aboutProduct": "Despre produs",
+    "metadata": {
+      "productNotFound": "Produs negasit",
+      "buyProductPrefix": "Cumpara "
+    }
+  },
+  "products": {
+    "title": "Produse",
+    "subtitle": "Rasfoieste colectia noastra",
+    "showing": "Se afiseaza {start}-{end} din {total} produse",
+    "error": "Nu s-au putut incarca produsele",
+    "errorDescription": "A aparut o eroare la incarcarea produselor. Va rugam sa incercati din nou mai tarziu.",
+    "perPage": "Pe pagina:",
+    "pagination": {
+      "previous": "Anterior",
+      "next": "Următor"
+    },
+    "metadata": {
+      "title": "Toate Produsele | Minimum",
+      "description": "Rasfoieste toate produsele disponibile pentru inchiriere",
+      "categoryTitle": "Categorie | Minimum",
+      "categoryDescription": "Rasfoieste produse pe categorii"
+    }
+  },
+  "contact": {
+    "title": "Contactati-ne",
+    "subtitle": "Aveti o intrebare sau un feedback? Ne-ar placea sa auzim de la dvs."
+  },
+  "sign-up": {
+    "title": "Pagina de înregistrare"
+  },
+  "home": {
+    "title": "Pagina principală"
+  }
+}

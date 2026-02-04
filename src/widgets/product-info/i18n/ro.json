@@ -1,0 +1,11 @@
+{
+  "sku": "Cod produs",
+  "inStock": "În stoc",
+  "outOfStock": "Stoc epuizat",
+  "quantityAvailable": "{count} disponibile",
+  "onlyXLeft": "Doar {count} în stoc",
+  "manufacturer": "Producător",
+  "addToCart": "Adaugă în coș",
+  "notifyWhenAvailable": "Notifică-mă când este disponibil",
+  "listedBy": "Publicat de"
+}

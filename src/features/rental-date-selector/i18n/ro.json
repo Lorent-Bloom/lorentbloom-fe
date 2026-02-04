@@ -1,0 +1,12 @@
+{
+  "startDate": "Început",
+  "endDate": "Sfârșit",
+  "pickStartDate": "Selectează datele de închiriere",
+  "pickEndDate": "Alege data de sfârșit",
+  "selectStartDate": "Selectează data de început",
+  "selectEndDate": "Acum selectează data de sfârșit",
+  "clickToReselect": "Apasă pe orice dată pentru a selecta din nou",
+  "reset": "Resetează",
+  "endDateMustBeAfterStart": "Data de sfârșit trebuie să fie după data de început",
+  "alreadyRented": "Deja închiriat"
+}

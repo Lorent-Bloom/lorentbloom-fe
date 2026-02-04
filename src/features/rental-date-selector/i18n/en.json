@@ -1,0 +1,12 @@
+{
+  "startDate": "Start",
+  "endDate": "End",
+  "pickStartDate": "Select rental dates",
+  "pickEndDate": "Pick an end date",
+  "selectStartDate": "Select start date",
+  "selectEndDate": "Now select end date",
+  "clickToReselect": "Click any date to start new selection",
+  "reset": "Reset",
+  "endDateMustBeAfterStart": "End date must be after start date",
+  "alreadyRented": "Already rented"
+}

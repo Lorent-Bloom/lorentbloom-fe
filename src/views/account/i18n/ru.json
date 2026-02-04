@@ -1,0 +1,23 @@
+{
+  "title": "Аккаунт",
+  "description": "Управление настройками аккаунта и личной информацией",
+  "accountInfo": "Информация об аккаунте",
+  "accountInfoDescription": "Просмотр и управление вашей личной информацией",
+  "contactInformation": "Контактная информация",
+  "edit": "Изменить",
+  "name": "Имя",
+  "email": "Email",
+  "addresses": "Адреса",
+  "defaultBillingAddress": "Адрес выставления счетов по умолчанию",
+  "defaultShippingAddress": "Адрес доставки по умолчанию",
+  "noDefaultAddresses": "Адреса по умолчанию не установлены",
+  "noAddresses": "Адреса еще не добавлены",
+  "company": "Компания",
+  "companyDescription": "Управление информацией и настройками компании",
+  "companyInformation": "Информация о компании",
+  "companyName": "Название компании",
+  "companyPhone": "Телефон компании",
+  "companyLogo": "Логотип компании",
+  "notSet": "Не установлено",
+  "companyComingSoon": "Функции компании скоро появятся"
+}

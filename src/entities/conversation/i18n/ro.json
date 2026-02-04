@@ -1,0 +1,8 @@
+{
+  "orderTitle": "Comanda #{orderNumber}",
+  "customer": "Client",
+  "owner": "Proprietar",
+  "systemMessage": "Notificare de sistem",
+  "noConversations": "Nu există conversații",
+  "noConversationsDescription": "Conversațiile vor apărea aici când plasați sau primiți comenzi."
+}

@@ -1,0 +1,30 @@
+{
+  "title": "My Documents",
+  "itemsCount": "{count, plural, =1 {1 document} other {# documents}}",
+  "emptyTitle": "No Documents",
+  "emptyDescription": "You don't have any documents yet. Documents will appear here after placing rental orders.",
+  "table": {
+    "order": "Order",
+    "type": "Type",
+    "role": "Your Role",
+    "status": "Status",
+    "date": "Date",
+    "actions": "Actions"
+  },
+  "type": {
+    "rentalContract": "Rental Contract"
+  },
+  "role": {
+    "owner": "Owner",
+    "renter": "Renter"
+  },
+  "status": {
+    "pending": "Pending",
+    "partiallySigned": "Awaiting Signature",
+    "signed": "Signed"
+  },
+  "actions": {
+    "sign": "Sign",
+    "download": "Download"
+  }
+}

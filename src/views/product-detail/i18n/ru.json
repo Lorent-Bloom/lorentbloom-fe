@@ -1,0 +1,8 @@
+{
+  "title": "Детали продукта",
+  "aboutProduct": "О продукте",
+  "metadata": {
+    "productNotFound": "Продукт не найден",
+    "buyProductPrefix": "Купить "
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Редактировать аренду",
+  "startDate": "Дата начала",
+  "endDate": "Дата окончания",
+  "quantity": "Количество",
+  "status": "Статус",
+  "pickDate": "Выберите дату",
+  "selectStatus": "Выберите статус",
+  "startDateDescription": "Выберите дату начала аренды",
+  "endDateDescription": "Выберите дату окончания аренды",
+  "quantityDescription": "Количество товаров для аренды (1-100)",
+  "statusDescription": "Текущий статус аренды",
+  "statusActive": "Активно",
+  "statusCompleted": "Завершено",
+  "statusCancelled": "Отменено",
+  "save": "Сохранить изменения",
+  "saving": "Сохранение...",
+  "cancel": "Отмена",
+  "updateSuccess": "Аренда успешно обновлена",
+  "updateFailed": "Не удалось обновить аренду",
+  "sessionExpired": "Ваша сессия истекла. Пожалуйста, войдите снова.",
+  "breadcrumb": {
+    "rentedProducts": "Арендованные товары",
+    "editRental": "Редактировать аренду"
+  }
+}

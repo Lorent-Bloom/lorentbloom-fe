@@ -1,0 +1,15 @@
+{
+  "noProducts": "Товары не найдены",
+  "noProductsDescription": "Попробуйте изменить поиск или фильтры",
+  "loading": "Загрузка товаров...",
+  "noImage": "Нет изображения",
+  "percentOff": "% скидка",
+  "perDay": "день",
+  "save": "Скидка",
+  "inStock": "Осталось {count}",
+  "outOfStock": "Нет в наличии",
+  "addToWishlist": "Добавить в избранное",
+  "removeFromWishlist": "Удалить из избранного",
+  "addedToWishlist": "Добавлено в избранное",
+  "removedFromWishlist": "Удалено из избранного"
+}

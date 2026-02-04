@@ -1,0 +1,8 @@
+{
+  "orderTitle": "Заказ #{orderNumber}",
+  "customer": "Покупатель",
+  "owner": "Владелец",
+  "systemMessage": "Системное уведомление",
+  "noConversations": "Пока нет диалогов",
+  "noConversationsDescription": "Диалоги появятся здесь, когда вы разместите или получите заказы."
+}

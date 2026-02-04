@@ -1,0 +1,15 @@
+{
+  "noProducts": "Nu s-au gasit produse",
+  "noProductsDescription": "Incercati sa ajustati cautarea sau filtrele",
+  "loading": "Se incarca produsele...",
+  "noImage": "Fara imagine",
+  "percentOff": "% reducere",
+  "perDay": "zi",
+  "save": "Economisesti",
+  "inStock": "{count} disponibile",
+  "outOfStock": "Indisponibil",
+  "addToWishlist": "Adauga la favorite",
+  "removeFromWishlist": "Sterge din favorite",
+  "addedToWishlist": "Adaugat la favorite",
+  "removedFromWishlist": "Sters din favorite"
+}

@@ -1,0 +1,12 @@
+{
+  "myAccount": "Мой аккаунт",
+  "myProducts": "Мои товары",
+  "myRents": "Мои аренды",
+  "myProductRentals": "Аренда моих товаров",
+  "documents": "Документы",
+  "addresses": "Адреса",
+  "settings": "Настройки",
+  "company": "Компания",
+  "logout": "Выйти",
+  "signIn": "Войти"
+}

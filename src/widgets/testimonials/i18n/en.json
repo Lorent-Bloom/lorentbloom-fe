@@ -1,0 +1,56 @@
+{
+  "statsTitle": "Our Platform in Numbers",
+  "badge": "Verified Reviews",
+  "title": "Real Reviews from Real Customers",
+  "subtitle": "Join thousands of satisfied renters who chose Minimum for their equipment needs. These are genuine reviews from verified customers.",
+  "stats": {
+    "2": {
+      "value": "0",
+      "label": "Products Available"
+    },
+    "3": {
+      "value": "0",
+      "label": "Categories"
+    },
+    "4": {
+      "value": "0",
+      "label": "Total Orders"
+    },
+    "5": {
+      "value": "0",
+      "label": "Active Users"
+    }
+  },
+  "reviews": {
+    "0": {
+      "name": "Michael Chen",
+      "role": "Professional Photographer",
+      "content": "Minimum saved me thousands on camera equipment. The quality is always top-notch, and the delivery is incredibly fast. I've been a loyal customer for 2 years now."
+    },
+    "1": {
+      "name": "Sarah Johnson",
+      "role": "Event Planner",
+      "content": "As an event planner, I need reliable equipment on short notice. Minimum has never let me down. Their customer service is exceptional, and the flexibility is unmatched."
+    },
+    "2": {
+      "name": "Alex Rodriguez",
+      "role": "Outdoor Enthusiast",
+      "content": "I rent camping and hiking gear for all my adventures. Why buy expensive equipment you'll use once a year? Minimum makes it affordable to try new activities."
+    },
+    "3": {
+      "name": "Emma Thompson",
+      "role": "Freelance Videographer",
+      "content": "The variety of video equipment available is amazing. I can rent high-end gear for specific projects without the massive upfront investment. Game changer for my business!"
+    },
+    "4": {
+      "name": "David Park",
+      "role": "Weekend Adventurer",
+      "content": "Started renting ski equipment last winter and haven't looked back. Perfect condition every time, and I don't have to worry about storage or maintenance."
+    },
+    "5": {
+      "name": "Lisa Martinez",
+      "role": "Small Business Owner",
+      "content": "We rent office equipment for pop-up events and trade shows. The booking process is seamless, and the quality always impresses our clients. Highly recommend!"
+    }
+  }
+}

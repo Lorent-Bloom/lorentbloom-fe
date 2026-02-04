@@ -1,0 +1,8 @@
+{
+  "orderTitle": "Order #{orderNumber}",
+  "customer": "Customer",
+  "owner": "Owner",
+  "systemMessage": "System notification",
+  "noConversations": "No conversations yet",
+  "noConversationsDescription": "Conversations will appear here when you place or receive orders."
+}

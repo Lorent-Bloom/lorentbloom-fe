@@ -1,0 +1,50 @@
+{
+  "about": {
+    "title": "Despre Minimum",
+    "description": "Minimum este partenerul dvs. de încredere pentru închirierea echipamentelor premium. Credem că echipamentele de înaltă calitate ar trebui să fie accesibile tuturor fără povara proprietății. Fie că sunteți profesionist, pasionat sau aveți nevoie de ceva pentru o ocazie specială, vă acoperim cu inventarul nostru extins și serviciul excepțional."
+  },
+  "mission": {
+    "title": "Misiunea noastră",
+    "description": "Să democratizăm accesul la echipamente premium prin soluții flexibile de închiriere, permițând persoanelor fizice și întreprinderilor să își atingă obiectivele fără angajamentul financiar al achiziționării."
+  },
+  "values": {
+    "title": "Valorile noastre"
+  },
+  "stats": {
+    "0": {
+      "value": "5+",
+      "label": "Ani în afaceri"
+    },
+    "1": {
+      "value": "10K+",
+      "label": "Clienți mulțumiți"
+    },
+    "2": {
+      "value": "5K+",
+      "label": "Produse disponibile"
+    },
+    "3": {
+      "value": "4.9",
+      "label": "Rating mediu"
+    }
+  },
+  "features": {
+    "title": "De ce să alegeți Minimum?",
+    "0": {
+      "title": "Calitate garantată",
+      "description": "Toate echipamentele sunt întreținute profesional și inspectate înainte de fiecare închiriere pentru a asigura performanța maximă."
+    },
+    "1": {
+      "title": "Termeni flexibili",
+      "description": "Închiriați pentru o zi, săptămână, lună sau mai mult. Fără taxe ascunse, fără surprize. Anulați sau prelungiți oricând."
+    },
+    "2": {
+      "title": "Selecție premium",
+      "description": "Acces la cele mai noi modele și branduri de top din toate categoriile. Inventar actualizat în fiecare sezon."
+    },
+    "3": {
+      "title": "Suport 24/7",
+      "description": "Echipa noastră dedicată de suport este întotdeauna disponibilă pentru a ajuta la configurare, depanare sau orice întrebări."
+    }
+  }
+}
