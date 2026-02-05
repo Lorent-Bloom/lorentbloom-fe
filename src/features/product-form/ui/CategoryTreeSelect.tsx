@@ -110,7 +110,9 @@ function renderTree(
         <AddNewButton
           key={node.uid}
           level={node.level}
-          onClick={() => props.onAddNewStart(node.level, node.parentUid ?? null)}
+          onClick={() =>
+            props.onAddNewStart(node.level, node.parentUid ?? null)
+          }
           label={label}
         />
       );

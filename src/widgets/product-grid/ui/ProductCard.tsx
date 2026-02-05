@@ -55,7 +55,7 @@ export function ProductCard({ product }: ProductCardProps) {
             "absolute right-3 top-3 flex h-9 w-9 items-center justify-center rounded-full transition-all duration-200",
             "bg-white/90 shadow-md backdrop-blur-sm hover:bg-white hover:scale-110",
             "opacity-100 sm:opacity-0 sm:group-hover:opacity-100",
-            isWishlisted && "opacity-100"
+            isWishlisted && "opacity-100",
           )}
           aria-label={
             isWishlisted ? t("removeFromWishlist") : t("addToWishlist")
@@ -66,7 +66,7 @@ export function ProductCard({ product }: ProductCardProps) {
               "h-5 w-5 transition-all duration-200",
               isWishlisted
                 ? "fill-red-500 text-red-500 scale-110"
-                : "text-gray-600 hover:text-red-500"
+                : "text-gray-600 hover:text-red-500",
             )}
           />
         </button>
@@ -77,7 +77,10 @@ export function ProductCard({ product }: ProductCardProps) {
         {/* Name and Location/Customer column */}
         <div className="flex items-start justify-between gap-2">
           {/* Left: Name */}
-          <Link href={`/${locale}/products/p/${product.url_key}`} className="flex-1">
+          <Link
+            href={`/${locale}/products/p/${product.url_key}`}
+            className="flex-1"
+          >
             <h3 className="line-clamp-2 text-sm font-medium leading-snug text-foreground transition-colors hover:text-primary">
               {product.name}
             </h3>
@@ -94,7 +97,9 @@ export function ProductCard({ product }: ProductCardProps) {
             {product.customer && (
               <div className="flex items-center gap-1 text-xs text-muted-foreground">
                 <User className="h-3 w-3" />
-                <span>{product.customer.firstname} {product.customer.lastname}</span>
+                <span>
+                  {product.customer.firstname} {product.customer.lastname}
+                </span>
               </div>
             )}
           </div>

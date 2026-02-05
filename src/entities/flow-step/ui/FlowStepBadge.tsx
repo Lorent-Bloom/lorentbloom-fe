@@ -18,11 +18,7 @@ export function FlowStepBadge({ currentStepId, steps }: FlowStepBadgeProps) {
 
   // If step not found in the steps array, show a fallback
   if (!currentStep) {
-    return (
-      <Badge variant="secondary">
-        Step {currentStepId}
-      </Badge>
-    );
+    return <Badge variant="secondary">Step {currentStepId}</Badge>;
   }
 
   const i18nKey = STEP_I18N_KEYS[currentStep.step_key] || currentStep.step_key;

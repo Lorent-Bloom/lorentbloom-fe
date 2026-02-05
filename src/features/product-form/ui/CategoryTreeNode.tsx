@@ -62,7 +62,12 @@ export function CategoryTreeNode({
         )}
 
         {/* Node name */}
-        <span className={cn("flex-1 truncate text-sm", node.isNew && "italic text-muted-foreground")}>
+        <span
+          className={cn(
+            "flex-1 truncate text-sm",
+            node.isNew && "italic text-muted-foreground",
+          )}
+        >
           {node.name}
           {node.isNew && " (new)"}
         </span>

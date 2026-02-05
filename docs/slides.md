@@ -26,8 +26,8 @@ mdc: true
 </div>
 
 ---
-layout: two-cols
----
+
+## layout: two-cols
 
 # Проблема
 
@@ -65,8 +65,10 @@ pie showData
 </v-click>
 
 ---
+
 layout: center
 class: text-center
+
 ---
 
 # Решение
@@ -128,13 +130,13 @@ class: text-center
 
 <v-clicks>
 
-| Источник | Доля |
-|----------|------|
-| Комиссия с аренды | 65% |
-| Подписки | 15% |
-| Премиум-функции | 10% |
-| Доставка | 5% |
-| Хранение | 5% |
+| Источник          | Доля |
+| ----------------- | ---- |
+| Комиссия с аренды | 65%  |
+| Подписки          | 15%  |
+| Премиум-функции   | 10%  |
+| Доставка          | 5%   |
+| Хранение          | 5%   |
 
 </v-clicks>
 
@@ -245,8 +247,8 @@ class: text-center
 </div>
 
 ---
-layout: center
----
+
+## layout: center
 
 # Кейс: Цветы на 8 марта
 
@@ -397,8 +399,8 @@ layout: center
 </div>
 
 ---
-layout: two-cols
----
+
+## layout: two-cols
 
 # Маркетинг
 
@@ -513,9 +515,11 @@ layout: two-cols
 </div>
 
 ---
+
 layout: center
 class: text-center
 background: https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1920&q=80
+
 ---
 
 # Давайте строить будущее вместе
@@ -529,8 +533,8 @@ background: https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1920&q=8
 </div>
 
 ---
-layout: end
----
+
+## layout: end
 
 # Спасибо!
 

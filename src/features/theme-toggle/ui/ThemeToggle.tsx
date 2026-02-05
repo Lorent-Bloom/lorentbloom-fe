@@ -44,7 +44,7 @@ export function ThemeToggle({ className }: ThemeToggleProps) {
               onClick={() => setTheme(option.value)}
               className={cn(
                 "cursor-pointer gap-3 py-2",
-                isSelected && "bg-accent"
+                isSelected && "bg-accent",
               )}
             >
               <Icon className="h-4 w-4" />

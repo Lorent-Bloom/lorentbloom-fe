@@ -13,8 +13,12 @@ interface ChatIconClientProps extends ChatIconProps {
   currentUserId: string;
 }
 
-export function ChatIconClient({ className, currentUserId }: ChatIconClientProps) {
-  const { unreadCount, isOpen, handleClick, handleClose } = useChatIcon(currentUserId);
+export function ChatIconClient({
+  className,
+  currentUserId,
+}: ChatIconClientProps) {
+  const { unreadCount, isOpen, handleClick, handleClose } =
+    useChatIcon(currentUserId);
   const t = useTranslations("chat-icon");
 
   return (

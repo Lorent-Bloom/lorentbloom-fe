@@ -4,11 +4,7 @@ import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
 import { Mail } from "lucide-react";
 import { Button } from "@shared/ui/button";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipTrigger,
-} from "@shared/ui/tooltip";
+import { Tooltip, TooltipContent, TooltipTrigger } from "@shared/ui/tooltip";
 import { cn } from "@shared/lib/utils";
 
 interface ContactIconProps {

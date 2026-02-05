@@ -1,5 +1,8 @@
 export interface ChatInputProps {
-  onSend: (content?: string, imageKeys?: string[]) => Promise<{ success: boolean; error?: string }>;
+  onSend: (
+    content?: string,
+    imageKeys?: string[],
+  ) => Promise<{ success: boolean; error?: string }>;
   disabled?: boolean;
 }
 

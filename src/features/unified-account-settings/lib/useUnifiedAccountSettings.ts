@@ -36,7 +36,7 @@ export const useUnifiedAccountSettings = ({
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { executeRecaptcha } = useRecaptcha();
   const [activeHighlight, setActiveHighlight] = useState<string | undefined>(
-    highlightField
+    highlightField,
   );
   const [enabledSections, setEnabledSections] = useState<EnabledSections>({
     name: false,
@@ -98,7 +98,7 @@ export const useUnifiedAccountSettings = ({
 
     // Check if the highlighted field already has a value
     const currentValue = form.getValues(
-      activeHighlight as keyof TUnifiedAccountSettingsSchema
+      activeHighlight as keyof TUnifiedAccountSettingsSchema,
     );
     if (currentValue) {
       setActiveHighlight(undefined);
@@ -129,7 +129,10 @@ export const useUnifiedAccountSettings = ({
 
     try {
       const recaptchaToken = await executeRecaptcha("unified_account_settings");
-      const recaptchaResult = await verifyRecaptcha(recaptchaToken, "unified_account_settings");
+      const recaptchaResult = await verifyRecaptcha(
+        recaptchaToken,
+        "unified_account_settings",
+      );
       if (!recaptchaResult.success) {
         toast.error("Verification failed. Please try again.");
         return;

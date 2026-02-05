@@ -1,6 +1,10 @@
 "use server";
 
-import { getSupabaseServerClient, type Conversation as DBConversation, type ConversationParticipant } from "@shared/api/supabase";
+import {
+  getSupabaseServerClient,
+  type Conversation as DBConversation,
+  type ConversationParticipant,
+} from "@shared/api/supabase";
 import type { Conversation } from "../../model/interface";
 
 // TODO: Re-enable when email notifications are needed
@@ -26,18 +30,18 @@ export interface CreateConversationFromOrderInput {
  * Receiver = Customer/Buyer (the person renting the item) - from customer_info
  */
 export async function createConversationFromOrder(
-  input: CreateConversationFromOrderInput
+  input: CreateConversationFromOrderInput,
 ): Promise<{ success: boolean; data?: Conversation; error?: string }> {
   try {
     const supabase = await getSupabaseServerClient();
 
     // Check if conversation already exists for this order
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const { data: existing } = await (supabase as any)
+    const { data: existing } = (await (supabase as any)
       .from("conversations")
       .select("*")
       .eq("order_id", input.orderId)
-      .maybeSingle() as { data: DBConversation | null };
+      .maybeSingle()) as { data: DBConversation | null };
 
     if (existing) {
       // Conversation already exists, return it
@@ -76,7 +80,10 @@ export async function createConversationFromOrder(
 
     if (error || !conversation) {
       console.error("Failed to create conversation:", error);
-      return { success: false, error: error?.message || "Failed to create conversation" };
+      return {
+        success: false,
+        error: error?.message || "Failed to create conversation",
+      };
     }
 
     // Create initial system message

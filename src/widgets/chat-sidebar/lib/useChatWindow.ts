@@ -3,13 +3,20 @@
 import { useState, useEffect, useCallback } from "react";
 import { useMessages } from "@entities/message";
 import { getConversation } from "@entities/conversation";
-import { getFlowSteps, getConversationProgress, type ConversationStep, type ConversationProgress } from "@entities/flow-step";
+import {
+  getFlowSteps,
+  getConversationProgress,
+  type ConversationStep,
+  type ConversationProgress,
+} from "@entities/flow-step";
 import type { Conversation } from "@entities/conversation";
 
 export const useChatWindow = (conversationId: string) => {
   const [conversation, setConversation] = useState<Conversation | null>(null);
   const [steps, setSteps] = useState<ConversationStep[]>([]);
-  const [completedSteps, setCompletedSteps] = useState<ConversationProgress[]>([]);
+  const [completedSteps, setCompletedSteps] = useState<ConversationProgress[]>(
+    [],
+  );
   const [isLoadingConversation, setIsLoadingConversation] = useState(true);
 
   const {
@@ -72,7 +79,7 @@ export const useChatWindow = (conversationId: string) => {
     async (content?: string, imageKeys?: string[]) => {
       return sendMessage({ content, imageKeys });
     },
-    [sendMessage]
+    [sendMessage],
   );
 
   const handleStepComplete = useCallback(() => {

@@ -265,7 +265,9 @@ function SignatureBox({ title, signature, t }: SignatureBoxProps) {
   return (
     <View style={styles.signatureBox}>
       <Text style={styles.signatureTitle}>{title}</Text>
-      <Text style={{ fontSize: 9 }}>{t.sections.signatures.signatureLabel}:</Text>
+      <Text style={{ fontSize: 9 }}>
+        {t.sections.signatures.signatureLabel}:
+      </Text>
       {signature?.image ? (
         // eslint-disable-next-line jsx-a11y/alt-text -- @react-pdf/renderer Image doesn't support alt prop
         <Image style={styles.signatureImage} src={signature.image} />
@@ -273,7 +275,8 @@ function SignatureBox({ title, signature, t }: SignatureBoxProps) {
         <View style={styles.signaturePlaceholder} />
       )}
       <Text style={styles.signatureDate}>
-        {t.sections.signatures.dateLabel}: {signature?.date || "________________"}
+        {t.sections.signatures.dateLabel}:{" "}
+        {signature?.date || "________________"}
       </Text>
     </View>
   );
@@ -289,7 +292,8 @@ export function RentalContract({ data }: { data: RentalContractData }) {
         <View style={styles.header}>
           <Text style={styles.title}>{t.title}</Text>
           <Text style={styles.contractInfo}>
-            {t.contractNumber} {data.contractNumber} {t.date} {data.contractDate}
+            {t.contractNumber} {data.contractNumber} {t.date}{" "}
+            {data.contractDate}
           </Text>
         </View>
 
@@ -323,7 +327,9 @@ export function RentalContract({ data }: { data: RentalContractData }) {
           </View>
           {data.product.description && (
             <View style={styles.row}>
-              <Text style={styles.label}>{t.sections.subject.description}:</Text>
+              <Text style={styles.label}>
+                {t.sections.subject.description}:
+              </Text>
               <Text style={styles.value}>{data.product.description}</Text>
             </View>
           )}
@@ -385,8 +391,12 @@ export function RentalContract({ data }: { data: RentalContractData }) {
 
         {/* 8. Force Majeure */}
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>{t.sections.forceMajeure.title}</Text>
-          <Text style={styles.paragraph}>{t.sections.forceMajeure.content}</Text>
+          <Text style={styles.sectionTitle}>
+            {t.sections.forceMajeure.title}
+          </Text>
+          <Text style={styles.paragraph}>
+            {t.sections.forceMajeure.content}
+          </Text>
         </View>
 
         {/* 9. Disputes */}

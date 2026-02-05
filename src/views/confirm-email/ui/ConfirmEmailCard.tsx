@@ -82,7 +82,9 @@ export const ConfirmEmailCard = ({
       </CardHeader>
       <CardContent className="space-y-4">
         <div className="rounded-lg bg-muted p-4">
-          <p className="text-sm text-muted-foreground">{t("card.emailLabel")}</p>
+          <p className="text-sm text-muted-foreground">
+            {t("card.emailLabel")}
+          </p>
           <p className="font-medium">{email}</p>
         </div>
 

@@ -9,7 +9,10 @@ import { Download, FileText, CheckCircle, Clock } from "lucide-react";
 import { useOrderDetailPage } from "../lib/useOrderDetailPage";
 import type { OrderDetailPageProps } from "../model/interface";
 
-export function OrderDetailPage({ order, isRentalOrder }: OrderDetailPageProps) {
+export function OrderDetailPage({
+  order,
+  isRentalOrder,
+}: OrderDetailPageProps) {
   // isRentalOrder indicates if this is a rental order (product owner viewing) vs buyer order
   void isRentalOrder;
   const t = useTranslations("order-detail");
@@ -32,8 +35,10 @@ export function OrderDetailPage({ order, isRentalOrder }: OrderDetailPageProps) 
       <Card>
         <CardHeader className="pb-4">
           <CardTitle className="text-xl">
-            {t("orderTitle", { number: order.order_number || order.number || "" })} (
-            {t("orderConfirmationSent")})
+            {t("orderTitle", {
+              number: order.order_number || order.number || "",
+            })}{" "}
+            ({t("orderConfirmationSent")})
           </CardTitle>
         </CardHeader>
         <CardContent>
@@ -65,7 +70,8 @@ export function OrderDetailPage({ order, isRentalOrder }: OrderDetailPageProps) 
                     {t("customerName")}
                   </span>
                   <span className="text-right text-primary">
-                    {order.customer_info?.firstname && order.customer_info?.lastname
+                    {order.customer_info?.firstname &&
+                    order.customer_info?.lastname
                       ? `${order.customer_info.firstname} ${order.customer_info.lastname}`
                       : billingAddressFormatted?.name || "N/A"}
                   </span>
@@ -97,13 +103,19 @@ export function OrderDetailPage({ order, isRentalOrder }: OrderDetailPageProps) 
             <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
               <div className="flex items-center gap-2">
                 {contractStatus === "partially_signed" && (
-                  <Badge variant="outline" className="text-amber-600 border-amber-300">
+                  <Badge
+                    variant="outline"
+                    className="text-amber-600 border-amber-300"
+                  >
                     <Clock className="mr-1 h-3 w-3" />
                     {t("contractPending")}
                   </Badge>
                 )}
                 {contractStatus === "signed" && (
-                  <Badge variant="outline" className="text-green-600 border-green-300">
+                  <Badge
+                    variant="outline"
+                    className="text-green-600 border-green-300"
+                  >
                     <CheckCircle className="mr-1 h-3 w-3" />
                     {t("contractSigned")}
                   </Badge>

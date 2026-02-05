@@ -12,7 +12,7 @@ export function MessageBubble({ message, isOwnMessage }: MessageBubbleProps) {
     <div
       className={cn(
         "flex w-full mb-3",
-        isOwnMessage ? "justify-end" : "justify-start"
+        isOwnMessage ? "justify-end" : "justify-start",
       )}
     >
       <div
@@ -20,7 +20,7 @@ export function MessageBubble({ message, isOwnMessage }: MessageBubbleProps) {
           "max-w-[75%] rounded-2xl px-4 py-2",
           isOwnMessage
             ? "bg-primary text-primary-foreground rounded-br-md"
-            : "bg-muted rounded-bl-md"
+            : "bg-muted rounded-bl-md",
         )}
       >
         {/* Images */}
@@ -28,7 +28,7 @@ export function MessageBubble({ message, isOwnMessage }: MessageBubbleProps) {
           <div
             className={cn(
               "grid gap-2 mb-2",
-              message.image_keys!.length === 1 ? "grid-cols-1" : "grid-cols-2"
+              message.image_keys!.length === 1 ? "grid-cols-1" : "grid-cols-2",
             )}
           >
             {message.image_keys!.map((key, index) => (
@@ -62,7 +62,9 @@ export function MessageBubble({ message, isOwnMessage }: MessageBubbleProps) {
         <p
           className={cn(
             "text-xs mt-1",
-            isOwnMessage ? "text-primary-foreground/70" : "text-muted-foreground"
+            isOwnMessage
+              ? "text-primary-foreground/70"
+              : "text-muted-foreground",
           )}
         >
           {format(new Date(message.created_at), "HH:mm")}

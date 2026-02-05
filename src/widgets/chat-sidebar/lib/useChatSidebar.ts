@@ -22,7 +22,7 @@ export const useChatSidebar = (currentUserId: string) => {
       selectConversation(conversationId);
       setMobileView("chat");
     },
-    [selectConversation]
+    [selectConversation],
   );
 
   const handleBackToList = useCallback(() => {

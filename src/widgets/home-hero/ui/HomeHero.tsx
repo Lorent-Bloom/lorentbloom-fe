@@ -42,7 +42,7 @@ export default function HomeHero({ className, stats }: HomeHeroProps) {
     <section
       className={cn(
         "relative min-h-[90vh] flex items-center justify-center overflow-hidden",
-        className
+        className,
       )}
     >
       {/* Animated Background */}
@@ -122,7 +122,10 @@ export default function HomeHero({ className, stats }: HomeHeroProps) {
                   ))}
                 </div>
                 <span className="text-sm">
-                  <span className="font-semibold">{formatNumber(totalProducts)}</span> {t("trustedBy")}
+                  <span className="font-semibold">
+                    {formatNumber(totalProducts)}
+                  </span>{" "}
+                  {t("trustedBy")}
                 </span>
               </div>
               <div className="h-4 w-px bg-border hidden sm:block" />
@@ -135,7 +138,7 @@ export default function HomeHero({ className, stats }: HomeHeroProps) {
                         "w-4 h-4",
                         i <= starRating
                           ? "text-yellow-500 fill-yellow-500"
-                          : "text-gray-300 fill-gray-300"
+                          : "text-gray-300 fill-gray-300",
                       )}
                       viewBox="0 0 20 20"
                     >
@@ -144,10 +147,13 @@ export default function HomeHero({ className, stats }: HomeHeroProps) {
                   ))}
                 </div>
                 <span className="text-sm font-medium">
-                  {averageRating > 0 ? (averageRating / 20).toFixed(1) : "5.0"}/5
+                  {averageRating > 0 ? (averageRating / 20).toFixed(1) : "5.0"}
+                  /5
                 </span>
                 <span className="text-sm">
-                  {t("rating", { count: totalReviews > 0 ? formatNumber(totalReviews) : "0" })}
+                  {t("rating", {
+                    count: totalReviews > 0 ? formatNumber(totalReviews) : "0",
+                  })}
                 </span>
               </div>
             </div>

@@ -13,7 +13,13 @@ import { OrderSummary } from "@features/checkout-order-summary";
 import { SigningFlow } from "@features/document-signing";
 import { useTranslations } from "next-intl";
 import { Button } from "@shared/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@shared/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@shared/ui/card";
 import { CheckCircle2, FileSignature } from "lucide-react";
 import { useCheckoutPage } from "../lib/useCheckoutPage";
 import type { CheckoutPageProps } from "../model/interface";

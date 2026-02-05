@@ -2,7 +2,14 @@ import { useMemo, useState, useCallback } from "react";
 import type { MultiSelectDropdownProps } from "../model/interface";
 
 export const useMultiSelectDropdown = (props: MultiSelectDropdownProps) => {
-  const { label, options, selectedValues, onToggle, onClear, defaultExpanded = false } = props;
+  const {
+    label,
+    options,
+    selectedValues,
+    onToggle,
+    onClear,
+    defaultExpanded = false,
+  } = props;
   const [isExpanded, setIsExpanded] = useState(defaultExpanded);
 
   const toggleExpanded = useCallback(() => {

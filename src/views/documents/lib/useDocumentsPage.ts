@@ -34,7 +34,7 @@ export const useDocumentsPage = ({ documents }: DocumentsPageProps) => {
     (doc: DocumentWithRole) => {
       router.push(`/sign-contract/${doc.order_id}`);
     },
-    [router]
+    [router],
   );
 
   const getStatusLabel = useCallback(
@@ -50,7 +50,7 @@ export const useDocumentsPage = ({ documents }: DocumentsPageProps) => {
           return status;
       }
     },
-    [t]
+    [t],
   );
 
   const getStatusVariant = useCallback(
@@ -66,7 +66,7 @@ export const useDocumentsPage = ({ documents }: DocumentsPageProps) => {
           return "default";
       }
     },
-    []
+    [],
   );
 
   const formatDate = useCallback((dateString: string) => {

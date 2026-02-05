@@ -2,13 +2,13 @@
   "title": "Termeni și Condiții",
   "lastUpdated": "Ultima actualizare: 25 ianuarie 2026",
   "metadata": {
-    "title": "Termeni și Condiții - Minimum",
-    "description": "Citiți termenii și condițiile platformei Minimum și aflați despre drepturile și responsabilitățile dumneavoastră."
+    "title": "Termeni și Condiții - Lorent Bloom",
+    "description": "Citiți termenii și condițiile platformei Lorent Bloom și aflați despre drepturile și responsabilitățile dumneavoastră."
   },
   "introduction": {
     "heading": "1. Introducere",
-    "content": "Bine ați venit pe platforma Minimum (denumită în continuare \"Platformă\", \"Serviciu\", \"Minimum\"). Acești Termeni și Condiții reglementează accesul și utilizarea site-ului web Minimum și a serviciilor conexe.",
-    "description": "Minimum este o platformă online care oferă utilizatorilor posibilitatea tehnică de a publica anunțuri de închiriere și de a interacționa între ei. Minimum nu este parte la tranzacțiile încheiate între utilizatori.",
+    "content": "Bine ați venit pe platforma Lorent Bloom (denumită în continuare \"Platformă\", \"Serviciu\", \"Lorent Bloom\"). Acești Termeni și Condiții reglementează accesul și utilizarea site-ului web Lorent Bloom și a serviciilor conexe.",
+    "description": "Lorent Bloom este o platformă online care oferă utilizatorilor posibilitatea tehnică de a publica anunțuri de închiriere și de a interacționa între ei. Lorent Bloom nu este parte la tranzacțiile încheiate între utilizatori.",
     "agreement": "Prin utilizarea Platformei, confirmați acordul dumneavoastră cu acești Termeni."
   },
   "acceptanceOfTerms": {
@@ -17,15 +17,15 @@
     "list": {
       "item1": "ați citit și înțeles acești Termeni;",
       "item2": "sunteți de acord să îi respectați în totalitate;",
-      "item3": "acceptați Politica de Confidențialitate a Minimum ca parte integrantă a acestor Termeni."
+      "item3": "acceptați Politica de Confidențialitate a Lorent Bloom ca parte integrantă a acestor Termeni."
     },
     "warning": "Dacă nu sunteți de acord cu termenii, trebuie să încetați utilizarea Platformei."
   },
   "minimumStatus": {
-    "heading": "3. Statutul Minimum și Declinarea Responsabilității",
-    "point1": "3.1. Minimum nu este locator, locatar, agent, broker, transportator sau asigurator.",
+    "heading": "3. Statutul Lorent Bloom și Declinarea Responsabilității",
+    "point1": "3.1. Lorent Bloom nu este locator, locatar, agent, broker, transportator sau asigurator.",
     "point2": "3.2. Toate aranjamentele privind închirierea, transferul, returnarea, starea bunurilor, plata, garanția, livrarea și orice alte condiții au loc exclusiv între utilizatori.",
-    "point3": "3.3. Minimum:",
+    "point3": "3.3. Lorent Bloom:",
     "list": {
       "item1": "nu verifică calitatea, siguranța, legalitatea sau starea bunurilor;",
       "item2": "nu garantează integritatea utilizatorilor;",
@@ -40,8 +40,8 @@
       "item1": "securitatea datelor de autentificare și a parolei;",
       "item2": "toate acțiunile efectuate sub contul său."
     },
-    "point3": "4.3. Trebuie să notificați imediat Minimum despre orice acces neautorizat sau suspiciune în acest sens.",
-    "point4": "4.4. Minimum își rezervă dreptul de a refuza înregistrarea sau de a șterge un cont fără explicații pentru încălcarea acestor Termeni."
+    "point3": "4.3. Trebuie să notificați imediat Lorent Bloom despre orice acces neautorizat sau suspiciune în acest sens.",
+    "point4": "4.4. Lorent Bloom își rezervă dreptul de a refuza înregistrarea sau de a șterge un cont fără explicații pentru încălcarea acestor Termeni."
   },
   "userObligations": {
     "heading": "5. Obligațiile Utilizatorilor",
@@ -65,7 +65,7 @@
       "item5": "neconformitate cu descrierea,"
     },
     "riskConclusion": "sunt suportate exclusiv de utilizatorii participanți la tranzacție.",
-    "point2": "6.2. Minimum nu este responsabil pentru:",
+    "point2": "6.2. Lorent Bloom nu este responsabil pentru:",
     "liabilityList": {
       "item1": "vătămări fizice;",
       "item2": "daune materiale;",
@@ -76,7 +76,7 @@
   },
   "payments": {
     "heading": "7. Plăți",
-    "point1": "7.1. Minimum poate oferi capacitatea tehnică de a procesa plăți, dar nu controlează și nu garantează corectitudinea acestora.",
+    "point1": "7.1. Lorent Bloom poate oferi capacitatea tehnică de a procesa plăți, dar nu controlează și nu garantează corectitudinea acestora.",
     "point2": "7.2. Toate pretențiile financiare trebuie rezolvate între utilizatori."
   },
   "prohibitedActivities": {
@@ -93,18 +93,18 @@
   },
   "intellectualProperty": {
     "heading": "9. Proprietate Intelectuală",
-    "content": "Tot conținutul Platformei (cod, design, texte, logo-uri) este proprietatea Minimum sau a licențiatorilor săi și este protejat de lege.",
-    "warning": "Utilizarea conținutului fără acordul scris al Minimum este interzisă.",
+    "content": "Tot conținutul Platformei (cod, design, texte, logo-uri) este proprietatea Lorent Bloom sau a licențiatorilor săi și este protejat de lege.",
+    "warning": "Utilizarea conținutului fără acordul scris al Lorent Bloom este interzisă.",
     "userContent": {
       "heading": "9.1. Conținutul Utilizatorului",
       "content": "Utilizatorii poartă întreaga responsabilitate pentru orice conținut pe care îl publică pe Platformă, inclusiv anunțuri, descrieri ale bunurilor, imagini, recenzii și alte materiale.",
-      "disclaimer": "Minimum nu verifică în prealabil conținutul utilizatorului și nu este responsabil pentru acuratețea, legalitatea, relevanța sau veridicitatea acestuia.",
+      "disclaimer": "Lorent Bloom nu verifică în prealabil conținutul utilizatorului și nu este responsabil pentru acuratețea, legalitatea, relevanța sau veridicitatea acestuia.",
       "confirmation": "Prin publicarea conținutului, utilizatorul confirmă că deține toate drepturile și permisiunile necesare pentru a-l utiliza și publica."
     }
   },
   "limitation": {
     "heading": "10. Limitarea Răspunderii",
-    "content": "În măsura maximă permisă de lege, Minimum nu este răspunzător pentru:",
+    "content": "În măsura maximă permisă de lege, Lorent Bloom nu este răspunzător pentru:",
     "list": {
       "item1": "orice daune indirecte sau accidentale;",
       "item2": "acțiunile sau inacțiunile utilizatorilor;",
@@ -113,13 +113,13 @@
     "warning": "Utilizarea Platformei se face pe propriul risc.",
     "disclaimer": {
       "heading": "10.1. Declinarea Garanțiilor",
-      "content": "Platforma și toate serviciile conexe sunt furnizate \"ca atare\" și \"după cum sunt disponibile\". Minimum nu oferă garanții exprese sau implicite, inclusiv, dar fără a se limita la garanții de funcționare neîntreruptă a serviciului, acuratețea informațiilor, adecvarea pentru un anumit scop sau absența erorilor.",
-      "noGuarantee": "Minimum nu garantează că Platforma va funcționa fără defecțiuni, întârzieri sau defecțiuni tehnice."
+      "content": "Platforma și toate serviciile conexe sunt furnizate \"ca atare\" și \"după cum sunt disponibile\". Lorent Bloom nu oferă garanții exprese sau implicite, inclusiv, dar fără a se limita la garanții de funcționare neîntreruptă a serviciului, acuratețea informațiilor, adecvarea pentru un anumit scop sau absența erorilor.",
+      "noGuarantee": "Lorent Bloom nu garantează că Platforma va funcționa fără defecțiuni, întârzieri sau defecțiuni tehnice."
     }
   },
   "termination": {
     "heading": "11. Încetarea Accesului",
-    "content": "Minimum își rezervă dreptul în orice moment să:",
+    "content": "Lorent Bloom își rezervă dreptul în orice moment să:",
     "list": {
       "item1": "suspende sau să înceteze accesul utilizatorului;",
       "item2": "șteargă conturile;",
@@ -127,7 +127,7 @@
     },
     "indemnity": {
       "heading": "11.1. Despăgubire",
-      "content": "Utilizatorul este de acord să despăgubească și să exonereze Minimum de orice pretenții, cereri, pierderi, amenzi și cheltuieli (inclusiv onorarii de avocat) rezultate din:",
+      "content": "Utilizatorul este de acord să despăgubească și să exonereze Lorent Bloom de orice pretenții, cereri, pierderi, amenzi și cheltuieli (inclusiv onorarii de avocat) rezultate din:",
       "list": {
         "item1": "încălcarea de către utilizator a acestor Termeni;",
         "item2": "încălcarea drepturilor terților;",
@@ -138,18 +138,18 @@
   "disputeResolution": {
     "heading": "12. Soluționarea Disputelor",
     "point1": "12.1. Toate disputele între utilizatori vor fi rezolvate direct între ei.",
-    "point2": "12.2. Disputele dintre un utilizator și Minimum sunt supuse soluționării pre-judiciare în termen de 30 de zile lucrătoare.",
+    "point2": "12.2. Disputele dintre un utilizator și Lorent Bloom sunt supuse soluționării pre-judiciare în termen de 30 de zile lucrătoare.",
     "point3": "12.3. Dacă o dispută nu poate fi rezolvată, aceasta va fi examinată de instanțele Republicii Moldova.",
     "forceMajeure": {
       "heading": "12.4. Forță Majoră",
-      "content": "Minimum nu este răspunzător pentru neîndeplinirea totală sau parțială a obligațiilor în conformitate cu acești Termeni dacă această neîndeplinire este cauzată de circumstanțe de forță majoră, inclusiv, dar fără a se limita la: dezastre naturale, incendii, acțiuni militare, decizii guvernamentale, defecțiuni în rețelele de comunicații, alimentarea cu energie electrică sau serviciile terților."
+      "content": "Lorent Bloom nu este răspunzător pentru neîndeplinirea totală sau parțială a obligațiilor în conformitate cu acești Termeni dacă această neîndeplinire este cauzată de circumstanțe de forță majoră, inclusiv, dar fără a se limita la: dezastre naturale, incendii, acțiuni militare, decizii guvernamentale, defecțiuni în rețelele de comunicații, alimentarea cu energie electrică sau serviciile terților."
     }
   },
   "privacyPolicy": {
     "heading": "13. Politica de Confidențialitate",
     "intro": "Prelucrarea datelor personale ale utilizatorilor se efectuează în conformitate cu Legea nr. 133 din 07.08.2011 a Republicii Moldova \"Cu privire la protecția datelor cu caracter personal\".",
     "purposes": {
-      "content": "Minimum prelucrează datele personale exclusiv în scopurile:",
+      "content": "Lorent Bloom prelucrează datele personale exclusiv în scopurile:",
       "list": {
         "item1": "furnizării accesului la Platformă și funcționalitatea acesteia;",
         "item2": "identificării utilizatorilor;",
@@ -157,7 +157,7 @@
         "item4": "respectării cerințelor legale."
       }
     },
-    "thirdParty": "Minimum nu transferă datele personale către terți, cu excepția cazurilor prevăzute direct de lege sau necesare pentru furnizarea serviciului (furnizori de plăți, furnizori de găzduire și alți parteneri tehnici).",
+    "thirdParty": "Lorent Bloom nu transferă datele personale către terți, cu excepția cazurilor prevăzute direct de lege sau necesare pentru furnizarea serviciului (furnizori de plăți, furnizori de găzduire și alți parteneri tehnici).",
     "dataTypes": {
       "content": "Datele personale pot include, printre altele:",
       "list": {
@@ -178,6 +178,6 @@
   },
   "contact": {
     "heading": "15. Informații de Contact",
-    "content": "Dacă aveți întrebări despre acești Termeni și Condiții, vă rugăm să ne contactați la support@minimum.com"
+    "content": "Dacă aveți întrebări despre acești Termeni și Condiții, vă rugăm să ne contactați la support@lorentbloom.com"
   }
 }

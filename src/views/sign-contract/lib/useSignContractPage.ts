@@ -20,7 +20,7 @@ export function useSignContractPage(
   document: Document | null,
   order: OrderDetail | null,
   customer: Customer | null,
-  locale: string
+  locale: string,
 ) {
   const router = useRouter();
   const t = useTranslations("document-signing");
@@ -34,7 +34,8 @@ export function useSignContractPage(
     if (!order) return null;
 
     const orderNumber = order.number || order.order_number || "";
-    const orderDate = order.order_date || order.created_at || new Date().toISOString();
+    const orderDate =
+      order.order_date || order.created_at || new Date().toISOString();
     const firstItem = order.items[0];
 
     if (!firstItem) return null;
@@ -48,7 +49,9 @@ export function useSignContractPage(
       : new Date();
     const totalDays = Math.max(
       1,
-      Math.ceil((rentTo.getTime() - rentFrom.getTime()) / (1000 * 60 * 60 * 24))
+      Math.ceil(
+        (rentTo.getTime() - rentFrom.getTime()) / (1000 * 60 * 60 * 24),
+      ),
     );
 
     // Owner info from parent_customer_info
@@ -107,7 +110,11 @@ export function useSignContractPage(
   }, [order]);
 
   const handleSign = useCallback(
-    async (signatureData: string, method: SignatureMethod, personalNumber?: string) => {
+    async (
+      signatureData: string,
+      method: SignatureMethod,
+      personalNumber?: string,
+    ) => {
       if (!document || !order || !contractPreviewData) {
         toast.error(t("missingContractData"));
         return;
@@ -128,7 +135,8 @@ export function useSignContractPage(
           documentId: document.id,
           signatureData,
           method,
-          signerName: `${ownerInfo.firstname || ""} ${ownerInfo.lastname || ""}`.trim(),
+          signerName:
+            `${ownerInfo.firstname || ""} ${ownerInfo.lastname || ""}`.trim(),
           signerEmail: ownerInfo.email,
           signerPersonalNumber: personalNumber,
           signerRole: "owner",
@@ -144,7 +152,7 @@ export function useSignContractPage(
         if (orderNumber) {
           const finalizeResult = await finalizeContract(
             orderNumber,
-            contractPreviewData
+            contractPreviewData,
           );
 
           if (!finalizeResult.success) {
@@ -167,14 +175,17 @@ export function useSignContractPage(
         setIsSubmitting(false);
       }
     },
-    [document, order, contractPreviewData, locale, router, t]
+    [document, order, contractPreviewData, locale, router, t],
   );
 
   // Get owner's existing personal number from customer account (priority) or document
   const existingPersonalNumber = useMemo(() => {
     // First try to get from customer's account custom attributes
     if (customer) {
-      const customerPersonalNumber = getCustomAttributeValue(customer, "personal_number");
+      const customerPersonalNumber = getCustomAttributeValue(
+        customer,
+        "personal_number",
+      );
       if (customerPersonalNumber) {
         return customerPersonalNumber;
       }

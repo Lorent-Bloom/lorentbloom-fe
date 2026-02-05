@@ -33,7 +33,7 @@ export function ChatReportModal({
   const { form, onSubmit, isSubmitting } = useChatReportModal(
     conversationId,
     onClose,
-    onSuccess
+    onSuccess,
   );
 
   return (

@@ -45,7 +45,7 @@ export const useChatIcon = (currentUserId: string): UseChatIconReturn => {
           if (message.sender_id !== currentUserId) {
             setUnreadCount((prev) => prev + 1);
           }
-        }
+        },
       )
       .subscribe();
 

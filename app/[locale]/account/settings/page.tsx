@@ -40,9 +40,7 @@ interface PageProps {
   }>;
 }
 
-export default async function AccountSettingsPage({
-  searchParams,
-}: PageProps) {
+export default async function AccountSettingsPage({ searchParams }: PageProps) {
   const customer = await getCustomer();
   const locale = await getLocale();
 

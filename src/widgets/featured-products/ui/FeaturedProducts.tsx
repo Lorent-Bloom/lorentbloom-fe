@@ -121,7 +121,7 @@ export default function FeaturedProducts({
                     "h-2 rounded-full transition-all",
                     current === index
                       ? "w-6 bg-primary"
-                      : "w-2 bg-muted-foreground/30"
+                      : "w-2 bg-muted-foreground/30",
                   )}
                   onClick={() => api?.scrollTo(index)}
                 />

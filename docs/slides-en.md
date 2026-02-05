@@ -26,8 +26,8 @@ mdc: true
 </div>
 
 ---
-layout: two-cols
----
+
+## layout: two-cols
 
 # The Problem
 
@@ -65,8 +65,10 @@ pie showData
 </v-click>
 
 ---
+
 layout: center
 class: text-center
+
 ---
 
 # The Solution
@@ -128,13 +130,13 @@ class: text-center
 
 <v-clicks>
 
-| Source | Share |
-|--------|-------|
-| Rental commission | 65% |
-| Subscriptions | 15% |
-| Premium features | 10% |
-| Delivery | 5% |
-| Storage | 5% |
+| Source            | Share |
+| ----------------- | ----- |
+| Rental commission | 65%   |
+| Subscriptions     | 15%   |
+| Premium features  | 10%   |
+| Delivery          | 5%    |
+| Storage           | 5%    |
 
 </v-clicks>
 
@@ -245,8 +247,8 @@ class: text-center
 </div>
 
 ---
-layout: center
----
+
+## layout: center
 
 # Case Study: Flowers for March 8th
 
@@ -397,8 +399,8 @@ layout: center
 </div>
 
 ---
-layout: two-cols
----
+
+## layout: two-cols
 
 # Marketing
 
@@ -513,9 +515,11 @@ layout: two-cols
 </div>
 
 ---
+
 layout: center
 class: text-center
 background: https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1920&q=80
+
 ---
 
 # Let's Build the Future Together
@@ -529,8 +533,8 @@ background: https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1920&q=8
 </div>
 
 ---
-layout: end
----
+
+## layout: end
 
 # Thank You!
 

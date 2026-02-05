@@ -1,10 +1,10 @@
 {
   "title": "Politica privind Cookie-urile",
   "lastUpdated": "Ultima actualizare: 25 ianuarie 2026",
-  "intro": "Această Politică privind cookie-urile (denumită în continuare «Politica») explică modul în care platforma Minimum (denumită în continuare «Minimum», «noi», «serviciul nostru») utilizează cookie-urile și tehnologii similare atunci când vizitați și utilizați site-ul web. Prin utilizarea Platformei, sunteți de acord cu utilizarea cookie-urilor în conformitate cu această Politică.",
+  "intro": "Această Politică privind cookie-urile (denumită în continuare «Politica») explică modul în care platforma Lorent Bloom (denumită în continuare «Lorent Bloom», «noi», «serviciul nostru») utilizează cookie-urile și tehnologii similare atunci când vizitați și utilizați site-ul web. Prin utilizarea Platformei, sunteți de acord cu utilizarea cookie-urilor în conformitate cu această Politică.",
   "metadata": {
-    "title": "Politica Cookie - Minimum",
-    "description": "Aflați cum platforma Minimum utilizează cookie-urile și cum le puteți gestiona."
+    "title": "Politica Cookie - Lorent Bloom",
+    "description": "Aflați cum platforma Lorent Bloom utilizează cookie-urile și cum le puteți gestiona."
   },
   "whatAreCookies": {
     "heading": "1. Ce sunt cookie-urile",
@@ -12,7 +12,7 @@
   },
   "cookieTypes": {
     "heading": "2. Tipurile de cookie-uri pe care le folosim",
-    "intro": "Minimum utilizează următoarele categorii de cookie-uri:",
+    "intro": "Lorent Bloom utilizează următoarele categorii de cookie-uri:",
     "required": {
       "heading": "2.1. Cookie-uri obligatorii (tehnice)",
       "content": "Aceste cookie-uri sunt necesare pentru funcționarea corectă a Platformei și nu pot fi dezactivate în setările sistemului. Acestea sunt utilizate, în special, pentru:",
@@ -41,7 +41,7 @@
   },
   "thirdPartyCookies": {
     "heading": "3. Cookie-uri terțe",
-    "content": "Minimum poate utiliza servicii terțe (cum ar fi furnizori de analiză sau de plăți) care pot plasa cookie-uri pe dispozitivul dumneavoastră în cadrul funcționării lor.",
+    "content": "Lorent Bloom poate utiliza servicii terțe (cum ar fi furnizori de analiză sau de plăți) care pot plasa cookie-uri pe dispozitivul dumneavoastră în cadrul funcționării lor.",
     "disclaimer": "Nu controlăm cookie-urile terților și vă recomandăm să consultați politicile lor de confidențialitate și de utilizare a cookie-urilor."
   },
   "managingCookies": {
@@ -60,10 +60,10 @@
   },
   "changes": {
     "heading": "6. Modificări ale Politicii Cookie",
-    "content": "Minimum își rezervă dreptul de a aduce modificări acestei Politici în orice moment. Versiunea actualizată intră în vigoare din momentul publicării pe Platformă."
+    "content": "Lorent Bloom își rezervă dreptul de a aduce modificări acestei Politici în orice moment. Versiunea actualizată intră în vigoare din momentul publicării pe Platformă."
   },
   "contact": {
     "heading": "7. Informații de contact",
-    "content": "Dacă aveți întrebări legate de utilizarea cookie-urilor, vă rugăm să ne contactați la: support@minimum.com"
+    "content": "Dacă aveți întrebări legate de utilizarea cookie-urilor, vă rugăm să ne contactați la: support@lorentbloom.com"
   }
 }

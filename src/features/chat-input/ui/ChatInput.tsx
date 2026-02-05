@@ -43,7 +43,8 @@ export function ChatInput({ onSend, disabled }: ChatInputProps) {
   };
 
   const isDisabled = disabled || isSending || isUploading;
-  const canSend = (message.trim().length > 0 || imageKeys.length > 0) && !isDisabled;
+  const canSend =
+    (message.trim().length > 0 || imageKeys.length > 0) && !isDisabled;
 
   return (
     <div className="border-t bg-background p-3">
@@ -109,7 +110,7 @@ export function ChatInput({ onSend, disabled }: ChatInputProps) {
           disabled={isDisabled}
           className={cn(
             "min-h-10 max-h-32 resize-none",
-            "focus-visible:ring-1"
+            "focus-visible:ring-1",
           )}
           rows={1}
         />

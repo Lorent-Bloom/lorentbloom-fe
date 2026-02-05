@@ -50,7 +50,7 @@ export const useCategoryNavBar = (categories: Category[]) => {
   // Mobile: Toggle category accordion
   const toggleMobileCategory = useCallback((categoryUid: string) => {
     setExpandedMobileCategory((prev) =>
-      prev === categoryUid ? null : categoryUid
+      prev === categoryUid ? null : categoryUid,
     );
   }, []);
 
@@ -75,7 +75,7 @@ export const useCategoryNavBar = (categories: Category[]) => {
 
   // Get top-level categories - try level 2 first, fallback to any with children
   let topLevelCategories = categories.filter(
-    (cat) => cat.level === 2 && cat.children && cat.children.length > 0
+    (cat) => cat.level === 2 && cat.children && cat.children.length > 0,
   );
 
   // If no level 2 categories, find the root category and use its children
@@ -83,7 +83,7 @@ export const useCategoryNavBar = (categories: Category[]) => {
     const rootCategory = categories.find((cat) => cat.level === 1);
     if (rootCategory && rootCategory.children) {
       topLevelCategories = rootCategory.children.filter(
-        (cat) => cat.children && cat.children.length > 0
+        (cat) => cat.children && cat.children.length > 0,
       );
     }
   }
@@ -91,7 +91,7 @@ export const useCategoryNavBar = (categories: Category[]) => {
   // Still nothing? Just use any categories with children
   if (topLevelCategories.length === 0) {
     topLevelCategories = categories.filter(
-      (cat) => cat.children && cat.children.length > 0
+      (cat) => cat.children && cat.children.length > 0,
     );
   }
 

@@ -11,13 +11,8 @@ export const useChatInput = ({
   const [isSending, setIsSending] = useState(false);
   const inputRef = useRef<HTMLTextAreaElement>(null);
 
-  const {
-    imageKeys,
-    isUploading,
-    handleUpload,
-    removeImage,
-    clearImages,
-  } = useChatImageUpload();
+  const { imageKeys, isUploading, handleUpload, removeImage, clearImages } =
+    useChatImageUpload();
 
   const handleSubmit = useCallback(async () => {
     const trimmedMessage = message.trim();
@@ -31,7 +26,7 @@ export const useChatInput = ({
 
     const result = await onSend(
       trimmedMessage || undefined,
-      imageKeys.length > 0 ? imageKeys : undefined
+      imageKeys.length > 0 ? imageKeys : undefined,
     );
 
     if (result.success) {
@@ -47,7 +42,7 @@ export const useChatInput = ({
     async (files: File[]) => {
       await handleUpload(files);
     },
-    [handleUpload]
+    [handleUpload],
   );
 
   return {

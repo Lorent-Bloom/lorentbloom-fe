@@ -35,7 +35,10 @@ export const useChangePasswordForm = ({
     setIsSubmitting(true);
     try {
       const recaptchaToken = await executeRecaptcha("change_password");
-      const recaptchaResult = await verifyRecaptcha(recaptchaToken, "change_password");
+      const recaptchaResult = await verifyRecaptcha(
+        recaptchaToken,
+        "change_password",
+      );
       if (!recaptchaResult.success) {
         toast.error("Verification failed. Please try again.");
         return;

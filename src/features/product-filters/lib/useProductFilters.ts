@@ -193,10 +193,9 @@ export const useProductFilters = ({
 
   // Access raw messages for dynamic city lookups
   const messages = useMessages();
-  const cityMessages =
-    (messages?.["product-filters"] as Record<string, unknown>)?.cities as
-      | Record<string, string>
-      | undefined;
+  const cityMessages = (
+    messages?.["product-filters"] as Record<string, unknown>
+  )?.cities as Record<string, string> | undefined;
 
   // Known translatable filter labels
   const TRANSLATABLE_LABELS: Record<string, Parameters<typeof t>[0]> = {

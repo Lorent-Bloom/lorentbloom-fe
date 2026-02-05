@@ -36,7 +36,12 @@ export function ChatHeader({
   return (
     <div className="flex items-center gap-3 p-4 border-b bg-background">
       {showBackButton && onBack && (
-        <Button variant="ghost" size="icon" onClick={onBack} className="lg:hidden">
+        <Button
+          variant="ghost"
+          size="icon"
+          onClick={onBack}
+          className="lg:hidden"
+        >
           <ArrowLeft className="h-5 w-5" />
         </Button>
       )}
@@ -46,7 +51,10 @@ export function ChatHeader({
           <h3 className="font-semibold text-sm truncate">
             {t("orderTitle", { orderNumber: conversation.order_id })}
           </h3>
-          <FlowStepBadge currentStepId={conversation.current_step_id} steps={steps} />
+          <FlowStepBadge
+            currentStepId={conversation.current_step_id}
+            steps={steps}
+          />
         </div>
         <p className="text-xs text-muted-foreground truncate">
           {t("chatWith", { name: otherPartyName })}

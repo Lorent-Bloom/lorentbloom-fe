@@ -6,6 +6,7 @@ import Image from "next/image";
 import { Mail } from "lucide-react";
 import { Separator } from "@shared/ui/separator";
 import { useFooter } from "../lib/useFooter";
+import { BRAND } from "@shared/config/brand";
 
 const Footer = () => {
   const { t, locale, currentYear, footerLinks } = useFooter();
@@ -20,12 +21,12 @@ const Footer = () => {
             <Link href={`/${locale}`} className="inline-flex items-center mb-4">
               <Image
                 src="/logo.png"
-                alt="Minimum"
+                alt={BRAND.name}
                 width={48}
                 height={48}
                 className="object-contain rounded-4xl"
               />
-              <span className="ml-2 text-xl font-bold">Minimum</span>
+              <span className="ml-2 text-xl font-bold">{BRAND.name}</span>
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed mb-6 max-w-xs">
               {t("brand.tagline")}

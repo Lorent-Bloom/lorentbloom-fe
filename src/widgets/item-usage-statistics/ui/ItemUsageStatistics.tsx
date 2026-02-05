@@ -123,7 +123,7 @@ export default function ItemUsageStatistics({
                       "relative p-5 rounded-2xl border transition-all duration-300 group",
                       isDust
                         ? "bg-gradient-to-r from-red-500/20 to-red-600/10 border-red-500/40 hover:border-red-500/60 shadow-lg shadow-red-500/10"
-                        : "bg-white/5 border-white/10 hover:border-white/20 hover:bg-white/10"
+                        : "bg-white/5 border-white/10 hover:border-white/20 hover:bg-white/10",
                     )}
                   >
                     {/* Glow effect for dust segment */}
@@ -136,7 +136,7 @@ export default function ItemUsageStatistics({
                       <div
                         className={cn(
                           "w-5 h-5 rounded-full flex-shrink-0 ring-2 ring-offset-2 ring-offset-slate-900",
-                          isDust ? "ring-red-500/50" : "ring-transparent"
+                          isDust ? "ring-red-500/50" : "ring-transparent",
                         )}
                         style={{ backgroundColor: segment.color }}
                       />
@@ -146,7 +146,7 @@ export default function ItemUsageStatistics({
                         <p
                           className={cn(
                             "font-semibold text-lg",
-                            isDust ? "text-red-400" : "text-white"
+                            isDust ? "text-red-400" : "text-white",
                           )}
                         >
                           {segment.label}
@@ -157,7 +157,7 @@ export default function ItemUsageStatistics({
                       <div
                         className={cn(
                           "text-3xl sm:text-4xl font-black",
-                          isDust ? "text-red-400" : "text-white"
+                          isDust ? "text-red-400" : "text-white",
                         )}
                       >
                         {segment.value}%

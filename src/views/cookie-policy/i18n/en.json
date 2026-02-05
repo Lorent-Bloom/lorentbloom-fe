@@ -1,10 +1,10 @@
 {
   "title": "Cookie Policy",
   "lastUpdated": "Last Updated: January 25, 2026",
-  "intro": "This Cookie Policy (hereinafter referred to as the \"Policy\") explains how the Minimum platform (hereinafter referred to as \"Minimum\", \"we\", \"our service\") uses cookies and similar technologies when you visit and use our website. By using the Platform, you consent to the use of cookies in accordance with this Policy.",
+  "intro": "This Cookie Policy (hereinafter referred to as the \"Policy\") explains how the Lorent Bloom platform (hereinafter referred to as \"Lorent Bloom\", \"we\", \"our service\") uses cookies and similar technologies when you visit and use our website. By using the Platform, you consent to the use of cookies in accordance with this Policy.",
   "metadata": {
-    "title": "Cookie Policy - Minimum",
-    "description": "Learn how the Minimum platform uses cookies and how you can manage them."
+    "title": "Cookie Policy - Lorent Bloom",
+    "description": "Learn how the Lorent Bloom platform uses cookies and how you can manage them."
   },
   "whatAreCookies": {
     "heading": "1. What are cookies",
@@ -12,7 +12,7 @@
   },
   "cookieTypes": {
     "heading": "2. Types of cookies we use",
-    "intro": "Minimum uses the following categories of cookies:",
+    "intro": "Lorent Bloom uses the following categories of cookies:",
     "required": {
       "heading": "2.1. Required (technical) cookies",
       "content": "These cookies are necessary for the proper functioning of the Platform and cannot be disabled in system settings. They are used, in particular, for:",
@@ -41,7 +41,7 @@
   },
   "thirdPartyCookies": {
     "heading": "3. Third-party cookies",
-    "content": "Minimum may use third-party services (such as analytics or payment providers) that may place cookies on your device as part of their operation.",
+    "content": "Lorent Bloom may use third-party services (such as analytics or payment providers) that may place cookies on your device as part of their operation.",
     "disclaimer": "We do not control third-party cookies and recommend reviewing their privacy and cookie policies."
   },
   "managingCookies": {
@@ -60,10 +60,10 @@
   },
   "changes": {
     "heading": "6. Changes to Cookie Policy",
-    "content": "Minimum reserves the right to make changes to this Policy at any time. The updated version takes effect from the moment it is published on the Platform."
+    "content": "Lorent Bloom reserves the right to make changes to this Policy at any time. The updated version takes effect from the moment it is published on the Platform."
   },
   "contact": {
     "heading": "7. Contact information",
-    "content": "If you have any questions about the use of cookies, please contact us at: support@minimum.com"
+    "content": "If you have any questions about the use of cookies, please contact us at: support@lorentbloom.com"
   }
 }

@@ -95,14 +95,14 @@ export default function CategoryShowcase({
                     "group relative p-6 rounded-2xl bg-gradient-to-br border border-border/50",
                     "transition-all duration-300 hover:scale-[1.02] hover:shadow-xl hover:shadow-primary/5",
                     "flex flex-col items-center text-center",
-                    colorClass
+                    colorClass,
                   )}
                 >
                   {/* Category Icon Placeholder */}
                   <div
                     className={cn(
                       "w-14 h-14 rounded-xl bg-background/80 flex items-center justify-center mb-4",
-                      "group-hover:scale-110 transition-transform duration-300"
+                      "group-hover:scale-110 transition-transform duration-300",
                     )}
                   >
                     <span className={cn("text-2xl font-bold", iconColor)}>

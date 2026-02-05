@@ -3,7 +3,7 @@
     "tagline": "Надёжная платформа для аренды товаров. Соединяем тех, кто хочет поделиться, с теми, кому это нужно."
   },
   "contact": {
-    "email": "support@minimum.com"
+    "email": "support@lorentbloom.com"
   },
   "sections": {
     "help": "Помощь",
@@ -17,5 +17,5 @@
     "terms": "Условия использования",
     "cookies": "Политика Cookie"
   },
-  "copyright": "© {year} Minimum. Все права защищены."
+  "copyright": "© {year} Lorent Bloom. Все права защищены."
 }

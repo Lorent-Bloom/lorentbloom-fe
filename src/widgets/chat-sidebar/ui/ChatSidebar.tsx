@@ -9,22 +9,22 @@ import { ChatList } from "./ChatList";
 import { ChatWindow } from "./ChatWindow";
 import type { ChatSidebarProps } from "../model/interface";
 
-export function ChatSidebar({ isOpen, onClose, currentUserId }: ChatSidebarProps) {
+export function ChatSidebar({
+  isOpen,
+  onClose,
+  currentUserId,
+}: ChatSidebarProps) {
   const t = useTranslations("chat-sidebar");
 
-  const {
-    selectedId,
-    selectConversation,
-    mobileView,
-    handleBackToList,
-  } = useChatSidebar(currentUserId);
+  const { selectedId, selectConversation, mobileView, handleBackToList } =
+    useChatSidebar(currentUserId);
 
   return (
     <Sheet open={isOpen} onOpenChange={onClose}>
       <SheetContent
         className={cn(
           "p-0 flex flex-col",
-          "w-full sm:w-[90vw] md:w-[70vw] lg:w-[50vw] sm:max-w-none"
+          "w-full sm:w-[90vw] md:w-[70vw] lg:w-[50vw] sm:max-w-none",
         )}
       >
         <SheetHeader className="px-4 py-3 border-b shrink-0">

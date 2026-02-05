@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { LOCALES, DEFAULT_LOCALE } from "@shared/config/i18n";
+import { BRAND } from "@shared/config/brand";
 
-export const SITE_NAME = "Minimum";
-export const PRODUCTION_DOMAIN = "https://minimum.md";
+export const SITE_NAME = BRAND.name;
+export const PRODUCTION_DOMAIN = BRAND.domain;
 
 export function getCanonicalUrl(locale: string, path: string = ""): string {
   const cleanPath = path.startsWith("/") ? path : path ? `/${path}` : "";

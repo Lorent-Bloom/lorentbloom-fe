@@ -13,7 +13,10 @@ export interface UseDocumentSigningReturn {
   isSubmitting: boolean;
   error: string | null;
   pdfUrl: string | null;
-  generatePreview: (data: ContractPreviewData, locale?: string) => Promise<void>;
+  generatePreview: (
+    data: ContractPreviewData,
+    locale?: string,
+  ) => Promise<void>;
   submitSignature: (
     documentId: string,
     signatureData: string,
@@ -22,7 +25,7 @@ export interface UseDocumentSigningReturn {
       name: string;
       email: string;
       role: "owner" | "renter";
-    }
+    },
   ) => Promise<{ success: boolean; error?: string }>;
   clearError: () => void;
 }
@@ -33,25 +36,28 @@ export function useDocumentSigning(): UseDocumentSigningReturn {
   const [error, setError] = useState<string | null>(null);
   const [pdfUrl, setPdfUrl] = useState<string | null>(null);
 
-  const generatePreview = useCallback(async (data: ContractPreviewData, locale?: string) => {
-    setIsGenerating(true);
-    setError(null);
+  const generatePreview = useCallback(
+    async (data: ContractPreviewData, locale?: string) => {
+      setIsGenerating(true);
+      setError(null);
 
-    try {
-      const result = await generateContractPreview(data, locale);
-      if (result.success && result.url) {
-        setPdfUrl(result.url);
-      } else {
-        setError(result.error || "Failed to generate contract preview");
+      try {
+        const result = await generateContractPreview(data, locale);
+        if (result.success && result.url) {
+          setPdfUrl(result.url);
+        } else {
+          setError(result.error || "Failed to generate contract preview");
+        }
+      } catch (err) {
+        setError(
+          err instanceof Error ? err.message : "Failed to generate contract",
+        );
+      } finally {
+        setIsGenerating(false);
       }
-    } catch (err) {
-      setError(
-        err instanceof Error ? err.message : "Failed to generate contract"
-      );
-    } finally {
-      setIsGenerating(false);
-    }
-  }, []);
+    },
+    [],
+  );
 
   const submitSignature = useCallback(
     async (
@@ -62,7 +68,7 @@ export function useDocumentSigning(): UseDocumentSigningReturn {
         name: string;
         email: string;
         role: "owner" | "renter";
-      }
+      },
     ): Promise<{ success: boolean; error?: string }> => {
       setIsSubmitting(true);
       setError(null);
@@ -91,7 +97,7 @@ export function useDocumentSigning(): UseDocumentSigningReturn {
         setIsSubmitting(false);
       }
     },
-    []
+    [],
   );
 
   const clearError = useCallback(() => {

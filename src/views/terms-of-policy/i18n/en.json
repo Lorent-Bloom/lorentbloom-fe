@@ -2,13 +2,13 @@
   "title": "Terms and Conditions",
   "lastUpdated": "Last Updated: January 25, 2026",
   "metadata": {
-    "title": "Terms and Conditions - Minimum",
-    "description": "Read the terms and conditions of the Minimum platform and learn about your rights and responsibilities."
+    "title": "Terms and Conditions - Lorent Bloom",
+    "description": "Read the terms and conditions of the Lorent Bloom platform and learn about your rights and responsibilities."
   },
   "introduction": {
     "heading": "1. Introduction",
-    "content": "Welcome to the Minimum platform (hereinafter referred to as \"Platform\", \"Service\", \"Minimum\"). These Terms and Conditions govern access to and use of the Minimum website and related services.",
-    "description": "Minimum is an online platform that provides users with the technical capability to post rental listings and interact with each other. Minimum is not a party to transactions concluded between users.",
+    "content": "Welcome to the Lorent Bloom platform (hereinafter referred to as \"Platform\", \"Service\", \"Lorent Bloom\"). These Terms and Conditions govern access to and use of the Lorent Bloom website and related services.",
+    "description": "Lorent Bloom is an online platform that provides users with the technical capability to post rental listings and interact with each other. Lorent Bloom is not a party to transactions concluded between users.",
     "agreement": "By using the Platform, you confirm your agreement to these Terms."
   },
   "acceptanceOfTerms": {
@@ -17,15 +17,15 @@
     "list": {
       "item1": "read and understood these Terms;",
       "item2": "agree to comply with them in full;",
-      "item3": "accept Minimum's Privacy Policy as an integral part of these Terms."
+      "item3": "accept Lorent Bloom's Privacy Policy as an integral part of these Terms."
     },
     "warning": "If you do not agree to the terms, you must stop using the Platform."
   },
   "minimumStatus": {
-    "heading": "3. Minimum's Status and Disclaimer",
-    "point1": "3.1. Minimum is not a lessor, lessee, agent, broker, carrier, or insurer.",
+    "heading": "3. Lorent Bloom's Status and Disclaimer",
+    "point1": "3.1. Lorent Bloom is not a lessor, lessee, agent, broker, carrier, or insurer.",
     "point2": "3.2. All arrangements regarding rental, transfer, return, condition of items, payment, deposit, delivery, and any other terms occur exclusively between users.",
-    "point3": "3.3. Minimum:",
+    "point3": "3.3. Lorent Bloom:",
     "list": {
       "item1": "does not verify the quality, safety, legality, or condition of items;",
       "item2": "does not guarantee the integrity of users;",
@@ -40,8 +40,8 @@
       "item1": "the security of login credentials and password;",
       "item2": "all actions performed under their account."
     },
-    "point3": "4.3. You must immediately notify Minimum of any unauthorized access or suspicion thereof.",
-    "point4": "4.4. Minimum reserves the right to refuse registration or delete an account without explanation for violation of these Terms."
+    "point3": "4.3. You must immediately notify Lorent Bloom of any unauthorized access or suspicion thereof.",
+    "point4": "4.4. Lorent Bloom reserves the right to refuse registration or delete an account without explanation for violation of these Terms."
   },
   "userObligations": {
     "heading": "5. User Obligations",
@@ -65,7 +65,7 @@
       "item5": "non-conformity with description,"
     },
     "riskConclusion": "are borne exclusively by the users participating in the transaction.",
-    "point2": "6.2. Minimum is not responsible for:",
+    "point2": "6.2. Lorent Bloom is not responsible for:",
     "liabilityList": {
       "item1": "physical harm;",
       "item2": "property damage;",
@@ -76,7 +76,7 @@
   },
   "payments": {
     "heading": "7. Payments",
-    "point1": "7.1. Minimum may provide the technical capability to process payments but does not control or guarantee their correctness.",
+    "point1": "7.1. Lorent Bloom may provide the technical capability to process payments but does not control or guarantee their correctness.",
     "point2": "7.2. All financial claims must be resolved between users themselves."
   },
   "prohibitedActivities": {
@@ -93,18 +93,18 @@
   },
   "intellectualProperty": {
     "heading": "9. Intellectual Property",
-    "content": "All Platform content (code, design, texts, logos) is the property of Minimum or its licensors and is protected by law.",
-    "warning": "Use of content without written consent from Minimum is prohibited.",
+    "content": "All Platform content (code, design, texts, logos) is the property of Lorent Bloom or its licensors and is protected by law.",
+    "warning": "Use of content without written consent from Lorent Bloom is prohibited.",
     "userContent": {
       "heading": "9.1. User Content",
       "content": "Users bear full responsibility for any content they post on the Platform, including listings, item descriptions, images, reviews, and other materials.",
-      "disclaimer": "Minimum does not pre-screen user content and is not responsible for its accuracy, legality, relevance, or truthfulness.",
+      "disclaimer": "Lorent Bloom does not pre-screen user content and is not responsible for its accuracy, legality, relevance, or truthfulness.",
       "confirmation": "By posting content, the user confirms that they have all necessary rights and permissions to use and post it."
     }
   },
   "limitation": {
     "heading": "10. Limitation of Liability",
-    "content": "To the maximum extent permitted by law, Minimum is not liable for:",
+    "content": "To the maximum extent permitted by law, Lorent Bloom is not liable for:",
     "list": {
       "item1": "any indirect or incidental damages;",
       "item2": "actions or inactions of users;",
@@ -113,13 +113,13 @@
     "warning": "Use of the Platform is at your own risk.",
     "disclaimer": {
       "heading": "10.1. Disclaimer of Warranties",
-      "content": "The Platform and all related services are provided on an \"as is\" and \"as available\" basis. Minimum makes no express or implied warranties, including but not limited to warranties of uninterrupted service, accuracy of information, fitness for a particular purpose, or absence of errors.",
-      "noGuarantee": "Minimum does not guarantee that the Platform will function without failures, delays, or technical malfunctions."
+      "content": "The Platform and all related services are provided on an \"as is\" and \"as available\" basis. Lorent Bloom makes no express or implied warranties, including but not limited to warranties of uninterrupted service, accuracy of information, fitness for a particular purpose, or absence of errors.",
+      "noGuarantee": "Lorent Bloom does not guarantee that the Platform will function without failures, delays, or technical malfunctions."
     }
   },
   "termination": {
     "heading": "11. Access Termination",
-    "content": "Minimum reserves the right at any time to:",
+    "content": "Lorent Bloom reserves the right at any time to:",
     "list": {
       "item1": "suspend or terminate user access;",
       "item2": "delete accounts;",
@@ -127,7 +127,7 @@
     },
     "indemnity": {
       "heading": "11.1. Indemnification",
-      "content": "The user agrees to indemnify and hold Minimum harmless from any claims, demands, losses, fines, and expenses (including legal fees) arising from:",
+      "content": "The user agrees to indemnify and hold Lorent Bloom harmless from any claims, demands, losses, fines, and expenses (including legal fees) arising from:",
       "list": {
         "item1": "user's violation of these Terms;",
         "item2": "violation of third-party rights;",
@@ -138,18 +138,18 @@
   "disputeResolution": {
     "heading": "12. Dispute Resolution",
     "point1": "12.1. All disputes between users shall be resolved directly between them.",
-    "point2": "12.2. Disputes between a user and Minimum are subject to pre-trial settlement within 30 business days.",
+    "point2": "12.2. Disputes between a user and Lorent Bloom are subject to pre-trial settlement within 30 business days.",
     "point3": "12.3. If a dispute cannot be resolved, it shall be considered by the courts of the Republic of Moldova.",
     "forceMajeure": {
       "heading": "12.4. Force Majeure",
-      "content": "Minimum is not liable for full or partial non-fulfillment of obligations under these Terms if such non-fulfillment is caused by force majeure circumstances, including but not limited to: natural disasters, fires, military actions, government decisions, failures in communication networks, power supply, or third-party services."
+      "content": "Lorent Bloom is not liable for full or partial non-fulfillment of obligations under these Terms if such non-fulfillment is caused by force majeure circumstances, including but not limited to: natural disasters, fires, military actions, government decisions, failures in communication networks, power supply, or third-party services."
     }
   },
   "privacyPolicy": {
     "heading": "13. Privacy Policy",
     "intro": "Processing of users' personal data is carried out in accordance with Law No. 133 of 07.08.2011 of the Republic of Moldova \"On Personal Data Protection\".",
     "purposes": {
-      "content": "Minimum processes personal data exclusively for the purposes of:",
+      "content": "Lorent Bloom processes personal data exclusively for the purposes of:",
       "list": {
         "item1": "providing access to the Platform and its functionality;",
         "item2": "user identification;",
@@ -157,7 +157,7 @@
         "item4": "compliance with legal requirements."
       }
     },
-    "thirdParty": "Minimum does not transfer personal data to third parties, except in cases directly provided by law or necessary for service provision (payment providers, hosting providers, and other technical partners).",
+    "thirdParty": "Lorent Bloom does not transfer personal data to third parties, except in cases directly provided by law or necessary for service provision (payment providers, hosting providers, and other technical partners).",
     "dataTypes": {
       "content": "Personal data may include, among others:",
       "list": {
@@ -178,6 +178,6 @@
   },
   "contact": {
     "heading": "15. Contact Information",
-    "content": "If you have any questions about these Terms and Conditions, please contact us at support@minimum.com"
+    "content": "If you have any questions about these Terms and Conditions, please contact us at support@lorentbloom.com"
   }
 }

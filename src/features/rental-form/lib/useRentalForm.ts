@@ -33,7 +33,10 @@ export const useRentalForm = ({ rental }: RentalFormProps) => {
 
     try {
       const recaptchaToken = await executeRecaptcha("rental_form");
-      const recaptchaResult = await verifyRecaptcha(recaptchaToken, "rental_form");
+      const recaptchaResult = await verifyRecaptcha(
+        recaptchaToken,
+        "rental_form",
+      );
       if (!recaptchaResult.success) {
         toast.error("Verification failed. Please try again.");
         return;

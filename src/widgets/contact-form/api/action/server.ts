@@ -31,7 +31,10 @@ export async function submitContactForm(
   error?: string;
 }> {
   try {
-    const recaptchaResult = await verifyRecaptcha(recaptchaToken, "contact_form");
+    const recaptchaResult = await verifyRecaptcha(
+      recaptchaToken,
+      "contact_form",
+    );
     if (!recaptchaResult.success) {
       return { success: false, error: recaptchaResult.error };
     }
@@ -40,7 +43,10 @@ export async function submitContactForm(
 
     if (adminEmails.length === 0) {
       console.error("No admin emails configured");
-      return { success: false, error: "Unable to send message. Please try again later." };
+      return {
+        success: false,
+        error: "Unable to send message. Please try again later.",
+      };
     }
 
     await Promise.all(
@@ -50,8 +56,8 @@ export async function submitContactForm(
           senderName: input.name,
           senderEmail: input.email,
           message: input.message,
-        })
-      )
+        }),
+      ),
     );
 
     return { success: true };

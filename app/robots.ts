@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { BRAND } from "@shared/config/brand";
 
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -17,6 +18,6 @@ export default function robots(): MetadataRoute.Robots {
         ],
       },
     ],
-    sitemap: "https://minimum.md/sitemap.xml",
+    sitemap: `${BRAND.domain}/sitemap.xml`,
   };
 }

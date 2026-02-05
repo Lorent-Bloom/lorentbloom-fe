@@ -11,7 +11,7 @@ import type {
 } from "../../model/interface";
 
 export async function createDocument(
-  input: CreateDocumentInput
+  input: CreateDocumentInput,
 ): Promise<DocumentActionResponse> {
   try {
     const supabase = await getSupabaseServerClient();
@@ -48,7 +48,7 @@ export async function createDocument(
 }
 
 export async function getDocument(
-  documentId: string
+  documentId: string,
 ): Promise<DocumentActionResponse> {
   try {
     const supabase = await getSupabaseServerClient();
@@ -77,7 +77,7 @@ export async function getDocument(
 }
 
 export async function getDocumentByOrderId(
-  orderId: string
+  orderId: string,
 ): Promise<DocumentActionResponse> {
   try {
     const supabase = await getSupabaseServerClient();
@@ -110,7 +110,7 @@ export async function getDocumentByOrderId(
 }
 
 export async function updateDocument(
-  input: UpdateDocumentInput
+  input: UpdateDocumentInput,
 ): Promise<DocumentActionResponse> {
   try {
     const supabase = await getSupabaseServerClient();
@@ -126,8 +126,7 @@ export async function updateDocument(
     if (input.partiallySignedPath)
       updateData.partially_signed_path = input.partiallySignedPath;
     if (input.signedPath) updateData.signed_path = input.signedPath;
-    if (input.ownerSignature)
-      updateData.owner_signature = input.ownerSignature;
+    if (input.ownerSignature) updateData.owner_signature = input.ownerSignature;
     if (input.renterSignature)
       updateData.renter_signature = input.renterSignature;
     if (input.ownerPersonalNumber)
@@ -160,7 +159,7 @@ export async function updateDocument(
 export async function uploadDocumentToStorage(
   orderId: string,
   pdfBuffer: Buffer,
-  folder: "pending" | "partial" | "signed"
+  folder: "pending" | "partial" | "signed",
 ): Promise<{ success: boolean; path?: string; error?: string }> {
   try {
     const supabase = await getSupabaseServerClient();
@@ -189,7 +188,7 @@ export async function uploadDocumentToStorage(
 }
 
 export async function getDocumentUrl(
-  path: string
+  path: string,
 ): Promise<{ success: boolean; url?: string; error?: string }> {
   try {
     const supabase = await getSupabaseServerClient();
@@ -216,7 +215,7 @@ export async function getDocumentUrl(
 export async function addSignatureToDocument(
   documentId: string,
   party: "owner" | "renter",
-  signature: SignatureData
+  signature: SignatureData,
 ): Promise<DocumentActionResponse> {
   try {
     const supabase = await getSupabaseServerClient();
@@ -294,7 +293,7 @@ export async function addSignatureToDocument(
 }
 
 export async function getDocumentsForUser(
-  userEmail: string
+  userEmail: string,
 ): Promise<{ success: boolean; data?: DocumentWithRole[]; error?: string }> {
   try {
     const supabase = await getSupabaseServerClient();
@@ -354,7 +353,7 @@ export async function getDocumentsForUser(
 }
 
 export async function getPendingSignatureCount(
-  userEmail: string
+  userEmail: string,
 ): Promise<{ success: boolean; count: number; error?: string }> {
   try {
     const supabase = await getSupabaseServerClient();
@@ -377,9 +376,7 @@ export async function getPendingSignatureCount(
     let count = 0;
     for (const doc of data as Document[]) {
       const ownerEmail = doc.owner_email || doc.owner_signature?.signerEmail;
-      const renterEmail = doc.renter_email || doc.renter_signature?.signerEmail;
       const isOwner = ownerEmail === userEmail;
-      const isRenter = renterEmail === userEmail;
 
       // Check if user is owner and hasn't signed
       // Only count for owners - renters sign during checkout, not from documents page

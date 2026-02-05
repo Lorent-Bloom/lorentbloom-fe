@@ -22,9 +22,7 @@ export function ContractSigningRequestEmail({
   return (
     <Html>
       <Head />
-      <Preview>
-        Contract Signature Required - Order #{orderNumber}
-      </Preview>
+      <Preview>Contract Signature Required - Order #{orderNumber}</Preview>
       <Body style={main}>
         <Container style={container}>
           <Section style={header}>

@@ -39,17 +39,27 @@ export function CookiePreferencesSheet({
             >
               <div className="space-y-1">
                 <p className="text-sm font-medium">
-                  {t(`${category.translationKey}.title` as Parameters<typeof t>[0])}
+                  {t(
+                    `${category.translationKey}.title` as Parameters<
+                      typeof t
+                    >[0],
+                  )}
                 </p>
                 <p className="text-xs text-muted-foreground">
-                  {t(`${category.translationKey}.description` as Parameters<typeof t>[0])}
+                  {t(
+                    `${category.translationKey}.description` as Parameters<
+                      typeof t
+                    >[0],
+                  )}
                 </p>
               </div>
               <Switch
                 checked={preferences[category.key] === "granted"}
                 onCheckedChange={() => onToggle(category.key)}
                 disabled={category.isEssential}
-                aria-label={t(`${category.translationKey}.title` as Parameters<typeof t>[0])}
+                aria-label={t(
+                  `${category.translationKey}.title` as Parameters<typeof t>[0],
+                )}
               />
             </div>
           ))}

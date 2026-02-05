@@ -5,7 +5,11 @@ export {
   sendContractSigningRequest,
   sendContractSignedNotification,
 } from "./sendNotification";
-export { FlowStepEmail, ContractSigningRequestEmail, ContractSignedEmail } from "./templates";
+export {
+  FlowStepEmail,
+  ContractSigningRequestEmail,
+  ContractSignedEmail,
+} from "./templates";
 export type {
   FlowStepEmailProps,
   SendNotificationInput,

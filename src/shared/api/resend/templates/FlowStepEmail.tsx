@@ -38,7 +38,8 @@ export function FlowStepEmail({
             <Text style={greeting}>Hello {recipientName},</Text>
 
             <Text style={paragraph}>
-              There&apos;s an update on your order <strong>#{orderNumber}</strong>:
+              There&apos;s an update on your order{" "}
+              <strong>#{orderNumber}</strong>:
             </Text>
 
             <Section style={stepBox}>

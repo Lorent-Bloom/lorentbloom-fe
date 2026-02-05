@@ -15,12 +15,14 @@ export const useHomeHero = () => {
     (e: React.FormEvent) => {
       e.preventDefault();
       if (searchQuery.trim()) {
-        router.push(`/${locale}/products?search=${encodeURIComponent(searchQuery.trim())}`);
+        router.push(
+          `/${locale}/products?search=${encodeURIComponent(searchQuery.trim())}`,
+        );
       } else {
         router.push(`/${locale}/products`);
       }
     },
-    [searchQuery, router, locale]
+    [searchQuery, router, locale],
   );
 
   const handleBrowseClick = useCallback(() => {

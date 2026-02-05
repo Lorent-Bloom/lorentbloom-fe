@@ -74,9 +74,7 @@ export function ContractSignedEmail({
             <Text style={paragraph}>
               <strong>What&apos;s next?</strong>
             </Text>
-            <Text style={listItem}>
-              • Keep this contract for your records
-            </Text>
+            <Text style={listItem}>• Keep this contract for your records</Text>
             <Text style={listItem}>
               • Coordinate the product handover with the other party
             </Text>

@@ -37,7 +37,7 @@ export function ConversationItem({
       className={cn(
         "w-full text-left p-3 border-b border-border transition-colors",
         "hover:bg-muted/50",
-        isSelected && "bg-muted"
+        isSelected && "bg-muted",
       )}
     >
       <div className="flex items-start justify-between gap-2">
@@ -48,7 +48,9 @@ export function ConversationItem({
             </span>
             {conversation.unreadCount > 0 && (
               <span className="flex-shrink-0 h-5 min-w-5 rounded-full bg-destructive text-destructive-foreground text-xs flex items-center justify-center px-1.5">
-                {conversation.unreadCount > 99 ? "99+" : conversation.unreadCount}
+                {conversation.unreadCount > 99
+                  ? "99+"
+                  : conversation.unreadCount}
               </span>
             )}
           </div>

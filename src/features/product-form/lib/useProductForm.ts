@@ -197,13 +197,15 @@ export const useProductForm = ({
     return null;
   };
 
-
   const onSubmit = async (values: TProductFormSchema) => {
     setIsSubmitting(true);
 
     try {
       const recaptchaToken = await executeRecaptcha("product_form");
-      const recaptchaResult = await verifyRecaptcha(recaptchaToken, "product_form");
+      const recaptchaResult = await verifyRecaptcha(
+        recaptchaToken,
+        "product_form",
+      );
       if (!recaptchaResult.success) {
         toast.error("Verification failed. Please try again.");
         return;
@@ -237,8 +239,7 @@ export const useProductForm = ({
         // All existing: send numeric IDs
         categoryId = getNumericId(values.category_id) || undefined;
         subcategoryId = getNumericId(values.subcategory_id) || undefined;
-        subSubcategoryId =
-          getNumericId(values.sub_subcategory_id) || undefined;
+        subSubcategoryId = getNumericId(values.sub_subcategory_id) || undefined;
       }
 
       const cityId = values.city ? parseInt(values.city, 10) : undefined;

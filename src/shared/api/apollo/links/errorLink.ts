@@ -2,7 +2,10 @@ import { onError } from "@apollo/client/link/error";
 import { CombinedGraphQLErrors } from "@apollo/client/errors";
 
 // Check if error is an authentication error
-function isAuthError(error: { message?: string; extensions?: { category?: string } }): boolean {
+function isAuthError(error: {
+  message?: string;
+  extensions?: { category?: string };
+}): boolean {
   const { message = "", extensions } = error;
   return (
     message.includes("Consumer key has expired") ||

@@ -1,11 +1,18 @@
 "use server";
 
 import { cookies } from "next/headers";
-import { getSupabaseServerClient, type Conversation, type ConversationParticipant } from "@shared/api/supabase";
+import {
+  getSupabaseServerClient,
+  type Conversation,
+  type ConversationParticipant,
+} from "@shared/api/supabase";
 import { sendFlowStepNotification } from "@shared/api/resend";
 import { TOKEN_COOKIE_NAME } from "@shared/api/apollo/model/const";
 import { getCustomer } from "@entities/customer";
-import type { CreateConversationInput, ConversationWithUnread } from "../../model/interface";
+import type {
+  CreateConversationInput,
+  ConversationWithUnread,
+} from "../../model/interface";
 
 export async function createConversation(input: CreateConversationInput) {
   try {
@@ -122,7 +129,9 @@ export async function getConversations(): Promise<{
     const { data: conversations, error } = await db
       .from("conversations")
       .select("*")
-      .or(`owner->>email.eq.${customer.email},receiver->>email.eq.${customer.email}`)
+      .or(
+        `owner->>email.eq.${customer.email},receiver->>email.eq.${customer.email}`,
+      )
       .order("last_message_at", { ascending: false, nullsFirst: false });
 
     if (error) {
@@ -165,7 +174,7 @@ export async function getConversations(): Promise<{
           unreadCount: count || 0,
           lastMessage: lastMessageData || undefined,
         };
-      })
+      }),
     );
 
     return { success: true, data: conversationsWithUnread };
@@ -193,7 +202,9 @@ export async function getConversation(conversationId: string) {
       .from("conversations")
       .select("*")
       .eq("id", conversationId)
-      .or(`owner->>email.eq.${customer.email},receiver->>email.eq.${customer.email}`)
+      .or(
+        `owner->>email.eq.${customer.email},receiver->>email.eq.${customer.email}`,
+      )
       .single();
 
     if (error) {
@@ -228,7 +239,9 @@ export async function getTotalUnreadCount(): Promise<{
     const { data: conversations } = await db
       .from("conversations")
       .select("id, created_at")
-      .or(`owner->>email.eq.${customer.email},receiver->>email.eq.${customer.email}`);
+      .or(
+        `owner->>email.eq.${customer.email},receiver->>email.eq.${customer.email}`,
+      );
 
     if (!conversations || conversations.length === 0) {
       return { success: true, count: 0 };
@@ -287,7 +300,7 @@ export async function markConversationAsRead(conversationId: string) {
       },
       {
         onConflict: "conversation_id,user_id",
-      }
+      },
     );
 
     if (error) {

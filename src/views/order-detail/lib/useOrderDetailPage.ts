@@ -50,11 +50,9 @@ export const useOrderDetailPage = ({ order }: UseOrderDetailPageProps) => {
       window.open(contractUrl, "_blank");
     }
   }, [contractUrl]);
-  const dateString = order.created_at || order.order_date || new Date().toISOString();
-  const formattedDate = format(
-    new Date(dateString),
-    "MMM dd, yyyy, h:mm:ss a",
-  );
+  const dateString =
+    order.created_at || order.order_date || new Date().toISOString();
+  const formattedDate = format(new Date(dateString), "MMM dd, yyyy, h:mm:ss a");
 
   const formatAddress = (
     address: OrderAddress | null,

@@ -63,7 +63,7 @@ export default function HeaderSearch({ locale }: HeaderSearchProps) {
               "bg-muted/50 border border-border",
               "placeholder:text-muted-foreground/70",
               "focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary focus:bg-background",
-              "transition-colors duration-200"
+              "transition-colors duration-200",
             )}
           />
           <div className="absolute right-2 top-1/2 -translate-y-1/2 flex items-center gap-1">
@@ -98,7 +98,7 @@ export default function HeaderSearch({ locale }: HeaderSearchProps) {
             "bg-muted/50 border border-border/50",
             "placeholder:text-muted-foreground/70",
             "focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary focus:bg-background",
-            "transition-all duration-200"
+            "transition-all duration-200",
           )}
         />
         {query && (
@@ -130,7 +130,7 @@ export default function HeaderSearch({ locale }: HeaderSearchProps) {
                     onClick={() => handleResultClick(result.url_key)}
                     className={cn(
                       "w-full flex items-center gap-3 px-4 py-2.5 hover:bg-accent/50 transition-colors text-left",
-                      index === 0 && "pt-3"
+                      index === 0 && "pt-3",
                     )}
                   >
                     {/* Product Image */}
@@ -161,7 +161,7 @@ export default function HeaderSearch({ locale }: HeaderSearchProps) {
                               .currency
                           }{" "}
                           {result.price_range.minimum_price.final_price.value.toFixed(
-                            2
+                            2,
                           )}
                           <span className="ml-1 text-muted-foreground/70">
                             / day

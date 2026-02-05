@@ -26,8 +26,8 @@
       "howToRentOut": "Rent Out",
       "faq": "FAQ"
     },
-    "logoAlt": "Minimum Logo",
-    "brandName": "Minimum",
+    "logoAlt": "Lorent Bloom Logo",
+    "brandName": "Lorent Bloom",
     "announcement": "Free delivery on your first rental! Use code: FIRSTRENT",
     "catalog": "CATALOG",
     "categories": "Categories",
@@ -254,7 +254,7 @@
   },
   "item-usage-statistics": {
     "title": "The Problem We're Solving",
-    "subtitle": "Most items we buy sit unused, wasting money and space. Minimum helps you access what you need without the burden of ownership.",
+    "subtitle": "Most items we buy sit unused, wasting money and space. Lorent Bloom helps you access what you need without the burden of ownership.",
     "chartTitle": "Usage of Purchased Items",
     "segments": {
       "regular": "Used regularly",
@@ -419,7 +419,7 @@
     "customer": "Customer"
   },
   "how-it-works": {
-    "title": "How Minimum Works",
+    "title": "How Lorent Bloom Works",
     "subtitle": "Renting has never been easier. Get started in three simple steps.",
     "steps": {
       "0": {
@@ -502,7 +502,7 @@
       },
       {
         "question": "How do I contact support?",
-        "answer": "You can reach our support team through the 'Contact Us' page or by emailing support@minimum.com. We typically respond within 24 hours."
+        "answer": "You can reach our support team through the 'Contact Us' page or by emailing support@lorentbloom.com. We typically respond within 24 hours."
       },
       {
         "question": "What fees does the platform charge?",
@@ -516,8 +516,8 @@
   },
   "company-info": {
     "about": {
-      "title": "About Minimum",
-      "description": "Minimum is your trusted partner for premium equipment rentals. We believe in making high-quality gear accessible to everyone without the burden of ownership. Whether you're a professional, hobbyist, or just need something for a special occasion, we've got you covered with our extensive inventory and exceptional service."
+      "title": "About Lorent Bloom",
+      "description": "Lorent Bloom is your trusted partner for premium equipment rentals. We believe in making high-quality gear accessible to everyone without the burden of ownership. Whether you're a professional, hobbyist, or just need something for a special occasion, we've got you covered with our extensive inventory and exceptional service."
     },
     "mission": {
       "title": "Our Mission",
@@ -561,14 +561,14 @@
         "title": "24/7 Support",
         "description": "Our dedicated support team is always available to help with setup, troubleshooting, or any questions."
       },
-      "title": "Why Choose Minimum?"
+      "title": "Why Choose Lorent Bloom?"
     }
   },
   "testimonials": {
     "statsTitle": "Our Platform in Numbers",
     "badge": "Verified Reviews",
     "title": "Real Reviews from Real Customers",
-    "subtitle": "Join thousands of satisfied renters who chose Minimum for their equipment needs. These are genuine reviews from verified customers.",
+    "subtitle": "Join thousands of satisfied renters who chose Lorent Bloom for their equipment needs. These are genuine reviews from verified customers.",
     "stats": {
       "2": {
         "value": "0",
@@ -591,17 +591,17 @@
       "0": {
         "name": "Michael Chen",
         "role": "Professional Photographer",
-        "content": "Minimum saved me thousands on camera equipment. The quality is always top-notch, and the delivery is incredibly fast. I've been a loyal customer for 2 years now."
+        "content": "Lorent Bloom saved me thousands on camera equipment. The quality is always top-notch, and the delivery is incredibly fast. I've been a loyal customer for 2 years now."
       },
       "1": {
         "name": "Sarah Johnson",
         "role": "Event Planner",
-        "content": "As an event planner, I need reliable equipment on short notice. Minimum has never let me down. Their customer service is exceptional, and the flexibility is unmatched."
+        "content": "As an event planner, I need reliable equipment on short notice. Lorent Bloom has never let me down. Their customer service is exceptional, and the flexibility is unmatched."
       },
       "2": {
         "name": "Alex Rodriguez",
         "role": "Outdoor Enthusiast",
-        "content": "I rent camping and hiking gear for all my adventures. Why buy expensive equipment you'll use once a year? Minimum makes it affordable to try new activities."
+        "content": "I rent camping and hiking gear for all my adventures. Why buy expensive equipment you'll use once a year? Lorent Bloom makes it affordable to try new activities."
       },
       "3": {
         "name": "Emma Thompson",
@@ -650,7 +650,7 @@
       "tagline": "The trusted marketplace for renting products. Connecting people who want to share with those who need."
     },
     "contact": {
-      "email": "support@minimum.com"
+      "email": "support@lorentbloom.com"
     },
     "sections": {
       "help": "Help",
@@ -664,7 +664,7 @@
       "terms": "Terms & Conditions",
       "cookies": "Cookie Policy"
     },
-    "copyright": "© {year} Minimum. All rights reserved."
+    "copyright": "© {year} Lorent Bloom. All rights reserved."
   },
   "product-reviews-section": {
     "reviews": "Reviews"
@@ -1579,7 +1579,7 @@
     "previous": "Previous",
     "next": "Next",
     "metadata": {
-      "title": "Search Results | Minimum",
+      "title": "Search Results | Lorent Bloom",
       "description": "Search for products and categories"
     }
   },
@@ -1617,7 +1617,7 @@
     "title": "About Us",
     "ourStory": {
       "title": "Our Story",
-      "paragraph1": "Minimum was founded with a simple idea: why buy things you only need temporarily? We created a platform where people can rent electronics, tools, equipment, sports gear, and much more from each other.",
+      "paragraph1": "Lorent Bloom was founded with a simple idea: why buy things you only need temporarily? We created a platform where people can rent electronics, tools, equipment, sports gear, and much more from each other.",
       "paragraph2": "From our beginnings in Moldova to becoming a trusted marketplace, we've remained committed to building a community where sharing makes sense. We connect people who have items with those who need them."
     },
     "mission": {
@@ -1705,7 +1705,7 @@
       "tip5": "Build your reputation by providing excellent service and earning positive reviews"
     },
     "benefits": {
-      "title": "Why Rent Out on Rently?",
+      "title": "Why Rent Out on Lorent Bloom?",
       "benefit1": {
         "title": "Earn Extra Income",
         "description": "Turn items you rarely use into a steady source of extra money."
@@ -1732,13 +1732,13 @@
     "title": "Terms and Conditions",
     "lastUpdated": "Last Updated: January 25, 2026",
     "metadata": {
-      "title": "Terms and Conditions - Minimum",
-      "description": "Read the terms and conditions of the Minimum platform and learn about your rights and responsibilities."
+      "title": "Terms and Conditions - Lorent Bloom",
+      "description": "Read the terms and conditions of the Lorent Bloom platform and learn about your rights and responsibilities."
     },
     "introduction": {
       "heading": "1. Introduction",
-      "content": "Welcome to the Minimum platform (hereinafter referred to as \"Platform\", \"Service\", \"Minimum\"). These Terms and Conditions govern access to and use of the Minimum website and related services.",
-      "description": "Minimum is an online platform that provides users with the technical capability to post rental listings and interact with each other. Minimum is not a party to transactions concluded between users.",
+      "content": "Welcome to the Lorent Bloom platform (hereinafter referred to as \"Platform\", \"Service\", \"Lorent Bloom\"). These Terms and Conditions govern access to and use of the Lorent Bloom website and related services.",
+      "description": "Lorent Bloom is an online platform that provides users with the technical capability to post rental listings and interact with each other. Lorent Bloom is not a party to transactions concluded between users.",
       "agreement": "By using the Platform, you confirm your agreement to these Terms."
     },
     "acceptanceOfTerms": {
@@ -1747,15 +1747,15 @@
       "list": {
         "item1": "read and understood these Terms;",
         "item2": "agree to comply with them in full;",
-        "item3": "accept Minimum's Privacy Policy as an integral part of these Terms."
+        "item3": "accept Lorent Bloom's Privacy Policy as an integral part of these Terms."
       },
       "warning": "If you do not agree to the terms, you must stop using the Platform."
     },
     "minimumStatus": {
-      "heading": "3. Minimum's Status and Disclaimer",
-      "point1": "3.1. Minimum is not a lessor, lessee, agent, broker, carrier, or insurer.",
+      "heading": "3. Lorent Bloom's Status and Disclaimer",
+      "point1": "3.1. Lorent Bloom is not a lessor, lessee, agent, broker, carrier, or insurer.",
       "point2": "3.2. All arrangements regarding rental, transfer, return, condition of items, payment, deposit, delivery, and any other terms occur exclusively between users.",
-      "point3": "3.3. Minimum:",
+      "point3": "3.3. Lorent Bloom:",
       "list": {
         "item1": "does not verify the quality, safety, legality, or condition of items;",
         "item2": "does not guarantee the integrity of users;",
@@ -1770,8 +1770,8 @@
         "item1": "the security of login credentials and password;",
         "item2": "all actions performed under their account."
       },
-      "point3": "4.3. You must immediately notify Minimum of any unauthorized access or suspicion thereof.",
-      "point4": "4.4. Minimum reserves the right to refuse registration or delete an account without explanation for violation of these Terms."
+      "point3": "4.3. You must immediately notify Lorent Bloom of any unauthorized access or suspicion thereof.",
+      "point4": "4.4. Lorent Bloom reserves the right to refuse registration or delete an account without explanation for violation of these Terms."
     },
     "userObligations": {
       "heading": "5. User Obligations",
@@ -1795,7 +1795,7 @@
         "item5": "non-conformity with description,"
       },
       "riskConclusion": "are borne exclusively by the users participating in the transaction.",
-      "point2": "6.2. Minimum is not responsible for:",
+      "point2": "6.2. Lorent Bloom is not responsible for:",
       "liabilityList": {
         "item1": "physical harm;",
         "item2": "property damage;",
@@ -1806,7 +1806,7 @@
     },
     "payments": {
       "heading": "7. Payments",
-      "point1": "7.1. Minimum may provide the technical capability to process payments but does not control or guarantee their correctness.",
+      "point1": "7.1. Lorent Bloom may provide the technical capability to process payments but does not control or guarantee their correctness.",
       "point2": "7.2. All financial claims must be resolved between users themselves."
     },
     "prohibitedActivities": {
@@ -1823,18 +1823,18 @@
     },
     "intellectualProperty": {
       "heading": "9. Intellectual Property",
-      "content": "All Platform content (code, design, texts, logos) is the property of Minimum or its licensors and is protected by law.",
-      "warning": "Use of content without written consent from Minimum is prohibited.",
+      "content": "All Platform content (code, design, texts, logos) is the property of Lorent Bloom or its licensors and is protected by law.",
+      "warning": "Use of content without written consent from Lorent Bloom is prohibited.",
       "userContent": {
         "heading": "9.1. User Content",
         "content": "Users bear full responsibility for any content they post on the Platform, including listings, item descriptions, images, reviews, and other materials.",
-        "disclaimer": "Minimum does not pre-screen user content and is not responsible for its accuracy, legality, relevance, or truthfulness.",
+        "disclaimer": "Lorent Bloom does not pre-screen user content and is not responsible for its accuracy, legality, relevance, or truthfulness.",
         "confirmation": "By posting content, the user confirms that they have all necessary rights and permissions to use and post it."
       }
     },
     "limitation": {
       "heading": "10. Limitation of Liability",
-      "content": "To the maximum extent permitted by law, Minimum is not liable for:",
+      "content": "To the maximum extent permitted by law, Lorent Bloom is not liable for:",
       "list": {
         "item1": "any indirect or incidental damages;",
         "item2": "actions or inactions of users;",
@@ -1843,13 +1843,13 @@
       "warning": "Use of the Platform is at your own risk.",
       "disclaimer": {
         "heading": "10.1. Disclaimer of Warranties",
-        "content": "The Platform and all related services are provided on an \"as is\" and \"as available\" basis. Minimum makes no express or implied warranties, including but not limited to warranties of uninterrupted service, accuracy of information, fitness for a particular purpose, or absence of errors.",
-        "noGuarantee": "Minimum does not guarantee that the Platform will function without failures, delays, or technical malfunctions."
+        "content": "The Platform and all related services are provided on an \"as is\" and \"as available\" basis. Lorent Bloom makes no express or implied warranties, including but not limited to warranties of uninterrupted service, accuracy of information, fitness for a particular purpose, or absence of errors.",
+        "noGuarantee": "Lorent Bloom does not guarantee that the Platform will function without failures, delays, or technical malfunctions."
       }
     },
     "termination": {
       "heading": "11. Access Termination",
-      "content": "Minimum reserves the right at any time to:",
+      "content": "Lorent Bloom reserves the right at any time to:",
       "list": {
         "item1": "suspend or terminate user access;",
         "item2": "delete accounts;",
@@ -1857,7 +1857,7 @@
       },
       "indemnity": {
         "heading": "11.1. Indemnification",
-        "content": "The user agrees to indemnify and hold Minimum harmless from any claims, demands, losses, fines, and expenses (including legal fees) arising from:",
+        "content": "The user agrees to indemnify and hold Lorent Bloom harmless from any claims, demands, losses, fines, and expenses (including legal fees) arising from:",
         "list": {
           "item1": "user's violation of these Terms;",
           "item2": "violation of third-party rights;",
@@ -1868,18 +1868,18 @@
     "disputeResolution": {
       "heading": "12. Dispute Resolution",
       "point1": "12.1. All disputes between users shall be resolved directly between them.",
-      "point2": "12.2. Disputes between a user and Minimum are subject to pre-trial settlement within 30 business days.",
+      "point2": "12.2. Disputes between a user and Lorent Bloom are subject to pre-trial settlement within 30 business days.",
       "point3": "12.3. If a dispute cannot be resolved, it shall be considered by the courts of the Republic of Moldova.",
       "forceMajeure": {
         "heading": "12.4. Force Majeure",
-        "content": "Minimum is not liable for full or partial non-fulfillment of obligations under these Terms if such non-fulfillment is caused by force majeure circumstances, including but not limited to: natural disasters, fires, military actions, government decisions, failures in communication networks, power supply, or third-party services."
+        "content": "Lorent Bloom is not liable for full or partial non-fulfillment of obligations under these Terms if such non-fulfillment is caused by force majeure circumstances, including but not limited to: natural disasters, fires, military actions, government decisions, failures in communication networks, power supply, or third-party services."
       }
     },
     "privacyPolicy": {
       "heading": "13. Privacy Policy",
       "intro": "Processing of users' personal data is carried out in accordance with Law No. 133 of 07.08.2011 of the Republic of Moldova \"On Personal Data Protection\".",
       "purposes": {
-        "content": "Minimum processes personal data exclusively for the purposes of:",
+        "content": "Lorent Bloom processes personal data exclusively for the purposes of:",
         "list": {
           "item1": "providing access to the Platform and its functionality;",
           "item2": "user identification;",
@@ -1887,7 +1887,7 @@
           "item4": "compliance with legal requirements."
         }
       },
-      "thirdParty": "Minimum does not transfer personal data to third parties, except in cases directly provided by law or necessary for service provision (payment providers, hosting providers, and other technical partners).",
+      "thirdParty": "Lorent Bloom does not transfer personal data to third parties, except in cases directly provided by law or necessary for service provision (payment providers, hosting providers, and other technical partners).",
       "dataTypes": {
         "content": "Personal data may include, among others:",
         "list": {
@@ -1908,7 +1908,7 @@
     },
     "contact": {
       "heading": "15. Contact Information",
-      "content": "If you have any questions about these Terms and Conditions, please contact us at support@minimum.com"
+      "content": "If you have any questions about these Terms and Conditions, please contact us at support@lorentbloom.com"
     }
   },
   "faq": {
@@ -1929,10 +1929,10 @@
   "cookie-policy": {
     "title": "Cookie Policy",
     "lastUpdated": "Last Updated: January 25, 2026",
-    "intro": "This Cookie Policy (hereinafter referred to as the \"Policy\") explains how the Minimum platform (hereinafter referred to as \"Minimum\", \"we\", \"our service\") uses cookies and similar technologies when you visit and use our website. By using the Platform, you consent to the use of cookies in accordance with this Policy.",
+    "intro": "This Cookie Policy (hereinafter referred to as the \"Policy\") explains how the Lorent Bloom platform (hereinafter referred to as \"Lorent Bloom\", \"we\", \"our service\") uses cookies and similar technologies when you visit and use our website. By using the Platform, you consent to the use of cookies in accordance with this Policy.",
     "metadata": {
-      "title": "Cookie Policy - Minimum",
-      "description": "Learn how the Minimum platform uses cookies and how you can manage them."
+      "title": "Cookie Policy - Lorent Bloom",
+      "description": "Learn how the Lorent Bloom platform uses cookies and how you can manage them."
     },
     "whatAreCookies": {
       "heading": "1. What are cookies",
@@ -1940,7 +1940,7 @@
     },
     "cookieTypes": {
       "heading": "2. Types of cookies we use",
-      "intro": "Minimum uses the following categories of cookies:",
+      "intro": "Lorent Bloom uses the following categories of cookies:",
       "required": {
         "heading": "2.1. Required (technical) cookies",
         "content": "These cookies are necessary for the proper functioning of the Platform and cannot be disabled in system settings. They are used, in particular, for:",
@@ -1969,7 +1969,7 @@
     },
     "thirdPartyCookies": {
       "heading": "3. Third-party cookies",
-      "content": "Minimum may use third-party services (such as analytics or payment providers) that may place cookies on your device as part of their operation.",
+      "content": "Lorent Bloom may use third-party services (such as analytics or payment providers) that may place cookies on your device as part of their operation.",
       "disclaimer": "We do not control third-party cookies and recommend reviewing their privacy and cookie policies."
     },
     "managingCookies": {
@@ -1988,11 +1988,11 @@
     },
     "changes": {
       "heading": "6. Changes to Cookie Policy",
-      "content": "Minimum reserves the right to make changes to this Policy at any time. The updated version takes effect from the moment it is published on the Platform."
+      "content": "Lorent Bloom reserves the right to make changes to this Policy at any time. The updated version takes effect from the moment it is published on the Platform."
     },
     "contact": {
       "heading": "7. Contact information",
-      "content": "If you have any questions about the use of cookies, please contact us at: support@minimum.com"
+      "content": "If you have any questions about the use of cookies, please contact us at: support@lorentbloom.com"
     }
   },
   "product-detail": {
@@ -2015,9 +2015,9 @@
       "next": "Next"
     },
     "metadata": {
-      "title": "All Products | Minimum",
+      "title": "All Products | Lorent Bloom",
       "description": "Browse all available products for rent",
-      "categoryTitle": "Category | Minimum",
+      "categoryTitle": "Category | Lorent Bloom",
       "categoryDescription": "Browse products by category"
     }
   },

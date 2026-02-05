@@ -6,7 +6,11 @@ import { useConversations, ConversationItem } from "@entities/conversation";
 import { ScrollArea } from "@shared/ui/scroll-area";
 import type { ChatListProps } from "../model/interface";
 
-export function ChatList({ currentUserId, selectedId, onSelect }: ChatListProps) {
+export function ChatList({
+  currentUserId,
+  selectedId,
+  onSelect,
+}: ChatListProps) {
   const t = useTranslations("chat-sidebar");
   const { conversations, isLoading, error } = useConversations(currentUserId);
 

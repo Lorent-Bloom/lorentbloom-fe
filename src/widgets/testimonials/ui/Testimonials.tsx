@@ -1,13 +1,24 @@
 "use client";
 
-import { Star, Package, Layers, BadgeCheck, ShoppingCart, Users } from "lucide-react";
+import {
+  Star,
+  Package,
+  Layers,
+  BadgeCheck,
+  ShoppingCart,
+  Users,
+} from "lucide-react";
 import { cn } from "@shared/lib/utils/helpers";
 import { useTestimonials } from "../lib/useTestimonials";
 import type { TestimonialsProps } from "../model/interface";
 
 const statIcons = [Package, Layers, ShoppingCart, Users];
 
-export default function Testimonials({ className, stats: statsData, reviews }: TestimonialsProps) {
+export default function Testimonials({
+  className,
+  stats: statsData,
+  reviews,
+}: TestimonialsProps) {
   const { title, subtitle, testimonials, stats, statsTitle, badge } =
     useTestimonials(statsData, reviews);
 

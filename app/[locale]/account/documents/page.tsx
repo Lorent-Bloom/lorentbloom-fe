@@ -47,10 +47,7 @@ export default async function DocumentsRoutePage() {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <DocumentsPage
-        documents={result.data || []}
-        userEmail={customer.email}
-      />
+      <DocumentsPage documents={result.data || []} userEmail={customer.email} />
     </div>
   );
 }

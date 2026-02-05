@@ -9,5 +9,7 @@ export async function ChatIcon({ className }: ChatIconProps) {
     return null;
   }
 
-  return <ChatIconClient className={className} currentUserId={customer.email} />;
+  return (
+    <ChatIconClient className={className} currentUserId={customer.email} />
+  );
 }

@@ -69,11 +69,7 @@ export function DocumentPreview({
             <FileText className="h-4 w-4" />
             {t("contractPreview")}
           </CardTitle>
-          <Button
-            variant="outline"
-            size="sm"
-            onClick={handleOpenInNewTab}
-          >
+          <Button variant="outline" size="sm" onClick={handleOpenInNewTab}>
             <ExternalLink className="mr-2 h-4 w-4" />
             {t("openFullScreen")}
           </Button>

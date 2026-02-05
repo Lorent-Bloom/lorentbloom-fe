@@ -1,12 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import {
-  ChevronRight,
-  ChevronDown,
-  Menu,
-  X,
-} from "lucide-react";
+import { ChevronRight, ChevronDown, Menu, X } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useCategoryNavBar } from "../lib/useCategoryNavBar";
 import type { CategoryNavBarProps } from "../model/interface";
@@ -37,7 +32,7 @@ export default function CategoryNavBar({
   const getCategoryName = (
     urlKey: string,
     fallbackName: string,
-    urlPath?: string
+    urlPath?: string,
   ): string => {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const categoryNames = (t.raw as any)("categoryNames") || {};
@@ -73,7 +68,7 @@ export default function CategoryNavBar({
               <ChevronDown
                 className={cn(
                   "h-4 w-4 transition-transform duration-200",
-                  isMobileMenuOpen && "rotate-180"
+                  isMobileMenuOpen && "rotate-180",
                 )}
               />
             </button>
@@ -92,7 +87,7 @@ export default function CategoryNavBar({
         <div
           className={cn(
             "overflow-hidden transition-all duration-300 ease-in-out bg-background border-t border-border/40",
-            isMobileMenuOpen ? "max-h-[80vh] opacity-100" : "max-h-0 opacity-0"
+            isMobileMenuOpen ? "max-h-[80vh] opacity-100" : "max-h-0 opacity-0",
           )}
         >
           <div className="container mx-auto px-4 py-4 overflow-y-auto max-h-[70vh]">
@@ -112,7 +107,11 @@ export default function CategoryNavBar({
                           href={`/${locale}/products/${category.url_key}`}
                           className="flex-1 px-3 py-2.5 text-sm font-medium rounded-l-lg hover:bg-accent transition-colors"
                         >
-                          {getCategoryName(category.url_key, category.name, category.url_path)}
+                          {getCategoryName(
+                            category.url_key,
+                            category.name,
+                            category.url_path,
+                          )}
                         </Link>
                         {category.children && category.children.length > 0 && (
                           <button
@@ -122,14 +121,18 @@ export default function CategoryNavBar({
                               expandedMobileCategory === category.uid
                             }
                             aria-label={t("expandCategory", {
-                              category: getCategoryName(category.url_key, category.name, category.url_path),
+                              category: getCategoryName(
+                                category.url_key,
+                                category.name,
+                                category.url_path,
+                              ),
                             })}
                           >
                             <ChevronDown
                               className={cn(
                                 "h-4 w-4 text-muted-foreground transition-transform duration-200",
                                 expandedMobileCategory === category.uid &&
-                                  "rotate-180"
+                                  "rotate-180",
                               )}
                             />
                           </button>
@@ -142,7 +145,7 @@ export default function CategoryNavBar({
                           "overflow-hidden transition-all duration-200 ease-in-out",
                           expandedMobileCategory === category.uid
                             ? "max-h-[500px] opacity-100"
-                            : "max-h-0 opacity-0"
+                            : "max-h-0 opacity-0",
                         )}
                       >
                         {category.children && category.children.length > 0 && (
@@ -154,7 +157,11 @@ export default function CategoryNavBar({
                                 className="flex items-center gap-2 px-3 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-accent/50 rounded-md transition-colors"
                               >
                                 <ChevronRight className="h-3 w-3" />
-                                {getCategoryName(subcategory.url_key, subcategory.name, subcategory.url_path)}
+                                {getCategoryName(
+                                  subcategory.url_key,
+                                  subcategory.name,
+                                  subcategory.url_path,
+                                )}
                               </Link>
                             ))}
 
@@ -164,7 +171,11 @@ export default function CategoryNavBar({
                               className="flex items-center gap-2 px-3 py-2 text-sm font-medium text-primary hover:bg-accent/50 rounded-md transition-colors"
                             >
                               {t("viewAllInCategory", {
-                                category: getCategoryName(category.url_key, category.name, category.url_path),
+                                category: getCategoryName(
+                                  category.url_key,
+                                  category.name,
+                                  category.url_path,
+                                ),
                               })}
                             </Link>
                           </div>
@@ -180,10 +191,7 @@ export default function CategoryNavBar({
       </div>
 
       {/* DESKTOP: Horizontal category pills */}
-      <div
-        className="hidden lg:block relative"
-        onMouseLeave={handleMouseLeave}
-      >
+      <div className="hidden lg:block relative" onMouseLeave={handleMouseLeave}>
         <div className="container mx-auto px-4 md:px-6">
           <ScrollArea className="w-full">
             <nav className="flex items-center gap-2 py-2 w-max mx-auto">
@@ -205,10 +213,14 @@ export default function CategoryNavBar({
                         "flex items-center gap-1.5 px-4 py-2 text-sm font-medium rounded-full border transition-all duration-200 whitespace-nowrap",
                         openCategoryId === category.uid
                           ? "border-primary bg-primary/5 text-primary"
-                          : "border-transparent hover:border-border hover:bg-accent"
+                          : "border-transparent hover:border-border hover:bg-accent",
                       )}
                     >
-                      {getCategoryName(category.url_key, category.name, category.url_path)}
+                      {getCategoryName(
+                        category.url_key,
+                        category.name,
+                        category.url_path,
+                      )}
                     </Link>
                   </div>
                 ))
@@ -236,13 +248,23 @@ export default function CategoryNavBar({
                         {/* Header Row */}
                         <div className="flex items-center justify-between mb-4 pb-3 border-b">
                           <h3 className="text-lg font-semibold">
-                            {getCategoryName(category.url_key, category.name, category.url_path)}
+                            {getCategoryName(
+                              category.url_key,
+                              category.name,
+                              category.url_path,
+                            )}
                           </h3>
                           <Link
                             href={`/${locale}/products/${category.url_key}`}
                             className="flex items-center gap-1 text-sm font-medium text-primary hover:underline"
                           >
-                            {t("viewAll", { category: getCategoryName(category.url_key, category.name, category.url_path) })}
+                            {t("viewAll", {
+                              category: getCategoryName(
+                                category.url_key,
+                                category.name,
+                                category.url_path,
+                              ),
+                            })}
                             <ChevronRight className="h-4 w-4" />
                           </Link>
                         </div>
@@ -256,7 +278,11 @@ export default function CategoryNavBar({
                                 href={`/${locale}/products/${category.url_key}/${subcategory.url_key}`}
                                 className="block font-semibold text-sm text-foreground hover:text-primary transition-colors"
                               >
-                                {getCategoryName(subcategory.url_key, subcategory.name, subcategory.url_path)}
+                                {getCategoryName(
+                                  subcategory.url_key,
+                                  subcategory.name,
+                                  subcategory.url_path,
+                                )}
                               </Link>
 
                               {/* Third-level Items */}
@@ -269,7 +295,11 @@ export default function CategoryNavBar({
                                           href={`/${locale}/products/${category.url_key}/${subcategory.url_key}/${thirdLevel.url_key}`}
                                           className="block text-sm text-muted-foreground hover:text-foreground hover:translate-x-0.5 transition-all duration-150"
                                         >
-                                          {getCategoryName(thirdLevel.url_key, thirdLevel.name, thirdLevel.url_path)}
+                                          {getCategoryName(
+                                            thirdLevel.url_key,
+                                            thirdLevel.name,
+                                            thirdLevel.url_path,
+                                          )}
                                         </Link>
                                       </li>
                                     ))}
@@ -282,7 +312,7 @@ export default function CategoryNavBar({
                     </div>
                   </div>
                 </div>
-              )
+              ),
           )}
       </div>
     </div>

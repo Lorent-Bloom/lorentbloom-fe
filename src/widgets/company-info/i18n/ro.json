@@ -1,7 +1,7 @@
 {
   "about": {
-    "title": "Despre Minimum",
-    "description": "Minimum este partenerul dvs. de încredere pentru închirierea echipamentelor premium. Credem că echipamentele de înaltă calitate ar trebui să fie accesibile tuturor fără povara proprietății. Fie că sunteți profesionist, pasionat sau aveți nevoie de ceva pentru o ocazie specială, vă acoperim cu inventarul nostru extins și serviciul excepțional."
+    "title": "Despre Lorent Bloom",
+    "description": "Lorent Bloom este partenerul dvs. de încredere pentru închirierea echipamentelor premium. Credem că echipamentele de înaltă calitate ar trebui să fie accesibile tuturor fără povara proprietății. Fie că sunteți profesionist, pasionat sau aveți nevoie de ceva pentru o ocazie specială, vă acoperim cu inventarul nostru extins și serviciul excepțional."
   },
   "mission": {
     "title": "Misiunea noastră",
@@ -29,7 +29,7 @@
     }
   },
   "features": {
-    "title": "De ce să alegeți Minimum?",
+    "title": "De ce să alegeți Lorent Bloom?",
     "0": {
       "title": "Calitate garantată",
       "description": "Toate echipamentele sunt întreținute profesional și inspectate înainte de fiecare închiriere pentru a asigura performanța maximă."

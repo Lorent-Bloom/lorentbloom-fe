@@ -41,7 +41,9 @@ export function ChatWindow({
   if (!conversation) {
     return (
       <div className="flex items-center justify-center h-full">
-        <p className="text-sm text-muted-foreground">{t("conversationNotFound")}</p>
+        <p className="text-sm text-muted-foreground">
+          {t("conversationNotFound")}
+        </p>
       </div>
     );
   }
@@ -72,10 +74,7 @@ export function ChatWindow({
         scrollRef={scrollRef}
       />
 
-      <ChatInput
-        onSend={sendMessage}
-        disabled={isSending}
-      />
+      <ChatInput onSend={sendMessage} disabled={isSending} />
     </div>
   );
 }

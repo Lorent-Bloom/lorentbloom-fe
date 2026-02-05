@@ -43,7 +43,9 @@ export const useCheckoutPage = (
 ) => {
   const router = useRouter();
   const t = useTranslations("checkout");
-  const [step, setStep] = useState<"address" | "payment" | "contract">("address");
+  const [step, setStep] = useState<"address" | "payment" | "contract">(
+    "address",
+  );
   const [selectedPaymentMethod, setSelectedPaymentMethod] = useState<
     string | null
   >(null);
@@ -242,7 +244,7 @@ export const useCheckoutPage = (
     if (!customer) return null;
 
     const billingAddress = savedAddresses.find(
-      (addr) => addr.id === selectedBillingAddressId
+      (addr) => addr.id === selectedBillingAddressId,
     );
     if (!billingAddress) return null;
 
@@ -259,7 +261,9 @@ export const useCheckoutPage = (
       : new Date();
     const totalDays = Math.max(
       1,
-      Math.ceil((rentTo.getTime() - rentFrom.getTime()) / (1000 * 60 * 60 * 24))
+      Math.ceil(
+        (rentTo.getTime() - rentFrom.getTime()) / (1000 * 60 * 60 * 24),
+      ),
     );
 
     // Use owner info if available, otherwise use placeholder for draft preview
@@ -272,7 +276,10 @@ export const useCheckoutPage = (
     };
 
     // Get renter personal number from customer custom attributes
-    const renterPersonalNumber = getCustomAttributeValue(customer, "personal_number");
+    const renterPersonalNumber = getCustomAttributeValue(
+      customer,
+      "personal_number",
+    );
 
     return {
       contractNumber: `DRAFT-${cart.id.slice(0, 8).toUpperCase()}`,
@@ -319,10 +326,14 @@ export const useCheckoutPage = (
   }, [selectedPaymentMethod, contractPreviewData, t]);
 
   const handleContractSign = useCallback(
-    async (signatureData: string, method: SignatureMethod, personalNumber?: string) => {
+    async (
+      signatureData: string,
+      method: SignatureMethod,
+      personalNumber?: string,
+    ) => {
       setContractSignature({ data: signatureData, method, personalNumber });
     },
-    []
+    [],
   );
 
   const handlePlaceOrder = useCallback(async () => {
@@ -429,7 +440,10 @@ export const useCheckoutPage = (
       // Step 4: Create and upload contract with renter signature
       if (orderNumber && contractPreviewData && contractSignature && customer) {
         // Save personal number to customer if it was provided during signing and not already set
-        const existingPersonalNumber = getCustomAttributeValue(customer, "personal_number");
+        const existingPersonalNumber = getCustomAttributeValue(
+          customer,
+          "personal_number",
+        );
         if (contractSignature.personalNumber && !existingPersonalNumber) {
           try {
             const attributesInput = buildCustomAttributesInput({
@@ -450,26 +464,34 @@ export const useCheckoutPage = (
 
         // Build owner info from parent_customer_info
         const ownerName = parentCustomerInfo
-          ? [parentCustomerInfo.firstname, parentCustomerInfo.lastname].filter(Boolean).join(" ")
+          ? [parentCustomerInfo.firstname, parentCustomerInfo.lastname]
+              .filter(Boolean)
+              .join(" ")
           : "";
         const ownerAddress = orderDetailResult.data?.billing_address
           ? [
               orderDetailResult.data.billing_address.street?.join(", "),
               orderDetailResult.data.billing_address.city,
               orderDetailResult.data.billing_address.postcode,
-            ].filter(Boolean).join(", ")
+            ]
+              .filter(Boolean)
+              .join(", ")
           : "";
 
         // Use personal number from signature (which includes existing or newly entered)
-        const renterPersonalNumber = contractSignature.personalNumber || contractPreviewData.renterPersonalNumber;
+        const renterPersonalNumber =
+          contractSignature.personalNumber ||
+          contractPreviewData.renterPersonalNumber;
 
         // Update contract data with actual order number and owner info
         const finalContractData: ContractPreviewData = {
           ...contractPreviewData,
           contractNumber: orderNumber,
           ownerName: ownerName || contractPreviewData.ownerName,
-          ownerEmail: parentCustomerInfo?.email || contractPreviewData.ownerEmail,
-          ownerPhone: parentCustomerInfo?.telephone || contractPreviewData.ownerPhone,
+          ownerEmail:
+            parentCustomerInfo?.email || contractPreviewData.ownerEmail,
+          ownerPhone:
+            parentCustomerInfo?.telephone || contractPreviewData.ownerPhone,
           ownerAddress: ownerAddress || contractPreviewData.ownerAddress,
           ownerPersonalNumber: contractPreviewData.ownerPersonalNumber,
           renterPersonalNumber: renterPersonalNumber,
@@ -497,9 +519,7 @@ export const useCheckoutPage = (
 
       // Step 5: Redirect to success page
       if (orderNumber) {
-        router.push(
-          `/${locale}/checkout/success?order=${orderNumber}`,
-        );
+        router.push(`/${locale}/checkout/success?order=${orderNumber}`);
       } else {
         router.push(`/${locale}/checkout/success`);
       }

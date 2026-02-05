@@ -1,4 +1,7 @@
-import type { ConversationStep as ConversationStepDB, ConversationProgress } from "@shared/api/supabase";
+import type {
+  ConversationStep as ConversationStepDB,
+  ConversationProgress,
+} from "@shared/api/supabase";
 
 export type ConversationStep = ConversationStepDB;
 export type { ConversationProgress };

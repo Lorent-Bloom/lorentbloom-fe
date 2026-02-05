@@ -66,7 +66,10 @@ export const useAddressForm = ({
     setIsSubmitting(true);
     try {
       const recaptchaToken = await executeRecaptcha("address_form");
-      const recaptchaResult = await verifyRecaptcha(recaptchaToken, "address_form");
+      const recaptchaResult = await verifyRecaptcha(
+        recaptchaToken,
+        "address_form",
+      );
       if (!recaptchaResult.success) {
         toast.error("Verification failed. Please try again.");
         return;

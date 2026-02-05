@@ -24,7 +24,7 @@ export interface SigningFlowProps {
   onSign: (
     signatureData: string,
     method: SignatureMethod,
-    personalNumber?: string
+    personalNumber?: string,
   ) => Promise<void>;
   onCancel?: () => void;
   isSubmitting?: boolean;
@@ -80,6 +80,6 @@ export interface UseDocumentSigningReturn {
       name: string;
       email: string;
       role: "owner" | "renter";
-    }
+    },
   ) => Promise<{ success: boolean; error?: string }>;
 }

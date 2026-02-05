@@ -1,6 +1,11 @@
 "use server";
 
-import { getSupabaseServerClient, type ConversationStep, type ConversationProgress, type Conversation } from "@shared/api/supabase";
+import {
+  getSupabaseServerClient,
+  type ConversationStep,
+  type ConversationProgress,
+  type Conversation,
+} from "@shared/api/supabase";
 import { sendFlowStepNotification } from "@shared/api/resend";
 import { getCustomer } from "@entities/customer";
 import { DEFAULT_FLOW_STEPS } from "../../model/const";
@@ -160,7 +165,8 @@ export async function completeFlowStep(input: CompleteStepInput): Promise<{
 
     // Validate required actions
     if (
-      (step.required_action === "upload_images" || step.required_action === "both") &&
+      (step.required_action === "upload_images" ||
+        step.required_action === "both") &&
       (!input.imageKeys || input.imageKeys.length === 0)
     ) {
       return { success: false, error: "Images are required for this step" };

@@ -62,7 +62,7 @@ export function MyProductsPageClient({
               variant="secondary"
               onClick={() =>
                 router.push(
-                  `/${locale}/account/settings?highlight=personal_number`
+                  `/${locale}/account/settings?highlight=personal_number`,
                 )
               }
             >

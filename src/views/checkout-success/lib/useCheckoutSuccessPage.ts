@@ -36,13 +36,15 @@ export const useCheckoutSuccessPage = (orderNumber?: string) => {
         }
 
         // Build names from firstname + lastname
-        const ownerName = [parent_customer_info.firstname, parent_customer_info.lastname]
-          .filter(Boolean)
-          .join(" ") || null;
+        const ownerName =
+          [parent_customer_info.firstname, parent_customer_info.lastname]
+            .filter(Boolean)
+            .join(" ") || null;
 
-        const receiverName = [customer_info.firstname, customer_info.lastname]
-          .filter(Boolean)
-          .join(" ") || null;
+        const receiverName =
+          [customer_info.firstname, customer_info.lastname]
+            .filter(Boolean)
+            .join(" ") || null;
 
         // Use increment_id (human-readable order number) as orderId for display
         const incrementId = order.number || order.order_number || orderNumber;

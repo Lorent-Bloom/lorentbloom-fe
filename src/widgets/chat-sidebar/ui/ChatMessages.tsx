@@ -43,15 +43,21 @@ export function ChatMessages({
     <div ref={scrollRef} className="flex-1 overflow-y-auto p-4">
       {messages.map((message) => {
         if (message.is_system_message) {
-          const step = message.step_id ? steps.find((s) => s.id === message.step_id) : null;
+          const step = message.step_id
+            ? steps.find((s) => s.id === message.step_id)
+            : null;
           const stepI18nKey = step ? STEP_I18N_KEYS[step.step_key] : null;
           const stepName = stepI18nKey
-            // @ts-expect-error - dynamic key pattern
-            ? tSteps(`steps.${stepI18nKey}.name`, { defaultValue: step?.name })
+            ? // @ts-expect-error - dynamic key pattern
+              tSteps(`steps.${stepI18nKey}.name`, { defaultValue: step?.name })
             : step?.name;
 
           return (
-            <SystemMessage key={message.id} message={message} stepName={stepName} />
+            <SystemMessage
+              key={message.id}
+              message={message}
+              stepName={stepName}
+            />
           );
         }
 

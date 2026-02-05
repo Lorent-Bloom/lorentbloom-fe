@@ -2,8 +2,9 @@ import type { MetadataRoute } from "next";
 import { gql } from "@apollo/client";
 import { getPublicClient } from "@shared/api";
 import { getCategoryTree } from "@entities/category";
+import { BRAND } from "@shared/config/brand";
 
-const DOMAIN = "https://minimum.md";
+const DOMAIN = BRAND.domain;
 const LOCALES = ["en", "ru", "ro"];
 
 const STATIC_PAGES = [
@@ -102,10 +103,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             priority: 0.8,
             alternates: {
               languages: Object.fromEntries(
-                LOCALES.map((l) => [
-                  l,
-                  `${DOMAIN}/${l}/products/${catPath}`,
-                ]),
+                LOCALES.map((l) => [l, `${DOMAIN}/${l}/products/${catPath}`]),
               ),
             },
           });

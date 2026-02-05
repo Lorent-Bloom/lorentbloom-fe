@@ -8,8 +8,9 @@ import { useProductInfo } from "../lib/useProductInfo";
 import type { ProductInfoProps } from "../model/interface";
 
 export function ProductInfo({ product, className }: ProductInfoProps) {
-  const { t, finalPrice, regularPrice, hasDiscount, discount } =
-    useProductInfo({ product });
+  const { t, finalPrice, regularPrice, hasDiscount, discount } = useProductInfo(
+    { product },
+  );
 
   return (
     <div className={cn("space-y-6", className)}>
@@ -61,7 +62,6 @@ export function ProductInfo({ product, className }: ProductInfoProps) {
           )}
         </div>
       </div>
-
 
       {/* Manufacturer/Vendor */}
       {product.manufacturer && (

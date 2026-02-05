@@ -54,7 +54,10 @@ export function useWriteReviewForm(
 
     try {
       const recaptchaToken = await executeRecaptcha("write_review");
-      const recaptchaResult = await verifyRecaptcha(recaptchaToken, "write_review");
+      const recaptchaResult = await verifyRecaptcha(
+        recaptchaToken,
+        "write_review",
+      );
       if (!recaptchaResult.success) {
         toast.error("Verification failed. Please try again.");
         return;

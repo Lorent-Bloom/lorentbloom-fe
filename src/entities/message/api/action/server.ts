@@ -1,6 +1,9 @@
 "use server";
 
-import { getSupabaseServerClient, type Conversation } from "@shared/api/supabase";
+import {
+  getSupabaseServerClient,
+  type Conversation,
+} from "@shared/api/supabase";
 import { getCustomer } from "@entities/customer";
 import type { SendMessageInput, Message } from "../../model/interface";
 
@@ -96,11 +99,16 @@ export async function getMessages(conversationId: string): Promise<{
       .from("conversations")
       .select("id")
       .eq("id", conversationId)
-      .or(`owner->>email.eq.${customer.email},receiver->>email.eq.${customer.email}`)
+      .or(
+        `owner->>email.eq.${customer.email},receiver->>email.eq.${customer.email}`,
+      )
       .single();
 
     if (!conversation) {
-      return { success: false, error: "Conversation not found or access denied" };
+      return {
+        success: false,
+        error: "Conversation not found or access denied",
+      };
     }
 
     // Get messages

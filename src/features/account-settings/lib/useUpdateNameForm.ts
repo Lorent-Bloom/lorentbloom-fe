@@ -29,7 +29,10 @@ export const useUpdateNameForm = ({
     setIsSubmitting(true);
     try {
       const recaptchaToken = await executeRecaptcha("update_name");
-      const recaptchaResult = await verifyRecaptcha(recaptchaToken, "update_name");
+      const recaptchaResult = await verifyRecaptcha(
+        recaptchaToken,
+        "update_name",
+      );
       if (!recaptchaResult.success) {
         toast.error("Verification failed. Please try again.");
         return;

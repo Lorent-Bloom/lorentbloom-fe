@@ -40,11 +40,13 @@ export const useChatImageUpload = () => {
       try {
         await startUpload(filesToUpload);
       } catch (error) {
-        setUploadError(error instanceof Error ? error.message : "Upload failed");
+        setUploadError(
+          error instanceof Error ? error.message : "Upload failed",
+        );
         setIsUploading(false);
       }
     },
-    [imageKeys.length, startUpload]
+    [imageKeys.length, startUpload],
   );
 
   const removeImage = useCallback((index: number) => {

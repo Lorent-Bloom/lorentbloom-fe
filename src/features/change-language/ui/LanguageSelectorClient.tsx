@@ -20,7 +20,7 @@ const LanguageSelectorClient: FC<LanguageSelectorClientProps> = ({
   const { currentLocale, setLocale } = useLanguageSelectorClient();
 
   const currentOption = localeOptions.find(
-    (option) => option.value === currentLocale
+    (option) => option.value === currentLocale,
   );
 
   return (
@@ -31,7 +31,7 @@ const LanguageSelectorClient: FC<LanguageSelectorClientProps> = ({
           size="sm"
           className={cn(
             "gap-1.5 px-2 sm:px-3 focus-visible:ring-offset-0",
-            className
+            className,
           )}
         >
           <Globe className="h-4 w-4" />
@@ -47,7 +47,7 @@ const LanguageSelectorClient: FC<LanguageSelectorClientProps> = ({
               onClick={() => setLocale(option.value)}
               className={cn(
                 "cursor-pointer gap-3 py-2",
-                isSelected && "bg-accent"
+                isSelected && "bg-accent",
               )}
             >
               <span className="text-base">{option.flag}</span>

@@ -42,7 +42,10 @@ export default function UserAvatarClient(props: UserAvatarClientProps) {
               asChild
               className="cursor-pointer"
             >
-              <Link href={item.href} className="flex items-center justify-between w-full">
+              <Link
+                href={item.href}
+                className="flex items-center justify-between w-full"
+              >
                 <span className="flex items-center">
                   <Icon className="mr-2 h-4 w-4" />
                   <span>{item.label}</span>

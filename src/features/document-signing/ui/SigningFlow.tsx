@@ -47,17 +47,16 @@ export function SigningFlow({
   const t = useTranslations("document-signing");
   const [signature, setSignature] = useState<string | null>(null);
   const [acceptedTerms, setAcceptedTerms] = useState(false);
-  const [personalNumber, setPersonalNumber] = useState(existingPersonalNumber || "");
-  const [personalNumberError, setPersonalNumberError] = useState<string | null>(null);
+  const [personalNumber, setPersonalNumber] = useState(
+    existingPersonalNumber || "",
+  );
+  const [personalNumberError, setPersonalNumberError] = useState<string | null>(
+    null,
+  );
   const [previewLanguage, setPreviewLanguage] = useState<string>("ro");
 
-  const {
-    isGenerating,
-    error,
-    pdfUrl,
-    generatePreview,
-    clearError,
-  } = useDocumentSigning();
+  const { isGenerating, error, pdfUrl, generatePreview, clearError } =
+    useDocumentSigning();
 
   // Get validated personal number for preview (only when valid)
   const validatedPersonalNumber = useMemo(() => {
@@ -70,8 +69,12 @@ export function SigningFlow({
     return {
       ...contractData,
       // Update the appropriate personal number field based on signer role (only when valid)
-      ...(signerRole === "renter" && validatedPersonalNumber ? { renterPersonalNumber: validatedPersonalNumber } : {}),
-      ...(signerRole === "owner" && validatedPersonalNumber ? { ownerPersonalNumber: validatedPersonalNumber } : {}),
+      ...(signerRole === "renter" && validatedPersonalNumber
+        ? { renterPersonalNumber: validatedPersonalNumber }
+        : {}),
+      ...(signerRole === "owner" && validatedPersonalNumber
+        ? { ownerPersonalNumber: validatedPersonalNumber }
+        : {}),
     };
   }, [contractData, validatedPersonalNumber, signerRole]);
 
@@ -103,9 +106,15 @@ export function SigningFlow({
   };
 
   const isSubmitting = externalSubmitting;
-  const hasValidPersonalNumber = validatePersonalNumber(personalNumber.replace(/\s/g, ""));
+  const hasValidPersonalNumber = validatePersonalNumber(
+    personalNumber.replace(/\s/g, ""),
+  );
   const canSubmit =
-    signature && acceptedTerms && hasValidPersonalNumber && !isSubmitting && !isGenerating;
+    signature &&
+    acceptedTerms &&
+    hasValidPersonalNumber &&
+    !isSubmitting &&
+    !isGenerating;
 
   return (
     <div className="space-y-6">
@@ -133,7 +142,10 @@ export function SigningFlow({
               <Globe className="h-4 w-4" />
               {t("previewLanguage")}
             </Label>
-            <Select value={previewLanguage} onValueChange={handleLanguageChange}>
+            <Select
+              value={previewLanguage}
+              onValueChange={handleLanguageChange}
+            >
               <SelectTrigger className="w-[140px]">
                 <SelectValue />
               </SelectTrigger>
@@ -149,10 +161,7 @@ export function SigningFlow({
           <p className="text-xs text-muted-foreground">
             {t("previewLanguageHint")}
           </p>
-          <DocumentPreview
-            pdfUrl={pdfUrl}
-            isLoading={isGenerating}
-          />
+          <DocumentPreview pdfUrl={pdfUrl} isLoading={isGenerating} />
         </div>
 
         {/* Signature Section */}
@@ -231,7 +240,11 @@ export function SigningFlow({
                     {t("signing")}
                   </>
                 ) : (
-                  t(signerRole === "renter" ? "signAndContinue" : "signContract")
+                  t(
+                    signerRole === "renter"
+                      ? "signAndContinue"
+                      : "signContract",
+                  )
                 )}
               </Button>
             </div>

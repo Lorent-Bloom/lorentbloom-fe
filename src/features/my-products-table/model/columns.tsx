@@ -90,7 +90,9 @@ export const createColumns = (
       };
       // Convert to number if it's a string number
       const statusNum = typeof status === "number" ? status : Number(status);
-      const statusKey = !isNaN(statusNum) ? statusMap[statusNum] : String(status).toLowerCase();
+      const statusKey = !isNaN(statusNum)
+        ? statusMap[statusNum]
+        : String(status).toLowerCase();
       if (!statusKey) {
         return <Badge variant="outline">-</Badge>;
       }

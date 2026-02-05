@@ -38,7 +38,8 @@ export function ChatReportEmail({ data }: ChatReportEmailProps) {
                 <strong>Owner:</strong> {data.ownerName} ({data.ownerEmail})
               </Text>
               <Text style={infoText}>
-                <strong>Customer:</strong> {data.receiverName} ({data.receiverEmail})
+                <strong>Customer:</strong> {data.receiverName} (
+                {data.receiverEmail})
               </Text>
               <Text style={infoText}>
                 <strong>Current Step:</strong> {data.currentStepName || "None"}
@@ -72,7 +73,8 @@ export function ChatReportEmail({ data }: ChatReportEmailProps) {
                       {index + 1}. {progress.stepName}
                     </Text>
                     <Text style={stepMeta}>
-                      Completed: {new Date(progress.completedAt).toLocaleString()}
+                      Completed:{" "}
+                      {new Date(progress.completedAt).toLocaleString()}
                     </Text>
                     {progress.imageUrls.length > 0 && (
                       <Section style={imageGrid}>
@@ -116,7 +118,9 @@ export function ChatReportEmail({ data }: ChatReportEmailProps) {
                     {new Date(msg.timestamp).toLocaleString()}
                     {msg.stepName && ` (Step: ${msg.stepName})`}
                   </Text>
-                  {msg.content && <Text style={messageContent}>{msg.content}</Text>}
+                  {msg.content && (
+                    <Text style={messageContent}>{msg.content}</Text>
+                  )}
                   {msg.imageUrls.length > 0 && (
                     <Section style={imageGrid}>
                       {msg.imageUrls.map((url, imgIndex) => (

@@ -277,11 +277,16 @@ export interface Database {
 }
 
 // Helper types
-export type ConversationStep = Database["public"]["Tables"]["conversation_steps"]["Row"];
+export type ConversationStep =
+  Database["public"]["Tables"]["conversation_steps"]["Row"];
 export type Conversation = Database["public"]["Tables"]["conversations"]["Row"];
-export type ConversationMessage = Database["public"]["Tables"]["conversation_messages"]["Row"];
-export type ConversationProgress = Database["public"]["Tables"]["conversation_progress"]["Row"];
-export type ConversationMessageRead = Database["public"]["Tables"]["conversation_message_reads"]["Row"];
-export type AdminEmailConfig = Database["public"]["Tables"]["admin_email_config"]["Row"];
+export type ConversationMessage =
+  Database["public"]["Tables"]["conversation_messages"]["Row"];
+export type ConversationProgress =
+  Database["public"]["Tables"]["conversation_progress"]["Row"];
+export type ConversationMessageRead =
+  Database["public"]["Tables"]["conversation_message_reads"]["Row"];
+export type AdminEmailConfig =
+  Database["public"]["Tables"]["admin_email_config"]["Row"];
 export type ChatReport = Database["public"]["Tables"]["chat_reports"]["Row"];
 export type DocumentRecord = Database["public"]["Tables"]["documents"]["Row"];

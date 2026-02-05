@@ -426,41 +426,47 @@ export const useCategoryTree = ({
   );
 
   // Restore pending categories from a saved new_category_path (for edit mode)
-  const addPendingCategoriesFromPath = useCallback((path: string) => {
-    const parts = path.split(" > ").map((p) => p.trim()).filter(Boolean);
-    if (parts.length === 0) return;
+  const addPendingCategoriesFromPath = useCallback(
+    (path: string) => {
+      const parts = path
+        .split(" > ")
+        .map((p) => p.trim())
+        .filter(Boolean);
+      if (parts.length === 0) return;
 
-    const pending: PendingCategory[] = [];
-    const expanded: TreeExpandedState = {};
+      const pending: PendingCategory[] = [];
+      const expanded: TreeExpandedState = {};
 
-    for (let i = 0; i < parts.length && i < 3; i++) {
-      const name = parts[i];
-      const uid = `${NEW_CATEGORY_PREFIX}${name}`;
-      const level = (i + 1) as 1 | 2 | 3;
-      const parentUid = i > 0 ? `${NEW_CATEGORY_PREFIX}${parts[i - 1]}` : null;
+      for (let i = 0; i < parts.length && i < 3; i++) {
+        const name = parts[i];
+        const uid = `${NEW_CATEGORY_PREFIX}${name}`;
+        const level = (i + 1) as 1 | 2 | 3;
+        const parentUid =
+          i > 0 ? `${NEW_CATEGORY_PREFIX}${parts[i - 1]}` : null;
 
-      pending.push({ uid, name, level, parentUid });
-      expanded[uid] = true;
-    }
+        pending.push({ uid, name, level, parentUid });
+        expanded[uid] = true;
+      }
 
-    setPendingCategories(pending);
-    setExpandedNodes(expanded);
+      setPendingCategories(pending);
+      setExpandedNodes(expanded);
 
-    // Build selection from the deepest level
-    const deepest = pending[pending.length - 1];
-    const newSelection: CategorySelection = {
-      categoryUid: pending[0]?.uid || "",
-      categoryName: pending[0]?.name || "",
-      subcategoryUid: pending[1]?.uid || null,
-      subcategoryName: pending[1]?.name || null,
-      subSubcategoryUid: pending[2]?.uid || null,
-      subSubcategoryName: pending[2]?.name || null,
-      displayPath: pending.map((p) => p.name),
-    };
+      // Build selection from the deepest level
+      const newSelection: CategorySelection = {
+        categoryUid: pending[0]?.uid || "",
+        categoryName: pending[0]?.name || "",
+        subcategoryUid: pending[1]?.uid || null,
+        subcategoryName: pending[1]?.name || null,
+        subSubcategoryUid: pending[2]?.uid || null,
+        subSubcategoryName: pending[2]?.name || null,
+        displayPath: pending.map((p) => p.name),
+      };
 
-    setSelection(newSelection);
-    onSelectionChange(newSelection);
-  }, [onSelectionChange]);
+      setSelection(newSelection);
+      onSelectionChange(newSelection);
+    },
+    [onSelectionChange],
+  );
 
   return {
     treeNodes,

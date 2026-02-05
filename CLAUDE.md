@@ -189,6 +189,7 @@ Good examples to follow: `widgets/sign-in-form`, `widgets/sign-up-form`, `featur
 ## Database Migrations (Supabase)
 
 SQL migrations are stored in `/migrations/` folder with sequential numbering:
+
 - `001_chat_system.sql`
 - `002_chat_reports.sql`
 - `003_documents.sql`

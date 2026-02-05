@@ -5,7 +5,10 @@ import { toast } from "sonner";
 import { useTranslations } from "next-intl";
 import { completeFlowStep } from "@entities/flow-step";
 import { useChatImageUpload } from "@features/chat-input";
-import type { FlowStepActionProps, UseFlowStepActionReturn } from "../model/interface";
+import type {
+  FlowStepActionProps,
+  UseFlowStepActionReturn,
+} from "../model/interface";
 
 export const useFlowStepAction = ({
   conversation,
@@ -16,13 +19,8 @@ export const useFlowStepAction = ({
   const t = useTranslations("flow-step-action");
   const [isCompleting, setIsCompleting] = useState(false);
 
-  const {
-    imageKeys,
-    isUploading,
-    handleUpload,
-    removeImage,
-    clearImages,
-  } = useChatImageUpload();
+  const { imageKeys, isUploading, handleUpload, removeImage, clearImages } =
+    useChatImageUpload();
 
   const userRole = useMemo(() => {
     // currentUserId is the email, so compare by email field
@@ -41,12 +39,18 @@ export const useFlowStepAction = ({
 
   const requiresImages = useMemo(() => {
     if (!currentStep) return false;
-    return currentStep.required_action === "upload_images" || currentStep.required_action === "both";
+    return (
+      currentStep.required_action === "upload_images" ||
+      currentStep.required_action === "both"
+    );
   }, [currentStep]);
 
   const requiresConfirm = useMemo(() => {
     if (!currentStep) return false;
-    return currentStep.required_action === "confirm" || currentStep.required_action === "both";
+    return (
+      currentStep.required_action === "confirm" ||
+      currentStep.required_action === "both"
+    );
   }, [currentStep]);
 
   const handleComplete = useCallback(async () => {
@@ -75,13 +79,22 @@ export const useFlowStepAction = ({
     }
 
     setIsCompleting(false);
-  }, [currentStep, canTrigger, requiresImages, imageKeys, conversation.id, clearImages, onStepComplete, t]);
+  }, [
+    currentStep,
+    canTrigger,
+    requiresImages,
+    imageKeys,
+    conversation.id,
+    clearImages,
+    onStepComplete,
+    t,
+  ]);
 
   const handleImageUpload = useCallback(
     async (files: File[]) => {
       await handleUpload(files);
     },
-    [handleUpload]
+    [handleUpload],
   );
 
   return {

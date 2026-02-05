@@ -32,7 +32,10 @@ export const useUpdateEmailForm = ({
     setIsSubmitting(true);
     try {
       const recaptchaToken = await executeRecaptcha("update_email");
-      const recaptchaResult = await verifyRecaptcha(recaptchaToken, "update_email");
+      const recaptchaResult = await verifyRecaptcha(
+        recaptchaToken,
+        "update_email",
+      );
       if (!recaptchaResult.success) {
         toast.error("Verification failed. Please try again.");
         return;

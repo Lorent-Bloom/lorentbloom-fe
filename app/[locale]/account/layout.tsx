@@ -33,7 +33,10 @@ export default async function AccountLayout({
       </div>
       <div className="grid grid-cols-1 md:grid-cols-[240px_1fr] gap-8">
         <aside className="md:sticky md:top-8 md:h-fit">
-          <AccountSidebar locale={locale} pendingSignatures={pendingSignatures} />
+          <AccountSidebar
+            locale={locale}
+            pendingSignatures={pendingSignatures}
+          />
         </aside>
         <main>{children}</main>
       </div>

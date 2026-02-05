@@ -2,7 +2,10 @@
 
 import { useState, useEffect, useCallback, useRef } from "react";
 import { getSupabaseBrowserClient } from "@shared/api/supabase";
-import { getMessages, sendMessage as sendMessageAction } from "../api/action/server";
+import {
+  getMessages,
+  sendMessage as sendMessageAction,
+} from "../api/action/server";
 import type { Message, SendMessageInput } from "../model/interface";
 
 export const useMessages = (conversationId: string | null) => {
@@ -61,7 +64,7 @@ export const useMessages = (conversationId: string | null) => {
             }
             return [...prev, newMessage];
           });
-        }
+        },
       )
       .subscribe();
 
@@ -79,7 +82,8 @@ export const useMessages = (conversationId: string | null) => {
 
   const sendMessage = useCallback(
     async (input: Omit<SendMessageInput, "conversationId">) => {
-      if (!conversationId) return { success: false, error: "No conversation selected" };
+      if (!conversationId)
+        return { success: false, error: "No conversation selected" };
 
       setIsSending(true);
       const result = await sendMessageAction({
@@ -101,7 +105,7 @@ export const useMessages = (conversationId: string | null) => {
       setIsSending(false);
       return result;
     },
-    [conversationId]
+    [conversationId],
   );
 
   return {

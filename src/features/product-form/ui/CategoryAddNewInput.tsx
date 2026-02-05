@@ -19,7 +19,9 @@ export function CategoryAddNewInput({
   level,
 }: CategoryAddNewInputProps) {
   return (
-    <div className={cn("flex items-center gap-2 py-1 px-2", LEVEL_INDENT[level])}>
+    <div
+      className={cn("flex items-center gap-2 py-1 px-2", LEVEL_INDENT[level])}
+    >
       <span className="w-5 shrink-0" />
       <Input
         value={value}

@@ -14,7 +14,9 @@ export function FlowStepProgress({
   const completedStepIds = new Set(completedSteps.map((s) => s.step_id));
   const sortedSteps = [...steps].sort((a, b) => a.step_order - b.step_order);
 
-  const currentStep = currentStepId ? sortedSteps.find((s) => s.id === currentStepId) : null;
+  const currentStep = currentStepId
+    ? sortedSteps.find((s) => s.id === currentStepId)
+    : null;
   const currentStepIndex = currentStep
     ? sortedSteps.findIndex((s) => s.id === currentStepId)
     : sortedSteps.length;
@@ -36,12 +38,10 @@ export function FlowStepProgress({
                     ? "bg-green-500"
                     : isCurrent
                       ? "bg-primary"
-                      : "bg-muted"
+                      : "bg-muted",
                 )}
               />
-              {index < sortedSteps.length - 1 && (
-                <div className="w-1" />
-              )}
+              {index < sortedSteps.length - 1 && <div className="w-1" />}
             </div>
           );
         })}
@@ -55,10 +55,13 @@ export function FlowStepProgress({
         {currentStep && (
           <span className="flex items-center gap-1">
             <span className="h-2 w-2 rounded-full bg-primary animate-pulse" />
-            {/* @ts-expect-error - dynamic key pattern */}
-            {t(`steps.${STEP_I18N_KEYS[currentStep.step_key] || currentStep.step_key}.name`, {
-              defaultValue: currentStep.name,
-            })}
+            {t(
+              // @ts-expect-error - dynamic key pattern
+              `steps.${STEP_I18N_KEYS[currentStep.step_key] || currentStep.step_key}.name`,
+              {
+                defaultValue: currentStep.name,
+              },
+            )}
           </span>
         )}
         {!currentStepId && (

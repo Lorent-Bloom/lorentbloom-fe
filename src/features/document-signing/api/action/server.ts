@@ -17,7 +17,7 @@ import type { ContractPreviewData } from "../../model/interface";
 function mapPreviewDataToContractData(
   data: ContractPreviewData,
   ownerSignature?: { image: string; date: string },
-  renterSignature?: { image: string; date: string }
+  renterSignature?: { image: string; date: string },
 ): RentalContractData {
   return {
     contractNumber: data.contractNumber,
@@ -59,12 +59,15 @@ function mapPreviewDataToContractData(
 
 export async function generateContractPreview(
   data: ContractPreviewData,
-  locale?: string
+  locale?: string,
 ): Promise<{ success: boolean; url?: string; error?: string }> {
   try {
     const contractData = mapPreviewDataToContractData(data);
     // For preview, allow any language; for final document, always use Romanian
-    const pdfBuffer = await generateRentalContractPdf(contractData, locale || "ro");
+    const pdfBuffer = await generateRentalContractPdf(
+      contractData,
+      locale || "ro",
+    );
 
     // For preview, we create a data URL
     const base64 = pdfBuffer.toString("base64");
@@ -98,7 +101,7 @@ export interface CreateAndUploadContractInput {
 }
 
 export async function createAndUploadContract(
-  input: CreateAndUploadContractInput
+  input: CreateAndUploadContractInput,
 ): Promise<{ success: boolean; documentId?: string; error?: string }> {
   try {
     // Create document record with owner and renter emails and personal numbers for querying
@@ -128,7 +131,7 @@ export async function createAndUploadContract(
     const contractData = mapPreviewDataToContractData(
       input.contractData,
       undefined, // No owner signature yet
-      renterSignatureForPdf
+      renterSignatureForPdf,
     );
     const pdfBuffer = await generateRentalContractPdf(contractData);
 
@@ -139,7 +142,7 @@ export async function createAndUploadContract(
     const uploadResult = await uploadDocumentToStorage(
       input.orderId,
       pdfBuffer,
-      folder
+      folder,
     );
     if (!uploadResult.success) {
       return { success: false, error: uploadResult.error };
@@ -167,7 +170,8 @@ export async function createAndUploadContract(
         signerPersonalNumber: input.renterSignature.signerPersonalNumber,
       };
       if (input.renterSignature.signerPersonalNumber) {
-        updateData.renterPersonalNumber = input.renterSignature.signerPersonalNumber;
+        updateData.renterPersonalNumber =
+          input.renterSignature.signerPersonalNumber;
       }
     }
 
@@ -199,7 +203,7 @@ export interface SubmitContractSignatureInput {
 }
 
 export async function submitContractSignature(
-  input: SubmitContractSignatureInput
+  input: SubmitContractSignatureInput,
 ): Promise<{ success: boolean; error?: string }> {
   try {
     const signatureData = {
@@ -214,7 +218,7 @@ export async function submitContractSignature(
     const result = await addSignatureToDocument(
       input.documentId,
       input.signerRole,
-      signatureData
+      signatureData,
     );
 
     return { success: result.success, error: result.error };
@@ -227,9 +231,12 @@ export async function submitContractSignature(
   }
 }
 
-export async function getContractPdfUrl(
-  orderId: string
-): Promise<{ success: boolean; url?: string; status?: string; error?: string }> {
+export async function getContractPdfUrl(orderId: string): Promise<{
+  success: boolean;
+  url?: string;
+  status?: string;
+  error?: string;
+}> {
   try {
     const docResult = await getDocumentByOrderId(orderId);
     if (!docResult.success || !docResult.data) {
@@ -273,7 +280,7 @@ export async function getContractPdfUrl(
 
 export async function finalizeContract(
   orderId: string,
-  contractData: ContractPreviewData
+  contractData: ContractPreviewData,
 ): Promise<{ success: boolean; url?: string; error?: string }> {
   try {
     const docResult = await getDocumentByOrderId(orderId);
@@ -295,8 +302,14 @@ export async function finalizeContract(
     // These values may have been entered during signing and stored in the document
     const contractDataWithPersonalNumber: ContractPreviewData = {
       ...contractData,
-      ownerPersonalNumber: doc.owner_personal_number || doc.owner_signature.signerPersonalNumber || contractData.ownerPersonalNumber,
-      renterPersonalNumber: doc.renter_personal_number || doc.renter_signature.signerPersonalNumber || contractData.renterPersonalNumber,
+      ownerPersonalNumber:
+        doc.owner_personal_number ||
+        doc.owner_signature.signerPersonalNumber ||
+        contractData.ownerPersonalNumber,
+      renterPersonalNumber:
+        doc.renter_personal_number ||
+        doc.renter_signature.signerPersonalNumber ||
+        contractData.renterPersonalNumber,
     };
 
     // Generate final PDF with both signatures
@@ -304,12 +317,16 @@ export async function finalizeContract(
       contractDataWithPersonalNumber,
       {
         image: doc.owner_signature.data,
-        date: new Date(doc.owner_signature.signedAt).toLocaleDateString("ro-RO"),
+        date: new Date(doc.owner_signature.signedAt).toLocaleDateString(
+          "ro-RO",
+        ),
       },
       {
         image: doc.renter_signature.data,
-        date: new Date(doc.renter_signature.signedAt).toLocaleDateString("ro-RO"),
-      }
+        date: new Date(doc.renter_signature.signedAt).toLocaleDateString(
+          "ro-RO",
+        ),
+      },
     );
 
     const pdfBuffer = await generateRentalContractPdf(finalContractData);
@@ -318,7 +335,7 @@ export async function finalizeContract(
     const uploadResult = await uploadDocumentToStorage(
       orderId,
       pdfBuffer,
-      "signed"
+      "signed",
     );
     if (!uploadResult.success) {
       return { success: false, error: uploadResult.error };
@@ -352,7 +369,10 @@ export async function finalizeContract(
           productName: contractData.productName,
         });
       } catch (emailError) {
-        console.error("Failed to send signed notification to owner:", emailError);
+        console.error(
+          "Failed to send signed notification to owner:",
+          emailError,
+        );
       }
     }
 
@@ -368,7 +388,10 @@ export async function finalizeContract(
           productName: contractData.productName,
         });
       } catch (emailError) {
-        console.error("Failed to send signed notification to renter:", emailError);
+        console.error(
+          "Failed to send signed notification to renter:",
+          emailError,
+        );
       }
     }
 

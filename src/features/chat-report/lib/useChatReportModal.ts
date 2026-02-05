@@ -12,7 +12,7 @@ import { useRecaptcha } from "@shared/lib/recaptcha";
 export const useChatReportModal = (
   conversationId: string,
   onClose: () => void,
-  onSuccess?: () => void
+  onSuccess?: () => void,
 ) => {
   const t = useTranslations("chat-report");
   const [isSubmitting, setIsSubmitting] = useState(false);

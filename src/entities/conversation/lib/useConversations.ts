@@ -2,14 +2,13 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { getSupabaseBrowserClient } from "@shared/api/supabase";
-import {
-  getConversations,
-  markConversationAsRead,
-} from "../api/action/server";
+import { getConversations, markConversationAsRead } from "../api/action/server";
 import type { ConversationWithUnread } from "../model/interface";
 
 export const useConversations = (currentUserId: string) => {
-  const [conversations, setConversations] = useState<ConversationWithUnread[]>([]);
+  const [conversations, setConversations] = useState<ConversationWithUnread[]>(
+    [],
+  );
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [selectedId, setSelectedId] = useState<string | null>(null);
@@ -49,7 +48,7 @@ export const useConversations = (currentUserId: string) => {
         () => {
           // Refetch on any conversation change
           fetchConversations();
-        }
+        },
       )
       .on(
         "postgres_changes",
@@ -61,7 +60,7 @@ export const useConversations = (currentUserId: string) => {
         () => {
           // Refetch on new message to update last_message and unread
           fetchConversations();
-        }
+        },
       )
       .subscribe();
 
@@ -70,28 +69,25 @@ export const useConversations = (currentUserId: string) => {
     };
   }, [currentUserId, fetchConversations]);
 
-  const selectConversation = useCallback(
-    async (conversationId: string) => {
-      setSelectedId(conversationId);
+  const selectConversation = useCallback(async (conversationId: string) => {
+    setSelectedId(conversationId);
 
-      // Mark as read
-      await markConversationAsRead(conversationId);
+    // Mark as read
+    await markConversationAsRead(conversationId);
 
-      // Update local state to reflect read status
-      setConversations((prev) =>
-        prev.map((conv) =>
-          conv.id === conversationId ? { ...conv, unreadCount: 0 } : conv
-        )
-      );
-    },
-    []
-  );
+    // Update local state to reflect read status
+    setConversations((prev) =>
+      prev.map((conv) =>
+        conv.id === conversationId ? { ...conv, unreadCount: 0 } : conv,
+      ),
+    );
+  }, []);
 
   const selectedConversation = conversations.find((c) => c.id === selectedId);
 
   const totalUnreadCount = conversations.reduce(
     (sum, conv) => sum + conv.unreadCount,
-    0
+    0,
   );
 
   return {

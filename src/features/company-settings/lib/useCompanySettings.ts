@@ -40,7 +40,10 @@ export const useCompanySettings = ({
 
     try {
       const recaptchaToken = await executeRecaptcha("company_settings");
-      const recaptchaResult = await verifyRecaptcha(recaptchaToken, "company_settings");
+      const recaptchaResult = await verifyRecaptcha(
+        recaptchaToken,
+        "company_settings",
+      );
       if (!recaptchaResult.success) {
         toast.error("Verification failed. Please try again.");
         return;

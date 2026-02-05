@@ -23,11 +23,7 @@ export const useHomeCTA = () => {
     subtitle: t("subtitle"),
     primaryCta: t("primaryCta"),
     secondaryCta: t("secondaryCta"),
-    features: [
-      t("features.0"),
-      t("features.1"),
-      t("features.2"),
-    ],
+    features: [t("features.0"), t("features.1"), t("features.2")],
     handleBrowseClick,
     handleSignUpClick,
   };

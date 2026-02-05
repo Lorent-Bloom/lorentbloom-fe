@@ -30,7 +30,10 @@ export const useConfirmEmail = ({
     ) {
       return t("alreadyConfirmed");
     }
-    if (lowerError.includes("not found") || lowerError.includes("no customer")) {
+    if (
+      lowerError.includes("not found") ||
+      lowerError.includes("no customer")
+    ) {
       return t("customerNotFound");
     }
     return t("unknownError");

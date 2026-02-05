@@ -26,8 +26,10 @@ mdc: true
 </div>
 
 ---
+
 layout: center
 class: text-center
+
 ---
 
 # Target Audience
@@ -107,8 +109,8 @@ class: text-center
 </div>
 
 ---
-layout: center
----
+
+## layout: center
 
 # Marketing Channels
 
@@ -366,8 +368,8 @@ layout: center
 </div>
 
 ---
-layout: two-cols
----
+
+## layout: two-cols
 
 # Next Steps
 
@@ -465,9 +467,11 @@ layout: two-cols
 </div>
 
 ---
+
 layout: center
 class: text-center
 background: https://images.unsplash.com/photo-1553729459-uj-kkk?w=1920&q=80
+
 ---
 
 # Ready to Launch
@@ -496,8 +500,8 @@ background: https://images.unsplash.com/photo-1553729459-uj-kkk?w=1920&q=80
 </div>
 
 ---
-layout: end
----
+
+## layout: end
 
 # Let's Build It!
 

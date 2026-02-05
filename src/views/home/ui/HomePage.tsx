@@ -49,9 +49,11 @@ const HomePage = async ({ params }: HomePageProps) => {
     getRecentReviews(6), // Fetch 6 recent reviews for testimonials (2 rows)
   ]);
 
-  const categories = categoriesResult.success ? categoriesResult.data ?? [] : [];
+  const categories = categoriesResult.success
+    ? (categoriesResult.data ?? [])
+    : [];
   const products = productsResult.data?.products?.items ?? [];
-  const reviews = reviewsResult.success ? reviewsResult.data ?? [] : [];
+  const reviews = reviewsResult.success ? (reviewsResult.data ?? []) : [];
   const totalProductsCount = productsResult.data?.products?.total_count ?? 0;
   const totalCategoriesCount = countCategories(categories);
 

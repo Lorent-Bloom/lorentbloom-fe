@@ -16,6 +16,7 @@ import { Toaster } from "@shared/ui";
 import { AuthCheck } from "@shared/lib/hooks/AuthCheck";
 import { cookies } from "next/headers";
 import { TOKEN_COOKIE_NAME } from "@shared/api";
+import { BRAND } from "@shared/config/brand";
 
 export async function generateMetadata({
   params,
@@ -25,18 +26,18 @@ export async function generateMetadata({
   const { locale } = await params;
 
   const descriptions: Record<string, string> = {
-    en: "Minimum - Your rental marketplace. Rent anything from electronics to equipment, easily and affordably.",
-    ru: "Minimum - Ваш маркетплейс аренды. Арендуйте всё: от электроники до оборудования, легко и доступно.",
-    ro: "Minimum - Piața ta de închiriere. Închiriază orice, de la electronică la echipamente, ușor și accesibil.",
+    en: `${BRAND.name} - Your rental marketplace. Rent anything from electronics to equipment, easily and affordably.`,
+    ru: `${BRAND.name} - Ваш маркетплейс аренды. Арендуйте всё: от электроники до оборудования, легко и доступно.`,
+    ro: `${BRAND.name} - Piața ta de închiriere. Închiriază orice, de la electronică la echipamente, ușor și accesibil.`,
   };
 
   const description = descriptions[locale] || descriptions.en;
 
   return {
-    metadataBase: new URL("https://minimum.md"),
+    metadataBase: new URL(BRAND.domain),
     title: {
-      default: "Minimum",
-      template: "%s | Minimum",
+      default: BRAND.name,
+      template: `%s | ${BRAND.name}`,
     },
     description,
     robots: {
@@ -44,7 +45,7 @@ export async function generateMetadata({
       follow: true,
     },
     openGraph: {
-      siteName: "Minimum",
+      siteName: BRAND.name,
       type: "website",
       locale,
       images: [
@@ -52,22 +53,22 @@ export async function generateMetadata({
           url: "/logo.png",
           width: 512,
           height: 512,
-          alt: "Minimum",
+          alt: BRAND.name,
         },
       ],
     },
     twitter: {
       card: "summary",
-      title: "Minimum",
+      title: BRAND.name,
       description,
     },
     alternates: {
-      canonical: `https://minimum.md/${locale}`,
+      canonical: `${BRAND.domain}/${locale}`,
       languages: {
-        en: "https://minimum.md/en",
-        ru: "https://minimum.md/ru",
-        ro: "https://minimum.md/ro",
-        "x-default": "https://minimum.md/en",
+        en: `${BRAND.domain}/en`,
+        ru: `${BRAND.domain}/ru`,
+        ro: `${BRAND.domain}/ro`,
+        "x-default": `${BRAND.domain}/en`,
       },
     },
     other: {

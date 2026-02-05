@@ -50,7 +50,8 @@ export function FlowStepAction({
     );
   }
 
-  const stepI18nKey = STEP_I18N_KEYS[currentStep.step_key] || currentStep.step_key;
+  const stepI18nKey =
+    STEP_I18N_KEYS[currentStep.step_key] || currentStep.step_key;
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const files = e.target.files;
@@ -68,12 +69,16 @@ export function FlowStepAction({
           <div>
             <h4 className="font-medium text-sm">
               {/* @ts-expect-error - dynamic key pattern */}
-              {tSteps(`steps.${stepI18nKey}.name`, { defaultValue: currentStep.name })}
+              {tSteps(`steps.${stepI18nKey}.name`, {
+                defaultValue: currentStep.name,
+              })}
             </h4>
             {currentStep.description && (
               <p className="text-xs text-muted-foreground mt-1">
                 {/* @ts-expect-error - dynamic key pattern */}
-                {tSteps(`steps.${stepI18nKey}.description`, { defaultValue: currentStep.description })}
+                {tSteps(`steps.${stepI18nKey}.description`, {
+                  defaultValue: currentStep.description,
+                })}
               </p>
             )}
           </div>
@@ -151,7 +156,9 @@ export function FlowStepAction({
             {/* Complete button */}
             <Button
               onClick={handleComplete}
-              disabled={isCompleting || (requiresImages && imageKeys.length === 0)}
+              disabled={
+                isCompleting || (requiresImages && imageKeys.length === 0)
+              }
               className="w-full"
             >
               {isCompleting ? (

@@ -86,7 +86,9 @@ export function DocumentsPage(props: DocumentsPageProps) {
                     </td>
                     <td className="px-4 py-4">
                       <Badge variant="outline">
-                        {doc.userRole === "owner" ? t("role.owner") : t("role.renter")}
+                        {doc.userRole === "owner"
+                          ? t("role.owner")
+                          : t("role.renter")}
                       </Badge>
                     </td>
                     <td className="px-4 py-4">
@@ -96,8 +98,8 @@ export function DocumentsPage(props: DocumentsPageProps) {
                           doc.status === "signed"
                             ? "text-green-600 border-green-300"
                             : doc.status === "partially_signed"
-                            ? "text-amber-600 border-amber-300"
-                            : ""
+                              ? "text-amber-600 border-amber-300"
+                              : ""
                         }
                       >
                         {doc.status === "signed" && (
@@ -115,10 +117,7 @@ export function DocumentsPage(props: DocumentsPageProps) {
                     <td className="px-4 py-4 text-center">
                       <div className="flex items-center justify-center gap-2">
                         {doc.needsUserSignature && (
-                          <Button
-                            size="sm"
-                            onClick={() => handleSign(doc)}
-                          >
+                          <Button size="sm" onClick={() => handleSign(doc)}>
                             <PenTool className="mr-1 h-3 w-3" />
                             {t("actions.sign")}
                           </Button>
@@ -165,8 +164,8 @@ export function DocumentsPage(props: DocumentsPageProps) {
                         doc.status === "signed"
                           ? "text-green-600 border-green-300"
                           : doc.status === "partially_signed"
-                          ? "text-amber-600 border-amber-300"
-                          : ""
+                            ? "text-amber-600 border-amber-300"
+                            : ""
                       }
                     >
                       {doc.status === "signed" && (
@@ -181,7 +180,9 @@ export function DocumentsPage(props: DocumentsPageProps) {
 
                   <div className="mt-3 flex items-center gap-4 text-sm text-muted-foreground">
                     <span>
-                      {doc.userRole === "owner" ? t("role.owner") : t("role.renter")}
+                      {doc.userRole === "owner"
+                        ? t("role.owner")
+                        : t("role.renter")}
                     </span>
                     <span>{formatDate(doc.created_at)}</span>
                   </div>

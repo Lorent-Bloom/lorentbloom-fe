@@ -1,4 +1,7 @@
-import type { ConversationStep, ConversationProgress } from "@entities/flow-step";
+import type {
+  ConversationStep,
+  ConversationProgress,
+} from "@entities/flow-step";
 import type { Conversation } from "@entities/conversation";
 
 export interface FlowStepActionProps {

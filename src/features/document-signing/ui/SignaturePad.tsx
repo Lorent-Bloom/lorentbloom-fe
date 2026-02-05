@@ -7,7 +7,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@shared/ui/card";
 import { Eraser, PenTool } from "lucide-react";
 import type { SignaturePadProps } from "../model/interface";
 
-interface SignaturePadComponentProps extends Omit<SignaturePadProps, "onSignatureChange"> {
+interface SignaturePadComponentProps
+  extends Omit<SignaturePadProps, "onSignatureChange"> {
   onSignatureChange: (signatureData: string | null) => void;
 }
 
@@ -58,29 +59,35 @@ export function SignaturePad({
   }, []);
 
   // Start drawing
-  const startDrawing = useCallback((e: MouseEvent | TouchEvent) => {
-    e.preventDefault();
-    const coords = getCoordinates(e);
-    if (!coords) return;
-    setIsDrawing(true);
-    lastPointRef.current = coords;
-  }, [getCoordinates]);
+  const startDrawing = useCallback(
+    (e: MouseEvent | TouchEvent) => {
+      e.preventDefault();
+      const coords = getCoordinates(e);
+      if (!coords) return;
+      setIsDrawing(true);
+      lastPointRef.current = coords;
+    },
+    [getCoordinates],
+  );
 
   // Draw
-  const draw = useCallback((e: MouseEvent | TouchEvent) => {
-    if (!isDrawing || !lastPointRef.current) return;
-    e.preventDefault();
-    const ctx = getContext();
-    const coords = getCoordinates(e);
-    if (!ctx || !coords) return;
+  const draw = useCallback(
+    (e: MouseEvent | TouchEvent) => {
+      if (!isDrawing || !lastPointRef.current) return;
+      e.preventDefault();
+      const ctx = getContext();
+      const coords = getCoordinates(e);
+      if (!ctx || !coords) return;
 
-    ctx.beginPath();
-    ctx.moveTo(lastPointRef.current.x, lastPointRef.current.y);
-    ctx.lineTo(coords.x, coords.y);
-    ctx.stroke();
-    lastPointRef.current = coords;
-    setIsSigned(true);
-  }, [isDrawing, getContext, getCoordinates]);
+      ctx.beginPath();
+      ctx.moveTo(lastPointRef.current.x, lastPointRef.current.y);
+      ctx.lineTo(coords.x, coords.y);
+      ctx.stroke();
+      lastPointRef.current = coords;
+      setIsSigned(true);
+    },
+    [isDrawing, getContext, getCoordinates],
+  );
 
   // Stop drawing
   const stopDrawing = useCallback(() => {

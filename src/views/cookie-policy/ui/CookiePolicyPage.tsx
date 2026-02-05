@@ -110,7 +110,9 @@ export function CookiePolicyPage() {
 
         {/* Section 5: Consent */}
         <section>
-          <h2 className="text-2xl font-semibold mb-3">{t("consent.heading")}</h2>
+          <h2 className="text-2xl font-semibold mb-3">
+            {t("consent.heading")}
+          </h2>
           <p className="text-muted-foreground leading-relaxed">
             {t("consent.content")}
           </p>
@@ -118,7 +120,9 @@ export function CookiePolicyPage() {
 
         {/* Section 6: Changes */}
         <section>
-          <h2 className="text-2xl font-semibold mb-3">{t("changes.heading")}</h2>
+          <h2 className="text-2xl font-semibold mb-3">
+            {t("changes.heading")}
+          </h2>
           <p className="text-muted-foreground leading-relaxed">
             {t("changes.content")}
           </p>
@@ -126,7 +130,9 @@ export function CookiePolicyPage() {
 
         {/* Section 7: Contact */}
         <section>
-          <h2 className="text-2xl font-semibold mb-3">{t("contact.heading")}</h2>
+          <h2 className="text-2xl font-semibold mb-3">
+            {t("contact.heading")}
+          </h2>
           <p className="text-muted-foreground leading-relaxed">
             {t("contact.content")}
           </p>
