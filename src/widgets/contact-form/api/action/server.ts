@@ -2,6 +2,7 @@
 
 import { getSupabaseServerClient } from "@shared/api/supabase";
 import { sendContactFormNotification } from "@shared/api/resend/sendNotification";
+import { ADMIN_EMAIL } from "@shared/api/resend/model/const";
 import { verifyRecaptcha } from "@shared/lib/recaptcha";
 import type { SubmitContactFormInput } from "../../model/interface";
 
@@ -16,8 +17,7 @@ async function getAdminEmails(): Promise<string[]> {
     .eq("is_active", true);
 
   if (error || !data || data.length === 0) {
-    const fallback = process.env.ADMIN_EMAIL;
-    return fallback ? [fallback] : [];
+    return [ADMIN_EMAIL];
   }
 
   return data.map((row: { email: string }) => row.email);

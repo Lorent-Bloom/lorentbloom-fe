@@ -9,6 +9,7 @@ import {
 } from "@shared/api/supabase";
 import { getCustomer } from "@entities/customer";
 import { sendChatReportNotification } from "@shared/api/resend/sendNotification";
+import { ADMIN_EMAIL } from "@shared/api/resend/model/const";
 import { getUploadThingUrl } from "@shared/api/uploadthing/client";
 import type { ChatReportEmailData } from "@shared/api/resend/model/interface";
 import { verifyRecaptcha } from "@shared/lib/recaptcha";
@@ -27,8 +28,7 @@ async function getAdminEmails(): Promise<string[]> {
     .eq("is_active", true);
 
   if (error || !data || data.length === 0) {
-    const fallback = process.env.ADMIN_EMAIL;
-    return fallback ? [fallback] : [];
+    return [ADMIN_EMAIL];
   }
 
   return data.map((row: { email: string }) => row.email);
