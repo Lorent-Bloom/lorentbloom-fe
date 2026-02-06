@@ -21,10 +21,12 @@ export default function CategoryNavBar({
     openCategoryId,
     isMobileMenuOpen,
     expandedMobileCategory,
+    expandedMobileSubcategory,
     handleMouseEnter,
     handleMouseLeave,
     toggleMobileMenu,
     toggleMobileCategory,
+    toggleMobileSubcategory,
     navRef,
   } = useCategoryNavBar(categories);
 
@@ -151,18 +153,97 @@ export default function CategoryNavBar({
                         {category.children && category.children.length > 0 && (
                           <div className="ml-4 pl-3 border-l border-border/50 space-y-0.5 py-1">
                             {category.children.map((subcategory) => (
-                              <Link
-                                key={subcategory.uid}
-                                href={`/${locale}/products/${category.url_key}/${subcategory.url_key}`}
-                                className="flex items-center gap-2 px-3 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-accent/50 rounded-md transition-colors"
-                              >
-                                <ChevronRight className="h-3 w-3" />
-                                {getCategoryName(
-                                  subcategory.url_key,
-                                  subcategory.name,
-                                  subcategory.url_path,
+                              <div key={subcategory.uid}>
+                                {subcategory.children &&
+                                subcategory.children.length > 0 ? (
+                                  <>
+                                    {/* Subcategory with children - expandable */}
+                                    <div className="flex items-center">
+                                      <Link
+                                        href={`/${locale}/products/${category.url_key}/${subcategory.url_key}`}
+                                        className="flex-1 flex items-center gap-2 px-3 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-accent/50 rounded-l-md transition-colors"
+                                      >
+                                        <ChevronRight className="h-3 w-3" />
+                                        {getCategoryName(
+                                          subcategory.url_key,
+                                          subcategory.name,
+                                          subcategory.url_path,
+                                        )}
+                                      </Link>
+                                      <button
+                                        onClick={() =>
+                                          toggleMobileSubcategory(
+                                            subcategory.uid,
+                                          )
+                                        }
+                                        className="p-2 rounded-r-md hover:bg-accent/50 transition-colors"
+                                        aria-expanded={
+                                          expandedMobileSubcategory ===
+                                          subcategory.uid
+                                        }
+                                        aria-label={t("expandCategory", {
+                                          category: getCategoryName(
+                                            subcategory.url_key,
+                                            subcategory.name,
+                                            subcategory.url_path,
+                                          ),
+                                        })}
+                                      >
+                                        <ChevronDown
+                                          className={cn(
+                                            "h-3 w-3 text-muted-foreground transition-transform duration-200",
+                                            expandedMobileSubcategory ===
+                                              subcategory.uid && "rotate-180",
+                                          )}
+                                        />
+                                      </button>
+                                    </div>
+
+                                    {/* Third-level children */}
+                                    <div
+                                      className={cn(
+                                        "overflow-hidden transition-all duration-200 ease-in-out",
+                                        expandedMobileSubcategory ===
+                                          subcategory.uid
+                                          ? "max-h-[500px] opacity-100"
+                                          : "max-h-0 opacity-0",
+                                      )}
+                                    >
+                                      <div className="ml-4 pl-3 border-l border-border/30 space-y-0.5 py-1">
+                                        {subcategory.children.map(
+                                          (thirdLevel) => (
+                                            <Link
+                                              key={thirdLevel.uid}
+                                              href={`/${locale}/products/${category.url_key}/${subcategory.url_key}/${thirdLevel.url_key}`}
+                                              className="flex items-center gap-2 px-3 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-accent/50 rounded-md transition-colors"
+                                            >
+                                              <ChevronRight className="h-3 w-3" />
+                                              {getCategoryName(
+                                                thirdLevel.url_key,
+                                                thirdLevel.name,
+                                                thirdLevel.url_path,
+                                              )}
+                                            </Link>
+                                          ),
+                                        )}
+                                      </div>
+                                    </div>
+                                  </>
+                                ) : (
+                                  /* Subcategory without children - plain link */
+                                  <Link
+                                    href={`/${locale}/products/${category.url_key}/${subcategory.url_key}`}
+                                    className="flex items-center gap-2 px-3 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-accent/50 rounded-md transition-colors"
+                                  >
+                                    <ChevronRight className="h-3 w-3" />
+                                    {getCategoryName(
+                                      subcategory.url_key,
+                                      subcategory.name,
+                                      subcategory.url_path,
+                                    )}
+                                  </Link>
                                 )}
-                              </Link>
+                              </div>
                             ))}
 
                             {/* View All Link */}

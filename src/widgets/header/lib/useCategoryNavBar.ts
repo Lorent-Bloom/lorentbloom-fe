@@ -14,6 +14,9 @@ export const useCategoryNavBar = (categories: Category[]) => {
   const [expandedMobileCategory, setExpandedMobileCategory] = useState<
     string | null
   >(null);
+  const [expandedMobileSubcategory, setExpandedMobileSubcategory] = useState<
+    string | null
+  >(null);
 
   const navRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
@@ -52,6 +55,14 @@ export const useCategoryNavBar = (categories: Category[]) => {
     setExpandedMobileCategory((prev) =>
       prev === categoryUid ? null : categoryUid,
     );
+    setExpandedMobileSubcategory(null);
+  }, []);
+
+  // Mobile: Toggle subcategory accordion
+  const toggleMobileSubcategory = useCallback((subcategoryUid: string) => {
+    setExpandedMobileSubcategory((prev) =>
+      prev === subcategoryUid ? null : subcategoryUid,
+    );
   }, []);
 
   // Close all menus when pathname changes (navigation)
@@ -61,6 +72,7 @@ export const useCategoryNavBar = (categories: Category[]) => {
     setOpenCategoryId(null);
     setIsMobileMenuOpen(false);
     setExpandedMobileCategory(null);
+    setExpandedMobileSubcategory(null);
   }, [pathname]);
   /* eslint-enable react-hooks/set-state-in-effect */
 
@@ -104,8 +116,10 @@ export const useCategoryNavBar = (categories: Category[]) => {
     // Mobile
     isMobileMenuOpen,
     expandedMobileCategory,
+    expandedMobileSubcategory,
     toggleMobileMenu,
     toggleMobileCategory,
+    toggleMobileSubcategory,
     // Shared
     topLevelCategories,
     navRef,
