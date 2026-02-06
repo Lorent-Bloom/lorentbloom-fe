@@ -22,21 +22,12 @@ export default function ItemUsageStatistics({
       {/* Dark gradient background */}
       <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 dark:from-slate-950 dark:via-slate-900 dark:to-slate-950" />
 
-      {/* Animated red glow */}
+      {/* Subtle background accents */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-red-500/20 rounded-full blur-[150px] animate-pulse" />
-        <div className="absolute top-0 right-0 w-96 h-96 bg-red-600/10 rounded-full blur-3xl" />
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-orange-500/10 rounded-full blur-3xl" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-red-500/10 rounded-full" />
+        <div className="absolute top-0 right-0 w-96 h-96 bg-red-600/5 rounded-full" />
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-orange-500/5 rounded-full" />
       </div>
-
-      {/* Grid pattern overlay */}
-      <div
-        className="absolute inset-0 opacity-[0.03]"
-        style={{
-          backgroundImage: `linear-gradient(to right, white 1px, transparent 1px), linear-gradient(to bottom, white 1px, transparent 1px)`,
-          backgroundSize: "60px 60px",
-        }}
-      />
 
       <div className="container mx-auto px-4 relative z-10">
         {/* Section Header */}
@@ -58,13 +49,13 @@ export default function ItemUsageStatistics({
             <div className="flex flex-col items-center order-2 lg:order-1">
               <div className="relative w-72 h-72 sm:w-80 sm:h-80">
                 {/* Outer glow ring */}
-                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-red-500/20 via-orange-500/20 to-red-500/20 blur-xl animate-pulse" />
+                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-red-500/10 via-orange-500/10 to-red-500/10" />
 
                 {/* Chart container */}
                 <div className="relative w-full h-full">
                   <svg
                     viewBox="0 0 100 100"
-                    className="w-full h-full -rotate-90 transform drop-shadow-2xl"
+                    className="w-full h-full -rotate-90 transform"
                   >
                     {/* Background circle */}
                     <circle
@@ -88,13 +79,6 @@ export default function ItemUsageStatistics({
                         strokeDasharray={segment.strokeDasharray}
                         strokeDashoffset={segment.strokeDashoffset}
                         strokeLinecap="round"
-                        className="transition-all duration-1000 ease-out"
-                        style={{
-                          filter:
-                            segment.id === "dust"
-                              ? "drop-shadow(0 0 8px rgba(239, 68, 68, 0.5))"
-                              : "none",
-                        }}
                       />
                     ))}
                   </svg>
@@ -126,11 +110,6 @@ export default function ItemUsageStatistics({
                         : "bg-white/5 border-white/10 hover:border-white/20 hover:bg-white/10",
                     )}
                   >
-                    {/* Glow effect for dust segment */}
-                    {isDust && (
-                      <div className="absolute inset-0 rounded-2xl bg-red-500/5 blur-xl -z-10" />
-                    )}
-
                     <div className="flex items-center gap-4">
                       {/* Color indicator */}
                       <div
@@ -169,10 +148,7 @@ export default function ItemUsageStatistics({
 
               {/* Highlight callout */}
               <div className="relative mt-8 p-6 rounded-2xl bg-gradient-to-r from-red-600 to-red-500 shadow-2xl shadow-red-500/30">
-                {/* Animated border glow */}
-                <div className="absolute -inset-0.5 bg-gradient-to-r from-red-400 to-orange-400 rounded-2xl blur opacity-30 animate-pulse" />
-
-                <div className="relative flex items-center gap-4">
+                <div className="flex items-center gap-4">
                   <div className="flex-shrink-0 w-14 h-14 rounded-xl bg-white/20 flex items-center justify-center">
                     <AlertTriangle className="w-7 h-7 text-white" />
                   </div>
