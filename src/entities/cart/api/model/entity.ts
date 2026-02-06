@@ -36,6 +36,7 @@ export interface CartItem {
   prices: CartItemPrices;
   rent_from_date?: string | null;
   rent_to_date?: string | null;
+  rental_total?: number;
 }
 
 export interface AppliedTax {
@@ -47,6 +48,7 @@ export interface CartPrices {
   grand_total: Money;
   subtotal_excluding_tax: Money;
   subtotal_including_tax: Money;
+  rental_total?: Money;
   applied_taxes?: AppliedTax[];
 }
 

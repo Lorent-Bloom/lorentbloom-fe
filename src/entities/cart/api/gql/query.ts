@@ -11,6 +11,7 @@ export const GET_CUSTOMER_CART = gql`
         quantity
         rent_from_date
         rent_to_date
+        rental_total
         product {
           sku
           name
@@ -57,6 +58,10 @@ export const GET_CUSTOMER_CART = gql`
           currency
         }
         subtotal_including_tax {
+          value
+          currency
+        }
+        rental_total {
           value
           currency
         }

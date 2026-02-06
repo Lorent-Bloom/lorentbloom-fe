@@ -82,6 +82,7 @@ export interface OrderItemDetail {
   }>;
   rent_from_date?: string | null;
   rent_to_date?: string | null;
+  rental_total?: number;
 }
 
 export interface OrderDiscount {
@@ -100,6 +101,7 @@ export interface OrderTotal {
   grand_total: Money;
   total_shipping: Money;
   total_tax: Money;
+  rental_total?: Money;
   discounts?: OrderDiscount[];
   taxes?: OrderTax[];
 }

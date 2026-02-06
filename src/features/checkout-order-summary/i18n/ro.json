@@ -4,5 +4,7 @@
   "items": "articole",
   "total": "Total",
   "billing_address": "Adresa de facturare",
-  "qty": "Cantitate:"
+  "qty": "Cantitate:",
+  "rentalTotal": "Total chirie",
+  "days": "zile"
 }

@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
 import { Calendar, X } from "lucide-react";
-import { format, parseISO } from "date-fns";
+import { format, parseISO, differenceInCalendarDays } from "date-fns";
 import { Button } from "@shared/ui/button";
 import type { MiniCartItemProps } from "../model/interface";
 
@@ -26,6 +26,10 @@ export default function MiniCartItem({
   };
 
   const hasRentalDates = rent_from_date && rent_to_date;
+  const rentalDays =
+    hasRentalDates
+      ? differenceInCalendarDays(parseISO(rent_to_date), parseISO(rent_from_date)) + 1
+      : 0;
 
   return (
     <div className="flex flex-col sm:flex-row gap-4 py-4">
@@ -77,11 +81,16 @@ export default function MiniCartItem({
             </span>
           </div>
 
-          <div className="mt-2 flex items-center justify-end">
+          <div className="mt-2 flex items-center justify-end gap-1.5">
             <p className="text-sm font-semibold">
               {prices.row_total_including_tax.currency}{" "}
               {prices.row_total_including_tax.value.toFixed(2)}
             </p>
+            {rentalDays > 0 && (
+              <span className="text-xs text-muted-foreground">
+                ({rentalDays} {t("days")})
+              </span>
+            )}
           </div>
         </div>
       </div>

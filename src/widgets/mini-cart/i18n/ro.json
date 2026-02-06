@@ -15,5 +15,7 @@
   "sessionExpired": "Sesiunea ta a expirat. Te rugăm să te autentifici din nou.",
   "rentalPeriod": "Perioada de inchiriere",
   "from": "De la:",
-  "to": "Pana la:"
+  "to": "Pana la:",
+  "rentalTotal": "Total chirie",
+  "days": "zile"
 }

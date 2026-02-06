@@ -4,5 +4,7 @@
   "items": "items",
   "total": "Total",
   "billing_address": "Billing Address",
-  "qty": "Quantity:"
+  "qty": "Quantity:",
+  "rentalTotal": "Rental Total",
+  "days": "days"
 }

@@ -17,5 +17,7 @@
   "itemRemoved": "Item removed from cart",
   "rentalPeriod": "Rental Period",
   "from": "From:",
-  "to": "To:"
+  "to": "To:",
+  "rentalTotal": "Rental Total",
+  "days": "days"
 }

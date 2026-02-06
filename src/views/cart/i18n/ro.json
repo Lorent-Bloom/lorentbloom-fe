@@ -17,5 +17,7 @@
   "itemRemoved": "Produs sters din cos",
   "rentalPeriod": "Perioada de inchiriere",
   "from": "De la:",
-  "to": "Pana la:"
+  "to": "Pana la:",
+  "rentalTotal": "Total chirie",
+  "days": "zile"
 }

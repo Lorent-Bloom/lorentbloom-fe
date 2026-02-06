@@ -40,6 +40,7 @@
   "subtotal": "Subtotal",
   "shipping": "Shipping & Handling",
   "tax": "Tax",
+  "rentalTotal": "Rental Total",
   "grandTotal": "Total",
   "orderNotFound": "Order not found",
   "backToMyRents": "Back to My Rents",

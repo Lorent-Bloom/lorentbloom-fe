@@ -15,5 +15,7 @@
   "sessionExpired": "Your session has expired. Please sign in again.",
   "rentalPeriod": "Rental Period",
   "from": "From:",
-  "to": "To:"
+  "to": "To:",
+  "rentalTotal": "Rental Total",
+  "days": "days"
 }

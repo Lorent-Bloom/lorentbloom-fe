@@ -649,7 +649,9 @@
     "sessionExpired": "Ваша сессия истекла. Пожалуйста, войдите снова.",
     "rentalPeriod": "Период аренды",
     "from": "С:",
-    "to": "По:"
+    "to": "По:",
+    "rentalTotal": "Итого за аренду",
+    "days": "дн."
   },
   "footer": {
     "brand": {
@@ -919,7 +921,9 @@
     "items": "товаров",
     "total": "Итого",
     "billing_address": "Адрес для выставления счета",
-    "qty": "Количество:"
+    "qty": "Количество:",
+    "rentalTotal": "Итого за аренду",
+    "days": "дн."
   },
   "multi-image-upload": {
     "uploadImages": "Загрузить изображения",
@@ -1486,6 +1490,7 @@
     "subtotal": "Подитог",
     "shipping": "Доставка",
     "tax": "Налог",
+    "rentalTotal": "Итого за аренду",
     "grandTotal": "Итого",
     "orderNotFound": "Заказ не найден",
     "backToMyRents": "Назад к моим арендам",
@@ -1562,7 +1567,9 @@
     "itemRemoved": "Товар удален из корзины",
     "rentalPeriod": "Период аренды",
     "from": "С:",
-    "to": "По:"
+    "to": "По:",
+    "rentalTotal": "Итого за аренду",
+    "days": "дн."
   },
   "search": {
     "pageTitle": "Результаты поиска",

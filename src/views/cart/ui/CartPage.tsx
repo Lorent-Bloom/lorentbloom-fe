@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Calendar, ShoppingBag, Trash2 } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { format, parseISO } from "date-fns";
+import { format, parseISO, differenceInCalendarDays } from "date-fns";
 import { Button } from "@shared/ui/button";
 import { Separator } from "@shared/ui/separator";
 import { Card, CardContent, CardHeader, CardTitle } from "@shared/ui/card";
@@ -54,7 +54,16 @@ export default function CartPage({ cart }: CartPageProps) {
             </CardHeader>
             <CardContent className="p-0">
               <div className="divide-y">
-                {cart.items.map((item) => (
+                {cart.items.map((item) => {
+                  const rentalDays =
+                    item.rent_from_date && item.rent_to_date
+                      ? differenceInCalendarDays(
+                          parseISO(item.rent_to_date),
+                          parseISO(item.rent_from_date),
+                        ) + 1
+                      : 0;
+
+                  return (
                   <div
                     key={item.uid}
                     className="flex flex-col sm:flex-row gap-4 p-6"
@@ -97,12 +106,19 @@ export default function CartPage({ cart }: CartPageProps) {
                               </span>
                             </div>
                             {/* Mobile: price under SKU */}
-                            <p className="text-lg font-semibold mt-2 sm:hidden">
-                              {item.prices.row_total_including_tax.currency}{" "}
-                              {item.prices.row_total_including_tax.value.toFixed(
-                                2,
+                            <div className="mt-2 sm:hidden flex items-baseline gap-1.5">
+                              <p className="text-lg font-semibold">
+                                {item.prices.row_total_including_tax.currency}{" "}
+                                {item.prices.row_total_including_tax.value.toFixed(
+                                  2,
+                                )}
+                              </p>
+                              {rentalDays > 0 && (
+                                <span className="text-xs text-muted-foreground">
+                                  ({rentalDays} {t("days")})
+                                </span>
                               )}
-                            </p>
+                            </div>
                           </div>
                           {/* Desktop: trash button next to title */}
                           <Button
@@ -117,15 +133,18 @@ export default function CartPage({ cart }: CartPageProps) {
                         </div>
 
                         {/* Desktop: price on right side */}
-                        <div className="mt-4 hidden sm:flex items-center justify-end">
-                          <div className="text-right">
-                            <p className="text-lg font-semibold">
-                              {item.prices.row_total_including_tax.currency}{" "}
-                              {item.prices.row_total_including_tax.value.toFixed(
-                                2,
-                              )}
-                            </p>
-                          </div>
+                        <div className="mt-4 hidden sm:flex items-baseline justify-end gap-1.5">
+                          <p className="text-lg font-semibold">
+                            {item.prices.row_total_including_tax.currency}{" "}
+                            {item.prices.row_total_including_tax.value.toFixed(
+                              2,
+                            )}
+                          </p>
+                          {rentalDays > 0 && (
+                            <span className="text-sm text-muted-foreground">
+                              ({rentalDays} {t("days")})
+                            </span>
+                          )}
                         </div>
                       </div>
                     </div>
@@ -142,7 +161,8 @@ export default function CartPage({ cart }: CartPageProps) {
                       {t("removeButton")}
                     </Button>
                   </div>
-                ))}
+                  );
+                })}
               </div>
             </CardContent>
           </Card>
@@ -163,6 +183,18 @@ export default function CartPage({ cart }: CartPageProps) {
                     {cart.prices.subtotal_including_tax.value.toFixed(2)}
                   </span>
                 </div>
+                {cart.prices.rental_total &&
+                  cart.prices.rental_total.value > 0 && (
+                    <div className="flex justify-between">
+                      <span className="text-muted-foreground">
+                        {t("rentalTotal")}
+                      </span>
+                      <span className="font-medium">
+                        {cart.prices.rental_total.currency}{" "}
+                        {cart.prices.rental_total.value.toFixed(2)}
+                      </span>
+                    </div>
+                  )}
               </div>
 
               <Separator />
@@ -170,8 +202,8 @@ export default function CartPage({ cart }: CartPageProps) {
               <div className="flex justify-between text-lg font-bold">
                 <span>{t("total")}</span>
                 <span>
-                  {cart.prices.subtotal_including_tax.currency}{" "}
-                  {cart.prices.subtotal_including_tax.value.toFixed(2)}
+                  {cart.prices.grand_total.currency}{" "}
+                  {cart.prices.grand_total.value.toFixed(2)}
                 </span>
               </div>
 

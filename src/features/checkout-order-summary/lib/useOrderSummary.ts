@@ -5,6 +5,7 @@ export const useOrderSummary = (cart: Cart) => {
   const itemCount = cart.total_quantity;
   const subtotal = cart.prices.subtotal_including_tax;
   const grandTotal = cart.prices.grand_total;
+  const rentalTotal = cart.prices.rental_total;
 
   const formatDate = (dateString: string) => {
     try {
@@ -26,6 +27,7 @@ export const useOrderSummary = (cart: Cart) => {
     itemCount,
     subtotal,
     grandTotal,
+    rentalTotal,
     items: cart.items,
     billingAddress: cart.billing_address,
     formatRentalPeriod,

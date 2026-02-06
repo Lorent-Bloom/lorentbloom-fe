@@ -649,7 +649,9 @@
     "sessionExpired": "Sesiunea ta a expirat. Te rugăm să te autentifici din nou.",
     "rentalPeriod": "Perioada de inchiriere",
     "from": "De la:",
-    "to": "Pana la:"
+    "to": "Pana la:",
+    "rentalTotal": "Total chirie",
+    "days": "zile"
   },
   "footer": {
     "brand": {
@@ -919,7 +921,9 @@
     "items": "articole",
     "total": "Total",
     "billing_address": "Adresa de facturare",
-    "qty": "Cantitate:"
+    "qty": "Cantitate:",
+    "rentalTotal": "Total chirie",
+    "days": "zile"
   },
   "multi-image-upload": {
     "uploadImages": "Încărcați imagini",
@@ -1486,6 +1490,7 @@
     "subtotal": "Subtotal",
     "shipping": "Livrare",
     "tax": "Taxă",
+    "rentalTotal": "Total chirie",
     "grandTotal": "Total",
     "orderNotFound": "Comanda nu a fost găsită",
     "backToMyRents": "Înapoi la închirierile mele",
@@ -1562,7 +1567,9 @@
     "itemRemoved": "Produs sters din cos",
     "rentalPeriod": "Perioada de inchiriere",
     "from": "De la:",
-    "to": "Pana la:"
+    "to": "Pana la:",
+    "rentalTotal": "Total chirie",
+    "days": "zile"
   },
   "search": {
     "pageTitle": "Rezultate cautare",

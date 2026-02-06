@@ -79,6 +79,7 @@ export const GET_RENTAL_ORDER_DETAIL = gql`
           }
           rent_from_date
           rent_to_date
+          rental_total
         }
         total {
           subtotal {
@@ -94,6 +95,10 @@ export const GET_RENTAL_ORDER_DETAIL = gql`
             currency
           }
           total_tax {
+            value
+            currency
+          }
+          rental_total {
             value
             currency
           }

@@ -1,6 +1,7 @@
 "use client";
 
 import { Calendar } from "lucide-react";
+import { parseISO, differenceInCalendarDays } from "date-fns";
 import { useTranslations } from "next-intl";
 import { Card } from "@shared/ui/card";
 import { Separator } from "@shared/ui/separator";
@@ -13,6 +14,7 @@ export default function OrderSummary({ cart, className }: OrderSummaryProps) {
     itemCount,
     subtotal,
     grandTotal,
+    rentalTotal,
     items,
     billingAddress,
     formatRentalPeriod,
@@ -30,6 +32,13 @@ export default function OrderSummary({ cart, className }: OrderSummaryProps) {
               item.rent_from_date,
               item.rent_to_date,
             );
+            const rentalDays =
+              item.rent_from_date && item.rent_to_date
+                ? differenceInCalendarDays(
+                    parseISO(item.rent_to_date),
+                    parseISO(item.rent_from_date),
+                  ) + 1
+                : 0;
 
             return (
               <div key={item.uid} className="flex gap-4">
@@ -53,10 +62,17 @@ export default function OrderSummary({ cart, className }: OrderSummaryProps) {
                       <span>{rentalPeriod}</span>
                     </div>
                   )}
-                  <p className="mt-1 text-sm font-medium">
-                    {item.prices.row_total_including_tax.currency}{" "}
-                    {item.prices.row_total_including_tax.value.toFixed(2)}
-                  </p>
+                  <div className="mt-1 flex items-baseline gap-1.5">
+                    <p className="text-sm font-medium">
+                      {item.prices.row_total_including_tax.currency}{" "}
+                      {item.prices.row_total_including_tax.value.toFixed(2)}
+                    </p>
+                    {rentalDays > 0 && (
+                      <span className="text-xs text-muted-foreground">
+                        ({rentalDays} {t("days")})
+                      </span>
+                    )}
+                  </div>
                 </div>
               </div>
             );
@@ -74,6 +90,16 @@ export default function OrderSummary({ cart, className }: OrderSummaryProps) {
               {subtotal.currency} {subtotal.value.toFixed(2)}
             </span>
           </div>
+          {rentalTotal && rentalTotal.value > 0 && (
+            <div className="flex justify-between text-sm">
+              <span className="text-muted-foreground">
+                {t("rentalTotal")}
+              </span>
+              <span>
+                {rentalTotal.currency} {rentalTotal.value.toFixed(2)}
+              </span>
+            </div>
+          )}
 
           <Separator className="my-4" />
 

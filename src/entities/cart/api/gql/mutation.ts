@@ -11,6 +11,7 @@ export const ADD_PRODUCTS_TO_CART = gql`
           quantity
           rent_from_date
           rent_to_date
+          rental_total
           product {
             sku
             name
@@ -57,6 +58,10 @@ export const ADD_PRODUCTS_TO_CART = gql`
             currency
           }
           subtotal_including_tax {
+            value
+            currency
+          }
+          rental_total {
             value
             currency
           }
@@ -84,6 +89,7 @@ export const UPDATE_CART_ITEMS = gql`
           quantity
           rent_from_date
           rent_to_date
+          rental_total
           product {
             sku
             name
@@ -130,6 +136,10 @@ export const UPDATE_CART_ITEMS = gql`
             currency
           }
           subtotal_including_tax {
+            value
+            currency
+          }
+          rental_total {
             value
             currency
           }
@@ -152,6 +162,7 @@ export const REMOVE_ITEM_FROM_CART = gql`
           quantity
           rent_from_date
           rent_to_date
+          rental_total
           product {
             sku
             name
@@ -198,6 +209,10 @@ export const REMOVE_ITEM_FROM_CART = gql`
             currency
           }
           subtotal_including_tax {
+            value
+            currency
+          }
+          rental_total {
             value
             currency
           }

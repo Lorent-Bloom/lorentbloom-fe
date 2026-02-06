@@ -68,6 +68,16 @@ export default function MiniCartContent({
               {displayCart.prices.subtotal_including_tax.value.toFixed(2)}
             </span>
           </div>
+          {displayCart.prices.rental_total &&
+            displayCart.prices.rental_total.value > 0 && (
+              <div className="flex justify-between text-sm text-muted-foreground">
+                <span>{t("rentalTotal")}</span>
+                <span>
+                  {displayCart.prices.rental_total.currency}{" "}
+                  {displayCart.prices.rental_total.value.toFixed(2)}
+                </span>
+              </div>
+            )}
 
           <Separator />
 

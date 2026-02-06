@@ -649,7 +649,9 @@
     "sessionExpired": "Your session has expired. Please sign in again.",
     "rentalPeriod": "Rental Period",
     "from": "From:",
-    "to": "To:"
+    "to": "To:",
+    "rentalTotal": "Rental Total",
+    "days": "days"
   },
   "footer": {
     "brand": {
@@ -919,7 +921,9 @@
     "items": "items",
     "total": "Total",
     "billing_address": "Billing Address",
-    "qty": "Quantity:"
+    "qty": "Quantity:",
+    "rentalTotal": "Rental Total",
+    "days": "days"
   },
   "multi-image-upload": {
     "uploadImages": "Upload Images",
@@ -1486,6 +1490,7 @@
     "subtotal": "Subtotal",
     "shipping": "Shipping & Handling",
     "tax": "Tax",
+    "rentalTotal": "Rental Total",
     "grandTotal": "Total",
     "orderNotFound": "Order not found",
     "backToMyRents": "Back to My Rents",
@@ -1562,7 +1567,9 @@
     "itemRemoved": "Item removed from cart",
     "rentalPeriod": "Rental Period",
     "from": "From:",
-    "to": "To:"
+    "to": "To:",
+    "rentalTotal": "Rental Total",
+    "days": "days"
   },
   "search": {
     "pageTitle": "Search Results",
