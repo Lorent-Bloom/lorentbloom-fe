@@ -4,6 +4,7 @@
   "password": "Password",
   "passwordPlaceholder": "••••••",
   "submit": "Submit",
+  "submitting": "Signing in...",
   "noAccount": "Don't have an account?",
   "signUpLink": "Create one here",
   "errors": {

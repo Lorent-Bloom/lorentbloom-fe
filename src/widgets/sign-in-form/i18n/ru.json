@@ -4,6 +4,7 @@
   "password": "Пароль",
   "passwordPlaceholder": "••••••",
   "submit": "Войти",
+  "submitting": "Вход...",
   "noAccount": "Нет аккаунта?",
   "signUpLink": "Зарегистрируйтесь здесь",
   "errors": {

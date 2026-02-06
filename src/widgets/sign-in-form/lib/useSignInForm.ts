@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { SignInFormSchema, type TSignInFormSchema } from "../model/schema";
@@ -47,34 +47,41 @@ export const useSignInForm = () => {
     return t("unknownError");
   };
 
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
   const onFormSubmit = async (values: TSignInFormSchema) => {
-    const recaptchaToken = await executeRecaptcha("sign_in");
-    const recaptchaResult = await verifyRecaptcha(recaptchaToken, "sign_in");
-    if (!recaptchaResult.success) {
-      toast.error("Verification failed. Please try again.");
-      return;
-    }
-
-    const result = await signInCustomer({
-      email: values.email,
-      password: values.password,
-    });
-
-    if (result.success) {
-      toast.success(t("success"));
-      form.reset(SIGN_IN_FORM_DEFAULT_VALUES);
-
-      const redirectUrl = searchParams?.get("redirect");
-      if (redirectUrl) {
-        router.push(redirectUrl);
-      } else {
-        router.push("/");
+    setIsSubmitting(true);
+    try {
+      const recaptchaToken = await executeRecaptcha("sign_in");
+      const recaptchaResult = await verifyRecaptcha(recaptchaToken, "sign_in");
+      if (!recaptchaResult.success) {
+        toast.error("Verification failed. Please try again.");
+        return;
       }
-    } else {
-      const errorMessage = result.error
-        ? getErrorMessage(result.error)
-        : t("unknownError");
-      toast.error(errorMessage);
+
+      const result = await signInCustomer({
+        email: values.email,
+        password: values.password,
+      });
+
+      if (result.success) {
+        toast.success(t("success"));
+        form.reset(SIGN_IN_FORM_DEFAULT_VALUES);
+
+        const redirectUrl = searchParams?.get("redirect");
+        if (redirectUrl) {
+          router.push(redirectUrl);
+        } else {
+          router.push("/");
+        }
+      } else {
+        const errorMessage = result.error
+          ? getErrorMessage(result.error)
+          : t("unknownError");
+        toast.error(errorMessage);
+      }
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -94,5 +101,5 @@ export const useSignInForm = () => {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [form]);
 
-  return { form, onFormSubmit };
+  return { form, onFormSubmit, loading: isSubmitting };
 };

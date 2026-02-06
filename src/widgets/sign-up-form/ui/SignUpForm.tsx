@@ -3,6 +3,10 @@
 import React, { FC } from "react";
 import {
   Button,
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
   Form,
   FormControl,
   FormField,
@@ -17,11 +21,32 @@ import { SignUpFormProps } from "../model/interface";
 import { cn } from "@shared/lib/utils";
 import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
+import { MailCheck } from "lucide-react";
 
 const SignUpForm: FC<SignUpFormProps> = ({ className }) => {
-  const { form, onFormSubmit, loading } = useSignUpForm();
+  const { form, onFormSubmit, loading, isSuccess } = useSignUpForm();
   const t = useTranslations("sign-up-form");
   const locale = useLocale();
+
+  if (isSuccess) {
+    return (
+      <Card className={cn("w-full", className)}>
+        <CardHeader className="items-center text-center">
+          <MailCheck className="text-primary mb-2 size-12" />
+          <CardTitle>{t("confirmEmail.title")}</CardTitle>
+        </CardHeader>
+        <CardContent className="text-muted-foreground text-center text-sm space-y-4">
+          <p>{t("confirmEmail.description")}</p>
+          <Link
+            href={`/${locale}/sign-in`}
+            className="text-primary hover:underline font-medium inline-block"
+          >
+            {t("confirmEmail.signInLink")}
+          </Link>
+        </CardContent>
+      </Card>
+    );
+  }
 
   return (
     <Form {...form}>

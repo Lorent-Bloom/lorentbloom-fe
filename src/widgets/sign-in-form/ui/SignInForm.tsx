@@ -19,7 +19,7 @@ import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
 
 const SignInForm: FC<SignInFormProps> = ({ className }) => {
-  const { form, onFormSubmit } = useSignInForm();
+  const { form, onFormSubmit, loading } = useSignInForm();
   const t = useTranslations("sign-in-form");
   const locale = useLocale();
 
@@ -58,8 +58,8 @@ const SignInForm: FC<SignInFormProps> = ({ className }) => {
             </FormItem>
           )}
         />
-        <Button type="submit" className="w-full">
-          {t("submit")}
+        <Button type="submit" disabled={loading} className="w-full">
+          {loading ? t("submitting") : t("submit")}
         </Button>
         <div className="text-center text-sm">
           <span className="text-muted-foreground">{t("noAccount")}</span>{" "}

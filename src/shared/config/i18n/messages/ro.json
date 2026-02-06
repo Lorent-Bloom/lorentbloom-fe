@@ -201,6 +201,11 @@
     "submit": "Trimite",
     "submitting": "Se trimite...",
     "error": "Ceva nu a mers bine",
+    "confirmEmail": {
+      "title": "Verifică-ți emailul",
+      "description": "Am trimis un link de confirmare la adresa ta de email. Verifică inbox-ul și apasă pe link pentru a-ți confirma contul înainte de autentificare.",
+      "signInLink": "Mergi la autentificare"
+    },
     "haveAccount": "Ai deja un cont?",
     "signInLink": "Autentifică-te aici",
     "errors": {
@@ -222,6 +227,7 @@
     "password": "Parolă",
     "passwordPlaceholder": "••••••",
     "submit": "Trimite",
+    "submitting": "Se conectează...",
     "noAccount": "Nu ai un cont?",
     "signUpLink": "Creează unul aici",
     "errors": {

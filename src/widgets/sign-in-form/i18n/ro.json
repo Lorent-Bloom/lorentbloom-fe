@@ -4,6 +4,7 @@
   "password": "Parolă",
   "passwordPlaceholder": "••••••",
   "submit": "Trimite",
+  "submitting": "Se conectează...",
   "noAccount": "Nu ai un cont?",
   "signUpLink": "Creează unul aici",
   "errors": {

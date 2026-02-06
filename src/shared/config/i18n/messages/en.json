@@ -201,6 +201,11 @@
     "submit": "Submit",
     "submitting": "Submitting...",
     "error": "Something went wrong",
+    "confirmEmail": {
+      "title": "Check your email",
+      "description": "We've sent a confirmation link to your email address. Please check your inbox and click the link to verify your account before signing in.",
+      "signInLink": "Go to Sign In"
+    },
     "haveAccount": "Already have an account?",
     "signInLink": "Sign in here",
     "errors": {
@@ -222,6 +227,7 @@
     "password": "Password",
     "passwordPlaceholder": "••••••",
     "submit": "Submit",
+    "submitting": "Signing in...",
     "noAccount": "Don't have an account?",
     "signUpLink": "Create one here",
     "errors": {
