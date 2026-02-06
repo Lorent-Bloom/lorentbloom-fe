@@ -17,9 +17,9 @@ export async function generateMetadata({
   };
 
   const descriptions: Record<string, string> = {
-    en: "Confirm your email address to activate your Minimum account.",
-    ru: "Подтвердите ваш email для активации аккаунта Minimum.",
-    ro: "Confirmati adresa de email pentru a activa contul Minimum.",
+    en: "Confirm your email address to activate your Lorent Bloom account.",
+    ru: "Подтвердите ваш email для активации аккаунта Lorent Bloom.",
+    ro: "Confirmati adresa de email pentru a activa contul Lorent Bloom.",
   };
 
   return {

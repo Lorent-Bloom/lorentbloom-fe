@@ -18,9 +18,9 @@ export async function generateMetadata({
   };
 
   const descriptions: Record<string, string> = {
-    en: "Get in touch with the Minimum team. We're here to help with any questions or feedback.",
-    ru: "Свяжитесь с командой Minimum. Мы готовы помочь с любыми вопросами или отзывами.",
-    ro: "Contactați echipa Minimum. Suntem aici pentru a vă ajuta cu orice întrebări sau feedback.",
+    en: "Get in touch with the Lorent Bloom team. We're here to help with any questions or feedback.",
+    ru: "Свяжитесь с командой Lorent Bloom. Мы готовы помочь с любыми вопросами или отзывами.",
+    ro: "Contactați echipa Lorent Bloom. Suntem aici pentru a vă ajuta cu orice întrebări sau feedback.",
   };
 
   return {

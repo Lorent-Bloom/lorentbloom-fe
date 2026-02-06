@@ -43,24 +43,24 @@ export function TermsOfPolicyPage() {
           </p>
         </section>
 
-        {/* 3. Minimum Status and Disclaimer */}
+        {/* 3. Lorent Bloom Status and Disclaimer */}
         <section>
           <h2 className="text-2xl font-semibold mb-3">
-            {t("minimumStatus.heading")}
+            {t("lorentbloomStatus.heading")}
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-3">
-            {t("minimumStatus.point1")}
+            {t("lorentbloomStatus.point1")}
           </p>
           <p className="text-muted-foreground leading-relaxed mb-3">
-            {t("minimumStatus.point2")}
+            {t("lorentbloomStatus.point2")}
           </p>
           <p className="text-muted-foreground leading-relaxed mb-2">
-            {t("minimumStatus.point3")}
+            {t("lorentbloomStatus.point3")}
           </p>
           <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4">
-            <li>{t("minimumStatus.list.item1")}</li>
-            <li>{t("minimumStatus.list.item2")}</li>
-            <li>{t("minimumStatus.list.item3")}</li>
+            <li>{t("lorentbloomStatus.list.item1")}</li>
+            <li>{t("lorentbloomStatus.list.item2")}</li>
+            <li>{t("lorentbloomStatus.list.item3")}</li>
           </ul>
         </section>
 

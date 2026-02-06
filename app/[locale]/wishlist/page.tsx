@@ -17,9 +17,9 @@ export async function generateMetadata({
   };
 
   const descriptions: Record<string, string> = {
-    en: "Your saved items on Minimum.",
-    ru: "Ваши сохранённые товары на Minimum.",
-    ro: "Articolele salvate pe Minimum.",
+    en: "Your saved items on Lorent Bloom.",
+    ru: "Ваши сохранённые товары на Lorent Bloom.",
+    ro: "Articolele salvate pe Lorent Bloom.",
   };
 
   return {

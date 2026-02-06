@@ -17,9 +17,9 @@ export async function generateMetadata({
   };
 
   const descriptions: Record<string, string> = {
-    en: "Create your Minimum account to start renting and listing items.",
-    ru: "Создайте аккаунт Minimum, чтобы начать арендовать и размещать товары.",
-    ro: "Creați-vă contul Minimum pentru a începe să închiriați și să listați articole.",
+    en: "Create your Lorent Bloom account to start renting and listing items.",
+    ru: "Создайте аккаунт Lorent Bloom, чтобы начать арендовать и размещать товары.",
+    ro: "Creați-vă contul Lorent Bloom pentru a începe să închiriați și să listați articole.",
   };
 
   return {

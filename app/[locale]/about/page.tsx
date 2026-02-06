@@ -17,9 +17,9 @@ export async function generateMetadata({
   };
 
   const descriptions: Record<string, string> = {
-    en: "Learn more about Minimum and our mission to revolutionize the rental marketplace",
-    ru: "Узнайте больше о Minimum и нашей миссии по революционизации рынка аренды",
-    ro: "Aflați mai multe despre Minimum și misiunea noastră de a revoluționa piața închirierilor",
+    en: "Learn more about Lorent Bloom and our mission to revolutionize the rental marketplace",
+    ru: "Узнайте больше о Lorent Bloom и нашей миссии по революционизации рынка аренды",
+    ro: "Aflați mai multe despre Lorent Bloom și misiunea noastră de a revoluționa piața închirierilor",
   };
 
   return {

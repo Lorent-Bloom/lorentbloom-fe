@@ -17,7 +17,7 @@ import type {
   SendContactFormInput,
 } from "./model/interface";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://minimum.md";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://lorentbloom.com";
 
 export async function sendFlowStepNotification(input: SendNotificationInput) {
   try {

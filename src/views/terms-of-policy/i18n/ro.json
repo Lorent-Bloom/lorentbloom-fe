@@ -21,7 +21,7 @@
     },
     "warning": "Dacă nu sunteți de acord cu termenii, trebuie să încetați utilizarea Platformei."
   },
-  "minimumStatus": {
+  "lorentbloomStatus": {
     "heading": "3. Statutul Lorent Bloom și Declinarea Responsabilității",
     "point1": "3.1. Lorent Bloom nu este locator, locatar, agent, broker, transportator sau asigurator.",
     "point2": "3.2. Toate aranjamentele privind închirierea, transferul, returnarea, starea bunurilor, plata, garanția, livrarea și orice alte condiții au loc exclusiv între utilizatori.",

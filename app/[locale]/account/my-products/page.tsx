@@ -25,9 +25,9 @@ export async function generateMetadata({
   };
 
   const descriptions: Record<string, string> = {
-    en: "Manage your listed products on Minimum.",
-    ru: "Управляйте вашими товарами на Minimum.",
-    ro: "Gestionați produsele listate pe Minimum.",
+    en: "Manage your listed products on Lorent Bloom.",
+    ru: "Управляйте вашими товарами на Lorent Bloom.",
+    ro: "Gestionați produsele listate pe Lorent Bloom.",
   };
 
   return {

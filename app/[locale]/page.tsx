@@ -11,15 +11,15 @@ export async function generateMetadata({
   const common = getCommonMetadata(locale, "");
 
   const titles: Record<string, string> = {
-    en: "Minimum - Rental Marketplace",
-    ru: "Minimum - Маркетплейс аренды",
-    ro: "Minimum - Piața de închiriere",
+    en: "Lorent Bloom - Rental Marketplace",
+    ru: "Lorent Bloom - Маркетплейс аренды",
+    ro: "Lorent Bloom - Piața de închiriere",
   };
 
   const descriptions: Record<string, string> = {
-    en: "Rent anything you need. Electronics, equipment, and more - easily and affordably on Minimum.",
-    ru: "Арендуйте всё, что вам нужно. Электроника, оборудование и многое другое - легко и доступно на Minimum.",
-    ro: "Închiriază orice ai nevoie. Electronică, echipamente și altele - ușor și accesibil pe Minimum.",
+    en: "Rent anything you need. Electronics, equipment, and more - easily and affordably on Lorent Bloom.",
+    ru: "Арендуйте всё, что вам нужно. Электроника, оборудование и многое другое - легко и доступно на Lorent Bloom.",
+    ro: "Închiriază orice ai nevoie. Electronică, echipamente și altele - ușor și accesibil pe Lorent Bloom.",
   };
 
   return {

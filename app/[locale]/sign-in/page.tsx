@@ -17,9 +17,9 @@ export async function generateMetadata({
   };
 
   const descriptions: Record<string, string> = {
-    en: "Sign in to your Minimum account to manage rentals and listings.",
-    ru: "Войдите в свой аккаунт Minimum для управления арендой и объявлениями.",
-    ro: "Autentificați-vă în contul Minimum pentru a gestiona închirierile și anunțurile.",
+    en: "Sign in to your Lorent Bloom account to manage rentals and listings.",
+    ru: "Войдите в свой аккаунт Lorent Bloom для управления арендой и объявлениями.",
+    ro: "Autentificați-vă în contul Lorent Bloom pentru a gestiona închirierile și anunțurile.",
   };
 
   return {

@@ -15,7 +15,7 @@ import type { ChatReportEmailData } from "@shared/api/resend/model/interface";
 import { verifyRecaptcha } from "@shared/lib/recaptcha";
 import type { SubmitChatReportInput } from "../../model/interface";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://minimum.md";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://lorentbloom.com";
 
 async function getAdminEmails(): Promise<string[]> {
   const supabase = await getSupabaseServerClient();

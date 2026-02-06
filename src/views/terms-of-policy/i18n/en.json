@@ -21,7 +21,7 @@
     },
     "warning": "If you do not agree to the terms, you must stop using the Platform."
   },
-  "minimumStatus": {
+  "lorentbloomStatus": {
     "heading": "3. Lorent Bloom's Status and Disclaimer",
     "point1": "3.1. Lorent Bloom is not a lessor, lessee, agent, broker, carrier, or insurer.",
     "point2": "3.2. All arrangements regarding rental, transfer, return, condition of items, payment, deposit, delivery, and any other terms occur exclusively between users.",

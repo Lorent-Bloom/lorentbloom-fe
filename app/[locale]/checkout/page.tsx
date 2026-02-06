@@ -21,9 +21,9 @@ export async function generateMetadata({
   };
 
   const descriptions: Record<string, string> = {
-    en: "Complete your order on Minimum.",
-    ru: "Завершите оформление заказа на Minimum.",
-    ro: "Finalizați comanda pe Minimum.",
+    en: "Complete your order on Lorent Bloom.",
+    ru: "Завершите оформление заказа на Lorent Bloom.",
+    ro: "Finalizați comanda pe Lorent Bloom.",
   };
 
   return {

@@ -26,7 +26,7 @@ export function ContractSigningRequestEmail({
       <Body style={main}>
         <Container style={container}>
           <Section style={header}>
-            <Text style={logo}>Minimum</Text>
+            <Text style={logo}>Lorent Bloom</Text>
           </Section>
 
           <Section style={content}>
@@ -71,7 +71,7 @@ export function ContractSigningRequestEmail({
 
             <Text style={footerLink}>
               <a href={siteUrl} style={link}>
-                Visit Minimum
+                Visit Lorent Bloom
               </a>
             </Text>
           </Section>

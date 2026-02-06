@@ -64,7 +64,7 @@ export async function generateMetadata({
   const description =
     product.meta_description ||
     product.short_description?.html.replace(/<[^>]*>/g, "").slice(0, 160) ||
-    `${t("metadata.buyProductPrefix")}${product.name} on Minimum`;
+    `${t("metadata.buyProductPrefix")}${product.name} on Lorent Bloom`;
 
   return {
     title: product.name,

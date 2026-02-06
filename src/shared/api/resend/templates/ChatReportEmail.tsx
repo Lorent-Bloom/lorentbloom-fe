@@ -19,7 +19,7 @@ export function ChatReportEmail({ data }: ChatReportEmailProps) {
       <Body style={main}>
         <Container style={container}>
           <Section style={header}>
-            <Text style={logo}>Minimum</Text>
+            <Text style={logo}>Lorent Bloom</Text>
             <Text style={headerSubtitle}>Chat Report</Text>
           </Section>
 
@@ -140,7 +140,7 @@ export function ChatReportEmail({ data }: ChatReportEmailProps) {
             <Hr style={hr} />
 
             <Text style={footer}>
-              This is an automated report from Minimum chat system.
+              This is an automated report from Lorent Bloom chat system.
             </Text>
           </Section>
         </Container>

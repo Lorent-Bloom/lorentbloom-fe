@@ -23,9 +23,9 @@ export async function generateMetadata({
   };
 
   const descriptions: Record<string, string> = {
-    en: "Manage your Minimum account information and settings.",
-    ru: "Управляйте информацией и настройками вашего аккаунта Minimum.",
-    ro: "Gestionați informațiile și setările contului dvs. Minimum.",
+    en: "Manage your Lorent Bloom account information and settings.",
+    ru: "Управляйте информацией и настройками вашего аккаунта Lorent Bloom.",
+    ro: "Gestionați informațiile și setările contului dvs. Lorent Bloom.",
   };
 
   return {
