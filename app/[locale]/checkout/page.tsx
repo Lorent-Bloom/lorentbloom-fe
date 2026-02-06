@@ -6,6 +6,8 @@ import { getCustomer } from "@entities/customer";
 import { getCustomerAddresses } from "@entities/customer-address";
 import { CheckoutPage } from "@views/checkout";
 
+export const dynamic = "force-dynamic";
+
 export async function generateMetadata({
   params,
 }: {

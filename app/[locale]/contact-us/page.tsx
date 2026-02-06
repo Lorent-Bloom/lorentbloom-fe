@@ -3,6 +3,8 @@ import { getCommonMetadata } from "@shared/lib/seo";
 import { ContactView } from "@views/contact";
 import { getCustomer } from "@entities/customer";
 
+export const dynamic = "force-dynamic";
+
 export async function generateMetadata({
   params,
 }: {
