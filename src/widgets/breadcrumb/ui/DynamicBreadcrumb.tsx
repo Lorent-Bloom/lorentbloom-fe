@@ -9,6 +9,11 @@ export default function DynamicBreadcrumb() {
   const pathname = usePathname() || "/";
   const locale = useLocale();
   const t = useTranslations("breadcrumb");
+  const headerT = useTranslations("header");
+
+  const categoryNames: Record<string, string> =
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    (headerT.raw as any)("categoryNames") || {};
 
   const breadcrumbItems = generateBreadcrumbs({
     pathname,
@@ -28,6 +33,7 @@ export default function DynamicBreadcrumb() {
       signIn: t("signIn"),
       signUp: t("signUp"),
     },
+    categoryNames,
   });
 
   // Don't render breadcrumb on home page, sign-in, or sign-up pages

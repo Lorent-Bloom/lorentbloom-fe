@@ -18,6 +18,7 @@ interface GenerateBreadcrumbsProps {
     signIn: string;
     signUp: string;
   };
+  categoryNames?: Record<string, string>;
 }
 
 /**
@@ -31,6 +32,7 @@ export function generateBreadcrumbs({
   pathname,
   locale,
   translations: t,
+  categoryNames = {},
 }: GenerateBreadcrumbsProps): BreadcrumbItem[] {
   // Remove locale from pathname and split into segments
   // Use regex to only remove locale at the start of the path
@@ -94,6 +96,9 @@ export function generateBreadcrumbs({
     // Use translation if available, otherwise format segment
     if (pathMap[segment]) {
       label = pathMap[segment];
+    } else if (categoryNames[segment]) {
+      // Use category name translation
+      label = categoryNames[segment];
     } else {
       // Format dynamic segments (like product URLs or category names)
       let cleanSegment = segment;
