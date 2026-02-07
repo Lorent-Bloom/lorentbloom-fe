@@ -11,6 +11,9 @@ import errorLink from "./links/errorLink";
 
 const httpLink = new HttpLink({
   uri: env.NEXT_PUBLIC_API_URL,
+  headers: {
+    "X-API-Key": env.BACKEND_API_SECRET,
+  },
 });
 
 export const { getClient, query, PreloadQuery } = registerApolloClient(() => {

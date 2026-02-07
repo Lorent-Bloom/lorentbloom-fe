@@ -5,6 +5,7 @@ export const env = createEnv({
   server: {
     UPLOADTHING_TOKEN: z.string().min(1),
     RECAPTCHA_SECRET_KEY: z.string().min(1),
+    BACKEND_API_SECRET: z.string().min(1),
     SENTRY_ORG: z.string().optional(),
     SENTRY_PROJECT: z.string().optional(),
   },
