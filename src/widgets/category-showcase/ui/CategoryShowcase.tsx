@@ -45,9 +45,24 @@ export default function CategoryShowcase({
   const params = useParams();
   const locale = (params?.locale as string) || "en";
   const t = useTranslations("category-showcase");
+  const headerT = useTranslations("header");
 
   const { topLevelCategories, handleCategoryClick, title, subtitle } =
     useCategoryShowcase(categories, locale);
+
+  const categoryNames: Record<string, string> =
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    (headerT.raw as any)("categoryNames") || {};
+
+  const getCategoryName = (
+    urlKey: string,
+    fallbackName: string,
+    urlPath?: string,
+  ): string => {
+    if (urlPath && categoryNames[urlPath]) return categoryNames[urlPath];
+    if (categoryNames[urlKey]) return categoryNames[urlKey];
+    return fallbackName;
+  };
 
   return (
     <section
@@ -106,13 +121,13 @@ export default function CategoryShowcase({
                     )}
                   >
                     <span className={cn("text-2xl font-bold", iconColor)}>
-                      {category.name.charAt(0)}
+                      {getCategoryName(category.url_key, category.name, category.url_path).charAt(0)}
                     </span>
                   </div>
 
                   {/* Category Name */}
                   <h3 className="font-semibold text-sm sm:text-base mb-2 line-clamp-2">
-                    {category.name}
+                    {getCategoryName(category.url_key, category.name, category.url_path)}
                   </h3>
 
                   {/* Subcategory indicator or count */}
