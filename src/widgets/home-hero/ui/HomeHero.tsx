@@ -2,7 +2,6 @@
 
 import { ArrowDown, Sparkles } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { Button } from "@shared/ui/button";
 import { cn } from "@shared/lib/utils/helpers";
 import type { HomeHeroProps } from "../model/interface";
 
@@ -82,33 +81,32 @@ export default function HomeHero({ className, stats }: HomeHeroProps) {
           </h1>
 
           {/* Subheadline */}
-          <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-200">
+          <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-14 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-200">
             {t("subheadline")}
           </p>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row justify-center gap-4 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-300">
-            <Button
-              size="lg"
-              className="h-14 px-10 rounded-full text-lg group"
-              onClick={scrollToPopularRentals}
-            >
-              {t("browseButton")}
-              <ArrowDown className="ml-2 h-5 w-5 group-hover:translate-y-1 transition-transform" />
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="h-14 px-10 rounded-full text-lg group"
-              onClick={scrollToCategories}
-            >
-              {t("categoriesButton")}
-              <ArrowDown className="ml-2 h-5 w-5 group-hover:translate-y-1 transition-transform" />
-            </Button>
+          {/* CTA Button */}
+          <div className="flex justify-center animate-in fade-in slide-in-from-bottom-4 duration-700 delay-300">
+            <div className="inline-flex rounded-full overflow-hidden shadow-lg">
+              <button
+                onClick={scrollToPopularRentals}
+                className="h-14 px-8 sm:px-10 text-base sm:text-lg font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors flex items-center gap-2 group cursor-pointer"
+              >
+                <ArrowDown className="h-5 w-5 group-hover:translate-y-1 transition-transform" />
+                {t("browseButton")}
+              </button>
+              <button
+                onClick={scrollToCategories}
+                className="h-14 px-8 sm:px-10 text-base sm:text-lg font-medium bg-background text-foreground border-y border-r border-border hover:bg-muted transition-colors flex items-center gap-2 group cursor-pointer"
+              >
+                {t("categoriesButton")}
+                <ArrowDown className="h-5 w-5 group-hover:translate-y-1 transition-transform" />
+              </button>
+            </div>
           </div>
 
           {/* Trust Indicators */}
-          <div className="mt-16 pt-8 border-t border-border/50 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-400">
+          <div className="mt-6 pt-8 border-t border-border/50 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-400">
             <div className="flex flex-wrap items-center justify-center gap-8 text-muted-foreground">
               <div className="flex items-center gap-3">
                 <div className="flex -space-x-2">
