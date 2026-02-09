@@ -11,15 +11,15 @@ export async function generateMetadata({
   const common = getCommonMetadata(locale, "");
 
   const titles: Record<string, string> = {
-    en: "Lorent Bloom - Rental Marketplace",
-    ru: "Lorent Bloom - Маркетплейс аренды",
-    ro: "Lorent Bloom - Piața de închiriere",
+    en: "Lorent Bloom - Rent Anything in Moldova | Chișinău Rental Marketplace",
+    ru: "Lorent Bloom - Аренда вещей в Молдове | Маркетплейс аренды Кишинёв",
+    ro: "Lorent Bloom - Închiriază orice în Moldova | Piața de închiriere Chișinău",
   };
 
   const descriptions: Record<string, string> = {
-    en: "Rent anything you need. Electronics, equipment, and more - easily and affordably on Lorent Bloom.",
-    ru: "Арендуйте всё, что вам нужно. Электроника, оборудование и многое другое - легко и доступно на Lorent Bloom.",
-    ro: "Închiriază orice ai nevoie. Electronică, echipamente și altele - ușor și accesibil pe Lorent Bloom.",
+    en: "Rent electronics, tools, equipment and more in Chișinău, Moldova. Lorent Bloom is your local peer-to-peer rental marketplace. Affordable daily and monthly rentals.",
+    ru: "Аренда электроники, инструментов, оборудования и многого другого в Кишинёве, Молдова. Lorent Bloom — ваш локальный маркетплейс аренды. Доступная посуточная и помесячная аренда вещей.",
+    ro: "Închiriază electronice, unelte, echipamente și altele în Chișinău, Moldova. Lorent Bloom este piața ta locală de închiriere. Închirieri accesibile pe zi și pe lună.",
   };
 
   return {

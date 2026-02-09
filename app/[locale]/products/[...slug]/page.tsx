@@ -1,7 +1,8 @@
 import { Suspense } from "react";
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
-import { getCommonMetadata } from "@shared/lib/seo";
+import { getCommonMetadata, JsonLd, getBreadcrumbJsonLd } from "@shared/lib/seo";
+import { BRAND } from "@shared/config/brand";
 import { getProducts, type ProductFilterInput } from "@entities/product";
 import { getCategoryTree } from "@entities/category";
 import { ProductsPage } from "@views/products";
@@ -147,12 +148,30 @@ async function CategoryContent({ params, searchParams }: CategoryRouteProps) {
     currentPage,
   });
 
+  const breadcrumbItems = [
+    { name: "Home", url: `${BRAND.domain}/${resolvedParams.locale}` },
+    ...slug.map((segment, index) => ({
+      name: segment
+        .split("-")
+        .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+        .join(" "),
+      ...(index < slug.length - 1
+        ? {
+            url: `${BRAND.domain}/${resolvedParams.locale}/products/${slug.slice(0, index + 1).join("/")}`,
+          }
+        : {}),
+    })),
+  ];
+
   return (
-    <ProductsPage
-      data={result.data}
-      error={result.error}
-      searchParams={resolvedSearchParams}
-    />
+    <>
+      <JsonLd data={getBreadcrumbJsonLd(breadcrumbItems)} />
+      <ProductsPage
+        data={result.data}
+        error={result.error}
+        searchParams={resolvedSearchParams}
+      />
+    </>
   );
 }
 

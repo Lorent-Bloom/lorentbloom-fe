@@ -20,9 +20,9 @@ export async function generateMetadata({
   };
 
   const descriptions: Record<string, string> = {
-    en: "Get in touch with the Lorent Bloom team. We're here to help with any questions or feedback.",
-    ru: "Свяжитесь с командой Lorent Bloom. Мы готовы помочь с любыми вопросами или отзывами.",
-    ro: "Contactați echipa Lorent Bloom. Suntem aici pentru a vă ajuta cu orice întrebări sau feedback.",
+    en: "Contact the Lorent Bloom team in Chișinău, Moldova. Questions about rentals, partnerships, or feedback — we're here to help.",
+    ru: "Свяжитесь с командой Lorent Bloom в Кишинёве, Молдова. Вопросы об аренде, партнёрстве или отзывы — мы готовы помочь.",
+    ro: "Contactați echipa Lorent Bloom din Chișinău, Moldova. Întrebări despre închirieri, parteneriate sau feedback — suntem aici să vă ajutăm.",
   };
 
   return {

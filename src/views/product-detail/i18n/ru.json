@@ -3,6 +3,7 @@
   "aboutProduct": "О продукте",
   "metadata": {
     "productNotFound": "Продукт не найден",
-    "buyProductPrefix": "Купить "
+    "rentProductPrefix": "Арендуйте ",
+    "rentProductSuffix": " в Кишинёве, Молдова на Lorent Bloom"
   }
 }

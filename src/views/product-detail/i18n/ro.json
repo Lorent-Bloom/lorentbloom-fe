@@ -3,6 +3,7 @@
   "aboutProduct": "Despre produs",
   "metadata": {
     "productNotFound": "Produs negasit",
-    "buyProductPrefix": "Cumpara "
+    "rentProductPrefix": "Închiriază ",
+    "rentProductSuffix": " în Chișinău, Moldova pe Lorent Bloom"
   }
 }

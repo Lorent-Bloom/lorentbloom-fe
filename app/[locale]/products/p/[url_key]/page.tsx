@@ -1,7 +1,13 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
-import { getCommonMetadata } from "@shared/lib/seo";
+import {
+  getCommonMetadata,
+  JsonLd,
+  getProductJsonLd,
+  getBreadcrumbJsonLd,
+} from "@shared/lib/seo";
+import { BRAND } from "@shared/config/brand";
 
 import { ProductDetailPage } from "@views/product-detail";
 import { getProductDetail, getProducts } from "@entities/product";
@@ -64,7 +70,7 @@ export async function generateMetadata({
   const description =
     product.meta_description ||
     product.short_description?.html.replace(/<[^>]*>/g, "").slice(0, 160) ||
-    `${t("metadata.buyProductPrefix")}${product.name} on Lorent Bloom`;
+    `${t("metadata.rentProductPrefix")}${product.name}${t("metadata.rentProductSuffix")}`;
 
   return {
     title: product.name,
@@ -95,7 +101,7 @@ interface PageProps {
 }
 
 export default async function ProductPage({ params }: PageProps) {
-  const { url_key } = await params;
+  const { locale, url_key } = await params;
 
   const result = await getProductDetail(url_key);
 
@@ -105,5 +111,40 @@ export default async function ProductPage({ params }: PageProps) {
     notFound();
   }
 
-  return <ProductDetailPage product={result.data} />;
+  const product = result.data;
+  const productUrl = `${BRAND.domain}/${locale}/products/p/${url_key}`;
+
+  const productJsonLd = getProductJsonLd({
+    name: product.name,
+    description:
+      product.meta_description ||
+      product.short_description?.html.replace(/<[^>]*>/g, "").slice(0, 300) ||
+      product.name,
+    image: product.image?.url || `${BRAND.domain}/logo.png`,
+    url: productUrl,
+    sku: product.sku,
+    price:
+      product.price_range.minimum_price.final_price?.value ??
+      product.price_range.minimum_price.regular_price.value,
+    currency: product.price_range.minimum_price.regular_price.currency,
+    availability:
+      product.stock_status === "IN_STOCK" ? "InStock" : "OutOfStock",
+    ratingValue: product.rating_summary
+      ? product.rating_summary / 20
+      : undefined,
+    reviewCount: product.review_count || undefined,
+  });
+
+  const breadcrumbJsonLd = getBreadcrumbJsonLd([
+    { name: "Home", url: `${BRAND.domain}/${locale}` },
+    { name: product.name },
+  ]);
+
+  return (
+    <>
+      <JsonLd data={productJsonLd} />
+      <JsonLd data={breadcrumbJsonLd} />
+      <ProductDetailPage product={product} />
+    </>
+  );
 }

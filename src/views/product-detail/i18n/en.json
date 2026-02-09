@@ -3,6 +3,7 @@
   "aboutProduct": "About Product",
   "metadata": {
     "productNotFound": "Product Not Found",
-    "buyProductPrefix": "Buy "
+    "rentProductPrefix": "Rent ",
+    "rentProductSuffix": " in Chișinău, Moldova on Lorent Bloom"
   }
 }

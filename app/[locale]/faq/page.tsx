@@ -17,9 +17,9 @@ export async function generateMetadata({
   };
 
   const descriptions: Record<string, string> = {
-    en: "Find answers to common questions about our rental platform",
-    ru: "Найдите ответы на распространенные вопросы о нашей платформе аренды",
-    ro: "Găsiți răspunsuri la întrebările comune despre platforma noastră de închiriere",
+    en: "Frequently asked questions about renting on Lorent Bloom in Moldova. How to rent, pricing, delivery in Chișinău, and more.",
+    ru: "Часто задаваемые вопросы об аренде на Lorent Bloom в Молдове. Как арендовать, цены, доставка в Кишинёве и другое.",
+    ro: "Întrebări frecvente despre închirierea pe Lorent Bloom în Moldova. Cum să închiriezi, prețuri, livrare în Chișinău și altele.",
   };
 
   return {

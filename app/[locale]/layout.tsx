@@ -17,6 +17,11 @@ import { AuthCheck } from "@shared/lib/hooks/AuthCheck";
 import { cookies } from "next/headers";
 import { TOKEN_COOKIE_NAME } from "@shared/api";
 import { BRAND } from "@shared/config/brand";
+import {
+  JsonLd,
+  getOrganizationJsonLd,
+  getWebSiteJsonLd,
+} from "@shared/lib/seo";
 
 export async function generateMetadata({
   params,
@@ -26,9 +31,9 @@ export async function generateMetadata({
   const { locale } = await params;
 
   const descriptions: Record<string, string> = {
-    en: `${BRAND.name} - Your rental marketplace. Rent anything from electronics to equipment, easily and affordably.`,
-    ru: `${BRAND.name} - Ваш маркетплейс аренды. Арендуйте всё: от электроники до оборудования, легко и доступно.`,
-    ro: `${BRAND.name} - Piața ta de închiriere. Închiriază orice, de la electronică la echipamente, ușor și accesibil.`,
+    en: `${BRAND.name} - Rental marketplace in Moldova. Rent electronics, tools, equipment and more in Chișinău. Affordable peer-to-peer rentals.`,
+    ru: `${BRAND.name} - Маркетплейс аренды в Молдове. Арендуйте электронику, инструменты, оборудование и многое другое в Кишинёве. Доступная аренда вещей.`,
+    ro: `${BRAND.name} - Piața de închiriere în Moldova. Închiriază electronice, unelte, echipamente și altele în Chișinău. Închirieri accesibile între persoane.`,
   };
 
   const description = descriptions[locale] || descriptions.en;
@@ -48,17 +53,9 @@ export async function generateMetadata({
       siteName: BRAND.name,
       type: "website",
       locale,
-      images: [
-        {
-          url: "/logo.png",
-          width: 512,
-          height: 512,
-          alt: BRAND.name,
-        },
-      ],
     },
     twitter: {
-      card: "summary",
+      card: "summary_large_image",
       title: BRAND.name,
       description,
     },
@@ -118,6 +115,8 @@ export default async function RootLayout({
             `,
           }}
         />
+        <JsonLd data={getOrganizationJsonLd()} />
+        <JsonLd data={getWebSiteJsonLd(locale)} />
       </head>
       <body className="flex flex-col min-h-screen">
         {env.NEXT_PUBLIC_GA_MEASUREMENT_ID && (

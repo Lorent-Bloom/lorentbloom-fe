@@ -17,9 +17,9 @@ export async function generateMetadata({
   };
 
   const descriptions: Record<string, string> = {
-    en: "A comprehensive guide to renting out your personal items and earning extra income on Rently.",
-    ru: "Полное руководство по сдаче личных вещей в аренду и получению дополнительного дохода на Rently.",
-    ro: "Un ghid complet pentru închirierea articolelor personale și câștigarea de venituri suplimentare pe Rently.",
+    en: "A complete guide to listing and renting out your items on Lorent Bloom in Moldova. Earn extra income from your electronics, tools, and equipment in Chișinău.",
+    ru: "Полное руководство по размещению и сдаче вещей в аренду на Lorent Bloom в Молдове. Зарабатывайте на электронике, инструментах и оборудовании в Кишинёве.",
+    ro: "Ghid complet pentru listarea și închirierea articolelor pe Lorent Bloom în Moldova. Câștigă venituri suplimentare din electronice, unelte și echipamente în Chișinău.",
   };
 
   return {

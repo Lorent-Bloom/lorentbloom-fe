@@ -2013,7 +2013,8 @@
     "aboutProduct": "About Product",
     "metadata": {
       "productNotFound": "Product Not Found",
-      "buyProductPrefix": "Buy "
+      "rentProductPrefix": "Rent ",
+      "rentProductSuffix": " in Chișinău, Moldova on Lorent Bloom"
     }
   },
   "products": {
@@ -2029,9 +2030,9 @@
     },
     "metadata": {
       "title": "All Products | Lorent Bloom",
-      "description": "Browse all available products for rent",
+      "description": "Browse all available products for rent in Chișinău, Moldova on Lorent Bloom",
       "categoryTitle": "Category | Lorent Bloom",
-      "categoryDescription": "Browse products by category"
+      "categoryDescription": "Browse rental products by category in Moldova on Lorent Bloom"
     }
   },
   "contact": {

@@ -41,15 +41,15 @@ export function getCommonMetadata(
       type: "website",
       images: [
         {
-          url: `${PRODUCTION_DOMAIN}/logo.png`,
-          width: 512,
-          height: 512,
-          alt: SITE_NAME,
+          url: `${PRODUCTION_DOMAIN}/${locale}/opengraph-image`,
+          width: 1200,
+          height: 630,
+          alt: `${SITE_NAME} - Rental Marketplace in Moldova`,
         },
       ],
     },
     twitter: {
-      card: "summary",
+      card: "summary_large_image",
     },
     robots: options?.noIndex
       ? { index: false, follow: false }

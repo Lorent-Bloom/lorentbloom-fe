@@ -17,9 +17,9 @@ export async function generateMetadata({
   };
 
   const descriptions: Record<string, string> = {
-    en: "Learn more about Lorent Bloom and our mission to revolutionize the rental marketplace",
-    ru: "Узнайте больше о Lorent Bloom и нашей миссии по революционизации рынка аренды",
-    ro: "Aflați mai multe despre Lorent Bloom și misiunea noastră de a revoluționa piața închirierilor",
+    en: "Learn about Lorent Bloom, Moldova's rental marketplace connecting people in Chișinău and beyond. Our mission is to make renting easy and affordable.",
+    ru: "Узнайте о Lorent Bloom — маркетплейсе аренды в Молдове, который объединяет людей в Кишинёве и по всей стране. Наша миссия — сделать аренду простой и доступной.",
+    ro: "Aflați despre Lorent Bloom, piața de închiriere din Moldova care conectează oamenii din Chișinău și nu numai. Misiunea noastră este să facem închirierea ușoară și accesibilă.",
   };
 
   return {
