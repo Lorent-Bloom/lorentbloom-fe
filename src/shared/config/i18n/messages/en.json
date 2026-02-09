@@ -364,14 +364,15 @@
     }
   },
   "home-cta": {
-    "title": "Ready to Start Renting?",
-    "subtitle": "Join thousands of smart consumers who save money and reduce waste by renting instead of buying.",
+    "title": "Ready to Rent or Earn?",
+    "subtitle": "Join thousands of smart people who save money by renting, or earn extra income by listing their items.",
     "primaryCta": "Browse Products",
     "secondaryCta": "Create Account",
     "features": {
       "0": "Free cancellation",
       "1": "Quality guaranteed",
-      "2": "24/7 support"
+      "2": "24/7 support",
+      "3": "Earn from your items"
     }
   },
   "product-grid": {
@@ -402,7 +403,7 @@
       "line1": "Rent Anything.",
       "line2": "Own the Experience."
     },
-    "subheadline": "Access premium equipment, electronics, and gear without the commitment of buying. Flexible terms, quality guaranteed.",
+    "subheadline": "Access premium equipment, electronics, and gear without buying — or list your own items and earn extra income. Flexible terms, secure transactions.",
     "browseButton": "Browse Products",
     "categoriesButton": "Browse Categories",
     "trustedBy": "products available",
@@ -427,6 +428,8 @@
   "how-it-works": {
     "title": "How Lorent Bloom Works",
     "subtitle": "Renting has never been easier. Get started in three simple steps.",
+    "tabRent": "I Want to Rent",
+    "tabList": "I Want to Earn",
     "steps": {
       "0": {
         "title": "Browse & Select",
@@ -439,6 +442,20 @@
       "2": {
         "title": "Receive & Enjoy",
         "description": "Sign the agreement, receive your package, and enjoy your rental. After the rental period, simply return it to the owner."
+      }
+    },
+    "listSteps": {
+      "0": {
+        "title": "Create a Listing",
+        "description": "Sign up, add photos and a description of your item, set your daily price and availability. Publishing is free."
+      },
+      "1": {
+        "title": "Accept a Booking",
+        "description": "Receive rental requests via chat. Agree on dates, discuss details with the renter, and confirm the booking."
+      },
+      "2": {
+        "title": "Sign & Earn",
+        "description": "Both parties sign a digital contract. Hand over the item, receive payment securely, and get it back at the end of the rental."
       }
     },
     "cta": "Start Renting Now"
@@ -517,6 +534,18 @@
       {
         "question": "How do I leave a review?",
         "answer": "After completing a rental, you'll receive a prompt to leave a review. You can also navigate to your rental history and leave reviews for past transactions."
+      },
+      {
+        "question": "How do I list my item for rent?",
+        "answer": "It's simple and free! Create an account, go to 'Create Listing', upload quality photos of your item, write a description, set your daily rental price and availability dates, and publish. Your item will be visible to all users on the platform right away."
+      },
+      {
+        "question": "How is my item protected when I rent it out?",
+        "answer": "Both parties sign a digital contract before any rental begins, which clearly outlines responsibilities and conditions. All users are verified, and the platform keeps a full chat history as evidence. You can report any damage through the platform, and our support team will assist with resolution."
+      },
+      {
+        "question": "How do I get paid as a listing owner?",
+        "answer": "Payments are handled securely through the platform. When a renter books your item and the rental is confirmed, the payment is processed safely. You receive the funds according to the agreed terms, minus a small platform service fee."
       }
     ]
   },
@@ -1630,12 +1659,12 @@
     "title": "About Us",
     "ourStory": {
       "title": "Our Story",
-      "paragraph1": "Lorent Bloom was founded with a simple idea: why buy things you only need temporarily? We created a platform where people can rent electronics, tools, equipment, sports gear, and much more from each other.",
+      "paragraph1": "Lorent Bloom was founded with a simple idea: why buy things you only need temporarily, and why let your own belongings sit idle? We created a platform where anyone can rent what they need — or list what they own and earn extra income.",
       "paragraph2": "From our beginnings in Moldova to becoming a trusted marketplace, we've remained committed to building a community where sharing makes sense. We connect people who have items with those who need them."
     },
     "mission": {
       "title": "Our Mission",
-      "description": "Our mission is to make renting easy and accessible for everyone. We believe that sharing resources is smarter, more economical, and better for the environment. Through our platform, we help item owners earn from their belongings while renters get access to what they need without the commitment of buying."
+      "description": "Our mission is to make renting and earning easy and accessible for everyone. We believe that sharing resources is smarter, more economical, and better for the environment. Whether you want to rent something for a project or earn money by listing your items — our platform makes it simple, secure, and fair for both sides."
     },
     "values": {
       "title": "Our Values",

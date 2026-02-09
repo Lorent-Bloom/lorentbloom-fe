@@ -43,6 +43,18 @@
     {
       "question": "How do I leave a review?",
       "answer": "After completing a rental, you'll receive a prompt to leave a review. You can also navigate to your rental history and leave reviews for past transactions."
+    },
+    {
+      "question": "How do I list my item for rent?",
+      "answer": "It's simple and free! Create an account, go to 'Create Listing', upload quality photos of your item, write a description, set your daily rental price and availability dates, and publish. Your item will be visible to all users on the platform right away."
+    },
+    {
+      "question": "How is my item protected when I rent it out?",
+      "answer": "Both parties sign a digital contract before any rental begins, which clearly outlines responsibilities and conditions. All users are verified, and the platform keeps a full chat history as evidence. You can report any damage through the platform, and our support team will assist with resolution."
+    },
+    {
+      "question": "How do I get paid as a listing owner?",
+      "answer": "Payments are handled securely through the platform. When a renter books your item and the rental is confirmed, the payment is processed safely. You receive the funds according to the agreed terms, minus a small platform service fee."
     }
   ]
 }

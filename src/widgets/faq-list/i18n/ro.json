@@ -43,6 +43,18 @@
     {
       "question": "Cum las o recenzie?",
       "answer": "După finalizarea unei închirieri, veți primi o solicitare de a lăsa o recenzie. Puteți naviga și în istoricul închirierilor pentru a lăsa recenzii pentru tranzacțiile anterioare."
+    },
+    {
+      "question": "Cum îmi listez articolul pentru închiriere?",
+      "answer": "Este simplu și gratuit! Creați un cont, accesați 'Creează anunț', încărcați fotografii de calitate ale articolului, scrieți o descriere, setați prețul zilnic și datele de disponibilitate, apoi publicați. Articolul dvs. va fi vizibil imediat tuturor utilizatorilor platformei."
+    },
+    {
+      "question": "Cum este protejat articolul meu când îl dau în chirie?",
+      "answer": "Ambele părți semnează un contract digital înainte de orice închiriere, care stabilește clar responsabilitățile și condițiile. Toți utilizatorii sunt verificați, iar platforma păstrează istoricul complet al conversațiilor ca dovadă. Puteți raporta orice deteriorare prin platformă, iar echipa noastră de asistență va ajuta la rezolvare."
+    },
+    {
+      "question": "Cum primesc plata ca proprietar de articol?",
+      "answer": "Plățile sunt gestionate în siguranță prin platformă. Când un chiriaș rezervă articolul dvs. și închirierea este confirmată, plata este procesată în siguranță. Primiți fondurile conform termenilor conveniți, minus un mic comision de serviciu al platformei."
     }
   ]
 }

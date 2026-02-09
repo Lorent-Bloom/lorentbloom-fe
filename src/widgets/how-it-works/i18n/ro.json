@@ -1,6 +1,8 @@
 {
   "title": "Cum functioneaza Lorent Bloom",
   "subtitle": "Inchirierea nu a fost niciodata mai usoara. Incepeti in trei pasi simpli.",
+  "tabRent": "Vreau sa inchiriez",
+  "tabList": "Vreau sa castig",
   "steps": {
     "0": {
       "title": "Cautati & Selectati",
@@ -13,6 +15,20 @@
     "2": {
       "title": "Primiti & Bucurati-va",
       "description": "Semnati acordul, primiti coletul si bucurati-va de inchiriere. Dupa perioada de inchiriere, returnati-l proprietarului."
+    }
+  },
+  "listSteps": {
+    "0": {
+      "title": "Creati un anunt",
+      "description": "Inregistrati-va, adaugati fotografii si o descriere a articolului, setati pretul pe zi si disponibilitatea. Publicarea este gratuita."
+    },
+    "1": {
+      "title": "Acceptati o rezervare",
+      "description": "Primiti cereri de inchiriere prin chat. Stabiliti datele, discutati detaliile cu chiriasul si confirmati rezervarea."
+    },
+    "2": {
+      "title": "Semnati si castigati",
+      "description": "Ambele parti semneaza un contract digital. Predati articolul, primiti plata in siguranta si recuperati-l la sfarsitul inchirierii."
     }
   },
   "cta": "Incepe Inchirierea"

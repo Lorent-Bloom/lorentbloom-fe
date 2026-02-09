@@ -8,7 +8,12 @@ import type { HomeCTAProps } from "../model/interface";
 export default function HomeCTA({ className }: HomeCTAProps) {
   const t = useTranslations("home-cta");
 
-  const features = [t("features.0"), t("features.1"), t("features.2")];
+  const features = [
+    t("features.0"),
+    t("features.1"),
+    t("features.2"),
+    t("features.3"),
+  ];
 
   return (
     <section className={cn("py-20 relative overflow-hidden", className)}>

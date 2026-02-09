@@ -364,14 +364,15 @@
     }
   },
   "home-cta": {
-    "title": "Gata sa incepi inchirierea?",
-    "subtitle": "Alaturati-va miilor de consumatori inteligenti care economisesc bani si reduc risipa inchiriind in loc sa cumpere.",
+    "title": "Gata sa inchiriezi sau sa castigi?",
+    "subtitle": "Alatura-te miilor de oameni inteligenti care economisesc bani prin inchiriere sau castiga venituri extra listand articolele lor.",
     "primaryCta": "Vezi produsele",
     "secondaryCta": "Creaza cont",
     "features": {
       "0": "Anulare gratuita",
       "1": "Calitate garantata",
-      "2": "Suport 24/7"
+      "2": "Suport 24/7",
+      "3": "Castiga din bunurile tale"
     }
   },
   "product-grid": {
@@ -402,7 +403,7 @@
       "line1": "Inchiriaza Orice.",
       "line2": "Traieste Experienta."
     },
-    "subheadline": "Acces la echipamente premium, electronice si accesorii fara angajamentul cumpararii. Termeni flexibili, calitate garantata.",
+    "subheadline": "Închiriază echipamente, electronice și accesorii fără să cumperi — sau listează-ți propriile bunuri și câștigă bani extra. Termeni flexibili, tranzacții sigure.",
     "browseButton": "Vezi Produsele",
     "categoriesButton": "Categorii",
     "trustedBy": "produse disponibile",
@@ -427,6 +428,8 @@
   "how-it-works": {
     "title": "Cum functioneaza Lorent Bloom",
     "subtitle": "Inchirierea nu a fost niciodata mai usoara. Incepeti in trei pasi simpli.",
+    "tabRent": "Vreau sa inchiriez",
+    "tabList": "Vreau sa castig",
     "steps": {
       "0": {
         "title": "Cautati & Selectati",
@@ -439,6 +442,20 @@
       "2": {
         "title": "Primiti & Bucurati-va",
         "description": "Semnati acordul, primiti coletul si bucurati-va de inchiriere. Dupa perioada de inchiriere, returnati-l proprietarului."
+      }
+    },
+    "listSteps": {
+      "0": {
+        "title": "Creati un anunt",
+        "description": "Inregistrati-va, adaugati fotografii si o descriere a articolului, setati pretul pe zi si disponibilitatea. Publicarea este gratuita."
+      },
+      "1": {
+        "title": "Acceptati o rezervare",
+        "description": "Primiti cereri de inchiriere prin chat. Stabiliti datele, discutati detaliile cu chiriasul si confirmati rezervarea."
+      },
+      "2": {
+        "title": "Semnati si castigati",
+        "description": "Ambele parti semneaza un contract digital. Predati articolul, primiti plata in siguranta si recuperati-l la sfarsitul inchirierii."
       }
     },
     "cta": "Incepe Inchirierea"
@@ -517,6 +534,18 @@
       "10": {
         "question": "Cum las o recenzie?",
         "answer": "După finalizarea unei închirieri, veți primi o solicitare de a lăsa o recenzie. Puteți naviga și în istoricul închirierilor pentru a lăsa recenzii pentru tranzacțiile anterioare."
+      },
+      "11": {
+        "question": "Cum îmi listez articolul pentru închiriere?",
+        "answer": "Este simplu și gratuit! Creați un cont, accesați 'Creează anunț', încărcați fotografii de calitate ale articolului, scrieți o descriere, setați prețul zilnic și datele de disponibilitate, apoi publicați. Articolul dvs. va fi vizibil imediat tuturor utilizatorilor platformei."
+      },
+      "12": {
+        "question": "Cum este protejat articolul meu când îl dau în chirie?",
+        "answer": "Ambele părți semnează un contract digital înainte de orice închiriere, care stabilește clar responsabilitățile și condițiile. Toți utilizatorii sunt verificați, iar platforma păstrează istoricul complet al conversațiilor ca dovadă. Puteți raporta orice deteriorare prin platformă, iar echipa noastră de asistență va ajuta la rezolvare."
+      },
+      "13": {
+        "question": "Cum primesc plata ca proprietar de articol?",
+        "answer": "Plățile sunt gestionate în siguranță prin platformă. Când un chiriaș rezervă articolul dvs. și închirierea este confirmată, plata este procesată în siguranță. Primiți fondurile conform termenilor conveniți, minus un mic comision de serviciu al platformei."
       }
     }
   },
@@ -1630,12 +1659,12 @@
     "title": "Despre noi",
     "ourStory": {
       "title": "Povestea noastră",
-      "paragraph1": "Lorent Bloom a fost fondat cu o idee simplă: de ce să cumperi lucruri de care ai nevoie doar temporar? Am creat o platformă unde oamenii pot închiria unii de la alții electronice, unelte, echipamente, articole sportive și multe altele.",
+      "paragraph1": "Lorent Bloom a fost fondat cu o idee simplă: de ce să cumperi lucruri de care ai nevoie doar temporar, și de ce să lași bunurile tale să stea nefolosite? Am creat o platformă unde oricine poate închiria ce are nevoie — sau lista ce deține și câștiga venituri extra.",
       "paragraph2": "De la începuturile noastre în Moldova până la a deveni o piață de încredere, am rămas dedicați construirii unei comunități unde partajarea are sens. Conectăm persoanele care au articole cu cele care au nevoie de ele."
     },
     "mission": {
       "title": "Misiunea noastră",
-      "description": "Misiunea noastră este de a face închirierea ușoară și accesibilă pentru toți. Credem că partajarea resurselor este mai inteligentă, mai economică și mai bună pentru mediu. Prin platforma noastră, ajutăm proprietarii de articole să câștige din bunurile lor, iar chiriașii să aibă acces la ce au nevoie fără angajamentul de a cumpăra."
+      "description": "Misiunea noastră este de a face închirierea și câștigul ușoare și accesibile pentru toți. Credem că partajarea resurselor este mai inteligentă, mai economică și mai bună pentru mediu. Fie că vrei să închiriezi ceva pentru un proiect sau să câștigi bani listându-ți articolele — platforma noastră face totul simplu, sigur și corect pentru ambele părți."
     },
     "values": {
       "title": "Valorile noastre",

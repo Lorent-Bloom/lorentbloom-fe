@@ -1,6 +1,8 @@
 {
   "title": "How Lorent Bloom Works",
   "subtitle": "Renting has never been easier. Get started in three simple steps.",
+  "tabRent": "I Want to Rent",
+  "tabList": "I Want to Earn",
   "steps": {
     "0": {
       "title": "Browse & Select",
@@ -13,6 +15,20 @@
     "2": {
       "title": "Receive & Enjoy",
       "description": "Sign the agreement, receive your package, and enjoy your rental. After the rental period, simply return it to the owner."
+    }
+  },
+  "listSteps": {
+    "0": {
+      "title": "Create a Listing",
+      "description": "Sign up, add photos and a description of your item, set your daily price and availability. Publishing is free."
+    },
+    "1": {
+      "title": "Accept a Booking",
+      "description": "Receive rental requests via chat. Agree on dates, discuss details with the renter, and confirm the booking."
+    },
+    "2": {
+      "title": "Sign & Earn",
+      "description": "Both parties sign a digital contract. Hand over the item, receive payment securely, and get it back at the end of the rental."
     }
   },
   "cta": "Start Renting Now"

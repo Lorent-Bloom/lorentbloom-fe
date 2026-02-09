@@ -1,11 +1,12 @@
 {
-  "title": "Gata sa incepi inchirierea?",
-  "subtitle": "Alaturati-va miilor de consumatori inteligenti care economisesc bani si reduc risipa inchiriind in loc sa cumpere.",
+  "title": "Gata sa inchiriezi sau sa castigi?",
+  "subtitle": "Alatura-te miilor de oameni inteligenti care economisesc bani prin inchiriere sau castiga venituri extra listand articolele lor.",
   "primaryCta": "Vezi produsele",
   "secondaryCta": "Creaza cont",
   "features": {
     "0": "Anulare gratuita",
     "1": "Calitate garantata",
-    "2": "Suport 24/7"
+    "2": "Suport 24/7",
+    "3": "Castiga din bunurile tale"
   }
 }
