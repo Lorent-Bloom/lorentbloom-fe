@@ -50,8 +50,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 | `bun run lint`          | Run ESLint                   |
 | `bun run fmt`           | Format with Prettier         |
 | `bun run generate:i18n` | Merge i18n translation files |
-| `bun run test:e2e`      | Run Playwright tests         |
-| `bun run test:e2e:ui`   | Playwright UI mode           |
 
 ## Project Structure
 
@@ -187,21 +185,6 @@ export async function myAction(input: Input) {
     return { success: false, error: "Something went wrong" };
   }
 }
-```
-
-## Testing
-
-E2E tests use Playwright:
-
-```bash
-# Run all tests
-bun run test:e2e
-
-# Run with UI
-bun run test:e2e:ui
-
-# Run specific test file
-bunx playwright test e2e/auth/sign-in.spec.ts
 ```
 
 ## Deployment

@@ -13,8 +13,6 @@ bun run build            # Production build
 bun run lint             # ESLint
 bun run fmt              # Prettier
 bun run generate:i18n    # Merge i18n files (run after any i18n changes)
-bun run test:e2e         # Playwright tests
-bun run test:e2e:ui      # Playwright UI mode
 ```
 
 ## Architecture: Feature-Sliced Design (FSD)
@@ -163,24 +161,6 @@ Locales: en (default), ru, ro | Routes: `/[locale]/...`
 - Use `next/image` (never `<img>`)
 - Client components: suffix with `Client` when needed
 - Mobile-first: all code must be mobile friendly
-
-## E2E Testing (Playwright)
-
-```
-e2e/
-├── helpers/
-│   ├── selectors.ts    # Centralized selectors
-│   ├── test-user.ts    # generateTestUser()
-│   └── utils.ts        # clickUserAvatar, signOut, getAvatarButton
-└── auth/               # Test specs
-```
-
-**Philosophy**:
-
-- Tests validate code, not vice versa
-- If test fails, investigate CODE first
-- Never adapt tests to work around code issues
-- Tests represent expected user behavior
 
 ## Reference Slices
 
