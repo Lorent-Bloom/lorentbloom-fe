@@ -22,6 +22,8 @@ const publicPaths = [
 // Auth-locked paths (authenticated users can't access)
 const authLockedPaths = ["/sign-in", "/sign-up"];
 
+const locales = new Set<string>(routing.locales);
+
 const handleI18nRouting = createMiddleware(routing);
 
 const isAuthenticated = (request: NextRequest) => {
@@ -50,23 +52,23 @@ export async function proxy(request: NextRequest) {
     return;
   }
 
-  const [, locale, ...segments] = request.nextUrl.pathname.split("/");
-  const pathname = `/${segments.join("/")}`;
+  const [, firstSegment, ...segments] = request.nextUrl.pathname.split("/");
+  const hasLocalePrefix = locales.has(firstSegment);
+  const pathname = hasLocalePrefix
+    ? `/${segments.join("/")}` || "/"
+    : `/${firstSegment}${segments.length ? `/${segments.join("/")}` : ""}`;
 
+  const locale = hasLocalePrefix ? firstSegment : routing.defaultLocale;
   const auth = isAuthenticated(request);
 
   // If user is authenticated and trying to access sign-in/sign-up, redirect to home
   if (auth && isAuthLockedPath(pathname)) {
-    return Response.redirect(
-      new URL(`/${locale || routing.defaultLocale}`, request.url),
-    );
+    return Response.redirect(new URL(`/${locale}`, request.url));
   }
 
   // If user is not authenticated and trying to access private pages, redirect to home
   if (!auth && !isPublicPath(pathname)) {
-    return Response.redirect(
-      new URL(`/${locale || routing.defaultLocale}`, request.url),
-    );
+    return Response.redirect(new URL(`/${locale}`, request.url));
   }
 
   // Let next-intl handle locale routing - URL is the source of truth
