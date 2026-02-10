@@ -176,6 +176,13 @@ SQL migrations are stored in `/migrations/` folder with sequential numbering:
 
 When adding new migrations, use the next available number prefix (e.g., `004_feature_name.sql`).
 
+## SEO Rules
+
+- **Meta title**: 50–60 characters max
+- **Meta description**: 100–130 characters max
+- Never include `BRAND.name` ("Lorent Bloom") in page-level titles — the layout template `%s | Lorent Bloom` appends it automatically
+- Use `{ absolute: ... }` for titles only when "| Lorent Bloom" is already in the string (e.g., home page)
+
 ## Dev Notes
 
 - Don't start servers for me (I do it manually)

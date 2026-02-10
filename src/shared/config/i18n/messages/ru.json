@@ -2060,8 +2060,7 @@
     "metadata": {
       "title": "Все товары | Lorent Bloom",
       "description": "Все товары для аренды в Кишинёве, Молдова на Lorent Bloom",
-      "categoryTitle": "Категория | Lorent Bloom",
-      "categoryDescription": "Просмотр товаров для аренды по категориям в Молдове на Lorent Bloom"
+      "categoryDescription": "Аренда {categoryName} в Кишинёве, Молдова. Сравните цены и арендуйте {categoryName} на Lorent Bloom."
     }
   },
   "contact": {

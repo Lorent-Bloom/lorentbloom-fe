@@ -15,12 +15,32 @@ export async function generateMetadata({
   params: Promise<{ locale: string; slug: string[] }>;
 }): Promise<Metadata> {
   const { locale, slug } = await params;
+  const headerT = await getTranslations({ locale, namespace: "header" });
   const t = await getTranslations({ locale, namespace: "products" });
   const common = getCommonMetadata(locale, `products/${slug.join("/")}`);
 
+  // Resolve each slug segment to its localized category name
+  const categoryNames = slug.map((segment) => {
+    const key = `categoryNames.${segment}` as Parameters<typeof headerT>[0];
+    return headerT.has(key)
+      ? headerT(key)
+      : segment
+          .split("-")
+          .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+          .join(" ");
+  });
+
+  // Title: "Parent / Sub / Sub-sub" (layout template appends " | Lorent Bloom")
+  const title = categoryNames.join(" / ");
+  // Description uses the most specific (last) category name
+  const lastCategory = categoryNames[categoryNames.length - 1];
+  const description = t("metadata.categoryDescription", {
+    categoryName: lastCategory,
+  });
+
   return {
-    title: t("metadata.categoryTitle"),
-    description: t("metadata.categoryDescription"),
+    title,
+    description,
     ...common,
   };
 }

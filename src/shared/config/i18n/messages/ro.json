@@ -2060,8 +2060,7 @@
     "metadata": {
       "title": "Toate Produsele | Lorent Bloom",
       "description": "Toate produsele disponibile pentru închiriere în Chișinău, Moldova pe Lorent Bloom",
-      "categoryTitle": "Categorie | Lorent Bloom",
-      "categoryDescription": "Răsfoiește produse de închiriat pe categorii în Moldova pe Lorent Bloom"
+      "categoryDescription": "Închiriază {categoryName} în Chișinău, Moldova. Compară prețuri pentru {categoryName} pe Lorent Bloom."
     }
   },
   "contact": {
