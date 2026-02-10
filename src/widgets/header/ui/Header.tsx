@@ -37,7 +37,7 @@ const Header = async () => {
             >
               <Image
                 src="/logo.png"
-                alt={t("logoAlt")}
+                alt=""
                 width={36}
                 height={36}
                 className="object-contain rounded-4xl"

@@ -55,7 +55,7 @@ export default function Testimonials({
                   <div className="text-3xl sm:text-4xl font-bold mb-2 bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text">
                     {stat.value}
                   </div>
-                  <div className="text-sm text-muted-foreground">
+                  <div className="text-sm text-foreground/70">
                     {stat.label}
                   </div>
                 </div>
@@ -66,7 +66,7 @@ export default function Testimonials({
 
         {/* Testimonials Section */}
         <div className="text-center max-w-2xl mx-auto mb-12">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-green-500/10 text-green-600 dark:text-green-400 text-sm font-medium mb-6">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-green-500/10 text-green-700 dark:text-green-300 text-sm font-medium mb-6">
             <BadgeCheck className="h-4 w-4" />
             <span>{badge}</span>
           </div>
@@ -84,7 +84,7 @@ export default function Testimonials({
               className="group relative p-6 lg:p-8 rounded-2xl bg-card border hover:border-primary/20 hover:shadow-xl hover:shadow-primary/5 transition-all duration-300"
             >
               {/* Verified Badge */}
-              <div className="absolute top-6 right-6 flex items-center gap-1 text-green-600 dark:text-green-400">
+              <div className="absolute top-6 right-6 flex items-center gap-1 text-green-700 dark:text-green-300">
                 <BadgeCheck className="w-4 h-4" />
                 <span className="text-xs font-medium">Verified</span>
               </div>

@@ -21,7 +21,7 @@ const Footer = () => {
             <Link href={`/${locale}`} className="inline-flex items-center mb-4">
               <Image
                 src="/logo.png"
-                alt={BRAND.name}
+                alt=""
                 width={48}
                 height={48}
                 className="object-contain rounded-4xl"

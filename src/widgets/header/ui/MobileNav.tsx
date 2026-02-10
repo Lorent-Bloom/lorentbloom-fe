@@ -57,7 +57,7 @@ export default function MobileNav(props: MobileNavProps) {
           >
             <Image
               src="/logo.png"
-              alt={t("logoAlt")}
+              alt=""
               width={32}
               height={32}
               className="object-contain rounded-4xl"
