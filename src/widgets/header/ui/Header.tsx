@@ -34,6 +34,7 @@ const Header = async () => {
             <Link
               href={`/${locale}`}
               className="flex items-center gap-2 shrink-0"
+              aria-label={t("brandName")}
             >
               <Image
                 src="/logo.png"

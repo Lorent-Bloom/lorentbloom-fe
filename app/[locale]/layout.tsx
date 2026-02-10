@@ -10,7 +10,7 @@ import { routing } from "@shared/config/i18n";
 import { ApolloProvider, ThemeProvider } from "@/app";
 import Script from "next/script";
 import { env } from "@shared/config/env";
-import { RecaptchaScript } from "@shared/lib/recaptcha";
+
 import { CookieConsentBanner } from "@/widgets/cookie-consent";
 import { Toaster } from "@shared/ui";
 import { AuthCheck } from "@shared/lib/hooks/AuthCheck";
@@ -157,7 +157,6 @@ export default async function RootLayout({
               <Footer />
               <Toaster />
               <CookieConsentBanner />
-              <RecaptchaScript />
             </ApolloProvider>
           </NextIntlClientProvider>
         </ThemeProvider>
