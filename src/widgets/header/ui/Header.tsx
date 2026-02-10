@@ -58,7 +58,7 @@ const Header = async () => {
             <div className="flex-1" />
 
             {/* Right: Actions */}
-            <div className="flex items-center gap-1 sm:gap-2">
+            <div className="flex items-center gap-2">
               <LanguageSelector />
               <ThemeToggle />
               <div className="h-6 w-px bg-border" />

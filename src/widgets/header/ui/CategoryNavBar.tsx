@@ -57,7 +57,7 @@ export default function CategoryNavBar({
           <div className="flex items-center justify-between py-2">
             <button
               onClick={toggleMobileMenu}
-              className="flex items-center gap-2 py-2 text-sm font-medium"
+              className="flex items-center gap-2 py-2 min-h-11 text-sm font-medium"
               aria-expanded={isMobileMenuOpen}
               aria-label={t("toggleMenu")}
             >

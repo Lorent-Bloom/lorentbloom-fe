@@ -30,9 +30,9 @@ export async function generateMetadata({
   const { locale } = await params;
 
   const descriptions: Record<string, string> = {
-    en: `${BRAND.name} - Rental marketplace in Moldova. Rent electronics, tools, equipment and more in Chișinău. Affordable peer-to-peer rentals.`,
-    ru: `${BRAND.name} - Маркетплейс аренды в Молдове. Арендуйте электронику, инструменты, оборудование и многое другое в Кишинёве. Доступная аренда вещей.`,
-    ro: `${BRAND.name} - Piața de închiriere în Moldova. Închiriază electronice, unelte, echipamente și altele în Chișinău. Închirieri accesibile între persoane.`,
+    en: `${BRAND.name} — Rental marketplace in Moldova. Rent electronics, tools and equipment in Chișinău at affordable prices.`,
+    ru: `${BRAND.name} — Маркетплейс аренды в Молдове. Арендуйте электронику, инструменты и оборудование в Кишинёве.`,
+    ro: `${BRAND.name} — Piața de închiriere în Moldova. Închiriază electronice, unelte și echipamente în Chișinău.`,
   };
 
   const description = descriptions[locale] || descriptions.en;

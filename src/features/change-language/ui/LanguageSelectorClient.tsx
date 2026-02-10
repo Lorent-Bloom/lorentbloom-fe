@@ -30,7 +30,7 @@ const LanguageSelectorClient: FC<LanguageSelectorClientProps> = ({
           variant="ghost"
           size="sm"
           className={cn(
-            "gap-1.5 px-2 sm:px-3 focus-visible:ring-offset-0",
+            "gap-1.5 px-2 sm:px-3 min-h-11 sm:min-h-0 focus-visible:ring-offset-0",
             className,
           )}
         >
