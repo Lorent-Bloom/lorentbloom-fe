@@ -1,13 +1,36 @@
 import React from "react";
+import dynamic from "next/dynamic";
 import { setRequestLocale } from "next-intl/server";
 import { HomeHero } from "@widgets/home-hero";
-import { HowItWorks } from "@widgets/how-it-works";
-import { ItemUsageStatistics } from "@widgets/item-usage-statistics";
-import { CategoryShowcase } from "@widgets/category-showcase";
-import { FeaturedProducts } from "@widgets/featured-products";
-import { Testimonials } from "@widgets/testimonials";
-import { HomeCTA } from "@widgets/home-cta";
 import { getCategoryTree } from "@entities/category";
+
+// Lazy-load below-fold widgets to reduce initial JS bundle
+const HowItWorks = dynamic(() =>
+  import("@widgets/how-it-works").then((mod) => ({ default: mod.HowItWorks })),
+);
+const ItemUsageStatistics = dynamic(() =>
+  import("@widgets/item-usage-statistics").then((mod) => ({
+    default: mod.ItemUsageStatistics,
+  })),
+);
+const FeaturedProducts = dynamic(() =>
+  import("@widgets/featured-products").then((mod) => ({
+    default: mod.FeaturedProducts,
+  })),
+);
+const CategoryShowcase = dynamic(() =>
+  import("@widgets/category-showcase").then((mod) => ({
+    default: mod.CategoryShowcase,
+  })),
+);
+const Testimonials = dynamic(() =>
+  import("@widgets/testimonials").then((mod) => ({
+    default: mod.Testimonials,
+  })),
+);
+const HomeCTA = dynamic(() =>
+  import("@widgets/home-cta").then((mod) => ({ default: mod.HomeCTA })),
+);
 import { getRecentReviews } from "@entities/product-review";
 import { getPublicClient } from "@shared/api";
 import { GET_PRODUCTS } from "@entities/product/api/gql/query";

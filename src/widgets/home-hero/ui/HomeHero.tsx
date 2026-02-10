@@ -1,9 +1,8 @@
-"use client";
-
-import { ArrowDown, Sparkles } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { Sparkles } from "lucide-react";
+import { getTranslations } from "next-intl/server";
 import { cn } from "@shared/lib/utils/helpers";
 import type { HomeHeroProps } from "../model/interface";
+import HomeHeroCTA from "./HomeHeroCTA";
 
 const formatNumber = (num: number): string => {
   if (num >= 1000) {
@@ -12,22 +11,8 @@ const formatNumber = (num: number): string => {
   return `${num}+`;
 };
 
-export default function HomeHero({ className, stats }: HomeHeroProps) {
-  const t = useTranslations("home-hero");
-
-  const scrollToPopularRentals = () => {
-    const element = document.getElementById("popular-rentals");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
-  const scrollToCategories = () => {
-    const element = document.getElementById("category-showcase");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+export default async function HomeHero({ className, stats }: HomeHeroProps) {
+  const t = await getTranslations("home-hero");
 
   // Use real stats or fallback to defaults
   const totalProducts = stats?.totalProducts ?? 0;
@@ -87,22 +72,10 @@ export default function HomeHero({ className, stats }: HomeHeroProps) {
 
           {/* CTA Button */}
           <div className="flex justify-center animate-in fade-in slide-in-from-bottom-4 duration-700 delay-300">
-            <div className="inline-flex rounded-full overflow-hidden shadow-lg">
-              <button
-                onClick={scrollToPopularRentals}
-                className="h-14 px-8 sm:px-10 text-base sm:text-lg font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors flex items-center gap-2 group cursor-pointer"
-              >
-                <ArrowDown className="h-5 w-5 group-hover:translate-y-1 transition-transform" />
-                {t("browseButton")}
-              </button>
-              <button
-                onClick={scrollToCategories}
-                className="h-14 px-8 sm:px-10 text-base sm:text-lg font-medium bg-background text-foreground border-y border-r border-border hover:bg-muted transition-colors flex items-center gap-2 group cursor-pointer"
-              >
-                {t("categoriesButton")}
-                <ArrowDown className="h-5 w-5 group-hover:translate-y-1 transition-transform" />
-              </button>
-            </div>
+            <HomeHeroCTA
+              browseLabel={t("browseButton")}
+              categoriesLabel={t("categoriesButton")}
+            />
           </div>
 
           {/* Trust Indicators */}

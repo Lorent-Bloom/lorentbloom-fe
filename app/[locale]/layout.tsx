@@ -10,7 +10,6 @@ import { routing } from "@shared/config/i18n";
 import { ApolloProvider, ThemeProvider } from "@/app";
 import Script from "next/script";
 import { env } from "@shared/config/env";
-
 import { CookieConsentBanner } from "@/widgets/cookie-consent";
 import { Toaster } from "@shared/ui";
 import { AuthCheck } from "@shared/lib/hooks/AuthCheck";
@@ -130,9 +129,9 @@ export default async function RootLayout({
           <>
             <Script
               src={`https://www.googletagmanager.com/gtag/js?id=${env.NEXT_PUBLIC_GA_MEASUREMENT_ID}`}
-              strategy="afterInteractive"
+              strategy="lazyOnload"
             />
-            <Script id="ga-config" strategy="afterInteractive">
+            <Script id="ga-config" strategy="lazyOnload">
               {`
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
