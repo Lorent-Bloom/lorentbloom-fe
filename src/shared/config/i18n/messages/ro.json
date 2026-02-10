@@ -289,7 +289,10 @@
     "badge": "In Trend",
     "title": "Inchirieri Populare",
     "subtitle": "Descopera cele mai inchiriate produse. Echipamente de calitate iubite de mii de clienti.",
-    "viewAll": "Vezi Toate Produsele"
+    "viewAll": "Vezi Toate Produsele",
+    "previousSlide": "Slide anterioară",
+    "nextSlide": "Slide următoare",
+    "goToSlide": "Mergi la slide {number}"
   },
   "hero-carousel": {
     "slides": {

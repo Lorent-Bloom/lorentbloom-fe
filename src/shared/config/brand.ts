@@ -1,6 +1,6 @@
 export const BRAND = {
   name: "Lorent Bloom",
-  domain: "https://lorentbloom.com",
+  domain: "https://www.lorentbloom.com",
   email: "support@lorentbloom.com",
   // TODO: Add phone number when available
   phone: "",

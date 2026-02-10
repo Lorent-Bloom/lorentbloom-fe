@@ -110,6 +110,7 @@ export default function FeaturedProducts({
               size="icon"
               className="h-10 w-10 rounded-full"
               onClick={scrollPrev}
+              aria-label={t("previousSlide")}
             >
               <ChevronLeft className="h-5 w-5" />
             </Button>
@@ -124,6 +125,7 @@ export default function FeaturedProducts({
                       : "w-2 bg-muted-foreground/30",
                   )}
                   onClick={() => api?.scrollTo(index)}
+                  aria-label={t("goToSlide", { number: index + 1 })}
                 />
               ))}
             </div>
@@ -132,6 +134,7 @@ export default function FeaturedProducts({
               size="icon"
               className="h-10 w-10 rounded-full"
               onClick={scrollNext}
+              aria-label={t("nextSlide")}
             >
               <ChevronRight className="h-5 w-5" />
             </Button>

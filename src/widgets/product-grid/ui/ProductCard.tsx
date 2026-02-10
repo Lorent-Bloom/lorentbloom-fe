@@ -20,7 +20,7 @@ export function ProductCard({ product }: ProductCardProps) {
   } = useProductCard({ product });
 
   return (
-    <div className="group relative flex flex-col overflow-hidden rounded-xl bg-card border border-border/50 transition-all duration-300 hover:shadow-xl hover:shadow-black/5 hover:border-border">
+    <div className="group relative flex flex-col overflow-hidden rounded-xl bg-card border border-border/50 transition-[box-shadow,border-color] duration-300 hover:shadow-xl hover:shadow-black/5 hover:border-border">
       {/* Image Section - Full Bleed */}
       <Link
         href={`/${locale}/products/p/${product.url_key}`}

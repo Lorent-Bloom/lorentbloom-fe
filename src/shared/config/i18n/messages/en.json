@@ -289,7 +289,10 @@
     "badge": "Trending Now",
     "title": "Popular Rentals",
     "subtitle": "Discover our most rented items. Quality equipment loved by thousands of customers.",
-    "viewAll": "View All Products"
+    "viewAll": "View All Products",
+    "previousSlide": "Previous slide",
+    "nextSlide": "Next slide",
+    "goToSlide": "Go to slide {number}"
   },
   "hero-carousel": {
     "slides": {

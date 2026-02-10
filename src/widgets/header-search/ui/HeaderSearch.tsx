@@ -71,6 +71,7 @@ export default function HeaderSearch({ locale }: HeaderSearchProps) {
               <button
                 onClick={handleClear}
                 className="p-1 text-muted-foreground hover:text-foreground transition-colors"
+                aria-label={t("clear")}
               >
                 <X className="h-4 w-4" />
               </button>
@@ -105,6 +106,7 @@ export default function HeaderSearch({ locale }: HeaderSearchProps) {
           <button
             onClick={handleClear}
             className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground transition-colors"
+            aria-label={t("clear")}
           >
             <X className="h-4 w-4" />
           </button>
