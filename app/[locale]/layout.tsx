@@ -125,7 +125,8 @@ export default async function RootLayout({
         <JsonLd data={getWebSiteJsonLd(locale)} />
       </head>
       <body className="flex flex-col min-h-screen">
-        {env.NEXT_PUBLIC_GA_MEASUREMENT_ID && (
+        {env.NEXT_PUBLIC_GA_MEASUREMENT_ID &&
+          process.env.VERCEL_ENV === "production" && (
           <>
             <Script
               src={`https://www.googletagmanager.com/gtag/js?id=${env.NEXT_PUBLIC_GA_MEASUREMENT_ID}`}
