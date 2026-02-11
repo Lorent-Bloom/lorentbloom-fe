@@ -92,9 +92,7 @@ export default function OrderSummary({ cart, className }: OrderSummaryProps) {
           </div>
           {rentalTotal && rentalTotal.value > 0 && (
             <div className="flex justify-between text-sm">
-              <span className="text-muted-foreground">
-                {t("rentalTotal")}
-              </span>
+              <span className="text-muted-foreground">{t("rentalTotal")}</span>
               <span>
                 {rentalTotal.currency} {rentalTotal.value.toFixed(2)}
               </span>

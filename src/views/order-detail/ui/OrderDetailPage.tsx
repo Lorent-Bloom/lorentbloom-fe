@@ -313,15 +313,14 @@ export function OrderDetailPage({
               <span className="text-muted-foreground">{t("subtotal")}</span>
               <span>{formatCurrency(order.total.subtotal)}</span>
             </div>
-            {order.total.rental_total &&
-              order.total.rental_total.value > 0 && (
-                <div className="flex justify-between">
-                  <span className="text-muted-foreground">
-                    {t("rentalTotal")}
-                  </span>
-                  <span>{formatCurrency(order.total.rental_total)}</span>
-                </div>
-              )}
+            {order.total.rental_total && order.total.rental_total.value > 0 && (
+              <div className="flex justify-between">
+                <span className="text-muted-foreground">
+                  {t("rentalTotal")}
+                </span>
+                <span>{formatCurrency(order.total.rental_total)}</span>
+              </div>
+            )}
             {order.total.discounts?.map((discount, idx) => (
               <div key={idx} className="flex justify-between text-green-600">
                 <span>{discount.label}</span>

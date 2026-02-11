@@ -121,13 +121,21 @@ export default function CategoryShowcase({
                     )}
                   >
                     <span className={cn("text-2xl font-bold", iconColor)}>
-                      {getCategoryName(category.url_key, category.name, category.url_path).charAt(0)}
+                      {getCategoryName(
+                        category.url_key,
+                        category.name,
+                        category.url_path,
+                      ).charAt(0)}
                     </span>
                   </div>
 
                   {/* Category Name */}
                   <h3 className="font-semibold text-sm sm:text-base mb-2 line-clamp-2">
-                    {getCategoryName(category.url_key, category.name, category.url_path)}
+                    {getCategoryName(
+                      category.url_key,
+                      category.name,
+                      category.url_path,
+                    )}
                   </h3>
 
                   {/* Subcategory indicator or count */}

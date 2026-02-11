@@ -7,8 +7,10 @@ import { Card, CardContent, CardHeader, CardTitle } from "@shared/ui/card";
 import { Eraser, PenTool } from "lucide-react";
 import type { SignaturePadProps } from "../model/interface";
 
-interface SignaturePadComponentProps
-  extends Omit<SignaturePadProps, "onSignatureChange"> {
+interface SignaturePadComponentProps extends Omit<
+  SignaturePadProps,
+  "onSignatureChange"
+> {
   onSignatureChange: (signatureData: string | null) => void;
 }
 

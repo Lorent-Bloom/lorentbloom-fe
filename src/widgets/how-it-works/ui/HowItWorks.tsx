@@ -18,13 +18,7 @@ import type { LucideIcon } from "lucide-react";
 const rentIcons = [Search, Calendar, Package];
 const listIcons = [Camera, MessageSquare, FileCheck];
 
-function StepsGrid({
-  steps,
-  icons,
-}: {
-  steps: Step[];
-  icons: LucideIcon[];
-}) {
+function StepsGrid({ steps, icons }: { steps: Step[]; icons: LucideIcon[] }) {
   return (
     <div className="grid md:grid-cols-3 gap-8 lg:gap-12 max-w-5xl mx-auto">
       {steps.map((step, index) => {

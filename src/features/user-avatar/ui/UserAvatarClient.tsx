@@ -24,7 +24,10 @@ export default function UserAvatarClient(props: UserAvatarClientProps) {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <button className="cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary rounded-full" aria-label={t("myAccount")}>
+        <button
+          className="cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary rounded-full"
+          aria-label={t("myAccount")}
+        >
           <Avatar>
             <AvatarFallback>{getInitials(customerName)}</AvatarFallback>
           </Avatar>

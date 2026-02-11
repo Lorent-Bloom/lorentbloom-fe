@@ -55,9 +55,7 @@ export default function Testimonials({
                   <div className="text-3xl sm:text-4xl font-bold mb-2 bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text">
                     {stat.value}
                   </div>
-                  <div className="text-sm text-foreground/70">
-                    {stat.label}
-                  </div>
+                  <div className="text-sm text-foreground/70">{stat.label}</div>
                 </div>
               );
             })}

@@ -1,7 +1,11 @@
 import { Suspense } from "react";
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
-import { getCommonMetadata, JsonLd, getBreadcrumbJsonLd } from "@shared/lib/seo";
+import {
+  getCommonMetadata,
+  JsonLd,
+  getBreadcrumbJsonLd,
+} from "@shared/lib/seo";
 import { BRAND } from "@shared/config/brand";
 import { getProducts, type ProductFilterInput } from "@entities/product";
 import { getCategoryTree } from "@entities/category";

@@ -4,8 +4,10 @@ import { forwardRef } from "react";
 import { IMaskInput } from "react-imask";
 import { cn } from "@shared/lib/utils";
 
-export interface PhoneInputProps
-  extends Omit<React.InputHTMLAttributes<HTMLInputElement>, "onChange"> {
+export interface PhoneInputProps extends Omit<
+  React.InputHTMLAttributes<HTMLInputElement>,
+  "onChange"
+> {
   onChange?: (value: string) => void;
 }
 

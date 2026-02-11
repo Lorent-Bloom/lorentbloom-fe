@@ -6,7 +6,7 @@ import { DEFAULT_CONSENT_STATE } from "../model/const";
 
 declare global {
   interface Window {
-    dataLayer: unknown[];
+    dataLayer?: object[];
     gtag: (...args: unknown[]) => void;
   }
 }
@@ -22,7 +22,7 @@ export const useGoogleConsentMode = () => {
     if (!window.gtag) {
       window.gtag = function () {
         // eslint-disable-next-line prefer-rest-params
-        window.dataLayer.push(arguments);
+        window.dataLayer!.push(arguments);
       };
     }
 

@@ -27,7 +27,10 @@ export function ThemeToggle({ className }: ThemeToggleProps) {
         <Button
           variant="ghost"
           size="sm"
-          className={cn("px-2 sm:px-3 min-h-11 min-w-11 sm:min-h-0 sm:min-w-0 focus-visible:ring-offset-0", className)}
+          className={cn(
+            "px-2 sm:px-3 min-h-11 min-w-11 sm:min-h-0 sm:min-w-0 focus-visible:ring-offset-0",
+            className,
+          )}
         >
           <Sun className="h-4 w-4 scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" />
           <Moon className="absolute h-4 w-4 scale-0 rotate-90 transition-all dark:scale-100 dark:rotate-0" />

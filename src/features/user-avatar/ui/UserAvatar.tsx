@@ -14,7 +14,12 @@ export default async function UserAvatar() {
   if (!customer) {
     return (
       <Link href={`/${locale}/sign-in`}>
-        <Button variant="ghost" size="sm" className="gap-2 min-h-11 sm:min-h-0" aria-label={t("signIn")}>
+        <Button
+          variant="ghost"
+          size="sm"
+          className="gap-2 min-h-11 sm:min-h-0"
+          aria-label={t("signIn")}
+        >
           <UserCircle className="h-5 w-5" />
           <span className="hidden sm:inline">{t("signIn")}</span>
         </Button>

@@ -26,10 +26,12 @@ export default function MiniCartItem({
   };
 
   const hasRentalDates = rent_from_date && rent_to_date;
-  const rentalDays =
-    hasRentalDates
-      ? differenceInCalendarDays(parseISO(rent_to_date), parseISO(rent_from_date)) + 1
-      : 0;
+  const rentalDays = hasRentalDates
+    ? differenceInCalendarDays(
+        parseISO(rent_to_date),
+        parseISO(rent_from_date),
+      ) + 1
+    : 0;
 
   return (
     <div className="flex flex-col sm:flex-row gap-4 py-4">

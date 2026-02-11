@@ -8,7 +8,8 @@ import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@shared/config/i18n";
 import { ApolloProvider, ThemeProvider } from "@/app";
-import Script from "next/script";
+import { GoogleTagManager } from "@next/third-parties/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { env } from "@shared/config/env";
 import { CookieConsentBanner } from "@/widgets/cookie-consent";
 import { Toaster } from "@shared/ui";
@@ -121,50 +122,17 @@ export default async function RootLayout({
             `,
           }}
         />
-        {env.NEXT_PUBLIC_GTM_ID &&
-          process.env.VERCEL_ENV === "production" && (
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','${env.NEXT_PUBLIC_GTM_ID}');`,
-            }}
-          />
-        )}
         <JsonLd data={getOrganizationJsonLd()} />
         <JsonLd data={getWebSiteJsonLd(locale)} />
       </head>
       <body className="flex flex-col min-h-screen">
-        {env.NEXT_PUBLIC_GTM_ID &&
-          process.env.VERCEL_ENV === "production" && (
-          <noscript>
-            <iframe
-              src={`https://www.googletagmanager.com/ns.html?id=${env.NEXT_PUBLIC_GTM_ID}`}
-              height="0"
-              width="0"
-              style={{ display: "none", visibility: "hidden" }}
-            />
-          </noscript>
+        {env.NEXT_PUBLIC_GTM_ID && process.env.VERCEL_ENV === "production" && (
+          <GoogleTagManager gtmId={env.NEXT_PUBLIC_GTM_ID} />
         )}
         {env.NEXT_PUBLIC_GA_MEASUREMENT_ID &&
           process.env.VERCEL_ENV === "production" && (
-          <>
-            <Script
-              src={`https://www.googletagmanager.com/gtag/js?id=${env.NEXT_PUBLIC_GA_MEASUREMENT_ID}`}
-              strategy="lazyOnload"
-            />
-            <Script id="ga-config" strategy="lazyOnload">
-              {`
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', '${env.NEXT_PUBLIC_GA_MEASUREMENT_ID}');
-              `}
-            </Script>
-          </>
-        )}
+            <GoogleAnalytics gaId={env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />
+          )}
         <ThemeProvider
           attribute="class"
           defaultTheme="light"
