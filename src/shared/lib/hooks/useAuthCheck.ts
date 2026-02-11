@@ -18,7 +18,7 @@ const publicPaths = [
   "/customer/account/confirm",
 ];
 
-export function useAuthCheck(locale: string, hasToken: boolean) {
+export function useAuthCheck(locale: string) {
   const router = useRouter();
   const pathname = usePathname();
 
@@ -31,17 +31,15 @@ export function useAuthCheck(locale: string, hasToken: boolean) {
         pathWithoutLocale === path || pathWithoutLocale.startsWith(`${path}/`),
     );
 
-    // No token - nothing to validate
-    if (!hasToken) {
-      return;
-    }
-
-    // Check if token is valid (even on public routes to clear expired tokens)
     const checkAuth = async () => {
       try {
         const response = await fetch(
           `${window.location.origin}/api/auth/validate`,
         );
+        const data = await response.json();
+
+        // No token at all — nothing to validate
+        if (!data.hasToken) return;
 
         if (!response.ok) {
           // Token is invalid/expired - clear it
@@ -56,7 +54,6 @@ export function useAuthCheck(locale: string, hasToken: boolean) {
           if (!isPublicPath) {
             router.push(`/${locale}/sign-in`);
           } else {
-            // Force a page refresh to clear the hasToken state on public routes
             router.refresh();
           }
         }
@@ -66,5 +63,5 @@ export function useAuthCheck(locale: string, hasToken: boolean) {
     };
 
     checkAuth();
-  }, [locale, hasToken, pathname, router]);
+  }, [locale, pathname, router]);
 }

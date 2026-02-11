@@ -13,8 +13,6 @@ import { env } from "@shared/config/env";
 import { CookieConsentBanner } from "@/widgets/cookie-consent";
 import { Toaster } from "@shared/ui";
 import { AuthCheck } from "@shared/lib/hooks/AuthCheck";
-import { cookies } from "next/headers";
-import { TOKEN_COOKIE_NAME } from "@shared/api";
 import { BRAND } from "@shared/config/brand";
 import {
   JsonLd,
@@ -98,9 +96,6 @@ export default async function RootLayout({
     notFound();
   }
 
-  const cookieStore = await cookies();
-  const hasToken = Boolean(cookieStore.get(TOKEN_COOKIE_NAME)?.value);
-
   return (
     <html lang={locale} suppressHydrationWarning>
       <head>
@@ -137,7 +132,7 @@ export default async function RootLayout({
         >
           <NextIntlClientProvider>
             <ApolloProvider>
-              <AuthCheck locale={locale} hasToken={hasToken} />
+              <AuthCheck locale={locale} />
               <Header />
               <DynamicBreadcrumb />
               <main className="flex flex-col grow">{children}</main>
