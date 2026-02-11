@@ -54,11 +54,15 @@ export async function proxy(request: NextRequest) {
 
   const [, firstSegment, ...segments] = request.nextUrl.pathname.split("/");
   const hasLocalePrefix = locales.has(firstSegment);
-  const pathname = hasLocalePrefix
-    ? `/${segments.join("/")}` || "/"
-    : `/${firstSegment}${segments.length ? `/${segments.join("/")}` : ""}`;
 
-  const locale = hasLocalePrefix ? firstSegment : routing.defaultLocale;
+  // If no locale prefix, let next-intl add it first (e.g. /account → /en/account)
+  // Auth checks will run on the subsequent redirected request
+  if (!hasLocalePrefix) {
+    return handleI18nRouting(request);
+  }
+
+  const pathname = `/${segments.join("/")}` || "/";
+  const locale = firstSegment;
   const auth = isAuthenticated(request);
 
   // If user is authenticated and trying to access sign-in/sign-up, redirect to home
