@@ -9,7 +9,6 @@ import { notFound } from "next/navigation";
 import { routing } from "@shared/config/i18n";
 import { ApolloProvider, ThemeProvider } from "@/app";
 import { GoogleTagManager } from "@next/third-parties/google";
-import { GoogleAnalytics } from "@next/third-parties/google";
 import { env } from "@shared/config/env";
 import { CookieConsentBanner } from "@/widgets/cookie-consent";
 import { Toaster } from "@shared/ui";
@@ -117,7 +116,8 @@ export default async function RootLayout({
                 'ad_user_data': 'denied',
                 'ad_personalization': 'denied',
                 'analytics_storage': 'denied',
-                'personalization_storage': 'denied'
+                'personalization_storage': 'denied',
+                'wait_for_update': 500
               });
             `,
           }}
@@ -129,10 +129,6 @@ export default async function RootLayout({
         {env.NEXT_PUBLIC_GTM_ID && process.env.VERCEL_ENV === "production" && (
           <GoogleTagManager gtmId={env.NEXT_PUBLIC_GTM_ID} />
         )}
-        {env.NEXT_PUBLIC_GA_MEASUREMENT_ID &&
-          process.env.VERCEL_ENV === "production" && (
-            <GoogleAnalytics gaId={env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />
-          )}
         <ThemeProvider
           attribute="class"
           defaultTheme="light"
