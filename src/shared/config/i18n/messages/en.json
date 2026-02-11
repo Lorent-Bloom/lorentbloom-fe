@@ -275,7 +275,7 @@
     "products": "Products",
     "about": "About",
     "faq": "FAQ",
-    "howToRentOut": "How to Rent",
+    "howToRentOut": "How to Rent Out",
     "termsOfPolicy": "Terms of Policy",
     "accountSettings": "Account Settings",
     "profile": "Profile",
@@ -698,7 +698,7 @@
     },
     "links": {
       "faq": "FAQ",
-      "howToRent": "How to Rent",
+      "howToRent": "How to Rent Out",
       "contact": "Contact Us",
       "about": "About Us",
       "terms": "Terms & Conditions",
