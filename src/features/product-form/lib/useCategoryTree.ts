@@ -120,16 +120,62 @@ function transformToTreeNodes(
 }
 
 /**
- * Find a node by UID in the tree
+ * Try to extract a numeric ID from a UID string.
+ * Handles plain numbers ("42"), base64-encoded numbers ("NDI="), etc.
+ */
+function uidToNumericId(uid: string): number | null {
+  if (!uid || uid.startsWith(NEW_CATEGORY_PREFIX) || uid.startsWith(ADD_NEW_PREFIX)) return null;
+  if (/^\d+$/.test(uid)) return parseInt(uid, 10);
+  try {
+    const decoded = atob(uid);
+    const parsed = parseInt(decoded, 10);
+    if (!isNaN(parsed) && String(parsed) === decoded.trim()) return parsed;
+  } catch {
+    // Not valid base64
+  }
+  return null;
+}
+
+/**
+ * Find a node by UID in the tree.
+ * Falls back to matching by decoded numeric ID if direct UID match fails.
  */
 function findNodeByUid(
   nodes: CategoryTreeNode[],
   uid: string,
 ): CategoryTreeNode | null {
+  // First try exact UID match
   for (const node of nodes) {
     if (node.uid === uid) return node;
     if (node.children.length > 0) {
       const found = findNodeByUid(node.children, uid);
+      if (found) return found;
+    }
+  }
+
+  // Fallback: try matching by decoded numeric ID
+  // This handles cases where product returns numeric id but tree uses base64 uid
+  const targetId = uidToNumericId(uid);
+  if (targetId !== null) {
+    return findNodeById(nodes, targetId);
+  }
+
+  return null;
+}
+
+/**
+ * Find a node by numeric ID in the tree
+ */
+function findNodeById(
+  nodes: CategoryTreeNode[],
+  id: number,
+): CategoryTreeNode | null {
+  for (const node of nodes) {
+    if (node.id === id) return node;
+    // Also check if the node's UID decodes to this ID
+    if (uidToNumericId(node.uid) === id) return node;
+    if (node.children.length > 0) {
+      const found = findNodeById(node.children, id);
       if (found) return found;
     }
   }

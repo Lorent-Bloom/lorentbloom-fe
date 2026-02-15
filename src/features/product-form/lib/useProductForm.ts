@@ -110,7 +110,16 @@ export const useProductForm = ({
       // Always clear previous pending categories first
       resetSelection();
 
-      if (product.new_category_path) {
+      // Only use new_category_path if the product has NO existing category IDs.
+      // The backend may return new_category as a truthy value (e.g., "1") even
+      // when the product has real category associations.
+      const hasExistingCategories = !!(
+        product.category_id ||
+        product.subcategory_id ||
+        product.sub_subcategory_id
+      );
+
+      if (product.new_category_path && !hasExistingCategories) {
         // Product has a new category path - restore as pending nodes
         const parts = product.new_category_path.split(" > ").filter(Boolean);
         form.reset({
@@ -125,7 +134,7 @@ export const useProductForm = ({
           price: product.price ?? 0,
           quantity: product.quantity ?? 1,
           images: imageFiles,
-          is_active: 1,
+          is_active: product.is_active,
         });
         addPendingCategoriesFromPath(product.new_category_path);
       } else {
@@ -142,7 +151,7 @@ export const useProductForm = ({
           price: product.price ?? 0,
           quantity: product.quantity ?? 1,
           images: imageFiles,
-          is_active: 1,
+          is_active: product.is_active,
         });
         updateSelectionFromIds({
           category_id: product.category_id || "",

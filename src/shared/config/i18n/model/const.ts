@@ -1,6 +1,6 @@
 import type { Locale } from "../model/type";
 
-export const DEFAULT_LOCALE = "en"; // NOTE: if you change this, also change import in types
+export const DEFAULT_LOCALE = "ro"; // NOTE: if you change this, also change import in types
 
 export const LOCALES = ["en", "ru", "ro"];
 
