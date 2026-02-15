@@ -70,9 +70,11 @@ export async function proxy(request: NextRequest) {
     return Response.redirect(new URL(`/${locale}`, request.url));
   }
 
-  // If user is not authenticated and trying to access private pages, redirect to home
+  // If user is not authenticated and trying to access private pages, redirect to sign-in
   if (!auth && !isPublicPath(pathname)) {
-    return Response.redirect(new URL(`/${locale}`, request.url));
+    const signInUrl = new URL(`/${locale}/sign-in`, request.url);
+    signInUrl.searchParams.set("redirect", `/${locale}${pathname}`);
+    return Response.redirect(signInUrl);
   }
 
   // Let next-intl handle locale routing - URL is the source of truth

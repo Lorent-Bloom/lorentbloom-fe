@@ -403,12 +403,12 @@
   "home-hero": {
     "badge": "Viitorul Inchirierii",
     "headline": {
-      "line1": "Inchiriaza Orice.",
+      "line1": "Închiriază sau Împrumută Orice.",
       "line2": "Traieste Experienta."
     },
     "subheadline": "Închiriază echipamente, electronice și accesorii fără să cumperi — sau listează-ți propriile bunuri și câștigă bani extra. Termeni flexibili, tranzacții sigure.",
-    "browseButton": "Vezi Produsele",
-    "categoriesButton": "Categorii",
+    "rentButton": "Închiriază",
+    "lendButton": "Dă în chirie",
     "trustedBy": "produse disponibile",
     "rating": "din {count} recenzii"
   },

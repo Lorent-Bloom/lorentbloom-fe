@@ -1,4 +1,3 @@
-import { Sparkles } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import { cn } from "@shared/lib/utils/helpers";
 import type { HomeHeroProps } from "../model/interface";
@@ -50,13 +49,7 @@ export default async function HomeHero({ className, stats }: HomeHeroProps) {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 py-20">
-        <div className="max-w-4xl mx-auto text-center">
-          {/* Badge */}
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
-            <Sparkles className="h-4 w-4" />
-            <span>{t("badge")}</span>
-          </div>
-
+        <div className="max-w-7xl mx-auto text-center">
           {/* Main Headline */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-100">
             <span className="block">{t("headline.line1")}</span>
@@ -73,61 +66,9 @@ export default async function HomeHero({ className, stats }: HomeHeroProps) {
           {/* CTA Button */}
           <div className="flex justify-center animate-in fade-in slide-in-from-bottom-4 duration-700 delay-300">
             <HomeHeroCTA
-              browseLabel={t("browseButton")}
-              categoriesLabel={t("categoriesButton")}
+              rentLabel={t("rentButton")}
+              lendLabel={t("lendButton")}
             />
-          </div>
-
-          {/* Trust Indicators */}
-          <div className="mt-6 pt-8 border-t border-border/50 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-400">
-            <div className="flex flex-wrap items-center justify-center gap-8 text-muted-foreground">
-              <div className="flex items-center gap-3">
-                <div className="flex -space-x-2">
-                  {["👨", "👩", "👨‍🦱", "👩‍🦰"].map((emoji, i) => (
-                    <div
-                      key={i}
-                      className="w-8 h-8 rounded-full bg-gradient-to-br from-primary/20 to-primary/40 border-2 border-background flex items-center justify-center text-sm"
-                    >
-                      {emoji}
-                    </div>
-                  ))}
-                </div>
-                <span className="text-sm">
-                  <span className="font-semibold">
-                    {formatNumber(totalProducts)}
-                  </span>{" "}
-                  {t("trustedBy")}
-                </span>
-              </div>
-              <div className="h-4 w-px bg-border hidden sm:block" />
-              <div className="flex items-center gap-1">
-                <div className="flex">
-                  {[1, 2, 3, 4, 5].map((i) => (
-                    <svg
-                      key={i}
-                      className={cn(
-                        "w-4 h-4",
-                        i <= starRating
-                          ? "text-yellow-500 fill-yellow-500"
-                          : "text-gray-300 fill-gray-300",
-                      )}
-                      viewBox="0 0 20 20"
-                    >
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                  ))}
-                </div>
-                <span className="text-sm font-medium">
-                  {averageRating > 0 ? (averageRating / 20).toFixed(1) : "5.0"}
-                  /5
-                </span>
-                <span className="text-sm">
-                  {t("rating", {
-                    count: totalReviews > 0 ? formatNumber(totalReviews) : "0",
-                  })}
-                </span>
-              </div>
-            </div>
           </div>
         </div>
       </div>

@@ -72,7 +72,7 @@ export const useSignInForm = () => {
         if (redirectUrl) {
           router.push(redirectUrl);
         } else {
-          router.push("/");
+          router.push("/account");
         }
       } else {
         const errorMessage = result.error

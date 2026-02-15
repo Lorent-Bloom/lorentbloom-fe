@@ -1,12 +1,12 @@
 {
   "badge": "The Future of Renting",
   "headline": {
-    "line1": "Rent Anything.",
+    "line1": "Rent or Lend Anything.",
     "line2": "Own the Experience."
   },
   "subheadline": "Access premium equipment, electronics, and gear without buying — or list your own items and earn extra income. Flexible terms, secure transactions.",
-  "browseButton": "Browse Products",
-  "categoriesButton": "Browse Categories",
+  "rentButton": "Rent",
+  "lendButton": "Lend",
   "trustedBy": "products available",
   "rating": "from {count} reviews"
 }
