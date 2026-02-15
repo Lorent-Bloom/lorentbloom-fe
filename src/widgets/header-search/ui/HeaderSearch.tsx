@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { Search, X, ArrowRight } from "lucide-react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
@@ -24,14 +24,6 @@ export default function HeaderSearch({ locale }: HeaderSearchProps) {
   } = useHeaderSearch(locale);
 
   const inputRef = useRef<HTMLInputElement>(null);
-  const [isMac, setIsMac] = useState(false);
-
-  // Detect Mac for keyboard shortcut display
-  useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setIsMac(navigator.platform.toUpperCase().indexOf("MAC") >= 0);
-  }, []);
-
   // Handle Cmd+K / Ctrl+K keyboard shortcut to focus search
   useEffect(() => {
     const handleGlobalKeyDown = (e: KeyboardEvent) => {
@@ -75,11 +67,6 @@ export default function HeaderSearch({ locale }: HeaderSearchProps) {
               >
                 <X className="h-4 w-4" />
               </button>
-            )}
-            {!query && (
-              <kbd className="pointer-events-none inline-flex h-5 items-center gap-0.5 rounded border border-border bg-muted px-1.5 font-mono text-xs font-medium text-foreground/60 select-none">
-                {isMac ? "⌘+K" : "Ctrl+K"}
-              </kbd>
             )}
           </div>
         </div>

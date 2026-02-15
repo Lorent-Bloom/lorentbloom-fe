@@ -1,26 +1,15 @@
 "use client";
 
-import {
-  Star,
-  Package,
-  Layers,
-  BadgeCheck,
-  ShoppingCart,
-  Users,
-} from "lucide-react";
+import { Star, BadgeCheck } from "lucide-react";
 import { cn } from "@shared/lib/utils/helpers";
 import { useTestimonials } from "../lib/useTestimonials";
 import type { TestimonialsProps } from "../model/interface";
 
-const statIcons = [Package, Layers, ShoppingCart, Users];
-
 export default function Testimonials({
   className,
-  stats: statsData,
   reviews,
 }: TestimonialsProps) {
-  const { title, subtitle, testimonials, stats, statsTitle, badge } =
-    useTestimonials(statsData, reviews);
+  const { title, subtitle, testimonials, badge } = useTestimonials(reviews);
 
   return (
     <section className={cn("py-20 bg-background relative", className)}>
@@ -31,37 +20,6 @@ export default function Testimonials({
       </div>
 
       <div className="container mx-auto px-4 relative">
-        {/* Stats Section */}
-        <div className="mb-20">
-          <div className="text-center max-w-2xl mx-auto mb-12">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-              {statsTitle}
-            </h2>
-          </div>
-
-          <div className="flex flex-wrap justify-center gap-6 lg:gap-8">
-            {stats.map((stat, index) => {
-              const Icon = statIcons[index % statIcons.length];
-              return (
-                <div
-                  key={index}
-                  className="group relative p-6 rounded-2xl bg-gradient-to-br from-primary/5 to-primary/10 border border-primary/10 text-center hover:border-primary/20 transition-colors w-full sm:w-64"
-                >
-                  <div className="flex justify-center mb-4">
-                    <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:scale-110 transition-transform">
-                      <Icon className="w-6 h-6 text-primary" />
-                    </div>
-                  </div>
-                  <div className="text-3xl sm:text-4xl font-bold mb-2 bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text">
-                    {stat.value}
-                  </div>
-                  <div className="text-sm text-foreground/70">{stat.label}</div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-
         {/* Testimonials Section */}
         <div className="text-center max-w-2xl mx-auto mb-12">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-green-500/10 text-green-700 dark:text-green-300 text-sm font-medium mb-6">

@@ -23,6 +23,11 @@ const CategoryShowcase = dynamic(() =>
     default: mod.CategoryShowcase,
   })),
 );
+const RentalInfo = dynamic(() =>
+  import("@widgets/rental-info").then((mod) => ({
+    default: mod.RentalInfo,
+  })),
+);
 const Testimonials = dynamic(() =>
   import("@widgets/testimonials").then((mod) => ({
     default: mod.Testimonials,
@@ -36,18 +41,6 @@ import { getPublicClient } from "@shared/api";
 import { GET_PRODUCTS } from "@entities/product/api/gql/query";
 import type { GetProductsResponse } from "@entities/product";
 import { HomePageProps } from "../model/interface";
-
-// Helper to count all categories in the tree
-const countCategories = (categories: { children?: unknown[] }[]): number => {
-  let count = 0;
-  for (const cat of categories) {
-    count += 1;
-    if (cat.children && Array.isArray(cat.children)) {
-      count += countCategories(cat.children as { children?: unknown[] }[]);
-    }
-  }
-  return count;
-};
 
 const HomePage = async ({ params }: HomePageProps) => {
   const { locale } = await params;
@@ -78,7 +71,6 @@ const HomePage = async ({ params }: HomePageProps) => {
   const products = productsResult.data?.products?.items ?? [];
   const reviews = reviewsResult.success ? (reviewsResult.data ?? []) : [];
   const totalProductsCount = productsResult.data?.products?.total_count ?? 0;
-  const totalCategoriesCount = countCategories(categories);
 
   // Calculate review stats for hero section
   const totalReviews = reviews.length;
@@ -110,16 +102,11 @@ const HomePage = async ({ params }: HomePageProps) => {
       {/* Category Showcase - Browse by category */}
       <CategoryShowcase categories={categories} />
 
-      {/* Testimonials & Stats - Social proof */}
-      <Testimonials
-        stats={{
-          productsCount: totalProductsCount,
-          categoriesCount: totalCategoriesCount,
-          ordersCount: 0, // TODO: Replace with real total orders count when API is available
-          usersCount: 0, // TODO: Replace with real users count when API is available
-        }}
-        reviews={reviews}
-      />
+      {/* Rental Info - Value proposition */}
+      <RentalInfo />
+
+      {/* Testimonials - Social proof */}
+      <Testimonials reviews={reviews} />
 
       {/* Final CTA - Conversion focused */}
       <HomeCTA />

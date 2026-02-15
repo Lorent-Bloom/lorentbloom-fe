@@ -1,26 +1,7 @@
 {
-  "statsTitle": "Platforma noastra in cifre",
   "badge": "Recenzii Verificate",
   "title": "Recenzii Reale de la Clienti Reali",
   "subtitle": "Alaturati-va miilor de clienti multumiti care au ales Lorent Bloom. Acestea sunt recenzii autentice de la clienti verificati.",
-  "stats": {
-    "2": {
-      "value": "0",
-      "label": "Produse disponibile"
-    },
-    "3": {
-      "value": "0",
-      "label": "Categorii"
-    },
-    "4": {
-      "value": "0",
-      "label": "Total comenzi"
-    },
-    "5": {
-      "value": "0",
-      "label": "Utilizatori activi"
-    }
-  },
   "reviews": {
     "0": {
       "name": "Mihai Chen",

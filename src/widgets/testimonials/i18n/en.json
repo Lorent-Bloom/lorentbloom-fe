@@ -1,26 +1,7 @@
 {
-  "statsTitle": "Our Platform in Numbers",
   "badge": "Verified Reviews",
   "title": "Real Reviews from Real Customers",
   "subtitle": "Join thousands of satisfied renters who chose Lorent Bloom for their equipment needs. These are genuine reviews from verified customers.",
-  "stats": {
-    "2": {
-      "value": "0",
-      "label": "Products Available"
-    },
-    "3": {
-      "value": "0",
-      "label": "Categories"
-    },
-    "4": {
-      "value": "0",
-      "label": "Total Orders"
-    },
-    "5": {
-      "value": "0",
-      "label": "Active Users"
-    }
-  },
   "reviews": {
     "0": {
       "name": "Michael Chen",

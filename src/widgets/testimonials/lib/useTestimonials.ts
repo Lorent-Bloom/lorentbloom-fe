@@ -3,14 +3,7 @@
 import { useMemo } from "react";
 import { useTranslations } from "next-intl";
 import type { ReviewWithProduct } from "@entities/product-review";
-import type { Testimonial, Stat, StatsData } from "../model/interface";
-
-const formatNumber = (num: number): string => {
-  if (num >= 1000) {
-    return `${Math.floor(num / 1000)}k+`;
-  }
-  return num.toString();
-};
+import type { Testimonial } from "../model/interface";
 
 // Convert API review to testimonial format
 const reviewToTestimonial = (
@@ -25,10 +18,7 @@ const reviewToTestimonial = (
   avatar: review.nickname.charAt(0).toUpperCase(),
 });
 
-export const useTestimonials = (
-  statsData?: StatsData,
-  reviews?: ReviewWithProduct[],
-) => {
+export const useTestimonials = (reviews?: ReviewWithProduct[]) => {
   const t = useTranslations("testimonials");
 
   // Use real reviews if available, otherwise use fallback translations
@@ -90,52 +80,11 @@ export const useTestimonials = (
     ];
   }, [reviews, t]);
 
-  // Use real stats if available, otherwise use translated fallback values
-  const stats: Stat[] = statsData
-    ? [
-        {
-          value: formatNumber(statsData.productsCount),
-          label: t("stats.2.label"), // Products Available
-        },
-        {
-          value: formatNumber(statsData.categoriesCount),
-          label: t("stats.3.label"), // Categories
-        },
-        {
-          value: formatNumber(statsData.ordersCount ?? 0),
-          label: t("stats.4.label"), // Total Orders
-        },
-        {
-          value: formatNumber(statsData.usersCount ?? 0),
-          label: t("stats.5.label"), // Active Users
-        },
-      ]
-    : [
-        {
-          value: t("stats.2.value"),
-          label: t("stats.2.label"),
-        },
-        {
-          value: t("stats.3.value"),
-          label: t("stats.3.label"),
-        },
-        {
-          value: t("stats.4.value"),
-          label: t("stats.4.label"),
-        },
-        {
-          value: t("stats.5.value"),
-          label: t("stats.5.label"),
-        },
-      ];
-
   return {
     title: t("title"),
     subtitle: t("subtitle"),
     badge: t("badge"),
     testimonials,
-    stats,
-    statsTitle: t("statsTitle"),
     hasRealReviews: reviews && reviews.length > 0,
   };
 };

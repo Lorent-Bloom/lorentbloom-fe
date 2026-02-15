@@ -603,28 +603,9 @@
     }
   },
   "testimonials": {
-    "statsTitle": "Platforma noastra in cifre",
     "badge": "Recenzii Verificate",
     "title": "Recenzii Reale de la Clienti Reali",
     "subtitle": "Alaturati-va miilor de clienti multumiti care au ales Lorent Bloom. Acestea sunt recenzii autentice de la clienti verificati.",
-    "stats": {
-      "2": {
-        "value": "0",
-        "label": "Produse disponibile"
-      },
-      "3": {
-        "value": "0",
-        "label": "Categorii"
-      },
-      "4": {
-        "value": "0",
-        "label": "Total comenzi"
-      },
-      "5": {
-        "value": "0",
-        "label": "Utilizatori activi"
-      }
-    },
     "reviews": {
       "0": {
         "name": "Mihai Chen",
@@ -684,6 +665,25 @@
     "to": "Pana la:",
     "rentalTotal": "Total chirie",
     "days": "zile"
+  },
+  "rental-info": {
+    "badge": "Inchirieri flexibile",
+    "title": "Inchiriaza ce ai nevoie, cand ai nevoie",
+    "subtitle": "Fie ca este pentru cateva ore sau cateva zile, facem inchirierea simpla, accesibila si fara batai de cap.",
+    "features": {
+      "0": {
+        "title": "Tarife pe ora si pe zi",
+        "description": "Platesti doar pentru timpul efectiv de utilizare. Preturi flexibile adaptate programului si bugetului tau."
+      },
+      "1": {
+        "title": "Disponibilitate instantanee",
+        "description": "Cauta, rezerva si ridica in cateva minute. Fara documente complicate sau perioade de asteptare."
+      },
+      "2": {
+        "title": "Calitate verificata",
+        "description": "Fiecare produs este verificat si intretinut. Inchiriaza cu incredere stiind ca vei primi produse de top."
+      }
+    }
   },
   "footer": {
     "brand": {

@@ -1,0 +1,19 @@
+{
+  "badge": "Flexible Rentals",
+  "title": "Rent What You Need, When You Need It",
+  "subtitle": "Whether it's for a few hours or several days, we make renting simple, affordable, and hassle-free.",
+  "features": {
+    "0": {
+      "title": "Hourly & Daily Rates",
+      "description": "Pay only for the time you actually use. Flexible pricing that fits your schedule and budget."
+    },
+    "1": {
+      "title": "Instant Availability",
+      "description": "Browse, book, and pick up in minutes. No lengthy paperwork or waiting periods."
+    },
+    "2": {
+      "title": "Verified Quality",
+      "description": "Every item is inspected and maintained. Rent with confidence knowing you'll get top-quality products."
+    }
+  }
+}

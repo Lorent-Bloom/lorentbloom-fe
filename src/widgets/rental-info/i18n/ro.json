@@ -1,0 +1,19 @@
+{
+  "badge": "Inchirieri flexibile",
+  "title": "Inchiriaza ce ai nevoie, cand ai nevoie",
+  "subtitle": "Fie ca este pentru cateva ore sau cateva zile, facem inchirierea simpla, accesibila si fara batai de cap.",
+  "features": {
+    "0": {
+      "title": "Tarife pe ora si pe zi",
+      "description": "Platesti doar pentru timpul efectiv de utilizare. Preturi flexibile adaptate programului si bugetului tau."
+    },
+    "1": {
+      "title": "Disponibilitate instantanee",
+      "description": "Cauta, rezerva si ridica in cateva minute. Fara documente complicate sau perioade de asteptare."
+    },
+    "2": {
+      "title": "Calitate verificata",
+      "description": "Fiecare produs este verificat si intretinut. Inchiriaza cu incredere stiind ca vei primi produse de top."
+    }
+  }
+}
