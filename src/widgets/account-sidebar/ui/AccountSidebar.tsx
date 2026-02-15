@@ -17,10 +17,13 @@ export default function AccountSidebar(props: AccountSidebarProps) {
         const isActive = pathname === item.href;
         const isDocuments = item.href.includes("/documents");
 
+        const tourId = item.href.split("/").pop() || "account";
+
         return (
           <Link
             key={item.href}
             href={item.href}
+            data-tour={`sidebar-${tourId}`}
             className={cn(
               "flex items-center justify-between px-4 py-2 text-sm rounded-md transition-colors",
               isActive

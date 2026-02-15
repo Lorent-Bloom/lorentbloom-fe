@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { getCommonMetadata } from "@shared/lib/seo";
-import { getCustomer } from "@entities/customer";
+import { getCustomer, getCustomAttributeValue } from "@entities/customer";
+import { getCustomerProducts } from "@entities/customer-product";
 import { getCustomerAddresses } from "@entities/customer-address";
+import { OnboardingStatus } from "@widgets/onboarding";
 import { getTranslations, getLocale } from "next-intl/server";
 import { Card, CardContent, CardHeader, CardTitle } from "@shared/ui/card";
 import { Button } from "@shared/ui/button";
@@ -37,13 +39,21 @@ export async function generateMetadata({
 
 export default async function AccountPage() {
   const customer = await getCustomer();
-  const addresses = await getCustomerAddresses();
+  const [addresses, productsResult] = await Promise.all([
+    getCustomerAddresses(),
+    getCustomerProducts({ pageSize: 1, currentPage: 1 }),
+  ]);
   const locale = await getLocale();
   const t = await getTranslations("account");
 
   if (!customer) {
     return null;
   }
+
+  const personalNumber = getCustomAttributeValue(customer, "personal_number");
+  const hasIdnp = Boolean(personalNumber?.trim());
+  const hasProducts =
+    productsResult.success && (productsResult.data?.total_count ?? 0) > 0;
 
   // Get default billing and shipping addresses
   const defaultBillingAddress = addresses?.find((addr) => addr.default_billing);
@@ -188,6 +198,8 @@ export default async function AccountPage() {
           </Card>
         )}
       </div>
+
+      <OnboardingStatus hasIdnp={hasIdnp} hasProducts={hasProducts} />
     </div>
   );
 }

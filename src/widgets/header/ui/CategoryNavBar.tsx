@@ -275,7 +275,7 @@ export default function CategoryNavBar({
       <div className="hidden lg:block relative" onMouseLeave={handleMouseLeave}>
         <div className="container mx-auto px-4 md:px-6">
           <ScrollArea className="w-full">
-            <nav className="flex items-center gap-2 py-2 w-max mx-auto">
+            <nav data-tour="category-nav" className="flex items-center gap-2 py-2 w-max mx-auto">
               {topLevelCategories.length === 0 ? (
                 <div className="text-muted-foreground text-sm py-2">
                   {t("loadingCategories")}

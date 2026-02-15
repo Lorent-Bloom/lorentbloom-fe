@@ -1,0 +1,179 @@
+{
+  "welcome": {
+    "title": "Welcome to Lorent Bloom!",
+    "description": "Let's get your account set up so you can start renting out. Complete these quick steps:",
+    "step1": "Add your personal identification number (IDNP) in account settings",
+    "step2": "List your first product for rent",
+    "getStarted": "Get Started"
+  },
+  "banner": {
+    "title": "Complete your profile",
+    "subtitle": "{completed} of {total} steps done",
+    "congratulations": "You're all set! Your account is fully configured."
+  },
+  "steps": {
+    "idnp": {
+      "title": "Add your IDNP",
+      "description": "Required to list products and process rentals",
+      "action": "Go to Settings"
+    },
+    "product": {
+      "title": "List your first product",
+      "description": "Start earning by adding a product for rent",
+      "action": "Add Product"
+    }
+  },
+  "status": {
+    "completed": "Setup guide completed",
+    "dismissed": "Setup guide skipped",
+    "restart": "Interactive guides"
+  },
+  "guideSelection": {
+    "title": "Choose a Guide",
+    "description": "Select a step-by-step guide to learn how the platform works"
+  },
+  "guides": {
+    "accountOverview": {
+      "title": "Account Overview",
+      "description": "Learn about all sections of your account and what each one does"
+    },
+    "profileSetup": {
+      "title": "Profile Setup",
+      "description": "Fill in your personal information, phone and IDNP"
+    },
+    "howToRentOut": {
+      "title": "How to Rent Out",
+      "description": "Learn how to list your products for rent step by step"
+    },
+    "howToRent": {
+      "title": "How to Rent",
+      "description": "Learn how to find and rent products from others"
+    }
+  },
+  "tours": {
+    "next": "Next",
+    "prev": "Back",
+    "done": "Done",
+    "nextPage": "Continue →",
+    "accountOverview": {
+      "steps": {
+        "myProducts": {
+          "title": "My Products",
+          "description": "Here you manage all products you've listed for rent. Add new products, edit existing ones, or disable listings."
+        },
+        "myRents": {
+          "title": "My Rents",
+          "description": "Track orders you've placed as a renter. View order details, status, and rental history."
+        },
+        "myProductRentals": {
+          "title": "My Product Rentals",
+          "description": "See who is renting your products. Manage incoming rental requests and track active rentals."
+        },
+        "documents": {
+          "title": "Documents",
+          "description": "Sign rental contracts and manage all your rental documents. Check for pending signatures."
+        },
+        "addresses": {
+          "title": "Addresses",
+          "description": "Manage your billing and shipping addresses for smooth checkout and deliveries."
+        },
+        "settings": {
+          "title": "Settings",
+          "description": "Update your personal info: name, phone, IDNP, email, and password."
+        }
+      }
+    },
+    "profileSetup": {
+      "steps": {
+        "firstname": {
+          "title": "First Name",
+          "description": "Enter your first name. This will be visible to other users."
+        },
+        "lastname": {
+          "title": "Last Name",
+          "description": "Enter your last name. Used for contracts and identification."
+        },
+        "phone": {
+          "title": "Phone Number",
+          "description": "Add your Moldovan phone number (+373). Used for contact about rentals."
+        },
+        "idnp": {
+          "title": "IDNP (Personal Number)",
+          "description": "Your 13-digit personal identification number. Required to list products for rent."
+        },
+        "save": {
+          "title": "Save Changes",
+          "description": "Don't forget to save after filling in your information!"
+        }
+      }
+    },
+    "howToRentOut": {
+      "steps": {
+        "goToSettings": {
+          "title": "Step 1: Go to Settings",
+          "description": "First, click here to go to your account settings and fill in your IDNP."
+        },
+        "fillIdnp": {
+          "title": "Step 2: Fill in IDNP",
+          "description": "Enter your 13-digit personal identification number. This is required to list products."
+        },
+        "saveSettings": {
+          "title": "Step 3: Save",
+          "description": "Click Save to store your IDNP."
+        },
+        "goToProducts": {
+          "title": "Step 4: Go to My Products",
+          "description": "Now click here to go to your products page."
+        },
+        "addProduct": {
+          "title": "Step 5: Add Product",
+          "description": "Click this button to add your first product."
+        },
+        "formName": {
+          "title": "Step 6: Product Name",
+          "description": "Enter the name of your product. Make it clear and descriptive so renters can find it easily."
+        },
+        "formCategory": {
+          "title": "Step 7: Category",
+          "description": "Select a category for your product. This helps renters find your product when browsing."
+        },
+        "formImages": {
+          "title": "Step 8: Upload Photos",
+          "description": "Upload clear photos of your product. Good photos increase rental interest."
+        },
+        "formPrice": {
+          "title": "Step 9: Set Price",
+          "description": "Set the rental price per day for your product."
+        },
+        "formSubmit": {
+          "title": "Step 10: Submit",
+          "description": "Click Save to publish your product. It will be visible to all users on the platform."
+        }
+      }
+    },
+    "howToRent": {
+      "steps": {
+        "browse": {
+          "title": "Step 1: Browse Products",
+          "description": "Click on a category here to browse all available products for rent."
+        },
+        "selectProduct": {
+          "title": "Step 2: Product Catalog",
+          "description": "Here you can see all available products. Browse through them to find what you need."
+        },
+        "addToCart": {
+          "title": "Step 3: Select a Product",
+          "description": "Click on any product card to view its details, photos, price and availability. Choose rental dates and click 'Add to Cart'."
+        },
+        "checkout": {
+          "title": "Step 4: Shopping Cart",
+          "description": "After adding products to your cart, click here to view your cart and proceed to checkout."
+        },
+        "confirm": {
+          "title": "Step 5: Complete Order",
+          "description": "Fill in your shipping address, review the order, accept the terms and confirm. You'll receive a rental contract to sign in the Documents section."
+        }
+      }
+    }
+  }
+}

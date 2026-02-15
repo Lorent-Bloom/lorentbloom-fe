@@ -23,6 +23,7 @@ export default function CartMenu({ className }: CartMenuProps) {
         className={cn("relative", className)}
         onClick={handleCartClick}
         aria-label={t("cartAriaLabel")}
+        data-tour="cart-menu-btn"
       >
         <ShoppingCart className="h-5 w-5" />
         {itemCount > 0 && (

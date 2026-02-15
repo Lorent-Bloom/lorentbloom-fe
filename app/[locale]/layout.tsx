@@ -11,6 +11,7 @@ import { ApolloProvider, ThemeProvider } from "@/app";
 import { GoogleTagManager } from "@next/third-parties/google";
 import { env } from "@shared/config/env";
 import { CookieConsentBanner } from "@/widgets/cookie-consent";
+import { TourDriver } from "@widgets/onboarding";
 import { Toaster } from "@shared/ui";
 import { AuthCheck } from "@shared/lib/hooks/AuthCheck";
 import { BRAND } from "@shared/config/brand";
@@ -137,6 +138,7 @@ export default async function RootLayout({
               <DynamicBreadcrumb />
               <main className="flex flex-col grow">{children}</main>
               <Footer />
+              <TourDriver locale={locale} />
               <Toaster />
               <CookieConsentBanner />
             </ApolloProvider>

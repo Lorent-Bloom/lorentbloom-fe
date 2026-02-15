@@ -16,6 +16,185 @@
     "settings": "Setări",
     "company": "Companie"
   },
+  "onboarding": {
+    "welcome": {
+      "title": "Bine ați venit la Lorent Bloom!",
+      "description": "Configurați contul pentru a începe să închiriați. Parcurgeți acești pași rapizi:",
+      "step1": "Adăugați numărul de identificare personal (IDNP) în setările contului",
+      "step2": "Adăugați primul produs pentru închiriere",
+      "getStarted": "Să începem"
+    },
+    "banner": {
+      "title": "Completați profilul",
+      "subtitle": "{completed} din {total} pași finalizați",
+      "congratulations": "Gata! Contul dvs. este complet configurat."
+    },
+    "steps": {
+      "idnp": {
+        "title": "Adăugați IDNP",
+        "description": "Necesar pentru a lista produse și a procesa închirieri",
+        "action": "Mergi la Setări"
+      },
+      "product": {
+        "title": "Adăugați primul produs",
+        "description": "Începeți să câștigați adăugând un produs pentru închiriere",
+        "action": "Adaugă produs"
+      }
+    },
+    "status": {
+      "completed": "Ghidul de configurare finalizat",
+      "dismissed": "Ghidul de configurare omis",
+      "restart": "Ghiduri interactive"
+    },
+    "guideSelection": {
+      "title": "Alegeți un ghid",
+      "description": "Selectați un ghid pas cu pas pentru a afla cum funcționează platforma"
+    },
+    "guides": {
+      "accountOverview": {
+        "title": "Prezentare cont",
+        "description": "Aflați despre toate secțiunile contului dvs. și ce face fiecare"
+      },
+      "profileSetup": {
+        "title": "Configurare profil",
+        "description": "Completați informațiile personale, telefonul și IDNP"
+      },
+      "howToRentOut": {
+        "title": "Cum să închiriați",
+        "description": "Aflați cum să listați produsele pentru închiriere pas cu pas"
+      },
+      "howToRent": {
+        "title": "Cum să luați în chirie",
+        "description": "Aflați cum să găsiți și să închiriați produse de la alții"
+      }
+    },
+    "tours": {
+      "next": "Următorul",
+      "prev": "Înapoi",
+      "done": "Gata",
+      "nextPage": "Continuă →",
+      "accountOverview": {
+        "steps": {
+          "myProducts": {
+            "title": "Produsele mele",
+            "description": "Aici gestionați toate produsele listate pentru închiriere. Adăugați produse noi, editați sau dezactivați."
+          },
+          "myRents": {
+            "title": "Închirierile mele",
+            "description": "Urmăriți comenzile plasate ca chiriaș. Vizualizați detalii, stare și istoric."
+          },
+          "myProductRentals": {
+            "title": "Închirieri produse",
+            "description": "Vedeți cine închiriază produsele dvs. Gestionați cererile și închirierile active."
+          },
+          "documents": {
+            "title": "Documente",
+            "description": "Semnați contracte de închiriere și gestionați documentele. Verificați semnăturile în așteptare."
+          },
+          "addresses": {
+            "title": "Adrese",
+            "description": "Gestionați adresele de facturare și livrare."
+          },
+          "settings": {
+            "title": "Setări",
+            "description": "Actualizați informațiile personale: nume, telefon, IDNP, email și parolă."
+          }
+        }
+      },
+      "profileSetup": {
+        "steps": {
+          "firstname": {
+            "title": "Prenume",
+            "description": "Introduceți prenumele dvs. Va fi vizibil altor utilizatori."
+          },
+          "lastname": {
+            "title": "Nume de familie",
+            "description": "Introduceți numele de familie. Folosit pentru contracte și identificare."
+          },
+          "phone": {
+            "title": "Număr de telefon",
+            "description": "Adăugați numărul de telefon moldovenesc (+373). Folosit pentru contact."
+          },
+          "idnp": {
+            "title": "IDNP (Număr personal)",
+            "description": "Numărul dvs. de identificare din 13 cifre. Necesar pentru a lista produse."
+          },
+          "save": {
+            "title": "Salvați modificările",
+            "description": "Nu uitați să salvați după ce completați informațiile!"
+          }
+        }
+      },
+      "howToRentOut": {
+        "steps": {
+          "goToSettings": {
+            "title": "Pasul 1: Mergi la Setări",
+            "description": "Mai întâi, faceți clic aici pentru a accesa setările contului și a completa IDNP."
+          },
+          "fillIdnp": {
+            "title": "Pasul 2: Completați IDNP",
+            "description": "Introduceți numărul de identificare din 13 cifre. Este necesar pentru a lista produse."
+          },
+          "saveSettings": {
+            "title": "Pasul 3: Salvați",
+            "description": "Faceți clic pe Salvare pentru a stoca IDNP-ul dvs."
+          },
+          "goToProducts": {
+            "title": "Pasul 4: Mergi la Produsele mele",
+            "description": "Acum faceți clic aici pentru a accesa pagina produselor."
+          },
+          "addProduct": {
+            "title": "Pasul 5: Adăugați produs",
+            "description": "Faceți clic pe acest buton pentru a adăuga primul produs."
+          },
+          "formName": {
+            "title": "Pasul 6: Numele produsului",
+            "description": "Introduceți numele produsului. Faceți-l clar și descriptiv pentru ca chiriașii să-l găsească ușor."
+          },
+          "formCategory": {
+            "title": "Pasul 7: Categorie",
+            "description": "Selectați o categorie pentru produsul dvs. Aceasta ajută chiriașii să găsească produsul la căutare."
+          },
+          "formImages": {
+            "title": "Pasul 8: Încărcați fotografii",
+            "description": "Încărcați fotografii clare ale produsului dvs. Fotografiile bune cresc interesul pentru închiriere."
+          },
+          "formPrice": {
+            "title": "Pasul 9: Setați prețul",
+            "description": "Setați prețul de închiriere pe zi pentru produsul dvs."
+          },
+          "formSubmit": {
+            "title": "Pasul 10: Trimiteți",
+            "description": "Faceți clic pe Salvare pentru a publica produsul. Va fi vizibil tuturor utilizatorilor platformei."
+          }
+        }
+      },
+      "howToRent": {
+        "steps": {
+          "browse": {
+            "title": "Pasul 1: Răsfoiți produse",
+            "description": "Faceți clic pe o categorie aici pentru a răsfoi produsele disponibile pentru închiriere."
+          },
+          "selectProduct": {
+            "title": "Pasul 2: Catalogul produselor",
+            "description": "Aici puteți vedea toate produsele disponibile. Răsfoiți-le pentru a găsi ce aveți nevoie."
+          },
+          "addToCart": {
+            "title": "Pasul 3: Selectați un produs",
+            "description": "Faceți clic pe cardul unui produs pentru a vedea detalii, fotografii, preț și disponibilitate. Alegeți datele de închiriere și adăugați în coș."
+          },
+          "checkout": {
+            "title": "Pasul 4: Coșul de cumpărături",
+            "description": "După adăugarea produselor în coș, faceți clic aici pentru a vizualiza coșul și a finaliza comanda."
+          },
+          "confirm": {
+            "title": "Pasul 5: Confirmarea comenzii",
+            "description": "Completați adresa de livrare, verificați comanda, acceptați termenii și confirmați. Veți primi un contract de închiriere de semnat în secțiunea Documente."
+          }
+        }
+      }
+    }
+  },
   "header": {
     "nav": {
       "menu": "Meniu",
@@ -493,64 +672,64 @@
     "title": "Produse similare"
   },
   "faq-list": {
-    "items": {
-      "0": {
+    "items": [
+      {
         "question": "Ce pot închiria?",
         "answer": "Puteți închiria o gamă largă de articole, inclusiv electronice, unelte, echipamente, vehicule, imobiliare și multe altele. Platforma noastră conectează chiriașii cu proprietarii pentru tranzacții sigure și convenabile."
       },
-      "1": {
+      {
         "question": "Cum creez un anunț?",
         "answer": "Pentru a crea un anunț, conectați-vă la contul dvs., faceți clic pe 'Creează anunț', completați toate informațiile necesare despre articolul dvs., inclusiv descrierea, prețul și disponibilitatea, apoi faceți clic pe 'Publică'."
       },
-      "2": {
+      {
         "question": "Cum editez anunțul meu?",
         "answer": "Navigați la anunțurile dvs., selectați cel pe care doriți să-l modificați, faceți clic pe 'Editează', faceți modificările și salvați. Anunțul dvs. va fi actualizat imediat."
       },
-      "3": {
+      {
         "question": "Cum șterg un anunț?",
         "answer": "Deschideți anunțul pe care doriți să-l eliminați, faceți clic pe 'Editează', apoi selectați 'Șterge din publicație'. Anunțul nu va mai fi vizibil altor utilizatori."
       },
-      "4": {
+      {
         "question": "Sunt informațiile mele de plată sigure?",
         "answer": "Da, folosim criptare standard din industrie și gateway-uri de plată securizate pentru a vă proteja informațiile financiare. Nu stocăm niciodată detaliile complete de plată pe serverele noastre."
       },
-      "5": {
+      {
         "question": "Cum funcționează procesul de închiriere?",
         "answer": "Răsfoiți articolele disponibile, selectați perioada de închiriere, trimiteți o cerere de rezervare, completați plata, aranjați ridicarea sau livrarea cu proprietarul și returnați articolul la sfârșitul perioadei de închiriere."
       },
-      "6": {
+      {
         "question": "Ce se întâmplă dacă un articol este deteriorat în timpul închirierii?",
         "answer": "Raportați imediat orice deteriorare prin platforma noastră. În funcție de acordul de închiriere și de asigurarea achiziționată, puteți fi responsabil pentru costurile de reparație sau înlocuire."
       },
-      "7": {
+      {
         "question": "Pot anula o închiriere?",
         "answer": "Politicile de anulare variază în funcție de anunț. Verificați politica de anulare a anunțului specific înainte de rezervare. Unele închirieri oferă rambursări complete dacă sunt anulate într-un anumit termen."
       },
-      "8": {
+      {
         "question": "Cum contactez asistența?",
         "answer": "Puteți contacta echipa noastră de asistență prin pagina 'Contactează-ne' sau prin e-mail la support@lorentbloom.com. De obicei răspundem în 24 de ore."
       },
-      "9": {
+      {
         "question": "Ce comisioane percepe platforma?",
         "answer": "Percepem un mic comision de serviciu pentru fiecare tranzacție pentru a menține platforma și a asigura procesarea securizată a plăților. Comisionul exact este afișat înainte de confirmarea rezervării."
       },
-      "10": {
+      {
         "question": "Cum las o recenzie?",
         "answer": "După finalizarea unei închirieri, veți primi o solicitare de a lăsa o recenzie. Puteți naviga și în istoricul închirierilor pentru a lăsa recenzii pentru tranzacțiile anterioare."
       },
-      "11": {
+      {
         "question": "Cum îmi listez articolul pentru închiriere?",
         "answer": "Este simplu și gratuit! Creați un cont, accesați 'Creează anunț', încărcați fotografii de calitate ale articolului, scrieți o descriere, setați prețul zilnic și datele de disponibilitate, apoi publicați. Articolul dvs. va fi vizibil imediat tuturor utilizatorilor platformei."
       },
-      "12": {
+      {
         "question": "Cum este protejat articolul meu când îl dau în chirie?",
         "answer": "Ambele părți semnează un contract digital înainte de orice închiriere, care stabilește clar responsabilitățile și condițiile. Toți utilizatorii sunt verificați, iar platforma păstrează istoricul complet al conversațiilor ca dovadă. Puteți raporta orice deteriorare prin platformă, iar echipa noastră de asistență va ajuta la rezolvare."
       },
-      "13": {
+      {
         "question": "Cum primesc plata ca proprietar de articol?",
         "answer": "Plățile sunt gestionate în siguranță prin platformă. Când un chiriaș rezervă articolul dvs. și închirierea este confirmată, plata este procesată în siguranță. Primiți fondurile conform termenilor conveniți, minus un mic comision de serviciu al platformei."
       }
-    }
+    ]
   },
   "company-info": {
     "about": {

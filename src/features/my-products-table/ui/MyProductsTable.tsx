@@ -65,7 +65,7 @@ export default function MyProductsTable(props: MyProductsTableProps) {
               </button>
             )}
           </div>
-          <Button onClick={props.onCreateClick} className="sm:w-auto">
+          <Button onClick={props.onCreateClick} className="sm:w-auto" data-tour="add-product-btn">
             <Plus className="mr-2 h-4 w-4" />
             {t("addProduct")}
           </Button>

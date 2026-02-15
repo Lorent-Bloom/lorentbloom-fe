@@ -207,7 +207,7 @@ export default function CartPage({ cart }: CartPageProps) {
                 </span>
               </div>
 
-              <Button className="w-full" size="lg" onClick={handleCheckout}>
+              <Button className="w-full" size="lg" onClick={handleCheckout} data-tour="checkout-btn">
                 {t("proceedToCheckout")}
               </Button>
 

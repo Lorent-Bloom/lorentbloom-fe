@@ -72,7 +72,7 @@ export default function ProductForm(props: ProductFormProps) {
                   control={form.control}
                   name="name"
                   render={({ field }) => (
-                    <FormItem>
+                    <FormItem data-tour="form-product-name">
                       <FormLabel>{t("name")} *</FormLabel>
                       <FormControl>
                         <Input {...field} placeholder={t("namePlaceholder")} />
@@ -106,7 +106,7 @@ export default function ProductForm(props: ProductFormProps) {
                   control={form.control}
                   name="category_id"
                   render={() => (
-                    <FormItem>
+                    <FormItem data-tour="form-category">
                       <FormLabel>{t("category")} *</FormLabel>
                       <FormControl>
                         <CategoryTreeSelect
@@ -169,7 +169,7 @@ export default function ProductForm(props: ProductFormProps) {
                   control={form.control}
                   name="images"
                   render={({ field }) => (
-                    <FormItem>
+                    <FormItem data-tour="form-images">
                       <FormLabel>{t("images")} *</FormLabel>
                       <FormControl>
                         <MultiImageUpload
@@ -210,7 +210,7 @@ export default function ProductForm(props: ProductFormProps) {
                     control={form.control}
                     name="price"
                     render={({ field }) => (
-                      <FormItem>
+                      <FormItem data-tour="form-price">
                         <FormLabel>{t("price")}</FormLabel>
                         <FormControl>
                           <Input
@@ -291,7 +291,7 @@ export default function ProductForm(props: ProductFormProps) {
               >
                 {t("cancel")}
               </Button>
-              <Button type="submit" disabled={isSubmitting}>
+              <Button type="submit" disabled={isSubmitting} data-tour="form-submit">
                 {isSubmitting ? t("saving") : t("save")}
               </Button>
             </div>

@@ -46,7 +46,7 @@ export default function UnifiedAccountSettingsForm({
                 control={form.control}
                 name="firstname"
                 render={({ field }) => (
-                  <FormItem>
+                  <FormItem data-tour="settings-firstname">
                     <FormLabel>{t("fields.firstname")}</FormLabel>
                     <FormControl>
                       <Input {...field} />
@@ -60,7 +60,7 @@ export default function UnifiedAccountSettingsForm({
                 control={form.control}
                 name="lastname"
                 render={({ field }) => (
-                  <FormItem>
+                  <FormItem data-tour="settings-lastname">
                     <FormLabel>{t("fields.lastname")}</FormLabel>
                     <FormControl>
                       <Input {...field} />
@@ -74,7 +74,7 @@ export default function UnifiedAccountSettingsForm({
                 control={form.control}
                 name="telephone"
                 render={({ field }) => (
-                  <FormItem>
+                  <FormItem data-tour="settings-phone">
                     <FormLabel>{t("fields.telephone")}</FormLabel>
                     <FormControl>
                       <PhoneInput
@@ -93,7 +93,7 @@ export default function UnifiedAccountSettingsForm({
                 control={form.control}
                 name="personal_number"
                 render={({ field }) => (
-                  <FormItem>
+                  <FormItem data-tour="settings-idnp">
                     <FormLabel
                       className={
                         fieldToHighlight === "personal_number"
@@ -269,7 +269,7 @@ export default function UnifiedAccountSettingsForm({
 
             <Separator />
 
-            <Button type="submit" disabled={isSubmitting}>
+            <Button type="submit" disabled={isSubmitting} data-tour="settings-save">
               {isSubmitting ? t("saving") : t("saveChanges")}
             </Button>
           </form>
