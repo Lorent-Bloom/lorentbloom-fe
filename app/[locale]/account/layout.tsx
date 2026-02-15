@@ -28,7 +28,7 @@ export default async function AccountLayout({
   const pendingSignatures = pendingResult.success ? pendingResult.count : 0;
 
   return (
-    <div className="container mx-auto py-8 px-4 max-w-7xl">
+    <div className="container mx-auto py-8 px-4 max-w-[1600px]">
       <div className="mb-8">
         <h1 className="text-3xl font-bold">{t("title")}</h1>
         <p className="text-muted-foreground mt-2">{t("description")}</p>

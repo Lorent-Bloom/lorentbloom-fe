@@ -2,6 +2,7 @@
 
 import { createColumnHelper } from "@tanstack/react-table";
 import Image from "next/image";
+import { Check, X } from "lucide-react";
 import { Badge } from "@shared/ui";
 import { formatPrice } from "@shared/lib/formatCurrency";
 import type { CustomerProduct } from "@entities/customer-product";
@@ -63,13 +64,11 @@ export const createColumns = (
   columnHelper.accessor("is_active", {
     header: t("isActive"),
     cell: (info) => {
-      // is_active: 1 = Active, 2 = Disabled
-      const is_active = info.getValue();
-      const isActive = is_active === 1;
-      return (
-        <Badge variant={isActive ? "default" : "outline"}>
-          {isActive ? t("active") : t("disabled")}
-        </Badge>
+      const isActive = info.getValue() === 1;
+      return isActive ? (
+        <Check className="h-5 w-5 text-green-600" />
+      ) : (
+        <X className="h-5 w-5 text-red-500" />
       );
     },
   }),

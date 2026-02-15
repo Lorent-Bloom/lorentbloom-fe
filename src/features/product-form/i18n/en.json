@@ -19,7 +19,7 @@
   "colorPlaceholder": "Select color",
   "manufacturer": "Manufacturer",
   "manufacturerPlaceholder": "Enter manufacturer name",
-  "price": "Price",
+  "price": "Price per day",
   "pricePlaceholder": "0.00",
   "quantity": "Quantity",
   "quantityPlaceholder": "0",

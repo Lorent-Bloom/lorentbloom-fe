@@ -32,6 +32,16 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
+        hostname: "api.lorentbloom.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "www.lorentbloom.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
         hostname: "utfs.io",
         pathname: "/**",
       },
