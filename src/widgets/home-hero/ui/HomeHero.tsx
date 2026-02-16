@@ -10,7 +10,7 @@ export default async function HomeHero({ className }: HomeHeroProps) {
   return (
     <section
       className={cn(
-        "relative min-h-screen flex items-center overflow-hidden",
+        "relative min-h-screen flex items-start pt-2 md:pt-0 md:items-center overflow-hidden",
         className,
       )}
     >
