@@ -70,25 +70,10 @@ const HomePage = async ({ params }: HomePageProps) => {
     : [];
   const products = productsResult.data?.products?.items ?? [];
   const reviews = reviewsResult.success ? (reviewsResult.data ?? []) : [];
-  const totalProductsCount = productsResult.data?.products?.total_count ?? 0;
-
-  // Calculate review stats for hero section
-  const totalReviews = reviews.length;
-  const averageRating =
-    reviews.length > 0
-      ? reviews.reduce((sum, r) => sum + r.average_rating, 0) / reviews.length
-      : 0;
-
   return (
     <div className="w-full">
       {/* Hero Section - Full viewport */}
-      <HomeHero
-        stats={{
-          totalProducts: totalProductsCount,
-          totalReviews,
-          averageRating,
-        }}
-      />
+      <HomeHero />
 
       {/* How It Works - Simple 3-step process */}
       <HowItWorks />

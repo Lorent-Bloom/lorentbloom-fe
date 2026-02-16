@@ -1,12 +1,12 @@
 {
-  "badge": "The Future of Renting",
-  "headline": {
-    "line1": "Rent or Lend Anything.",
-    "line2": "Own the Experience."
+  "rent": {
+    "headline": "Rent What You Need, Save Money",
+    "description": "Why buy when you can rent? Access equipment, electronics, and gear for exactly the time you need — at a fraction of the purchase price.",
+    "cta": "Start to Rent"
   },
-  "subheadline": "Access premium equipment, electronics, and gear without buying — or list your own items and earn extra income. Flexible terms, secure transactions.",
-  "rentButton": "Rent",
-  "lendButton": "Lend",
-  "trustedBy": "products available",
-  "rating": "from {count} reviews"
+  "lend": {
+    "headline": "Lend What You Don't Use, Earn Money",
+    "description": "Turn your idle items into income. List anything you own and start earning from the things sitting unused at home.",
+    "cta": "Start to Lend"
+  }
 }

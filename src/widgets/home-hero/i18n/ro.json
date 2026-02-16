@@ -1,12 +1,12 @@
 {
-  "badge": "Viitorul Inchirierii",
-  "headline": {
-    "line1": "Închiriază sau Împrumută Orice.",
-    "line2": "Traieste Experienta."
+  "rent": {
+    "headline": "Închiriază ce ai nevoie, economisește bani",
+    "description": "De ce să cumperi când poți închiria? Accesează echipamente, electronice și accesorii exact pe durata de care ai nevoie — la o fracțiune din prețul de achiziție.",
+    "cta": "Începe să închiriezi"
   },
-  "subheadline": "Închiriază echipamente, electronice și accesorii fără să cumperi — sau listează-ți propriile bunuri și câștigă bani extra. Termeni flexibili, tranzacții sigure.",
-  "rentButton": "Închiriază",
-  "lendButton": "Dă în chirie",
-  "trustedBy": "produse disponibile",
-  "rating": "din {count} recenzii"
+  "lend": {
+    "headline": "Împrumută ce nu folosești, câștigă bani",
+    "description": "Transformă obiectele neutilizate în venit. Listează orice deții și începe să câștigi din lucrurile care stau nefolosite.",
+    "cta": "Începe să împrumuți"
+  }
 }
