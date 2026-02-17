@@ -28,7 +28,7 @@ export default async function HomeHero({ className }: HomeHeroProps) {
       <div className="absolute inset-0 bg-black/50" />
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 pt-4 pb-56 md:py-20">
+      <div className="relative z-10 container mx-auto px-4 pt-4 pb-80 md:py-20">
         <div className="flex flex-col md:flex-row gap-12 md:gap-8 lg:gap-16">
           {/* Lend Half - Mobile: top-right (order-1), Desktop: right (order-2) */}
           <div className="flex-1 flex flex-col items-end text-right order-1 md:order-2 pl-16 md:pl-0">
