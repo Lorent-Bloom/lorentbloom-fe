@@ -10,6 +10,7 @@ export interface CategoryNavBarProps {
   categories: Category[];
   locale: string;
   isAuthenticated?: boolean;
+  mobileInline?: boolean;
 }
 
 // Legacy type alias for backwards compatibility

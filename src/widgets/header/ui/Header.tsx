@@ -85,17 +85,27 @@ const Header = async () => {
         </div>
       </div>
 
-      {/* Mobile Search Bar */}
-      <div className="lg:hidden border-b border-border/40 py-2 px-4">
-        <HeaderSearch locale={locale} />
+      {/* Mobile: Categories + Search on same line */}
+      <div className="lg:hidden border-b border-border/40 py-2 px-4 flex items-center gap-2">
+        <CategoryNavBar
+          locale={locale}
+          categories={categories}
+          isAuthenticated={isAuthenticated}
+          mobileInline
+        />
+        <div className="flex-1">
+          <HeaderSearch locale={locale} />
+        </div>
       </div>
 
-      {/* Category Navigation - Desktop: pills, Mobile: dropdown accordion */}
-      <CategoryNavBar
-        locale={locale}
-        categories={categories}
-        isAuthenticated={isAuthenticated}
-      />
+      {/* Desktop: Category Navigation pills */}
+      <div className="hidden lg:block">
+        <CategoryNavBar
+          locale={locale}
+          categories={categories}
+          isAuthenticated={isAuthenticated}
+        />
+      </div>
     </header>
   );
 };

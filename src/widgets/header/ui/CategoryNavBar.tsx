@@ -14,6 +14,7 @@ export default function CategoryNavBar({
   categories,
   locale,
   isAuthenticated = false,
+  mobileInline = false,
 }: CategoryNavBarProps) {
   const t = useTranslations("header");
   const {
@@ -48,6 +49,181 @@ export default function CategoryNavBar({
     }
     return fallbackName;
   };
+
+  if (mobileInline) {
+    return (
+      <div ref={navRef}>
+        <div className="flex items-center gap-2">
+          <button
+            onClick={toggleMobileMenu}
+            className="flex items-center gap-1.5 py-2 min-h-11 text-sm font-medium shrink-0"
+            aria-expanded={isMobileMenuOpen}
+            aria-label={t("toggleMenu")}
+          >
+            {isMobileMenuOpen ? (
+              <X className="h-4 w-4" />
+            ) : (
+              <Menu className="h-4 w-4" />
+            )}
+            <ChevronDown
+              className={cn(
+                "h-4 w-4 transition-transform duration-200",
+                isMobileMenuOpen && "rotate-180",
+              )}
+            />
+          </button>
+
+          {isAuthenticated && (
+            <div className="flex items-center gap-1">
+              <WishlistIcon />
+              <CartMenu />
+            </div>
+          )}
+        </div>
+
+        {/* Mobile Dropdown Content */}
+        <div
+          className={cn(
+            "fixed left-0 right-0 top-[calc(var(--header-height,7rem))] z-50 overflow-hidden transition-all duration-300 ease-in-out bg-background border-t border-border/40",
+            isMobileMenuOpen ? "max-h-[80vh] opacity-100" : "max-h-0 opacity-0",
+          )}
+        >
+          <div className="container mx-auto px-4 py-4 overflow-y-auto max-h-[70vh]">
+            <div>
+              <div className="space-y-1">
+                {topLevelCategories.length === 0 ? (
+                  <p className="px-3 py-2 text-sm text-muted-foreground">
+                    {t("loadingCategories")}
+                  </p>
+                ) : (
+                  topLevelCategories.map((category) => (
+                    <div key={category.uid}>
+                      <div className="flex items-center">
+                        <Link
+                          href={`/${locale}/products/${category.url_key}`}
+                          className="flex-1 px-3 py-2.5 text-sm font-medium rounded-l-lg hover:bg-accent transition-colors"
+                        >
+                          {getCategoryName(
+                            category.url_key,
+                            category.name,
+                            category.url_path,
+                          )}
+                        </Link>
+                        {category.children && category.children.length > 0 && (
+                          <button
+                            onClick={() => toggleMobileCategory(category.uid)}
+                            className="p-2.5 rounded-r-lg hover:bg-accent transition-colors"
+                            aria-expanded={expandedMobileCategory === category.uid}
+                            aria-label={t("expandCategory", {
+                              category: getCategoryName(
+                                category.url_key,
+                                category.name,
+                                category.url_path,
+                              ),
+                            })}
+                          >
+                            <ChevronDown
+                              className={cn(
+                                "h-4 w-4 text-muted-foreground transition-transform duration-200",
+                                expandedMobileCategory === category.uid && "rotate-180",
+                              )}
+                            />
+                          </button>
+                        )}
+                      </div>
+
+                      <div
+                        className={cn(
+                          "overflow-hidden transition-all duration-200 ease-in-out",
+                          expandedMobileCategory === category.uid
+                            ? "max-h-[500px] opacity-100"
+                            : "max-h-0 opacity-0",
+                        )}
+                      >
+                        {category.children && category.children.length > 0 && (
+                          <div className="ml-4 pl-3 border-l border-border/50 space-y-0.5 py-1">
+                            {category.children.map((subcategory) => (
+                              <div key={subcategory.uid}>
+                                {subcategory.children && subcategory.children.length > 0 ? (
+                                  <>
+                                    <div className="flex items-center">
+                                      <Link
+                                        href={`/${locale}/products/${category.url_key}/${subcategory.url_key}`}
+                                        className="flex-1 flex items-center gap-2 px-3 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-accent/50 rounded-l-md transition-colors"
+                                      >
+                                        <ChevronRight className="h-3 w-3" />
+                                        {getCategoryName(subcategory.url_key, subcategory.name, subcategory.url_path)}
+                                      </Link>
+                                      <button
+                                        onClick={() => toggleMobileSubcategory(subcategory.uid)}
+                                        className="p-2 rounded-r-md hover:bg-accent/50 transition-colors"
+                                        aria-expanded={expandedMobileSubcategory === subcategory.uid}
+                                        aria-label={t("expandCategory", {
+                                          category: getCategoryName(subcategory.url_key, subcategory.name, subcategory.url_path),
+                                        })}
+                                      >
+                                        <ChevronDown
+                                          className={cn(
+                                            "h-3 w-3 text-muted-foreground transition-transform duration-200",
+                                            expandedMobileSubcategory === subcategory.uid && "rotate-180",
+                                          )}
+                                        />
+                                      </button>
+                                    </div>
+                                    <div
+                                      className={cn(
+                                        "overflow-hidden transition-all duration-200 ease-in-out",
+                                        expandedMobileSubcategory === subcategory.uid
+                                          ? "max-h-[500px] opacity-100"
+                                          : "max-h-0 opacity-0",
+                                      )}
+                                    >
+                                      <div className="ml-4 pl-3 border-l border-border/30 space-y-0.5 py-1">
+                                        {subcategory.children.map((thirdLevel) => (
+                                          <Link
+                                            key={thirdLevel.uid}
+                                            href={`/${locale}/products/${category.url_key}/${subcategory.url_key}/${thirdLevel.url_key}`}
+                                            className="flex items-center gap-2 px-3 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-accent/50 rounded-md transition-colors"
+                                          >
+                                            <ChevronRight className="h-3 w-3" />
+                                            {getCategoryName(thirdLevel.url_key, thirdLevel.name, thirdLevel.url_path)}
+                                          </Link>
+                                        ))}
+                                      </div>
+                                    </div>
+                                  </>
+                                ) : (
+                                  <Link
+                                    href={`/${locale}/products/${category.url_key}/${subcategory.url_key}`}
+                                    className="flex items-center gap-2 px-3 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-accent/50 rounded-md transition-colors"
+                                  >
+                                    <ChevronRight className="h-3 w-3" />
+                                    {getCategoryName(subcategory.url_key, subcategory.name, subcategory.url_path)}
+                                  </Link>
+                                )}
+                              </div>
+                            ))}
+                            <Link
+                              href={`/${locale}/products/${category.url_key}`}
+                              className="flex items-center gap-2 px-3 py-2 text-sm font-medium text-primary hover:bg-accent/50 rounded-md transition-colors"
+                            >
+                              {t("viewAllInCategory", {
+                                category: getCategoryName(category.url_key, category.name, category.url_path),
+                              })}
+                            </Link>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  ))
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div ref={navRef} className="border-b border-border/40">
