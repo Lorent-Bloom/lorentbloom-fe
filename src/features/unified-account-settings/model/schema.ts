@@ -9,7 +9,7 @@ import { z } from "zod";
  * - K: Check digit
  */
 const validateMoldovanIDNP = (value: string): boolean => {
-  if (!value) return true; // Optional field
+  if (!value) return false;
   const cleaned = value.replace(/\s/g, "");
   if (!/^2\d{12}$/.test(cleaned)) return false;
   return true;
@@ -22,7 +22,7 @@ const validateMoldovanIDNP = (value: string): boolean => {
  * Landline prefixes: 22, 23, etc.
  */
 const validateMoldovanPhone = (value: string): boolean => {
-  if (!value) return true; // Optional field
+  if (!value) return false;
   const cleaned = value.replace(/[\s\-\(\)]/g, "");
   // +373XXXXXXXX (8 digits after country code)
   if (/^\+373\d{8}$/.test(cleaned)) return true;
@@ -35,14 +35,14 @@ export const NameSectionSchema = z.object({
   lastname: z.string().min(1, "Last name is required"),
   telephone: z
     .string()
-    .optional()
-    .refine((val) => !val || validateMoldovanPhone(val), {
+    .min(1, "Phone number is required")
+    .refine((val) => validateMoldovanPhone(val), {
       message: "Invalid Moldovan phone number",
     }),
   personal_number: z
     .string()
-    .optional()
-    .refine((val) => !val || validateMoldovanIDNP(val), {
+    .min(1, "IDNP is required")
+    .refine((val) => validateMoldovanIDNP(val), {
       message: "Invalid IDNP format (must be 13 digits starting with 2)",
     }),
 });

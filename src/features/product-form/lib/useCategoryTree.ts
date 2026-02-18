@@ -365,9 +365,12 @@ export const useCategoryTree = ({
         return;
       }
 
-      const newSelection = buildSelectionFromNode(treeNodesRef.current, node);
-      setSelection(newSelection);
-      onSelectionChange(newSelection);
+      // Only level 3 (sub-subcategory) can be selected for the form
+      if (node.level === 3) {
+        const newSelection = buildSelectionFromNode(treeNodesRef.current, node);
+        setSelection(newSelection);
+        onSelectionChange(newSelection);
+      }
 
       // Auto-expand if has real children
       if (node.children.filter((c) => !c.isAddNew).length > 0) {

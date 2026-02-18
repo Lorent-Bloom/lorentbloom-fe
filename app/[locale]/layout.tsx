@@ -43,35 +43,12 @@ export async function generateMetadata({
       template: `%s | ${BRAND.name}`,
     },
     description,
-    robots: {
-      index: true,
-      follow: true,
-    },
     icons: {
       icon: [
         { url: "/favicon.ico", sizes: "any" },
         { url: "/icon.png", type: "image/png", sizes: "32x32" },
       ],
       apple: [{ url: "/apple-icon.png", sizes: "180x180" }],
-    },
-    openGraph: {
-      siteName: BRAND.name,
-      type: "website",
-      locale,
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: BRAND.name,
-      description,
-    },
-    alternates: {
-      canonical: `${BRAND.domain}/${locale}`,
-      languages: {
-        en: `${BRAND.domain}/en`,
-        ru: `${BRAND.domain}/ru`,
-        ro: `${BRAND.domain}/ro`,
-        "x-default": `${BRAND.domain}/en`,
-      },
     },
     other: {
       "theme-color": "#ffffff",

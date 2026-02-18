@@ -72,11 +72,13 @@ export function CategoryTreeNode({
           {node.isNew && " (new)"}
         </span>
 
-        {/* Selection indicator */}
-        {isSelected ? (
-          <CircleDot className="h-4 w-4 text-primary shrink-0" />
-        ) : (
-          <Circle className="h-4 w-4 text-muted-foreground shrink-0" />
+        {/* Selection indicator - only for level 3 */}
+        {node.level === 3 && (
+          isSelected ? (
+            <CircleDot className="h-4 w-4 text-primary shrink-0" />
+          ) : (
+            <Circle className="h-4 w-4 text-muted-foreground shrink-0" />
+          )
         )}
       </div>
 

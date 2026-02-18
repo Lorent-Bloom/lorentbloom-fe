@@ -22,6 +22,11 @@ const STATIC_PAGES = [
     changeFrequency: "yearly" as const,
     priority: 0.3,
   },
+  {
+    path: "cookie-policy",
+    changeFrequency: "yearly" as const,
+    priority: 0.3,
+  },
   { path: "sign-in", changeFrequency: "yearly" as const, priority: 0.3 },
   { path: "sign-up", changeFrequency: "yearly" as const, priority: 0.3 },
 ];

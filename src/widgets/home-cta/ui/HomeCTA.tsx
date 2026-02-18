@@ -54,8 +54,8 @@ export default function HomeCTA({ className }: HomeCTAProps) {
                 key={index}
                 className="flex items-center gap-2 text-primary-foreground/90"
               >
-                <div className="w-5 h-5 rounded-full bg-white/20 flex items-center justify-center">
-                  <Check className="w-3 h-3" />
+                <div className="w-5 h-5 rounded-full bg-[#43c8aa] flex items-center justify-center">
+                  <Check className="w-3 h-3 text-white" />
                 </div>
                 <span className="text-sm sm:text-base">{feature}</span>
               </div>

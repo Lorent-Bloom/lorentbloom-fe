@@ -26,6 +26,7 @@ export default function UnifiedAccountSettingsForm({
     form,
     onSubmit,
     isSubmitting,
+    isTourActive,
     enabledSections,
     toggleSection,
     highlightField: fieldToHighlight,
@@ -75,7 +76,7 @@ export default function UnifiedAccountSettingsForm({
                 name="telephone"
                 render={({ field }) => (
                   <FormItem data-tour="settings-phone">
-                    <FormLabel>{t("fields.telephone")}</FormLabel>
+                    <FormLabel>{t("fields.telephone")}<span className="text-destructive">*</span></FormLabel>
                     <FormControl>
                       <PhoneInput
                         value={field.value || ""}
@@ -101,7 +102,7 @@ export default function UnifiedAccountSettingsForm({
                           : undefined
                       }
                     >
-                      {t("fields.personal_number")}
+                      {t("fields.personal_number")}<span className="text-destructive">*</span>
                     </FormLabel>
                     <FormControl>
                       <IdnpInput
@@ -269,7 +270,7 @@ export default function UnifiedAccountSettingsForm({
 
             <Separator />
 
-            <Button type="submit" disabled={isSubmitting} data-tour="settings-save">
+            <Button type="submit" disabled={isSubmitting || isTourActive} data-tour="settings-save">
               {isSubmitting ? t("saving") : t("saveChanges")}
             </Button>
           </form>

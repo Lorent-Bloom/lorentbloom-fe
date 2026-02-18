@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo, useEffect, useSyncExternalStore } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useRouter } from "next/navigation";
@@ -26,6 +26,23 @@ import type {
 } from "../model/interface";
 import { useRecaptcha, verifyRecaptcha } from "@shared/lib/recaptcha";
 
+const ONBOARDING_KEY = "onboarding-state";
+const subscribe = (cb: () => void) => {
+  window.addEventListener("storage", cb);
+  return () => window.removeEventListener("storage", cb);
+};
+const getIsOnboardingActive = (): boolean => {
+  try {
+    const raw = localStorage.getItem(ONBOARDING_KEY);
+    if (!raw) return false;
+    const parsed = JSON.parse(raw);
+    return !!parsed?.state?.activeTour;
+  } catch {
+    return false;
+  }
+};
+const getServerSnapshot = () => false;
+
 export const useUnifiedAccountSettings = ({
   defaultValues,
   locale,
@@ -34,6 +51,7 @@ export const useUnifiedAccountSettings = ({
   const router = useRouter();
   const t = useTranslations("unified-account-settings");
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const isTourActive = useSyncExternalStore(subscribe, getIsOnboardingActive, getServerSnapshot);
   const { executeRecaptcha } = useRecaptcha();
   const [activeHighlight, setActiveHighlight] = useState<string | undefined>(
     highlightField,
@@ -259,6 +277,7 @@ export const useUnifiedAccountSettings = ({
     form,
     onSubmit,
     isSubmitting,
+    isTourActive,
     enabledSections,
     toggleSection,
     highlightField: activeHighlight,
