@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@plugin "@tailwindcss/typography";
 
 /* Override tw-animate-css enter keyframe to remove filter property
    which causes non-composited paint operations */

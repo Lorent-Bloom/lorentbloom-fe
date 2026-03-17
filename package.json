@@ -38,6 +38,7 @@
     "@supabase/ssr": "^0.8.0",
     "@supabase/supabase-js": "^2.90.1",
     "@t3-oss/env-nextjs": "^0.13.8",
+    "@tailwindcss/typography": "^0.5.19",
     "@tanstack/react-table": "^8.21.3",
     "@tiptap/extension-placeholder": "^3.16.0",
     "@tiptap/react": "^3.16.0",
