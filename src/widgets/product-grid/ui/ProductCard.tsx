@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Heart, ImageOff, MapPin, User } from "lucide-react";
+import { Building2, Heart, ImageOff, MapPin, Phone, User } from "lucide-react";
 import { AddToCartButton } from "@features/add-to-cart";
 import { useProductCard } from "../lib/useProductCard";
 import type { ProductCardProps } from "../model/interface";
@@ -20,7 +20,10 @@ export function ProductCard({ product }: ProductCardProps) {
   } = useProductCard({ product });
 
   return (
-    <div data-tour="product-card" className="group relative flex flex-col overflow-hidden rounded-xl bg-card border border-border/50 transition-[box-shadow,border-color] duration-300 hover:shadow-xl hover:shadow-black/5 hover:border-border">
+    <div
+      data-tour="product-card"
+      className="group relative flex flex-col overflow-hidden rounded-xl bg-card border border-border/50 transition-[box-shadow,border-color] duration-300 hover:shadow-xl hover:shadow-black/5 hover:border-border"
+    >
       {/* Image Section - Full Bleed */}
       <Link
         href={`/${locale}/products/p/${product.url_key}`}
@@ -100,6 +103,18 @@ export function ProductCard({ product }: ProductCardProps) {
                 <span>
                   {product.customer.firstname} {product.customer.lastname}
                 </span>
+              </div>
+            )}
+            {product.customer?.company && (
+              <div className="flex items-center gap-1 text-xs text-muted-foreground">
+                <Building2 className="h-3 w-3" />
+                <span>{product.customer.company}</span>
+              </div>
+            )}
+            {product.customer?.company_phone && (
+              <div className="flex items-center gap-1 text-xs text-muted-foreground">
+                <Phone className="h-3 w-3" />
+                <span>{product.customer.company_phone}</span>
               </div>
             )}
           </div>

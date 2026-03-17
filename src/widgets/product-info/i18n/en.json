@@ -7,5 +7,7 @@
   "manufacturer": "Manufacturer",
   "addToCart": "Add to Cart",
   "notifyWhenAvailable": "Notify me when available",
-  "listedBy": "Listed by"
+  "listedBy": "Listed by",
+  "company": "Company",
+  "companyPhone": "Phone"
 }

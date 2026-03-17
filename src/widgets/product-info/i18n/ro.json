@@ -7,5 +7,7 @@
   "manufacturer": "Producător",
   "addToCart": "Adaugă în coș",
   "notifyWhenAvailable": "Notifică-mă când este disponibil",
-  "listedBy": "Publicat de"
+  "listedBy": "Publicat de",
+  "company": "Companie",
+  "companyPhone": "Telefon"
 }

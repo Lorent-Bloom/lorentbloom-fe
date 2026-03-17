@@ -428,7 +428,9 @@
     "manufacturer": "Производитель",
     "addToCart": "Добавить в корзину",
     "notifyWhenAvailable": "Уведомить о поступлении",
-    "listedBy": "Разместил"
+    "listedBy": "Разместил",
+    "company": "Компания",
+    "companyPhone": "Телефон"
   },
   "header-search": {
     "placeholder": "Поиск товаров...",

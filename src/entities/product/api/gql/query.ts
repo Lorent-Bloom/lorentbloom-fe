@@ -74,6 +74,9 @@ export const GET_PRODUCTS = gql`
           email
           firstname
           lastname
+          company
+          company_phone
+          company_logo
         }
         ... on ConfigurableProduct {
           configurable_options {
@@ -199,6 +202,9 @@ export const GET_PRODUCT_DETAIL = gql`
           email
           firstname
           lastname
+          company
+          company_phone
+          company_logo
         }
         related_products {
           id

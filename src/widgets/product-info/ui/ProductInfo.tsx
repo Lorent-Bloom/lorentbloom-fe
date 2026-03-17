@@ -1,6 +1,7 @@
 "use client";
 
-import { MapPin, User, Mail } from "lucide-react";
+import { Building2, MapPin, Mail, Phone, User } from "lucide-react";
+import Image from "next/image";
 import { StarRating } from "@shared/ui";
 import { cn } from "@shared/lib/utils";
 import { AddToCartButton } from "@features/add-to-cart";
@@ -80,8 +81,18 @@ export function ProductInfo({ product, className }: ProductInfoProps) {
             {t("listedBy")}
           </p>
           <div className="flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10">
-              <User className="h-5 w-5 text-primary" />
+            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary/10 overflow-hidden">
+              {product.customer.company_logo ? (
+                <Image
+                  src={product.customer.company_logo}
+                  alt={product.customer.company || ""}
+                  width={40}
+                  height={40}
+                  className="h-full w-full object-cover"
+                />
+              ) : (
+                <User className="h-5 w-5 text-primary" />
+              )}
             </div>
             <div className="space-y-0.5">
               <p className="font-medium">
@@ -91,6 +102,18 @@ export function ProductInfo({ product, className }: ProductInfoProps) {
                 <Mail className="h-3.5 w-3.5" />
                 <span>{product.customer.email}</span>
               </div>
+              {product.customer.company && (
+                <div className="flex items-center gap-1 text-sm text-muted-foreground">
+                  <Building2 className="h-3.5 w-3.5" />
+                  <span>{product.customer.company}</span>
+                </div>
+              )}
+              {product.customer.company_phone && (
+                <div className="flex items-center gap-1 text-sm text-muted-foreground">
+                  <Phone className="h-3.5 w-3.5" />
+                  <span>{product.customer.company_phone}</span>
+                </div>
+              )}
             </div>
           </div>
         </div>

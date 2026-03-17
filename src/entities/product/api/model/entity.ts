@@ -10,6 +10,9 @@ export interface ProductCustomer {
   email: string;
   firstname: string;
   lastname: string;
+  company?: string | null;
+  company_phone?: string | null;
+  company_logo?: string | null;
 }
 
 export interface Money {
