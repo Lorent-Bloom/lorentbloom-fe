@@ -4,6 +4,7 @@ import { ProductInfo } from "@widgets/product-info";
 import { ProductDescription } from "@widgets/product-description";
 import { SimilarProductsCarousel } from "@widgets/similar-products-carousel";
 import { ProductReviewsSection } from "@widgets/product-reviews-section";
+import { unescapeHtml } from "@shared/lib/utils";
 import { useProductDetailPage } from "../lib/useProductDetailPage";
 import type { ProductDetailPageProps } from "../model/interface";
 
@@ -41,7 +42,7 @@ export async function ProductDetailPage({ product }: ProductDetailPageProps) {
               <div
                 className="prose prose-sm max-w-none dark:prose-invert"
                 dangerouslySetInnerHTML={{
-                  __html: product.short_description?.html || "",
+                  __html: unescapeHtml(product.short_description?.html || ""),
                 }}
               />
             </div>

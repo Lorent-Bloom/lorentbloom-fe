@@ -1,5 +1,5 @@
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@shared/ui";
-import { cn } from "@shared/lib/utils";
+import { cn, unescapeHtml } from "@shared/lib/utils";
 import { useProductDescription } from "../lib/useProductDescription";
 import { SpecificationsTable } from "./SpecificationsTable";
 import { VendorInfo } from "./VendorInfo";
@@ -38,7 +38,7 @@ export function ProductDescription({
             <div
               className="prose max-w-none dark:prose-invert"
               dangerouslySetInnerHTML={{
-                __html: product.description!.html,
+                __html: unescapeHtml(product.description!.html),
               }}
             />
           </div>
@@ -91,7 +91,7 @@ export function ProductDescription({
             <div
               className="prose max-w-none dark:prose-invert"
               dangerouslySetInnerHTML={{
-                __html: product.description!.html,
+                __html: unescapeHtml(product.description!.html),
               }}
             />
           </TabsContent>
