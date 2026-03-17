@@ -28,11 +28,11 @@ const RentalInfo = dynamic(() =>
     default: mod.RentalInfo,
   })),
 );
-const Testimonials = dynamic(() =>
-  import("@widgets/testimonials").then((mod) => ({
-    default: mod.Testimonials,
-  })),
-);
+// const Testimonials = dynamic(() =>
+//   import("@widgets/testimonials").then((mod) => ({
+//     default: mod.Testimonials,
+//   })),
+// );
 const HomeCTA = dynamic(() =>
   import("@widgets/home-cta").then((mod) => ({ default: mod.HomeCTA })),
 );
@@ -69,7 +69,7 @@ const HomePage = async ({ params }: HomePageProps) => {
     ? (categoriesResult.data ?? [])
     : [];
   const products = productsResult.data?.products?.items ?? [];
-  const reviews = reviewsResult.success ? (reviewsResult.data ?? []) : [];
+  // const reviews = reviewsResult.success ? (reviewsResult.data ?? []) : [];
   return (
     <div className="w-full">
       {/* Hero Section - Full viewport */}
@@ -91,7 +91,7 @@ const HomePage = async ({ params }: HomePageProps) => {
       <RentalInfo />
 
       {/* Testimonials - Social proof */}
-      <Testimonials reviews={reviews} />
+      {/* <Testimonials reviews={reviews} /> */}
 
       {/* Final CTA - Conversion focused */}
       <HomeCTA />
