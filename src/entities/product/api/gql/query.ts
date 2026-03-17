@@ -74,6 +74,7 @@ export const GET_PRODUCTS = gql`
           email
           firstname
           lastname
+          telephone
           company
           company_phone
           company_logo
@@ -202,6 +203,7 @@ export const GET_PRODUCT_DETAIL = gql`
           email
           firstname
           lastname
+          telephone
           company
           company_phone
           company_logo

@@ -10,6 +10,7 @@ export interface ProductCustomer {
   email: string;
   firstname: string;
   lastname: string;
+  telephone?: string | null;
   company?: string | null;
   company_phone?: string | null;
   company_logo?: string | null;

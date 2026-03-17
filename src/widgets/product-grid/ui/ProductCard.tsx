@@ -111,10 +111,13 @@ export function ProductCard({ product }: ProductCardProps) {
                 <span>{product.customer.company}</span>
               </div>
             )}
-            {product.customer?.company_phone && (
+            {(product.customer?.company_phone ||
+              product.customer?.telephone) && (
               <div className="flex items-center gap-1 text-xs text-muted-foreground">
                 <Phone className="h-3 w-3" />
-                <span>{product.customer.company_phone}</span>
+                <span>
+                  {product.customer.company_phone || product.customer.telephone}
+                </span>
               </div>
             )}
           </div>

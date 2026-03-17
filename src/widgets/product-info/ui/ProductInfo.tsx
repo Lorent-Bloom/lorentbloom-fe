@@ -2,6 +2,7 @@
 
 import { Building2, MapPin, Mail, Phone, User } from "lucide-react";
 import Image from "next/image";
+import { getUploadThingUrl } from "@shared/api/uploadthing/client";
 import { StarRating } from "@shared/ui";
 import { cn } from "@shared/lib/utils";
 import { AddToCartButton } from "@features/add-to-cart";
@@ -84,7 +85,7 @@ export function ProductInfo({ product, className }: ProductInfoProps) {
             <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary/10 overflow-hidden">
               {product.customer.company_logo ? (
                 <Image
-                  src={product.customer.company_logo}
+                  src={getUploadThingUrl(product.customer.company_logo)}
                   alt={product.customer.company || ""}
                   width={40}
                   height={40}
@@ -100,7 +101,12 @@ export function ProductInfo({ product, className }: ProductInfoProps) {
               </p>
               <div className="flex items-center gap-1 text-sm text-muted-foreground">
                 <Mail className="h-3.5 w-3.5" />
-                <span>{product.customer.email}</span>
+                <a
+                  href={`mailto:${product.customer.email}`}
+                  className="hover:text-primary hover:underline transition-colors"
+                >
+                  {product.customer.email}
+                </a>
               </div>
               {product.customer.company && (
                 <div className="flex items-center gap-1 text-sm text-muted-foreground">
@@ -108,10 +114,17 @@ export function ProductInfo({ product, className }: ProductInfoProps) {
                   <span>{product.customer.company}</span>
                 </div>
               )}
-              {product.customer.company_phone && (
+              {(product.customer.company_phone ||
+                product.customer.telephone) && (
                 <div className="flex items-center gap-1 text-sm text-muted-foreground">
                   <Phone className="h-3.5 w-3.5" />
-                  <span>{product.customer.company_phone}</span>
+                  <a
+                    href={`tel:${product.customer.company_phone || product.customer.telephone}`}
+                    className="hover:text-primary hover:underline transition-colors"
+                  >
+                    {product.customer.company_phone ||
+                      product.customer.telephone}
+                  </a>
                 </div>
               )}
             </div>
