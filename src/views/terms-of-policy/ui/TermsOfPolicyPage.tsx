@@ -110,8 +110,16 @@ export function TermsOfPolicyPage() {
           <h3 className="text-xl font-semibold mb-3">
             {t("lorentbloomStatus.listingReview.heading")}
           </h3>
-          <p className="text-muted-foreground leading-relaxed">
+          <p className="text-muted-foreground leading-relaxed mb-4">
             {t("lorentbloomStatus.listingReview.content")}
+          </p>
+
+          {/* 3.9. General Disclaimer for Events Between Users and Off-Platform */}
+          <h3 className="text-xl font-semibold mb-3">
+            {t("lorentbloomStatus.generalDisclaimer.heading")}
+          </h3>
+          <p className="text-muted-foreground leading-relaxed font-medium">
+            {t("lorentbloomStatus.generalDisclaimer.content")}
           </p>
         </section>
 
