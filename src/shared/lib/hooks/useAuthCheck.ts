@@ -12,6 +12,7 @@ const publicPaths = [
   "/how-to-rent-out",
   "/terms-of-policy",
   "/cookie-policy",
+  "/privacy-policy",
   "/products",
   "/product-search",
   "/contact-us",

@@ -1,14 +1,15 @@
 {
   "title": "Terms and Conditions",
-  "lastUpdated": "Last Updated: January 25, 2026",
+  "lastUpdated": "Last Updated: May 11, 2026",
   "metadata": {
-    "title": "Terms and Conditions - Lorent Bloom",
+    "title": "Terms and Conditions for the Rental Marketplace",
     "description": "Read the terms and conditions of the Lorent Bloom platform and learn about your rights and responsibilities."
   },
   "introduction": {
     "heading": "1. Introduction",
     "content": "Welcome to the Lorent Bloom platform (hereinafter referred to as \"Platform\", \"Service\", \"Lorent Bloom\"). These Terms and Conditions govern access to and use of the Lorent Bloom website and related services.",
     "description": "Lorent Bloom is an online platform that provides users with the technical capability to post rental listings and interact with each other. Lorent Bloom is not a party to transactions concluded between users.",
+    "intermediary": "Lorent Bloom is provided to users free of charge and does not process payments. The Platform offers users certain trust and safety tools described in Section 3, including verification of user identity through the Moldovan personal identification number (IDNP), facilitation of a written rental agreement signed by both parties when an offer is accepted, and an in-Platform chat with mandatory photographic documentation at each step of a transaction. These tools assist users but do not make Lorent Bloom a party, legal guarantor, agent, insurer, or representative in any rental transaction, and do not constitute warranties or commitments regarding the conduct of users, the condition of items, or the outcome of any transaction. The Platform functions exclusively as a technical service connecting users.",
     "agreement": "By using the Platform, you confirm your agreement to these Terms."
   },
   "acceptanceOfTerms": {
@@ -19,7 +20,11 @@
       "item2": "agree to comply with them in full;",
       "item3": "accept Lorent Bloom's Privacy Policy as an integral part of these Terms."
     },
-    "warning": "If you do not agree to the terms, you must stop using the Platform."
+    "warning": "If you do not agree to the terms, you must stop using the Platform.",
+    "ageAndCapacity": {
+      "heading": "2.1. Age and Legal Capacity",
+      "content": "You may only use the Platform if you are at least 18 years of age and have full legal capacity to enter into binding contracts under the laws of the Republic of Moldova. If you register on behalf of a legal entity, you confirm that you have the authority to bind that entity to these Terms. Lorent Bloom bears no responsibility for any use of the Platform by persons lacking such age or capacity, and any contracts entered into in violation of this clause shall not give rise to any liability on the part of Lorent Bloom."
+    }
   },
   "lorentbloomStatus": {
     "heading": "3. Lorent Bloom's Status and Disclaimer",
@@ -28,20 +33,41 @@
     "point3": "3.3. Lorent Bloom:",
     "list": {
       "item1": "does not verify the quality, safety, legality, or condition of items;",
-      "item2": "does not guarantee the integrity of users;",
+      "item2": "does not guarantee the integrity, character, intentions, or future conduct of users;",
       "item3": "is not responsible for the fulfillment or non-fulfillment of obligations by users."
+    },
+    "trustTools": {
+      "heading": "3.4. Trust and Safety Tools",
+      "content": "Without modifying the disclaimers set out in this Section, the Platform provides certain technical tools intended to facilitate trust between users, including but not limited to: (a) verification of user identity using the Moldovan personal identification number (IDNP); (b) facilitation of a written rental agreement electronically acknowledged by both parties when a rental offer is accepted; (c) an in-Platform chat allowing users to exchange messages and photographs documenting the condition of items at each step of a transaction. These tools are provided for the convenience of users as good-faith assistance, but do not constitute warranties, guarantees, insurance, or commitments by Lorent Bloom regarding the conduct, identity, performance, or honesty of any user, the condition or legality of any item, or the outcome of any rental transaction."
+    },
+    "identityVerification": {
+      "heading": "3.5. Identity Verification",
+      "content": "Identity verification through IDNP and any related documents is performed on a good-faith basis using the information submitted by users. Lorent Bloom does not independently investigate the authenticity of submitted documents beyond standard automated and manual checks and assumes no liability if a verified user provides false, fraudulent, expired, or otherwise inaccurate information. The fact that a user has been verified does not constitute a warranty by Lorent Bloom of that user's character, solvency, intentions, or future conduct, and shall not be relied upon as such."
+    },
+    "rentalAgreement": {
+      "heading": "3.6. Rental Agreement Facilitation",
+      "content": "When a rental offer is accepted on the Platform, the Platform may generate and store a written agreement bearing the electronic acknowledgement of both users. Any such agreement is a contract concluded directly between those users. Lorent Bloom is not a party, witness, signatory, notary, or guarantor of that agreement. Lorent Bloom merely provides the technical means to generate, exchange, and retain a record of the document, and assumes no responsibility for its legal validity, completeness, enforceability, interpretation, or compliance with the parties' actual intentions or with applicable law."
+    },
+    "chatAndPhotos": {
+      "heading": "3.7. Chat and Photographic Documentation",
+      "content": "The Platform provides a chat function through which users may exchange messages and photographs documenting the condition of an item at various stages of a rental transaction. All such content is provided voluntarily by users and is not verified, authenticated, time-stamped for evidentiary purposes, or independently inspected by Lorent Bloom. Lorent Bloom does not warrant the accuracy, integrity, completeness, evidentiary value, admissibility, or authenticity of any such content, and is not liable for any reliance placed on it by users or by third parties, including in legal or insurance proceedings."
+    },
+    "listingReview": {
+      "heading": "3.8. Administrative Review of Listings",
+      "content": "Before a user listing is published on the Platform, Lorent Bloom performs a basic administrative review intended to: (a) identify and reject listings that clearly violate these Terms or applicable law (such as illegal, dangerous, prohibited, or counterfeit items); and (b) confirm appropriate categorization. This review is administrative and screening in nature only. It does not constitute a substantive verification of the accuracy, legality, safety, quality, authenticity, ownership, or condition of items, nor an endorsement, approval, recommendation, warranty, or guarantee by Lorent Bloom. Approval of a listing creates no liability or warranty obligation on the part of Lorent Bloom and shall not be relied upon by users as a representation of any kind. Lorent Bloom may reject, remove, modify, or recategorize any listing at any time, at its sole discretion, before or after publication, and is not liable for any consequences of such actions."
     }
   },
   "userAccount": {
     "heading": "4. User Account",
-    "point1": "4.1. To use the Service, you must create an account and provide accurate, current, and complete information.",
+    "point1": "4.1. To use the Service, you must create an account and provide accurate, current, and complete information, including, where requested, a valid IDNP and supporting identity documents.",
     "point2": "4.2. The user is fully responsible for:",
     "list": {
       "item1": "the security of login credentials and password;",
       "item2": "all actions performed under their account."
     },
     "point3": "4.3. You must immediately notify Lorent Bloom of any unauthorized access or suspicion thereof.",
-    "point4": "4.4. Lorent Bloom reserves the right to refuse registration or delete an account without explanation for violation of these Terms."
+    "point4": "4.4. Lorent Bloom reserves the right to refuse registration, or to suspend or delete an account for reasonable grounds, including but not limited to: violation of these Terms, fraudulent or illegal activity, failed or falsified identity verification, threats or harm to other users, repeated complaints, or any conduct that, in Lorent Bloom's reasonable judgment, may harm the Platform or its users. Lorent Bloom is not liable for any consequences arising from such measures.",
+    "point5": "4.5. You may close your account at any time by sending a written request to support@lorentbloom.com. Closure of an account does not terminate any rental agreements concluded with other users prior to closure, does not relieve you of any outstanding obligations under these Terms or under such rental agreements, and does not affect any rights or obligations that have accrued before closure. Your personal data will be processed in accordance with Section 13 after account closure."
   },
   "userObligations": {
     "heading": "5. User Obligations",
@@ -49,8 +75,8 @@
     "list": {
       "item1": "comply with applicable laws of the Republic of Moldova;",
       "item2": "use the Platform in good faith;",
-      "item3": "provide truthful information about items;",
-      "item4": "independently verify counterparties before entering into transactions;",
+      "item3": "provide truthful information about themselves and the items they list;",
+      "item4": "independently verify counterparties before entering into transactions, despite the fact that the Platform offers identity verification tools;",
       "item5": "resolve all disputes directly with other users."
     }
   },
@@ -72,49 +98,77 @@
       "item3": "financial losses;",
       "item4": "lost profits."
     },
-    "point3": "6.3. Users independently resolve matters of insurance, deposit, and identity verification."
+    "point3": "6.3. Users independently resolve matters of insurance, deposit, and identity verification, regardless of any tools provided by the Platform for these purposes."
   },
   "payments": {
     "heading": "7. Payments",
-    "point1": "7.1. Lorent Bloom may provide the technical capability to process payments but does not control or guarantee their correctness.",
-    "point2": "7.2. All financial claims must be resolved between users themselves."
+    "point1": "7.1. Lorent Bloom does not process payments and is not a payment service provider, payment institution, payment agent, escrow agent, or financial intermediary of any kind. Lorent Bloom does not collect, hold, transfer, or guarantee any funds between users. All payments related to rental transactions are arranged and executed directly between users, using methods of their own choosing, outside the Platform and entirely beyond the supervision, control, or responsibility of Lorent Bloom.",
+    "point2": "7.2. All financial claims must be resolved directly between users themselves. Lorent Bloom is under no obligation to recover, refund, or compensate any sum exchanged or owed between users.",
+    "point3": "7.3. Users are solely responsible for declaring and paying all applicable taxes, duties, social contributions, and other levies arising from their use of the Platform and any rental transactions concluded through it. Lorent Bloom is not a tax agent and does not withhold, collect, or remit any taxes on behalf of users.",
+    "point4": "7.4. Should Lorent Bloom decide in the future to introduce any payment functionality, separate terms specifically governing such functionality will apply, and these Terms will be amended in accordance with Section 14 before any such functionality becomes available to users. At that time, Lorent Bloom will be subject to and reserves the right to perform identity verification (KYC) and anti-money-laundering checks in accordance with Law No. 308/2017 of the Republic of Moldova on Preventing and Combating Money Laundering and Terrorism Financing, and to refuse, suspend, restrict, or report transactions where required by applicable law."
   },
   "prohibitedActivities": {
     "heading": "8. Prohibited Activities",
     "content": "The following is prohibited:",
     "list": {
-      "item1": "violating the law;",
-      "item2": "posting illegal or dangerous items;",
-      "item3": "providing false information;",
-      "item4": "engaging in fraudulent activities;",
-      "item5": "interfering with the Platform's operation;",
-      "item6": "using the Platform for harassment or threats."
+      "item1": "violating any applicable law;",
+      "item2": "posting illegal, dangerous, counterfeit, or stolen items, including weapons, ammunition, controlled substances, hazardous materials, or items requiring special licenses you do not hold;",
+      "item3": "providing false or misleading information, including in identity verification, listings, profile data, or communications;",
+      "item4": "engaging in fraudulent activities or attempts to deceive other users or Lorent Bloom;",
+      "item5": "interfering with the Platform's operation, including circumventing security, scraping, or using automated tools without express authorization;",
+      "item6": "using the Platform for harassment, threats, defamation, or discrimination on the basis of race, ethnicity, nationality, religion, gender, sexual orientation, age, disability, or any other protected characteristic;",
+      "item7": "money laundering, sanctions evasion, or financing of unlawful activities;",
+      "item8": "creating multiple accounts, impersonating other persons or entities, or attempting to circumvent suspension, termination, or other restrictions;",
+      "item9": "collecting or using other users' personal data for purposes other than those strictly necessary for a rental transaction conducted through the Platform;",
+      "item10": "any other use of the Platform that, in Lorent Bloom's reasonable judgment, is contrary to these Terms or to the lawful interests of users or Lorent Bloom."
     }
   },
   "intellectualProperty": {
     "heading": "9. Intellectual Property",
-    "content": "All Platform content (code, design, texts, logos) is the property of Lorent Bloom or its licensors and is protected by law.",
-    "warning": "Use of content without written consent from Lorent Bloom is prohibited.",
+    "content": "All Platform content (code, design, texts, logos, trademarks) is the property of Lorent Bloom or its licensors and is protected by law.",
+    "warning": "Use of Platform content without written consent from Lorent Bloom is prohibited.",
     "userContent": {
       "heading": "9.1. User Content",
-      "content": "Users bear full responsibility for any content they post on the Platform, including listings, item descriptions, images, reviews, and other materials.",
-      "disclaimer": "Lorent Bloom does not pre-screen user content and is not responsible for its accuracy, legality, relevance, or truthfulness.",
-      "confirmation": "By posting content, the user confirms that they have all necessary rights and permissions to use and post it."
+      "content": "Users bear full responsibility for any content they post on the Platform, including listings, item descriptions, images, photographs uploaded into chat, reviews, and other materials.",
+      "disclaimer": "While Lorent Bloom performs a basic administrative review of listings before publication as described in Section 3.8, Lorent Bloom does not substantively verify user content and is not responsible for its accuracy, legality, relevance, or truthfulness. Approval of a listing or its categorization does not constitute any warranty, endorsement, or representation by Lorent Bloom.",
+      "confirmation": "By posting content, the user confirms that they have all necessary rights, consents, and permissions to use and post it, including in respect of any third parties depicted or referenced.",
+      "license": "By posting content on the Platform, you grant Lorent Bloom a non-exclusive, worldwide, royalty-free, sub-licensable license to host, store, reproduce, modify for technical purposes (such as resizing, formatting, or compression), display, publish, distribute, and translate such content, solely for the purpose of operating, providing, securing, improving, and promoting the Platform, as well as for legal, dispute-resolution, backup, and archival purposes. This license lasts for as long as your content remains on the Platform and for a reasonable period thereafter as required for the purposes above. Lorent Bloom does not acquire ownership of your content."
+    },
+    "noticeAndTakedown": {
+      "heading": "9.2. Notice and Takedown",
+      "content": "If you believe that any content on the Platform violates your rights, applicable law, or these Terms (including, without limitation, intellectual property infringement, illegal listings, fraudulent content, or harmful material), you may submit a notice to support@lorentbloom.com. Your notice should include: a description of the content, its location on the Platform, your contact details, and a statement of the legal grounds for your complaint.",
+      "process": "Lorent Bloom will review properly submitted notices within a reasonable time and may, at its sole discretion, remove or restrict access to the content, contact the relevant user, or take other appropriate measures. Lorent Bloom acts solely as a neutral hosting intermediary, has no general obligation to monitor user content, and assumes no liability for content posted by users prior to receiving a valid notice."
+    },
+    "reportingViolations": {
+      "heading": "9.3. Reporting Violations and Abuse",
+      "content": "Users may report fraud, abusive behavior, safety concerns, suspicious activity, or any other violation of these Terms by writing to support@lorentbloom.com. Lorent Bloom will investigate such reports in good faith but does not guarantee any specific outcome and is not liable for any action taken or not taken in response to a report."
+    },
+    "natureOfListings": {
+      "heading": "9.4. Nature of Listings",
+      "content": "Listings published on the Platform constitute invitations to treat (invitații la ofertare) and not binding contractual offers by users. A rental contract between users is formed only upon explicit mutual acceptance, including, where applicable, through the agreement-facilitation tools described in Section 3.6. Lorent Bloom is not a party to such contracts and assumes no obligations arising from them."
+    },
+    "reviews": {
+      "heading": "9.5. Reviews and Ratings",
+      "content": "Where the Platform provides functionality for users to submit reviews, ratings, or comments about other users or rental experiences, such submissions are user content within the meaning of Section 9.1. Users posting reviews are solely responsible for the accuracy and lawfulness of their statements, including any liability for defamation, insult, or breach of privacy. Lorent Bloom does not endorse, verify, or moderate reviews in advance and reserves the right to remove reviews that violate these Terms or applicable law."
     }
   },
   "limitation": {
     "heading": "10. Limitation of Liability",
     "content": "To the maximum extent permitted by law, Lorent Bloom is not liable for:",
     "list": {
-      "item1": "any indirect or incidental damages;",
-      "item2": "actions or inactions of users;",
-      "item3": "any damage arising from rental transactions."
+      "item1": "any indirect, incidental, special, consequential, punitive, or exemplary damages;",
+      "item2": "actions or inactions of users, including failure to deliver, return, pay for, or properly maintain items, or any breach of the rental agreement between users;",
+      "item3": "any damage, loss, theft, injury, claim, or expense arising from rental transactions, communications between users, or any use of the Platform, including reliance on identity verification, photographs, chat records, or facilitated rental agreements."
     },
     "warning": "Use of the Platform is at your own risk.",
     "disclaimer": {
       "heading": "10.1. Disclaimer of Warranties",
-      "content": "The Platform and all related services are provided on an \"as is\" and \"as available\" basis. Lorent Bloom makes no express or implied warranties, including but not limited to warranties of uninterrupted service, accuracy of information, fitness for a particular purpose, or absence of errors.",
-      "noGuarantee": "Lorent Bloom does not guarantee that the Platform will function without failures, delays, or technical malfunctions."
+      "content": "The Platform and all related services and tools (including identity verification, agreement facilitation, chat, and photographic documentation) are provided on an \"as is\" and \"as available\" basis. Lorent Bloom makes no express or implied warranties, including but not limited to warranties of uninterrupted service, accuracy of information, fitness for a particular purpose, evidentiary value, or absence of errors.",
+      "noGuarantee": "Lorent Bloom does not guarantee that the Platform will function without failures, delays, or technical malfunctions, or that any tool described in Section 3 will achieve any particular outcome."
+    },
+    "mandatoryLaw": {
+      "heading": "10.2. Application of Mandatory Law",
+      "content": "Nothing in these Terms shall exclude or limit Lorent Bloom's liability where such exclusion or limitation is prohibited by the mandatory laws of the Republic of Moldova, including liability for gross negligence, willful misconduct, death or personal injury caused by negligence, or for rights granted to consumers under Law No. 105/2003 on Consumer Protection. The limitations of liability set out in these Terms apply only to the maximum extent permitted by applicable law."
     }
   },
   "termination": {
@@ -123,61 +177,133 @@
     "list": {
       "item1": "suspend or terminate user access;",
       "item2": "delete accounts;",
-      "item3": "remove content without prior notice."
+      "item3": "remove content, where reasonably practicable with prior notice, or immediately in cases of serious violation, illegal content, threats, fraud, failed identity verification, or risk to other users or to the Platform."
     },
     "indemnity": {
       "heading": "11.1. Indemnification",
-      "content": "The user agrees to indemnify and hold Lorent Bloom harmless from any claims, demands, losses, fines, and expenses (including legal fees) arising from:",
+      "content": "To the extent permitted by applicable law and in proportion to the actual damages caused, the user agrees to indemnify, defend, and hold Lorent Bloom, its affiliates, officers, employees, and partners harmless from any claims, demands, losses, damages, fines, penalties, and expenses (including reasonable legal fees actually incurred) arising from:",
       "list": {
         "item1": "user's violation of these Terms;",
-        "item2": "violation of third-party rights;",
-        "item3": "user's actions or inactions while using the Platform."
+        "item2": "violation of third-party rights, including intellectual property, privacy, and consumer rights;",
+        "item3": "user's actions or inactions while using the Platform, including rental transactions concluded with other users, any payment disputes or financial claims between users, and content uploaded through the chat or other features."
       }
+    },
+    "suspension": {
+      "heading": "11.2. Suspension Pending Investigation",
+      "content": "Without prejudice to its right to terminate access under this Section, Lorent Bloom may temporarily suspend account access, listings, or specific Platform features pending investigation of suspected violations of these Terms, fraud, abuse, failed identity verification, or safety concerns, for a reasonable period and with notice where practicable. Such suspension does not constitute termination, does not give rise to any claim for damages, and does not waive any other remedies available to Lorent Bloom."
+    },
+    "survival": {
+      "heading": "11.3. Survival",
+      "content": "The provisions of these Terms relating to intellectual property, user content licensing, limitation of liability, disclaimer of warranties, indemnification, dispute resolution, governing law, and any other provisions which by their nature are intended to survive shall remain in full force and effect after termination or expiration of these Terms, regardless of the reason for such termination."
     }
   },
   "disputeResolution": {
     "heading": "12. Dispute Resolution",
-    "point1": "12.1. All disputes between users shall be resolved directly between them.",
-    "point2": "12.2. Disputes between a user and Lorent Bloom are subject to pre-trial settlement within 30 business days.",
-    "point3": "12.3. If a dispute cannot be resolved, it shall be considered by the courts of the Republic of Moldova.",
+    "point1": "12.1. All disputes between users shall be resolved directly between them. Lorent Bloom is not obliged to mediate, arbitrate, investigate, or otherwise participate in such disputes, regardless of whether chat records, photographs, or facilitated agreements stored on the Platform may be relevant to them.",
+    "point2": "12.2. Disputes between a user and Lorent Bloom are subject to pre-trial settlement by written notice to support@lorentbloom.com. Lorent Bloom will acknowledge receipt within 5 business days and respond on the substance within 30 business days of the original notice.",
+    "point3": "12.3. If the dispute cannot be resolved out of court, it shall be brought exclusively before the competent courts of Chișinău, Republic of Moldova, applying the laws of the Republic of Moldova. Nothing in this Section limits any non-waivable right of a user qualifying as a consumer to bring proceedings in the courts of their country of habitual residence, where such rights apply under applicable conflict-of-laws rules.",
+    "classAction": {
+      "heading": "12.4. Individual Disputes",
+      "content": "To the extent permitted by applicable law, disputes shall be resolved on an individual basis. You waive any right to participate in a class action, collective action, or representative proceeding against Lorent Bloom, except where such waiver is prohibited by mandatory consumer protection law."
+    },
     "forceMajeure": {
-      "heading": "12.4. Force Majeure",
-      "content": "Lorent Bloom is not liable for full or partial non-fulfillment of obligations under these Terms if such non-fulfillment is caused by force majeure circumstances, including but not limited to: natural disasters, fires, military actions, government decisions, failures in communication networks, power supply, or third-party services."
+      "heading": "12.5. Force Majeure",
+      "content": "Lorent Bloom is not liable for full or partial non-fulfillment of obligations under these Terms if such non-fulfillment is caused by force majeure circumstances beyond its reasonable control, including but not limited to: natural disasters, fires, floods, military actions, civil unrest, government decisions, epidemics or pandemics, failures in public communication networks, failures in power supply, or failures of third-party services."
     }
   },
   "privacyPolicy": {
     "heading": "13. Privacy Policy",
-    "intro": "Processing of users' personal data is carried out in accordance with Law No. 133 of 07.08.2011 of the Republic of Moldova \"On Personal Data Protection\".",
+    "intro": "Processing of users' personal data is carried out in accordance with Law No. 133 of 07.08.2011 of the Republic of Moldova \"On Personal Data Protection\". The following provisions provide a summary of how personal data is processed; the full and authoritative description is set out in our separate Privacy Policy. In the event of any inconsistency between this Section and the Privacy Policy, the Privacy Policy shall prevail.",
     "purposes": {
       "content": "Lorent Bloom processes personal data exclusively for the purposes of:",
       "list": {
-        "item1": "providing access to the Platform and its functionality;",
-        "item2": "user identification;",
-        "item3": "ensuring technical operation of the service;",
-        "item4": "compliance with legal requirements."
+        "item1": "providing access to the Platform and its functionality, including identity verification, agreement facilitation, and chat features;",
+        "item2": "user identification, fraud prevention, and account security;",
+        "item3": "ensuring technical operation, maintenance, and improvement of the service;",
+        "item4": "compliance with legal, tax, accounting, and regulatory requirements."
       }
     },
-    "thirdParty": "Lorent Bloom does not transfer personal data to third parties, except in cases directly provided by law or necessary for service provision (payment providers, hosting providers, and other technical partners).",
+    "legalBases": {
+      "heading": "13.1. Legal Bases for Processing",
+      "content": "Lorent Bloom processes personal data on the following legal bases under Law No. 133/2011: (a) performance of the contract with you constituted by these Terms; (b) compliance with legal obligations applicable to Lorent Bloom; (c) the legitimate interests of Lorent Bloom in operating, securing, and improving the Platform, including the prevention of fraud and abuse; and (d) your explicit consent, where required, which you may withdraw at any time without affecting the lawfulness of processing carried out prior to withdrawal. The processing of the Moldovan personal identification number (IDNP) and identity document data is performed exclusively for user identification, fraud prevention, and protection of the rights of other users and Lorent Bloom, on the legal bases of contract performance and the legitimate interests of Lorent Bloom, in compliance with the special rules applicable to such data under Law No. 133/2011."
+    },
+    "dataSubjectRights": {
+      "heading": "13.2. Your Rights",
+      "content": "Under Law No. 133/2011 you have the right to: (a) access your personal data; (b) request rectification of inaccurate or incomplete data; (c) request deletion of your data (\"right to be forgotten\") where the legal grounds for processing no longer apply; (d) request restriction of processing; (e) object to processing based on legitimate interests; (f) receive your data in a structured, commonly used, machine-readable format; (g) withdraw any consent you have given; and (h) lodge a complaint with the National Center for Personal Data Protection of the Republic of Moldova. To exercise any of these rights, contact us at support@lorentbloom.com. Lorent Bloom will respond within the time periods provided by law."
+    },
+    "retention": {
+      "heading": "13.3. Data Retention",
+      "content": "Lorent Bloom retains personal data for as long as your account is active and for an additional period of up to 3 (three) years thereafter for legal, tax, accounting, fraud-prevention, and dispute-resolution purposes, unless a longer retention period is required by law. Identity verification data and chat records relating to concluded rental transactions may be retained for the same period as evidentiary material. Where retention is no longer justified, data is deleted or anonymized."
+    },
+    "thirdParty": "Lorent Bloom does not transfer personal data to third parties, except in cases directly provided by law, ordered by competent authorities, or necessary for service provision (identity verification providers, hosting providers, communication providers, and other technical partners) and always under written agreements ensuring an adequate level of data protection.",
     "dataTypes": {
       "content": "Personal data may include, among others:",
       "list": {
         "item1": "first and last name;",
         "item2": "phone number;",
         "item3": "email address;",
-        "item4": "IP address;",
-        "item5": "payment transaction data;",
-        "item6": "identity document data (if necessary)."
+        "item4": "IP address and device data;",
+        "item5": "Moldovan personal identification number (IDNP) and identity document data;",
+        "item6": "rental transaction history, chat content, and photographs uploaded through the Platform."
       }
     },
-    "consent": "The user confirms that they provide their personal data voluntarily and consent to its processing for the stated purposes.",
+    "consent": "The user confirms that they provide their personal data voluntarily and consent to its processing for the stated purposes, where consent is the relevant legal basis.",
     "moreInfo": "Detailed terms of processing, storage, and protection of personal data are set out in a separate document — the Privacy Policy posted on the Platform."
   },
   "changes": {
     "heading": "14. Changes to Terms",
-    "content": "We reserve the right to modify these terms at any time. We will notify users of any material changes by posting the new terms on this page. Your continued use of the service after such changes constitutes acceptance of the new terms."
+    "content": "Lorent Bloom may modify these Terms from time to time. Material changes will be notified to users at least 14 (fourteen) calendar days before they take effect by: (a) posting the updated Terms on this page with an updated \"Last Updated\" date; and (b) sending a notice to your registered email address or displaying a notice within the Platform. Purely editorial or technical changes that do not affect users' rights or obligations (such as correction of typographical errors, clarification of existing language, or updates to non-substantive references) may take effect immediately upon posting. Where there is any reasonable doubt as to whether a change is material, Lorent Bloom will treat it as material and provide the 14 (fourteen) day notice period. If you do not agree with the changes, you must close your account before they take effect; continued use of the Platform after the effective date constitutes acceptance of the updated Terms. Changes do not apply retroactively to disputes arising before their effective date."
+  },
+  "consumerRights": {
+    "heading": "15. Consumer Rights",
+    "content": "If you qualify as a consumer under Law No. 105/2003 of the Republic of Moldova on Consumer Protection, you retain all mandatory rights granted to you by law. Nothing in these Terms is intended to limit, exclude, or modify rights that cannot be waived under applicable consumer protection legislation. Where any provision of these Terms is found to conflict with a mandatory consumer right, the relevant provision shall apply only to the extent permitted by law, and the remainder of the Terms shall remain in force.",
+    "withdrawal": {
+      "heading": "15.1. Right of Withdrawal",
+      "content": "The Platform is provided to users free of charge. Because Lorent Bloom does not currently offer any paid distance service, the consumer right of withdrawal under Law No. 105/2003 does not apply to the user's relationship with Lorent Bloom. Should Lorent Bloom in the future offer any paid distance service, these Terms will be amended in accordance with Section 14 and the applicable withdrawal procedure will be set out at that time. For rental transactions concluded between users, any withdrawal, cancellation, or refund rights, where applicable under consumer law, must be addressed with the other user as the contractual counterparty, and not with Lorent Bloom."
+    }
+  },
+  "generalProvisions": {
+    "heading": "16. General Provisions",
+    "severability": {
+      "heading": "16.1. Severability",
+      "content": "If any provision of these Terms is held by a competent court or authority to be invalid, illegal, or unenforceable, that provision shall be deemed modified to the minimum extent necessary to make it enforceable, or, if it cannot be so modified, severed from these Terms. The remaining provisions shall continue in full force and effect."
+    },
+    "entireAgreement": {
+      "heading": "16.2. Entire Agreement",
+      "content": "These Terms, together with the Privacy Policy and Cookie Policy, constitute the entire agreement between you and Lorent Bloom regarding the use of the Platform and supersede any prior agreements, representations, or understandings, whether oral or written."
+    },
+    "noWaiver": {
+      "heading": "16.3. No Waiver",
+      "content": "The failure or delay of Lorent Bloom to exercise or enforce any right or provision of these Terms shall not constitute a waiver of such right or provision. No waiver of any provision shall be effective unless made in writing by an authorized representative of Lorent Bloom."
+    },
+    "assignment": {
+      "heading": "16.4. Assignment",
+      "content": "You may not assign, transfer, or delegate any of your rights or obligations under these Terms without the prior written consent of Lorent Bloom. Lorent Bloom may freely assign or transfer these Terms, in whole or in part, including in connection with a merger, acquisition, reorganization, or sale of assets."
+    },
+    "governingLanguage": {
+      "heading": "16.5. Governing Language",
+      "content": "These Terms may be made available in multiple languages for convenience. In the event of any inconsistency or conflict between language versions, the Romanian version shall prevail as the official text."
+    },
+    "electronicCommunications": {
+      "heading": "16.6. Electronic Communications",
+      "content": "By using the Platform, you consent to receive communications, notices, and disclosures from Lorent Bloom in electronic form, including via email, in-Platform messages, or postings on the Platform. You agree that such electronic communications satisfy any legal requirement that such communications be in writing."
+    },
+    "governingLaw": {
+      "heading": "16.7. Governing Law",
+      "content": "These Terms are governed by and construed in accordance with the laws of the Republic of Moldova, including without limitation Law No. 284/2004 on Electronic Commerce, Law No. 133/2011 on Personal Data Protection, Law No. 105/2003 on Consumer Protection, and the Civil Code of the Republic of Moldova."
+    },
+    "noAgency": {
+      "heading": "16.8. No Agency",
+      "content": "Nothing in these Terms creates any employment, agency, partnership, joint-venture, or franchise relationship between you and Lorent Bloom. You have no authority to bind Lorent Bloom or to act on its behalf in any matter, and you shall not represent yourself, expressly or by implication, as having such authority."
+    },
+    "noThirdPartyBeneficiaries": {
+      "heading": "16.9. No Third-Party Beneficiaries",
+      "content": "These Terms are for the exclusive benefit of the user and Lorent Bloom. No third party shall have any right to enforce any provision of these Terms, except where mandatory law expressly grants such rights to identified third parties."
+    }
   },
   "contact": {
-    "heading": "15. Contact Information",
-    "content": "If you have any questions about these Terms and Conditions, please contact us at support@lorentbloom.com"
+    "heading": "17. Contact Information",
+    "entity": "Lorent Bloom is currently operated as a pre-launch platform. A legal entity for the Platform's operation is in the process of being established in the Republic of Moldova; upon completion of registration, the updated entity details (registered name, IDNO, and registered office address) will be published in this Section. Until registration is completed, the Platform operates without processing user payments and provides only technical tools enabling users to connect with each other.",
+    "content": "For questions about these Terms and Conditions, or to exercise any of your rights, please contact us at support@lorentbloom.com."
   }
 }

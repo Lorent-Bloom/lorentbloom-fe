@@ -25,6 +25,7 @@ export default function DynamicBreadcrumb() {
       faq: t("faq"),
       howToRentOut: t("howToRentOut"),
       termsOfPolicy: t("termsOfPolicy"),
+      privacyPolicy: t("privacyPolicy"),
       accountSettings: t("accountSettings"),
       profile: t("profile"),
       account: t("account"),

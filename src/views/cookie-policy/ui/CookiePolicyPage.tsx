@@ -10,7 +10,7 @@ export function CookiePolicyPage() {
       <p className="text-muted-foreground leading-relaxed mb-8">{t("intro")}</p>
 
       <div className="space-y-8">
-        {/* Section 1: What are cookies */}
+        {/* 1. What are cookies */}
         <section>
           <h2 className="text-2xl font-semibold mb-3">
             {t("whatAreCookies.heading")}
@@ -20,7 +20,17 @@ export function CookiePolicyPage() {
           </p>
         </section>
 
-        {/* Section 2: Cookie types */}
+        {/* 2. Operator and Applicable Law */}
+        <section>
+          <h2 className="text-2xl font-semibold mb-3">
+            {t("operator.heading")}
+          </h2>
+          <p className="text-muted-foreground leading-relaxed">
+            {t("operator.content")}
+          </p>
+        </section>
+
+        {/* 3. Cookie types */}
         <section>
           <h2 className="text-2xl font-semibold mb-3">
             {t("cookieTypes.heading")}
@@ -29,7 +39,7 @@ export function CookiePolicyPage() {
             {t("cookieTypes.intro")}
           </p>
 
-          {/* 2.1 Required cookies */}
+          {/* 3.1 Required */}
           <div className="mb-6">
             <h3 className="text-xl font-medium mb-2">
               {t("cookieTypes.required.heading")}
@@ -48,7 +58,7 @@ export function CookiePolicyPage() {
             </p>
           </div>
 
-          {/* 2.2 Functional cookies */}
+          {/* 3.2 Functional */}
           <div className="mb-6">
             <h3 className="text-xl font-medium mb-2">
               {t("cookieTypes.functional.heading")}
@@ -58,8 +68,8 @@ export function CookiePolicyPage() {
             </p>
           </div>
 
-          {/* 2.3 Analytics cookies */}
-          <div>
+          {/* 3.3 Analytics */}
+          <div className="mb-6">
             <h3 className="text-xl font-medium mb-2">
               {t("cookieTypes.analytics.heading")}
             </h3>
@@ -75,9 +85,26 @@ export function CookiePolicyPage() {
               {t("cookieTypes.analytics.note")}
             </p>
           </div>
+
+          {/* 3.4 Cookies currently deployed */}
+          <div>
+            <h3 className="text-xl font-medium mb-2">
+              {t("cookieTypes.cookieInventory.heading")}
+            </h3>
+            <p className="text-muted-foreground leading-relaxed mb-3">
+              {t("cookieTypes.cookieInventory.content")}
+            </p>
+            <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4">
+              <li>{t("cookieTypes.cookieInventory.list.item1")}</li>
+              <li>{t("cookieTypes.cookieInventory.list.item2")}</li>
+              <li>{t("cookieTypes.cookieInventory.list.item3")}</li>
+              <li>{t("cookieTypes.cookieInventory.list.item4")}</li>
+              <li>{t("cookieTypes.cookieInventory.list.item5")}</li>
+            </ul>
+          </div>
         </section>
 
-        {/* Section 3: Third-party cookies */}
+        {/* 4. Third-party cookies */}
         <section>
           <h2 className="text-2xl font-semibold mb-3">
             {t("thirdPartyCookies.heading")}
@@ -90,7 +117,7 @@ export function CookiePolicyPage() {
           </p>
         </section>
 
-        {/* Section 4: Managing cookies */}
+        {/* 5. Managing cookies */}
         <section>
           <h2 className="text-2xl font-semibold mb-3">
             {t("managingCookies.heading")}
@@ -108,17 +135,23 @@ export function CookiePolicyPage() {
           </p>
         </section>
 
-        {/* Section 5: Consent */}
+        {/* 6. Consent */}
         <section>
           <h2 className="text-2xl font-semibold mb-3">
             {t("consent.heading")}
           </h2>
-          <p className="text-muted-foreground leading-relaxed">
+          <p className="text-muted-foreground leading-relaxed mb-3">
             {t("consent.content")}
+          </p>
+          <p className="text-muted-foreground leading-relaxed mb-3 font-medium">
+            {t("consent.explicit")}
+          </p>
+          <p className="text-muted-foreground leading-relaxed">
+            {t("consent.withdrawal")}
           </p>
         </section>
 
-        {/* Section 6: Changes */}
+        {/* 7. Changes */}
         <section>
           <h2 className="text-2xl font-semibold mb-3">
             {t("changes.heading")}
@@ -128,7 +161,17 @@ export function CookiePolicyPage() {
           </p>
         </section>
 
-        {/* Section 7: Contact */}
+        {/* 8. Governing Language */}
+        <section>
+          <h2 className="text-2xl font-semibold mb-3">
+            {t("governingLanguage.heading")}
+          </h2>
+          <p className="text-muted-foreground leading-relaxed">
+            {t("governingLanguage.content")}
+          </p>
+        </section>
+
+        {/* 9. Contact */}
         <section>
           <h2 className="text-2xl font-semibold mb-3">
             {t("contact.heading")}

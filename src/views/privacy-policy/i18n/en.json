@@ -1,0 +1,187 @@
+{
+  "title": "Privacy Policy",
+  "lastUpdated": "Last Updated: May 11, 2026",
+  "metadata": {
+    "title": "Privacy Policy for the Rental Marketplace",
+    "description": "Learn how Lorent Bloom collects, uses, stores, and protects your personal data, and what rights you have under Moldovan data protection law."
+  },
+  "introduction": {
+    "heading": "1. Introduction and Operator",
+    "content": "This Privacy Policy (hereinafter referred to as the \"Policy\") explains how the Lorent Bloom platform (hereinafter referred to as \"Platform\", \"Service\", \"Lorent Bloom\", \"we\", \"us\", or \"our\") collects, uses, stores, discloses, and protects your personal data when you access or use the Platform.",
+    "controller": "For the purposes of this Policy and Law No. 133 of 07.08.2011 of the Republic of Moldova on Personal Data Protection, Lorent Bloom acts as the data controller of personal data processed through the Platform. Information about the legal entity operating the Platform is set out in Section 17 of this Policy.",
+    "scope": "This Policy applies to all personal data processed in connection with your use of the Platform. By using the Platform, you confirm that you have read, understood, and accepted the terms of this Policy together with our Terms of Policy.",
+    "agreement": "If you do not agree with this Policy, please do not use the Platform."
+  },
+  "regulatoryFramework": {
+    "heading": "2. Regulatory Framework",
+    "content": "We process personal data in compliance with the applicable laws of the Republic of Moldova and recognized international standards, including, in particular:",
+    "list": {
+      "item1": "the Constitution of the Republic of Moldova (in particular Article 28 on the right to personal privacy);",
+      "item2": "Law No. 133 of 07.08.2011 on Personal Data Protection;",
+      "item3": "Government Resolution No. 1123 of 14.12.2010 on the security requirements for the processing of personal data;",
+      "item4": "Government Resolution No. 296 of 15.05.2012 approving the Register of Personal Data Operators;",
+      "item5": "Law No. 105/2003 on Consumer Protection;",
+      "item6": "Law No. 284/2004 on Electronic Commerce;",
+      "item7": "Law No. 308/2017 on Preventing and Combating Money Laundering and Terrorism Financing (in the event Lorent Bloom introduces payment functionality in the future);",
+      "item8": "the Civil Code of the Republic of Moldova;",
+      "item9": "internationally recognized data protection principles, including those reflected in Council of Europe Convention 108+ and, by reference, Directive 95/46/EC and the GDPR."
+    },
+    "commitment": "We are committed to ensuring lawful, fair, transparent, and proportionate processing of your personal data at all times."
+  },
+  "dataCollected": {
+    "heading": "3. Data We Collect",
+    "intro": "We collect personal data in three categories: data you provide directly, data collected automatically, and data received from third parties. We treat the Moldovan personal identification number (IDNP) and identity document data as sensitive personal data requiring special protection.",
+    "directData": {
+      "heading": "3.1. Data You Provide Directly",
+      "content": "When you register, create listings, communicate with other users, or interact with the Platform, we collect data you actively provide, including:",
+      "list": {
+        "item1": "email address (required for registration);",
+        "item2": "first and last name;",
+        "item3": "phone number;",
+        "item4": "authentication credentials (password, in hashed form only);",
+        "item5": "Moldovan personal identification number (IDNP) and identity document data, when identity verification is required (see Section 3.4);",
+        "item6": "listing content, including item descriptions, categories, and photographs;",
+        "item7": "messages and photographs exchanged through the in-Platform chat at each stage of a rental transaction;",
+        "item8": "rental agreements electronically acknowledged by both parties through the Platform;",
+        "item9": "any other information you voluntarily submit through forms, support requests, or feedback."
+      }
+    },
+    "automaticData": {
+      "heading": "3.2. Data Collected Automatically",
+      "content": "When you use the Platform, certain technical and behavioral information is collected automatically, including:",
+      "list": {
+        "item1": "IP address and approximate geographic location derived from it;",
+        "item2": "device information (type, model, operating system, browser, screen resolution, language settings);",
+        "item3": "Platform activity (pages visited, search queries, clicks, time spent, referring URLs);",
+        "item4": "authentication and session data (login times, session identifiers, password change events);",
+        "item5": "cookies and similar technologies (see the separate Cookie Policy)."
+      }
+    },
+    "thirdPartyData": {
+      "heading": "3.3. Data from Third Parties and Public Sources",
+      "content": "We may receive limited data about you from third parties, including: technical and statistical information from analytics providers; data from authentication providers if you use a third-party login service; information from fraud-prevention or compliance providers; and data lawfully available in public registries. We use such data only for the purposes set out in this Policy and only where there is a lawful basis to do so."
+    },
+    "sensitiveData": {
+      "heading": "3.4. Sensitive Data — IDNP and Identity Documents",
+      "content": "The Moldovan personal identification number (IDNP) and data from identity documents are treated as sensitive personal data under Law No. 133/2011. We process such data only where it is strictly necessary, on the dual legal basis of (a) your explicit consent, given at the moment of identity verification, and (b) performance of the contract between you and Lorent Bloom. You may withdraw your consent at any time, in which case we will cease using your IDNP for further processing and delete it unless retention is required by law (for example, for fraud investigation, dispute resolution, or accounting purposes)."
+    }
+  },
+  "purposes": {
+    "heading": "4. Purposes of Processing",
+    "content": "We process personal data exclusively for the following purposes:",
+    "list": {
+      "item1": "creation, authentication, and security of user accounts;",
+      "item2": "publication, administrative review, and management of listings;",
+      "item3": "verification of user identity through IDNP and supporting documents;",
+      "item4": "facilitation of rental agreements between users (including electronic signature flow) and preservation of chat and photographic records as described in our Terms of Policy;",
+      "item5": "trust and safety, including detection and prevention of fraud, abuse, harassment, and content that violates these Terms or applicable law;",
+      "item6": "communication with you, including transactional notifications, service announcements, and responses to support requests;",
+      "item7": "compliance with legal obligations (including tax, accounting, regulatory, and judicial requirements);",
+      "item8": "operation, maintenance, security, debugging, and improvement of the Platform and its features;",
+      "item9": "exercise and defense of legal claims, both by users and by Lorent Bloom."
+    },
+    "noProfiling": "We do not currently make decisions about you based solely on automated processing that produce significant legal or similar effects on you. If we ever introduce such automated decision-making, this Policy will be updated and you will be informed in advance."
+  },
+  "legalBases": {
+    "heading": "5. Legal Bases for Processing",
+    "content": "We process personal data on the following legal bases under Law No. 133/2011 art. 5:",
+    "list": {
+      "item1": "(a) performance of the contract between you and Lorent Bloom (these Terms and the Privacy Policy), or steps taken at your request prior to entering into a contract (such as account registration);",
+      "item2": "(b) compliance with legal obligations to which Lorent Bloom is subject (for example, tax, anti-fraud, and judicial requirements);",
+      "item3": "(c) legitimate interests pursued by Lorent Bloom in operating, securing, and improving the Platform, including fraud prevention, system integrity, and user trust — provided such interests are not overridden by your rights and freedoms;",
+      "item4": "(d) your explicit consent, where required (in particular for IDNP processing and any non-essential marketing communications). You may withdraw consent at any time without affecting the lawfulness of processing performed prior to withdrawal."
+    },
+    "idnpBasis": "Specifically, processing of the IDNP and identity document data is performed on a dual legal basis: explicit consent (Law No. 133/2011 art. 6) and contract performance. This is the strongest legal posture available under Moldovan data protection law for sensitive identifiers."
+  },
+  "retention": {
+    "heading": "6. Data Retention",
+    "intro": "We retain personal data only for as long as necessary to achieve the purposes for which it was collected, in accordance with applicable law. Specific retention periods are as follows:",
+    "list": {
+      "item1": "data necessary for the operation of an active account is retained for as long as the account remains active;",
+      "item2": "after account closure, personal data is retained for up to 3 (three) years for legal, tax, accounting, fraud-prevention, and dispute-resolution purposes, unless a longer retention period is required by law;",
+      "item3": "IDNP and identity document data is deleted upon account closure or earlier upon withdrawal of consent, unless retention is required by applicable law or by an ongoing investigation or dispute;",
+      "item4": "chat content, photographs uploaded through chat, and electronically signed rental agreements may be retained for the same period as other transactional records and may be relied upon as evidentiary material in disputes between users;",
+      "item5": "technical logs (access logs, security logs, error logs) are retained for up to 12 (twelve) months unless a longer period is required for security or legal reasons;",
+      "item6": "if an account remains inactive for more than 12 (twelve) consecutive months, we may notify you and, in the absence of any response or pending obligation, delete the account and associated personal data;",
+      "item7": "where retention is no longer justified, data is securely deleted or irreversibly anonymized."
+    }
+  },
+  "recipients": {
+    "heading": "7. Who We Share Your Data With",
+    "intro": "We do not sell your personal data. We share data only as necessary to operate the Platform, comply with law, or protect the rights of users and Lorent Bloom, and only with the following categories of recipients:",
+    "list": {
+      "item1": "hosting and cloud infrastructure providers, who store and process data on our behalf under contractual obligations of confidentiality and security;",
+      "item2": "communication providers (for example, email and SMS providers) used to deliver transactional notifications;",
+      "item3": "identity-verification providers, where applicable, for the limited purpose of confirming IDNP and identity documents;",
+      "item4": "analytics providers, who receive aggregated or pseudonymized data to help us understand Platform usage;",
+      "item5": "professional advisors (legal, accounting, audit), bound by confidentiality;",
+      "item6": "government, regulatory, judicial, or law-enforcement authorities, where required by a binding legal request or applicable law;",
+      "item7": "successor entities, in the event of a merger, acquisition, reorganization, or sale of assets, in which case this Policy will continue to apply to your data unless and until a new policy is communicated to you in accordance with Section 15."
+    },
+    "safeguards": "All recipients acting on our behalf are bound by written agreements requiring them to maintain a level of data protection at least equivalent to that required by Moldovan law and to use personal data exclusively for the purposes we specify. We do not currently list specific vendor names in this Policy; the categories above describe the types of recipients that may process data on our behalf as our vendor stack evolves.",
+    "publicData": "Information that you choose to make public on the Platform (such as parts of your listings or profile visible to other users) is accessible to third parties by design. You should exercise discretion regarding any information you choose to make publicly visible."
+  },
+  "internationalTransfers": {
+    "heading": "8. International Data Transfers",
+    "content": "Personal data may be processed by Lorent Bloom or by our service providers in locations outside the Republic of Moldova, for example where hosting, communication, or analytics services are provided from servers located abroad.",
+    "safeguards": "Where personal data is transferred outside the Republic of Moldova, we ensure that an adequate level of protection is in place by relying on one or more of the following safeguards: (a) transfers to jurisdictions recognized as providing an adequate level of protection under Moldovan or European Commission decisions; (b) transfers to parties to the Council of Europe Convention 108 and its modernized version 108+; (c) standard contractual clauses or equivalent contractual safeguards binding the recipient to data-protection obligations comparable to those imposed by Law No. 133/2011; (d) other safeguards approved by the National Centre for Personal Data Protection of the Republic of Moldova."
+  },
+  "yourRights": {
+    "heading": "9. Your Rights",
+    "intro": "Under Law No. 133/2011 you have the following rights with respect to your personal data:",
+    "list": {
+      "item1": "the right of access — to obtain confirmation as to whether we process your data and to receive a copy of such data;",
+      "item2": "the right of rectification — to request correction of inaccurate or incomplete data;",
+      "item3": "the right of erasure (\"right to be forgotten\") — to request deletion of your data where the legal basis for processing no longer exists, subject to legal retention obligations;",
+      "item4": "the right to restriction of processing — to request that we limit processing in specific circumstances (for example, while we verify the accuracy of disputed data);",
+      "item5": "the right to object — to processing based on our legitimate interests, including for direct marketing;",
+      "item6": "the right to data portability — to receive your data in a structured, commonly used, machine-readable format and, where technically feasible, to have it transmitted to another controller;",
+      "item7": "the right to withdraw consent — at any time, without affecting the lawfulness of processing performed prior to withdrawal (in particular for IDNP processing);",
+      "item8": "the right to lodge a complaint with the National Centre for Personal Data Protection of the Republic of Moldova (contact details in Section 16)."
+    }
+  },
+  "exerciseRights": {
+    "heading": "10. How to Exercise Your Rights",
+    "content": "To exercise any of the rights listed in Section 9, please contact us at support@lorentbloom.com. So that we can respond securely, we may ask you to confirm your identity before acting on a request.",
+    "timing": "We aim to respond to all requests within 1 (one) calendar month from the date of receipt. If a request is particularly complex or if several requests are received together, we may extend this period by up to 2 (two) additional months, in which case we will inform you of the extension and the reasons.",
+    "fees": "Exercising your rights is free of charge. However, where a request is manifestly unfounded, repetitive, or excessive, we may either charge a reasonable fee or refuse to act on the request, in accordance with Law No. 133/2011.",
+    "complaint": "If you believe that our processing of your personal data infringes applicable law, you may at any time lodge a complaint with the National Centre for Personal Data Protection of the Republic of Moldova (see Section 16). We encourage you to contact us first so that we may seek to resolve your concerns directly."
+  },
+  "security": {
+    "heading": "11. Security Measures",
+    "intro": "We implement appropriate technical and organizational measures to protect personal data against unauthorized or unlawful processing and against accidental loss, destruction, or damage, taking into account the nature of the data, the risks involved, and the state of the art.",
+    "technical": "Technical measures include: encryption in transit (TLS/HTTPS); encryption of sensitive data at rest where appropriate; access controls and role-based permissions; audit logging of access to personal data; regular security assessments and penetration testing of the Platform; secure password storage using cryptographic hashing; and segregation of production data from development environments.",
+    "organizational": "Organizational measures include: a need-to-know principle for staff access to personal data; confidentiality obligations binding our personnel and contractors; training on data protection and information security; incident response and breach notification procedures; and regular review of our security posture.",
+    "disclaimer": "Despite these measures, no system or means of transmission over the Internet can be guaranteed to be entirely secure. You are responsible for keeping your authentication credentials confidential and for promptly notifying us at support@lorentbloom.com of any suspected unauthorized access to your account.",
+    "breachNotification": "In the event of a personal data breach likely to result in a high risk to your rights and freedoms, Lorent Bloom will notify you and the National Centre for Personal Data Protection of the Republic of Moldova without undue delay, in accordance with Law No. 133/2011. Notifications to you will describe the nature of the breach, the likely consequences, the measures taken or proposed to address it, and steps you may take to protect yourself."
+  },
+  "marketing": {
+    "heading": "12. Marketing Communications",
+    "transactional": "We may send you transactional communications that are necessary for the operation of the Platform — for example, account confirmations, security notifications, listing status updates, and responses to your support requests. Because these messages are necessary to deliver the Service, you cannot opt out of them while you maintain an account.",
+    "promotional": "We will send promotional or marketing communications only with your prior consent, where consent is required by law, or where permitted on the basis of our legitimate interest in informing existing users of related services. You may opt out of all promotional communications at any time, free of charge, by using the unsubscribe mechanism included in such communications or by contacting support@lorentbloom.com.",
+    "status": "At present, Lorent Bloom does not conduct any active marketing campaigns. Should this change, this Policy will be updated in accordance with Section 15."
+  },
+  "cookies": {
+    "heading": "13. Cookies",
+    "content": "We use cookies and similar technologies for authentication, session management, security, preferences, and analytics. Details of the categories of cookies used, your choices, and how to manage cookie preferences are set out in our separate Cookie Policy, which forms part of this Privacy Policy."
+  },
+  "children": {
+    "heading": "14. Children's Privacy",
+    "content": "The Platform is intended exclusively for persons aged 18 years or older who have full legal capacity to enter into binding contracts under the laws of the Republic of Moldova, as set out in Section 2.1 of our Terms of Policy. We do not knowingly collect personal data from minors. If we become aware that we have collected personal data from a person under 18 without verifiable parental authority, we will delete that data and close the account as soon as practicable. If you believe a minor has provided personal data to the Platform, please contact support@lorentbloom.com."
+  },
+  "changes": {
+    "heading": "15. Changes to This Policy",
+    "content": "Lorent Bloom may modify this Policy from time to time. Material changes will be notified to users at least 14 (fourteen) calendar days before they take effect, by posting the updated Policy on this page with an updated \"Last Updated\" date and by sending a notice to your registered email address or displaying a notice within the Platform. Purely editorial or technical changes that do not affect users' rights may take effect immediately upon posting. Changes do not apply retroactively to processing performed before their effective date. Your continued use of the Platform after the effective date constitutes acceptance of the updated Policy."
+  },
+  "dpa": {
+    "heading": "16. Data Protection Authority",
+    "content": "The supervisory authority for personal data protection in the Republic of Moldova is the National Centre for Personal Data Protection (Centrul Național pentru Protecția Datelor cu Caracter Personal). You have the right to lodge a complaint with this authority at any time.",
+    "address": "Address: 48 Sergei Lazo Street, Chișinău MD-2004, Republic of Moldova. Website: datepersonale.md."
+  },
+  "contact": {
+    "heading": "17. Contact Us",
+    "entity": "Lorent Bloom is currently operated as a pre-launch platform. A legal entity for the Platform's operation is in the process of being established in the Republic of Moldova; upon completion of registration, the updated entity details (registered name, IDNO, and registered office address) will be published in this Section and in Section 17 of our Terms of Policy.",
+    "content": "For any questions about this Privacy Policy, to exercise any of your rights, or to make a complaint about the way we handle your personal data, please contact us at support@lorentbloom.com.",
+    "governingLanguage": "This Privacy Policy may be made available in multiple languages for the convenience of users. In the event of any inconsistency or conflict between language versions, the Romanian version shall prevail as the official text, in line with Section 16.5 of our Terms of Policy."
+  }
+}

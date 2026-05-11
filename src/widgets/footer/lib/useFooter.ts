@@ -42,6 +42,11 @@ export const useFooter = () => {
           label: t("links.terms"),
         },
         {
+          id: "privacy",
+          href: `/${locale}/privacy-policy`,
+          label: t("links.privacy"),
+        },
+        {
           id: "cookies",
           href: `/${locale}/cookie-policy`,
           label: t("links.cookies"),

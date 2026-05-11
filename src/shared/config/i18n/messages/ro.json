@@ -458,6 +458,7 @@
     "faq": "Întrebări frecvente",
     "howToRentOut": "Cum să dai în chirie",
     "termsOfPolicy": "Termeni și condiții",
+    "privacyPolicy": "Politica de Confidențialitate",
     "accountSettings": "Setări cont",
     "profile": "Profil",
     "account": "Cont",
@@ -883,6 +884,7 @@
       "contact": "Contactează-ne",
       "about": "Despre noi",
       "terms": "Termeni și condiții",
+      "privacy": "Politica de Confidențialitate",
       "cookies": "Politica Cookie"
     },
     "copyright": "© {year} Lorent Bloom. Toate drepturile rezervate."
@@ -1956,15 +1958,16 @@
   },
   "terms-of-policy": {
     "title": "Termeni și Condiții",
-    "lastUpdated": "Ultima actualizare: 25 ianuarie 2026",
+    "lastUpdated": "Ultima actualizare: 11 mai 2026",
     "metadata": {
-      "title": "Termeni și Condiții - Lorent Bloom",
+      "title": "Termeni și condiții pentru platforma de închiriere",
       "description": "Citiți termenii și condițiile platformei Lorent Bloom și aflați despre drepturile și responsabilitățile dumneavoastră."
     },
     "introduction": {
       "heading": "1. Introducere",
       "content": "Bine ați venit pe platforma Lorent Bloom (denumită în continuare \"Platformă\", \"Serviciu\", \"Lorent Bloom\"). Acești Termeni și Condiții reglementează accesul și utilizarea site-ului web Lorent Bloom și a serviciilor conexe.",
       "description": "Lorent Bloom este o platformă online care oferă utilizatorilor posibilitatea tehnică de a publica anunțuri de închiriere și de a interacționa între ei. Lorent Bloom nu este parte la tranzacțiile încheiate între utilizatori.",
+      "intermediary": "Lorent Bloom este pus la dispoziția utilizatorilor în mod gratuit și nu procesează plăți. Platforma pune la dispoziția utilizatorilor anumite instrumente de încredere și siguranță descrise în Secțiunea 3, inclusiv verificarea identității utilizatorului prin numărul de identificare personală al Republicii Moldova (IDNP), facilitarea unui contract de închiriere scris semnat de ambele părți la momentul acceptării unei oferte, precum și un chat intern al Platformei cu documentare fotografică obligatorie la fiecare etapă a tranzacției. Aceste instrumente îi ajută pe utilizatori, dar nu fac Lorent Bloom parte, garant juridic, agent, asigurător sau reprezentant în nicio tranzacție de închiriere și nu constituie garanții sau angajamente cu privire la conduita utilizatorilor, starea bunurilor sau rezultatul vreunei tranzacții. Platforma funcționează exclusiv ca serviciu tehnic care conectează utilizatorii.",
       "agreement": "Prin utilizarea Platformei, confirmați acordul dumneavoastră cu acești Termeni."
     },
     "acceptanceOfTerms": {
@@ -1975,29 +1978,54 @@
         "item2": "sunteți de acord să îi respectați în totalitate;",
         "item3": "acceptați Politica de Confidențialitate a Lorent Bloom ca parte integrantă a acestor Termeni."
       },
-      "warning": "Dacă nu sunteți de acord cu termenii, trebuie să încetați utilizarea Platformei."
+      "warning": "Dacă nu sunteți de acord cu termenii, trebuie să încetați utilizarea Platformei.",
+      "ageAndCapacity": {
+        "heading": "2.1. Vârsta și capacitatea juridică",
+        "content": "Puteți utiliza Platforma numai dacă aveți cel puțin 18 ani și dispuneți de capacitate juridică deplină pentru a încheia contracte obligatorii din punct de vedere legal în conformitate cu legislația Republicii Moldova. Dacă vă înregistrați în numele unei persoane juridice, confirmați că aveți autoritatea de a angaja acea persoană juridică prin acești Termeni. Lorent Bloom nu poartă nicio răspundere pentru utilizarea Platformei de către persoane care nu îndeplinesc condițiile de vârstă sau capacitate, iar orice contract încheiat cu încălcarea prezentei clauze nu va angaja răspunderea Lorent Bloom."
+      }
     },
     "lorentbloomStatus": {
       "heading": "3. Statutul Lorent Bloom și Declinarea Responsabilității",
-      "point1": "3.1. Lorent Bloom nu este locator, locatar, agent, broker, transportator sau asigurator.",
+      "point1": "3.1. Lorent Bloom nu este locator, locatar, agent, broker, transportator sau asigurător.",
       "point2": "3.2. Toate aranjamentele privind închirierea, transferul, returnarea, starea bunurilor, plata, garanția, livrarea și orice alte condiții au loc exclusiv între utilizatori.",
       "point3": "3.3. Lorent Bloom:",
       "list": {
         "item1": "nu verifică calitatea, siguranța, legalitatea sau starea bunurilor;",
-        "item2": "nu garantează integritatea utilizatorilor;",
+        "item2": "nu garantează integritatea, caracterul, intențiile sau conduita viitoare a utilizatorilor;",
         "item3": "nu este responsabil pentru îndeplinirea sau neîndeplinirea obligațiilor de către utilizatori."
+      },
+      "trustTools": {
+        "heading": "3.4. Instrumente de încredere și siguranță",
+        "content": "Fără a modifica declinările de responsabilitate prevăzute în prezenta Secțiune, Platforma pune la dispoziție anumite instrumente tehnice destinate să faciliteze încrederea între utilizatori, inclusiv, dar fără a se limita la: (a) verificarea identității utilizatorului folosind numărul de identificare personală al Republicii Moldova (IDNP); (b) facilitarea unui contract de închiriere scris confirmat electronic de ambele părți la momentul acceptării unei oferte de închiriere; (c) un chat intern al Platformei care permite utilizatorilor să schimbe mesaje și fotografii ce documentează starea bunurilor la fiecare etapă a tranzacției. Aceste instrumente sunt puse la dispoziție pentru comoditatea utilizatorilor, ca asistență de bună-credință, dar nu constituie garanții, asigurări sau angajamente ale Lorent Bloom cu privire la conduita, identitatea, performanța sau onestitatea vreunui utilizator, starea sau legalitatea vreunui bun sau rezultatul vreunei tranzacții de închiriere."
+      },
+      "identityVerification": {
+        "heading": "3.5. Verificarea identității",
+        "content": "Verificarea identității prin IDNP și prin orice documente conexe se efectuează cu bună-credință, pe baza informațiilor furnizate de utilizatori. Lorent Bloom nu efectuează investigații independente cu privire la autenticitatea documentelor furnizate dincolo de verificările automatizate și manuale standard și nu își asumă nicio răspundere dacă un utilizator verificat furnizează informații false, frauduloase, expirate sau inexacte. Faptul că un utilizator a fost verificat nu constituie o garanție a Lorent Bloom cu privire la caracterul, solvabilitatea, intențiile sau conduita viitoare a acelui utilizator și nu poate fi invocat ca atare."
+      },
+      "rentalAgreement": {
+        "heading": "3.6. Facilitarea contractului de închiriere",
+        "content": "Atunci când o ofertă de închiriere este acceptată pe Platformă, Platforma poate genera și stoca un acord scris cu confirmarea electronică a ambilor utilizatori. Orice astfel de acord este un contract încheiat direct între utilizatorii implicați. Lorent Bloom nu este parte, martor, semnatar, notar sau garant al acelui contract. Lorent Bloom oferă doar mijloacele tehnice pentru generarea, schimbul și păstrarea documentului și nu își asumă nicio responsabilitate pentru valabilitatea juridică, completitudinea, caracterul executoriu, interpretarea sau conformitatea acestuia cu voința reală a părților ori cu legislația aplicabilă."
+      },
+      "chatAndPhotos": {
+        "heading": "3.7. Chat și documentare fotografică",
+        "content": "Platforma oferă o funcție de chat prin care utilizatorii pot schimba mesaje și fotografii care documentează starea unui bun la diferite etape ale unei tranzacții de închiriere. Întregul conținut este furnizat în mod voluntar de utilizatori și nu este verificat, autentificat, marcat temporal în scop probatoriu sau inspectat independent de Lorent Bloom. Lorent Bloom nu garantează acuratețea, integritatea, completitudinea, valoarea probatorie, admisibilitatea sau autenticitatea unui astfel de conținut și nu este răspunzător pentru nicio bază pusă pe acesta de către utilizatori sau terți, inclusiv în proceduri judiciare sau de asigurări."
+      },
+      "listingReview": {
+        "heading": "3.8. Verificarea administrativă a anunțurilor",
+        "content": "Înainte ca un anunț al utilizatorului să fie publicat pe Platformă, Lorent Bloom efectuează o verificare administrativă de bază, destinată: (a) identificării și respingerii anunțurilor care încalcă în mod evident acești Termeni sau legislația aplicabilă (cum ar fi bunuri ilegale, periculoase, interzise sau contrafăcute); și (b) confirmării categorizării corespunzătoare. Această verificare are exclusiv caracter administrativ și de screening. Aceasta nu constituie o verificare substanțială a acurateței, legalității, siguranței, calității, autenticității, dreptului de proprietate sau stării bunurilor și nu constituie o aprobare, autorizare, recomandare, garanție sau angajament din partea Lorent Bloom. Aprobarea unui anunț nu creează nicio răspundere sau obligație de garanție din partea Lorent Bloom și nu trebuie considerată de utilizatori ca o reprezentare de niciun fel. Lorent Bloom poate respinge, elimina, modifica sau recategoriza orice anunț în orice moment, la discreția sa exclusivă, înainte sau după publicare, și nu este răspunzător pentru nicio consecință a unor astfel de acțiuni."
       }
     },
     "userAccount": {
       "heading": "4. Contul de Utilizator",
-      "point1": "4.1. Pentru a utiliza Serviciul, trebuie să creați un cont și să furnizați informații exacte, actuale și complete.",
+      "point1": "4.1. Pentru a utiliza Serviciul, trebuie să creați un cont și să furnizați informații exacte, actuale și complete, inclusiv, atunci când este solicitat, un IDNP valabil și documente justificative de identitate.",
       "point2": "4.2. Utilizatorul este pe deplin responsabil pentru:",
       "list": {
         "item1": "securitatea datelor de autentificare și a parolei;",
         "item2": "toate acțiunile efectuate sub contul său."
       },
       "point3": "4.3. Trebuie să notificați imediat Lorent Bloom despre orice acces neautorizat sau suspiciune în acest sens.",
-      "point4": "4.4. Lorent Bloom își rezervă dreptul de a refuza înregistrarea sau de a șterge un cont fără explicații pentru încălcarea acestor Termeni."
+      "point4": "4.4. Lorent Bloom își rezervă dreptul de a refuza înregistrarea, de a suspenda sau de a șterge un cont pentru motive rezonabile, inclusiv, dar fără a se limita la: încălcarea acestor Termeni, activități frauduloase sau ilegale, eșecul sau falsificarea verificării identității, amenințări sau prejudicii aduse altor utilizatori, plângeri repetate, sau orice comportament care, în opinia rezonabilă a Lorent Bloom, ar putea aduce prejudicii Platformei sau utilizatorilor săi. Lorent Bloom nu este răspunzător pentru nicio consecință rezultată din aplicarea unor astfel de măsuri.",
+      "point5": "4.5. Vă puteți închide contul oricând prin trimiterea unei cereri scrise la support@lorentbloom.com. Închiderea contului nu pune capăt niciunui contract de închiriere încheiat cu alți utilizatori înainte de închidere, nu vă scutește de obligațiile restante în temeiul acestor Termeni sau al acestor contracte de închiriere și nu afectează niciun drept sau nicio obligație apărute înainte de închidere. Datele dumneavoastră cu caracter personal vor fi prelucrate în conformitate cu Secțiunea 13 după închiderea contului."
     },
     "userObligations": {
       "heading": "5. Obligațiile Utilizatorilor",
@@ -2005,8 +2033,8 @@
       "list": {
         "item1": "respecte legislația aplicabilă a Republicii Moldova;",
         "item2": "utilizeze Platforma cu bună-credință;",
-        "item3": "furnizeze informații veridice despre bunuri;",
-        "item4": "verifice independent contrapartea înainte de a încheia tranzacții;",
+        "item3": "furnizeze informații veridice despre ei înșiși și despre bunurile pe care le listează;",
+        "item4": "verifice independent contrapartea înainte de a încheia tranzacții, în pofida faptului că Platforma oferă instrumente de verificare a identității;",
         "item5": "rezolve toate disputele direct cu alți utilizatori."
       }
     },
@@ -2028,49 +2056,77 @@
         "item3": "pierderi financiare;",
         "item4": "profituri pierdute."
       },
-      "point3": "6.3. Utilizatorii rezolvă independent chestiunile legate de asigurare, garanție și verificarea identității."
+      "point3": "6.3. Utilizatorii rezolvă independent chestiunile legate de asigurare, garanție și verificarea identității, indiferent de instrumentele puse la dispoziție de Platformă în aceste scopuri."
     },
     "payments": {
       "heading": "7. Plăți",
-      "point1": "7.1. Lorent Bloom poate oferi capacitatea tehnică de a procesa plăți, dar nu controlează și nu garantează corectitudinea acestora.",
-      "point2": "7.2. Toate pretențiile financiare trebuie rezolvate între utilizatori."
+      "point1": "7.1. Lorent Bloom nu procesează plăți și nu este furnizor de servicii de plată, instituție de plată, agent de plată, agent de garanție (escrow) sau intermediar financiar de niciun fel. Lorent Bloom nu colectează, nu deține, nu transferă și nu garantează niciun fond între utilizatori. Toate plățile aferente tranzacțiilor de închiriere se realizează direct între utilizatori, prin metodele alese de aceștia, în afara Platformei și complet în afara supravegherii, controlului sau responsabilității Lorent Bloom.",
+      "point2": "7.2. Toate pretențiile financiare trebuie soluționate direct între utilizatori. Lorent Bloom nu are nicio obligație de a recupera, rambursa sau compensa vreo sumă schimbată sau datorată între utilizatori.",
+      "point3": "7.3. Utilizatorii sunt singurii responsabili pentru declararea și plata tuturor impozitelor, taxelor, contribuțiilor sociale și a altor obligații aplicabile care rezultă din utilizarea Platformei și din tranzacțiile de închiriere încheiate prin aceasta. Lorent Bloom nu este agent fiscal și nu reține, nu colectează și nu virează niciun fel de impozite în numele utilizatorilor.",
+      "point4": "7.4. În cazul în care Lorent Bloom va decide în viitor să introducă orice funcționalitate de plată, vor fi aplicabili termeni separați care guvernează în mod specific o astfel de funcționalitate, iar acești Termeni vor fi modificați în conformitate cu Secțiunea 14 înainte ca o astfel de funcționalitate să devină disponibilă pentru utilizatori. În acel moment, Lorent Bloom va fi supus și își rezervă dreptul de a efectua verificarea identității (KYC) și verificările privind combaterea spălării banilor în conformitate cu Legea nr. 308/2017 a Republicii Moldova privind prevenirea și combaterea spălării banilor și finanțării terorismului, precum și de a refuza, suspenda, restricționa sau raporta tranzacții atunci când legea aplicabilă o impune."
     },
     "prohibitedActivities": {
       "heading": "8. Activități Interzise",
       "content": "Este interzis:",
       "list": {
-        "item1": "încălcarea legii;",
-        "item2": "publicarea de articole ilegale sau periculoase;",
-        "item3": "furnizarea de informații false;",
-        "item4": "implicarea în activități frauduloase;",
-        "item5": "interferența cu funcționarea Platformei;",
-        "item6": "utilizarea Platformei pentru hărțuire sau amenințări."
+        "item1": "încălcarea oricărei legi aplicabile;",
+        "item2": "publicarea de bunuri ilegale, periculoase, contrafăcute sau furate, inclusiv arme, muniții, substanțe controlate, materiale periculoase sau bunuri care necesită autorizații speciale pe care nu le dețineți;",
+        "item3": "furnizarea de informații false sau înșelătoare, inclusiv la verificarea identității, în anunțuri, date de profil sau comunicări;",
+        "item4": "implicarea în activități frauduloase sau în încercări de inducere în eroare a altor utilizatori sau a Lorent Bloom;",
+        "item5": "interferența cu funcționarea Platformei, inclusiv eludarea măsurilor de securitate, extragerea automată de date sau utilizarea de instrumente automate fără autorizare expresă;",
+        "item6": "utilizarea Platformei pentru hărțuire, amenințări, defăimare sau discriminare pe criterii de rasă, etnie, naționalitate, religie, gen, orientare sexuală, vârstă, dizabilitate sau orice altă caracteristică protejată;",
+        "item7": "spălarea banilor, eludarea sancțiunilor sau finanțarea activităților ilegale;",
+        "item8": "crearea de conturi multiple, asumarea identității altor persoane sau entități, ori încercarea de a eluda suspendarea, încetarea sau alte restricții;",
+        "item9": "colectarea sau utilizarea datelor personale ale altor utilizatori în scopuri care depășesc strictul necesar pentru o tranzacție de închiriere efectuată prin Platformă;",
+        "item10": "orice altă utilizare a Platformei care, în opinia rezonabilă a Lorent Bloom, contravine acestor Termeni sau intereselor legitime ale utilizatorilor sau ale Lorent Bloom."
       }
     },
     "intellectualProperty": {
       "heading": "9. Proprietate Intelectuală",
-      "content": "Tot conținutul Platformei (cod, design, texte, logo-uri) este proprietatea Lorent Bloom sau a licențiatorilor săi și este protejat de lege.",
-      "warning": "Utilizarea conținutului fără acordul scris al Lorent Bloom este interzisă.",
+      "content": "Tot conținutul Platformei (cod, design, texte, logo-uri, mărci comerciale) este proprietatea Lorent Bloom sau a licențiatorilor săi și este protejat de lege.",
+      "warning": "Utilizarea conținutului Platformei fără acordul scris al Lorent Bloom este interzisă.",
       "userContent": {
         "heading": "9.1. Conținutul Utilizatorului",
-        "content": "Utilizatorii poartă întreaga responsabilitate pentru orice conținut pe care îl publică pe Platformă, inclusiv anunțuri, descrieri ale bunurilor, imagini, recenzii și alte materiale.",
-        "disclaimer": "Lorent Bloom nu verifică în prealabil conținutul utilizatorului și nu este responsabil pentru acuratețea, legalitatea, relevanța sau veridicitatea acestuia.",
-        "confirmation": "Prin publicarea conținutului, utilizatorul confirmă că deține toate drepturile și permisiunile necesare pentru a-l utiliza și publica."
+        "content": "Utilizatorii poartă întreaga responsabilitate pentru orice conținut pe care îl publică pe Platformă, inclusiv anunțuri, descrieri ale bunurilor, imagini, fotografii încărcate în chat, recenzii și alte materiale.",
+        "disclaimer": "Deși Lorent Bloom efectuează o verificare administrativă de bază a anunțurilor înainte de publicare, conform descrierii din Secțiunea 3.8, Lorent Bloom nu efectuează o verificare substanțială a conținutului utilizatorului și nu este responsabil pentru acuratețea, legalitatea, relevanța sau veridicitatea acestuia. Aprobarea unui anunț sau a categorizării acestuia nu constituie o garanție, aprobare sau reprezentare din partea Lorent Bloom.",
+        "confirmation": "Prin publicarea conținutului, utilizatorul confirmă că deține toate drepturile, acordurile și permisiunile necesare pentru a-l utiliza și publica, inclusiv în privința oricăror terți reprezentați sau menționați în conținut.",
+        "license": "Prin publicarea conținutului pe Platformă, acordați Lorent Bloom o licență neexclusivă, valabilă la nivel mondial, fără redevențe, sublicențiabilă, pentru a găzdui, stoca, reproduce, modifica în scopuri tehnice (cum ar fi redimensionarea, formatarea sau compresia), afișa, publica, distribui și traduce un astfel de conținut, exclusiv pentru a opera, furniza, securiza, îmbunătăți și promova Platforma, precum și în scopuri juridice, de soluționare a disputelor, de backup și de arhivare. Această licență durează atâta timp cât conținutul dumneavoastră rămâne pe Platformă și pe o perioadă rezonabilă ulterioară, necesară pentru scopurile menționate. Lorent Bloom nu dobândește dreptul de proprietate asupra conținutului dumneavoastră."
+      },
+      "noticeAndTakedown": {
+        "heading": "9.2. Notificare și eliminare a conținutului",
+        "content": "Dacă considerați că orice conținut de pe Platformă încalcă drepturile dumneavoastră, legislația aplicabilă sau acești Termeni (inclusiv, fără limitare, încălcarea drepturilor de proprietate intelectuală, anunțuri ilegale, conținut fraudulos sau materiale dăunătoare), puteți trimite o notificare la support@lorentbloom.com. Notificarea dumneavoastră trebuie să includă: o descriere a conținutului, locația acestuia pe Platformă, datele dumneavoastră de contact și o declarație privind temeiul juridic al plângerii.",
+        "process": "Lorent Bloom va analiza notificările trimise în mod corespunzător într-un termen rezonabil și poate, la discreția sa exclusivă, elimina sau restricționa accesul la conținut, contacta utilizatorul vizat sau lua alte măsuri adecvate. Lorent Bloom acționează exclusiv ca intermediar neutru de găzduire, nu are nicio obligație generală de monitorizare a conținutului utilizatorilor și nu își asumă nicio răspundere pentru conținutul publicat de utilizatori înainte de primirea unei notificări valide."
+      },
+      "reportingViolations": {
+        "heading": "9.3. Raportarea încălcărilor și abuzurilor",
+        "content": "Utilizatorii pot raporta fraude, comportamente abuzive, probleme de siguranță, activități suspecte sau orice altă încălcare a acestor Termeni scriind la support@lorentbloom.com. Lorent Bloom va investiga astfel de rapoarte cu bună-credință, dar nu garantează niciun rezultat specific și nu este răspunzător pentru nicio acțiune luată sau neluată ca răspuns la un raport."
+      },
+      "natureOfListings": {
+        "heading": "9.4. Natura anunțurilor",
+        "content": "Anunțurile publicate pe Platformă constituie invitații la ofertare și nu oferte contractuale obligatorii ale utilizatorilor. Un contract de închiriere între utilizatori este format numai prin acceptarea mutuală expresă, inclusiv, atunci când este aplicabil, prin instrumentele de facilitare a contractului descrise în Secțiunea 3.6. Lorent Bloom nu este parte la astfel de contracte și nu își asumă nicio obligație care decurge din acestea."
+      },
+      "reviews": {
+        "heading": "9.5. Recenzii și evaluări",
+        "content": "În cazul în care Platforma oferă funcționalitatea de a posta recenzii, evaluări sau comentarii despre alți utilizatori sau despre experiențe de închiriere, astfel de materiale reprezintă conținut al utilizatorului în sensul Secțiunii 9.1. Utilizatorii care publică recenzii sunt singurii responsabili pentru acuratețea și legalitatea afirmațiilor lor, inclusiv pentru orice răspundere pentru defăimare, insultă sau încălcarea vieții private. Lorent Bloom nu aprobă, nu verifică și nu moderează recenziile în prealabil și își rezervă dreptul de a elimina recenzii care încalcă acești Termeni sau legea aplicabilă."
       }
     },
     "limitation": {
       "heading": "10. Limitarea Răspunderii",
       "content": "În măsura maximă permisă de lege, Lorent Bloom nu este răspunzător pentru:",
       "list": {
-        "item1": "orice daune indirecte sau accidentale;",
-        "item2": "acțiunile sau inacțiunile utilizatorilor;",
-        "item3": "orice daună rezultată din tranzacțiile de închiriere."
+        "item1": "orice daune indirecte, accidentale, speciale, ulterioare, punitive sau exemplare;",
+        "item2": "acțiunile sau inacțiunile utilizatorilor, inclusiv neîndeplinirea obligațiilor de livrare, returnare, plată sau întreținere corespunzătoare a bunurilor, sau orice încălcare a contractului de închiriere dintre utilizatori;",
+        "item3": "orice daună, pierdere, furt, vătămare, pretenție sau cheltuială rezultată din tranzacții de închiriere, comunicări între utilizatori sau orice utilizare a Platformei, inclusiv încrederea acordată verificării identității, fotografiilor, înregistrărilor de chat sau acordurilor de închiriere facilitate."
       },
       "warning": "Utilizarea Platformei se face pe propriul risc.",
       "disclaimer": {
         "heading": "10.1. Declinarea Garanțiilor",
-        "content": "Platforma și toate serviciile conexe sunt furnizate \"ca atare\" și \"după cum sunt disponibile\". Lorent Bloom nu oferă garanții exprese sau implicite, inclusiv, dar fără a se limita la garanții de funcționare neîntreruptă a serviciului, acuratețea informațiilor, adecvarea pentru un anumit scop sau absența erorilor.",
-        "noGuarantee": "Lorent Bloom nu garantează că Platforma va funcționa fără defecțiuni, întârzieri sau defecțiuni tehnice."
+        "content": "Platforma și toate serviciile și instrumentele conexe (inclusiv verificarea identității, facilitarea contractului, chat-ul și documentarea fotografică) sunt furnizate \"ca atare\" și \"după cum sunt disponibile\". Lorent Bloom nu oferă garanții exprese sau implicite, inclusiv, dar fără a se limita la garanții de funcționare neîntreruptă a serviciului, acuratețea informațiilor, adecvarea pentru un anumit scop, valoarea probatorie sau absența erorilor.",
+        "noGuarantee": "Lorent Bloom nu garantează că Platforma va funcționa fără defecțiuni, întârzieri sau defecțiuni tehnice și nici că vreun instrument descris în Secțiunea 3 va produce un anumit rezultat."
+      },
+      "mandatoryLaw": {
+        "heading": "10.2. Aplicarea normelor imperative",
+        "content": "Niciuna dintre prevederile acestor Termeni nu exclude și nu limitează răspunderea Lorent Bloom în cazurile în care o astfel de excludere sau limitare este interzisă de normele imperative ale legislației Republicii Moldova, inclusiv răspunderea pentru neglijență gravă, conduită intenționată ilicită, deces sau vătămare corporală cauzată de neglijență, sau pentru drepturile acordate consumatorilor prin Legea nr. 105/2003 privind protecția consumatorilor. Limitările de răspundere prevăzute în acești Termeni se aplică numai în limita maximă permisă de legislația aplicabilă."
       }
     },
     "termination": {
@@ -2079,62 +2135,134 @@
       "list": {
         "item1": "suspende sau să înceteze accesul utilizatorului;",
         "item2": "șteargă conturile;",
-        "item3": "elimine conținutul fără notificare prealabilă."
+        "item3": "elimine conținutul cu notificare prealabilă atunci când este rezonabil posibil sau imediat în cazuri de încălcare gravă, conținut ilegal, amenințări, fraudă, eșec al verificării identității sau risc pentru alți utilizatori ori pentru Platformă."
       },
       "indemnity": {
         "heading": "11.1. Despăgubire",
-        "content": "Utilizatorul este de acord să despăgubească și să exonereze Lorent Bloom de orice pretenții, cereri, pierderi, amenzi și cheltuieli (inclusiv onorarii de avocat) rezultate din:",
+        "content": "În măsura maximă permisă de legea aplicabilă și în mod proporțional cu prejudiciul efectiv cauzat, utilizatorul este de acord să despăgubească, să apere și să exonereze Lorent Bloom, afiliații, conducătorii, angajații și partenerii săi de orice pretenții, cereri, pierderi, daune, amenzi, sancțiuni și cheltuieli (inclusiv onorarii rezonabile de avocat efectiv suportate) rezultate din:",
         "list": {
           "item1": "încălcarea de către utilizator a acestor Termeni;",
-          "item2": "încălcarea drepturilor terților;",
-          "item3": "acțiunile sau inacțiunile utilizatorului în timpul utilizării Platformei."
+          "item2": "încălcarea drepturilor terților, inclusiv drepturi de proprietate intelectuală, viața privată și drepturile consumatorilor;",
+          "item3": "acțiunile sau inacțiunile utilizatorului în timpul utilizării Platformei, inclusiv tranzacțiile de închiriere încheiate cu alți utilizatori, orice dispute privind plățile sau pretenții financiare între utilizatori și conținutul încărcat prin chat sau alte funcționalități."
         }
+      },
+      "suspension": {
+        "heading": "11.2. Suspendarea pe durata investigației",
+        "content": "Fără a aduce atingere dreptului său de a înceta accesul în temeiul prezentei Secțiuni, Lorent Bloom poate suspenda temporar accesul la cont, anumite anunțuri sau anumite funcționalități ale Platformei pe durata investigării unor presupuse încălcări ale acestor Termeni, fraude, abuzuri, eșec al verificării identității sau probleme de siguranță, pentru o perioadă rezonabilă și cu notificare atunci când este practic posibil. O astfel de suspendare nu constituie încetare, nu dă naștere niciunei pretenții de despăgubire și nu reprezintă o renunțare la nicio altă cale de atac disponibilă pentru Lorent Bloom."
+      },
+      "survival": {
+        "heading": "11.3. Supraviețuirea prevederilor",
+        "content": "Prevederile acestor Termeni referitoare la proprietatea intelectuală, licențierea conținutului utilizatorului, limitarea răspunderii, declinarea garanțiilor, despăgubirea, soluționarea disputelor, legea aplicabilă, precum și orice alte prevederi care prin natura lor sunt destinate să supraviețuiască, rămân în vigoare după încetarea sau expirarea acestor Termeni, indiferent de motivul unei astfel de încetări."
       }
     },
     "disputeResolution": {
       "heading": "12. Soluționarea Disputelor",
-      "point1": "12.1. Toate disputele între utilizatori vor fi rezolvate direct între ei.",
-      "point2": "12.2. Disputele dintre un utilizator și Lorent Bloom sunt supuse soluționării pre-judiciare în termen de 30 de zile lucrătoare.",
-      "point3": "12.3. Dacă o dispută nu poate fi rezolvată, aceasta va fi examinată de instanțele Republicii Moldova.",
+      "point1": "12.1. Toate disputele între utilizatori vor fi soluționate direct între ei. Lorent Bloom nu are obligația de a media, arbitra, investiga sau de a participa în alt mod la astfel de dispute, indiferent dacă înregistrările de chat, fotografiile sau acordurile facilitate stocate pe Platformă pot avea legătură cu acestea.",
+      "point2": "12.2. Disputele dintre un utilizator și Lorent Bloom sunt supuse soluționării pre-judiciare prin notificare scrisă la support@lorentbloom.com. Lorent Bloom va confirma primirea în termen de 5 zile lucrătoare și va răspunde pe fond în termen de 30 de zile lucrătoare de la notificarea inițială.",
+      "point3": "12.3. Dacă o dispută nu poate fi soluționată pe cale amiabilă, aceasta va fi examinată exclusiv de instanțele competente ale municipiului Chișinău, Republica Moldova, în conformitate cu legislația Republicii Moldova. Nimic din prezenta Secțiune nu limitează vreun drept neeligibil la renunțare al unui utilizator care se califică drept consumator de a iniția proceduri în instanțele țării de reședință obișnuită, în cazul în care astfel de drepturi se aplică în temeiul normelor aplicabile privind conflictul de legi.",
+      "classAction": {
+        "heading": "12.4. Caracterul individual al disputelor",
+        "content": "În măsura maximă permisă de legislația aplicabilă, disputele se soluționează pe bază individuală. Renunțați la orice drept de a participa la o acțiune colectivă, acțiune de grup sau procedură de reprezentare împotriva Lorent Bloom, cu excepția cazurilor în care o astfel de renunțare este interzisă de normele imperative privind protecția consumatorilor."
+      },
       "forceMajeure": {
-        "heading": "12.4. Forță Majoră",
-        "content": "Lorent Bloom nu este răspunzător pentru neîndeplinirea totală sau parțială a obligațiilor în conformitate cu acești Termeni dacă această neîndeplinire este cauzată de circumstanțe de forță majoră, inclusiv, dar fără a se limita la: dezastre naturale, incendii, acțiuni militare, decizii guvernamentale, defecțiuni în rețelele de comunicații, alimentarea cu energie electrică sau serviciile terților."
+        "heading": "12.5. Forță Majoră",
+        "content": "Lorent Bloom nu este răspunzător pentru neîndeplinirea totală sau parțială a obligațiilor în conformitate cu acești Termeni dacă această neîndeplinire este cauzată de circumstanțe de forță majoră aflate dincolo de controlul său rezonabil, inclusiv, dar fără a se limita la: dezastre naturale, incendii, inundații, acțiuni militare, tulburări civile, decizii guvernamentale, epidemii sau pandemii, defecțiuni în rețelele publice de comunicații, defecțiuni în alimentarea cu energie electrică sau defecțiuni ale serviciilor terților."
       }
     },
     "privacyPolicy": {
       "heading": "13. Politica de Confidențialitate",
-      "intro": "Prelucrarea datelor personale ale utilizatorilor se efectuează în conformitate cu Legea nr. 133 din 07.08.2011 a Republicii Moldova \"Cu privire la protecția datelor cu caracter personal\".",
+      "intro": "Prelucrarea datelor personale ale utilizatorilor se efectuează în conformitate cu Legea nr. 133 din 07.08.2011 a Republicii Moldova \"Cu privire la protecția datelor cu caracter personal\". Prevederile care urmează reprezintă un rezumat al modului în care sunt prelucrate datele cu caracter personal; descrierea completă și autoritativă este stabilită în Politica noastră de Confidențialitate separată. În cazul oricărei neconcordanțe între prezenta Secțiune și Politica de Confidențialitate, Politica de Confidențialitate va prevala.",
       "purposes": {
         "content": "Lorent Bloom prelucrează datele personale exclusiv în scopurile:",
         "list": {
-          "item1": "furnizării accesului la Platformă și funcționalitatea acesteia;",
-          "item2": "identificării utilizatorilor;",
-          "item3": "asigurării funcționării tehnice a serviciului;",
-          "item4": "respectării cerințelor legale."
+          "item1": "furnizării accesului la Platformă și funcționalitatea acesteia, inclusiv verificarea identității, facilitarea contractului și funcțiile de chat;",
+          "item2": "identificării utilizatorilor, prevenirii fraudelor și securizării contului;",
+          "item3": "asigurării funcționării tehnice, întreținerii și îmbunătățirii serviciului;",
+          "item4": "respectării cerințelor legale, fiscale, contabile și de reglementare."
         }
       },
-      "thirdParty": "Lorent Bloom nu transferă datele personale către terți, cu excepția cazurilor prevăzute direct de lege sau necesare pentru furnizarea serviciului (furnizori de plăți, furnizori de găzduire și alți parteneri tehnici).",
+      "legalBases": {
+        "heading": "13.1. Temeiul juridic al prelucrării",
+        "content": "Lorent Bloom prelucrează datele cu caracter personal în baza următoarelor temeiuri juridice prevăzute de Legea nr. 133/2011: (a) executarea contractului cu dumneavoastră, materializat prin acești Termeni; (b) respectarea obligațiilor legale aplicabile Lorent Bloom; (c) interesele legitime ale Lorent Bloom de a opera, securiza și îmbunătăți Platforma, inclusiv prevenirea fraudelor și a abuzurilor; și (d) consimțământul dumneavoastră explicit, atunci când este necesar, pe care îl puteți retrage oricând fără a afecta legalitatea prelucrării efectuate înainte de retragere. Prelucrarea numărului de identificare personală al Republicii Moldova (IDNP) și a datelor din documentele de identitate se efectuează exclusiv în scopul identificării utilizatorilor, prevenirii fraudelor și protejării drepturilor altor utilizatori și ale Lorent Bloom, pe temeiurile juridice ale executării contractului și ale intereselor legitime ale Lorent Bloom, cu respectarea regulilor speciale aplicabile unor astfel de date conform Legii nr. 133/2011."
+      },
+      "dataSubjectRights": {
+        "heading": "13.2. Drepturile dumneavoastră",
+        "content": "În temeiul Legii nr. 133/2011 aveți dreptul: (a) de acces la datele dumneavoastră personale; (b) de a solicita rectificarea datelor inexacte sau incomplete; (c) de a solicita ștergerea datelor (\"dreptul de a fi uitat\") atunci când temeiul prelucrării nu mai există; (d) de a solicita restricționarea prelucrării; (e) de a vă opune prelucrării bazate pe interese legitime; (f) de a primi datele într-un format structurat, utilizat în mod curent și care poate fi citit automat; (g) de a vă retrage consimțământul; și (h) de a depune o plângere la Centrul Național pentru Protecția Datelor cu Caracter Personal al Republicii Moldova. Pentru a exercita oricare dintre aceste drepturi, contactați-ne la support@lorentbloom.com. Lorent Bloom va răspunde în termenele prevăzute de lege."
+      },
+      "retention": {
+        "heading": "13.3. Păstrarea datelor",
+        "content": "Lorent Bloom păstrează datele cu caracter personal pe toată durata activității contului dumneavoastră și pentru o perioadă suplimentară de până la 3 (trei) ani după închidere, în scopuri juridice, fiscale, contabile, de prevenire a fraudei și de soluționare a disputelor, cu excepția cazului în care o perioadă mai lungă este impusă de lege. Datele de verificare a identității și înregistrările de chat referitoare la tranzacțiile de închiriere încheiate pot fi păstrate aceeași perioadă, în calitate de material probatoriu. Atunci când păstrarea nu mai este justificată, datele sunt șterse sau anonimizate."
+      },
+      "thirdParty": "Lorent Bloom nu transferă datele personale către terți, cu excepția cazurilor prevăzute direct de lege, dispuse de autoritățile competente sau necesare pentru furnizarea serviciului (furnizori de verificare a identității, furnizori de găzduire, furnizori de comunicații și alți parteneri tehnici) și întotdeauna pe baza unor acorduri scrise care asigură un nivel adecvat de protecție a datelor.",
       "dataTypes": {
         "content": "Datele personale pot include, printre altele:",
         "list": {
           "item1": "prenume și nume;",
           "item2": "număr de telefon;",
           "item3": "adresă de email;",
-          "item4": "adresă IP;",
-          "item5": "date despre tranzacțiile de plată;",
-          "item6": "date din documentele de identitate (dacă este necesar)."
+          "item4": "adresă IP și date despre dispozitiv;",
+          "item5": "numărul de identificare personală al Republicii Moldova (IDNP) și datele documentelor de identitate;",
+          "item6": "istoricul tranzacțiilor de închiriere, conținutul chat-ului și fotografiile încărcate prin Platformă."
         }
       },
-      "consent": "Utilizatorul confirmă că furnizează datele personale în mod voluntar și consimte la prelucrarea acestora în scopurile menționate.",
+      "consent": "Utilizatorul confirmă că furnizează datele personale în mod voluntar și consimte la prelucrarea acestora în scopurile menționate, atunci când consimțământul este temeiul juridic aplicabil.",
       "moreInfo": "Condițiile detaliate de prelucrare, stocare și protecție a datelor personale sunt stabilite într-un document separat — Politica de Confidențialitate publicată pe Platformă."
     },
     "changes": {
       "heading": "14. Modificări ale Termenilor",
-      "content": "Ne rezervăm dreptul de a modifica acești termeni în orice moment. Vom notifica utilizatorii despre orice modificări importante prin publicarea noilor termeni pe această pagină. Continuarea utilizării serviciului după astfel de modificări constituie acceptarea noilor termeni."
+      "content": "Lorent Bloom poate modifica acești Termeni din când în când. Modificările materiale vor fi notificate utilizatorilor cu cel puțin 14 (paisprezece) zile calendaristice înainte de intrarea lor în vigoare prin: (a) publicarea Termenilor actualizați pe această pagină cu data „Ultima actualizare\" reînnoită; și (b) trimiterea unei notificări la adresa dumneavoastră de email înregistrată sau afișarea unei notificări în cadrul Platformei. Modificările pur editoriale sau tehnice care nu afectează drepturile sau obligațiile utilizatorilor (cum ar fi corectarea greșelilor de tipar, clarificarea formulărilor existente sau actualizarea referințelor nesubstanțiale) pot intra în vigoare imediat după publicare. În cazul oricărui dubiu rezonabil cu privire la caracterul material al unei modificări, Lorent Bloom o va trata ca materială și va acorda perioada de notificare de 14 (paisprezece) zile. Dacă nu sunteți de acord cu modificările, trebuie să închideți contul înainte de intrarea lor în vigoare; continuarea utilizării Platformei după data efectivă constituie acceptarea Termenilor actualizați. Modificările nu se aplică retroactiv disputelor apărute înainte de data efectivă."
+    },
+    "consumerRights": {
+      "heading": "15. Drepturile consumatorilor",
+      "content": "Dacă vă calificați drept consumator în sensul Legii nr. 105/2003 a Republicii Moldova privind protecția consumatorilor, păstrați toate drepturile imperative acordate de lege. Niciuna dintre prevederile acestor Termeni nu este destinată să limiteze, să excludă sau să modifice drepturi de la care nu se poate renunța în temeiul legislației aplicabile privind protecția consumatorilor. În cazul în care orice prevedere a acestor Termeni este considerată ca fiind în conflict cu un drept imperativ al consumatorului, prevederea respectivă se va aplica numai în măsura permisă de lege, iar restul Termenilor vor rămâne în vigoare.",
+      "withdrawal": {
+        "heading": "15.1. Dreptul de retragere",
+        "content": "Platforma este pusă la dispoziția utilizatorilor în mod gratuit. Întrucât Lorent Bloom nu oferă în prezent niciun serviciu plătit la distanță, dreptul consumatorului de retragere prevăzut de Legea nr. 105/2003 nu se aplică relației utilizatorului cu Lorent Bloom. În cazul în care Lorent Bloom va oferi în viitor orice serviciu plătit la distanță, acești Termeni vor fi modificați în conformitate cu Secțiunea 14, iar procedura de retragere aplicabilă va fi stabilită la acel moment. Pentru tranzacțiile de închiriere încheiate între utilizatori, orice drepturi de retragere, anulare sau rambursare, atunci când sunt aplicabile conform legislației privind protecția consumatorilor, trebuie exercitate cu celălalt utilizator, în calitate de contraparte contractuală, și nu cu Lorent Bloom."
+      }
+    },
+    "generalProvisions": {
+      "heading": "16. Dispoziții generale",
+      "severability": {
+        "heading": "16.1. Divizibilitatea",
+        "content": "Dacă orice prevedere a acestor Termeni este considerată de o instanță competentă sau de o autoritate ca fiind invalidă, ilegală sau inaplicabilă, prevederea respectivă va fi considerată modificată în măsura minimă necesară pentru a o face aplicabilă sau, dacă nu poate fi modificată în acest fel, separată de acești Termeni. Prevederile rămase vor continua să fie în vigoare în întregime."
+      },
+      "entireAgreement": {
+        "heading": "16.2. Întregul acord",
+        "content": "Acești Termeni, împreună cu Politica de Confidențialitate și Politica privind Cookie-urile, constituie întregul acord dintre dumneavoastră și Lorent Bloom cu privire la utilizarea Platformei și înlocuiesc orice acorduri, reprezentări sau înțelegeri anterioare, verbale sau scrise."
+      },
+      "noWaiver": {
+        "heading": "16.3. Lipsa renunțării",
+        "content": "Neexercitarea sau întârzierea de către Lorent Bloom în exercitarea sau aplicarea oricărui drept sau prevederi din acești Termeni nu va constitui o renunțare la un astfel de drept sau prevedere. Nicio renunțare la o prevedere nu va fi valabilă decât dacă este făcută în scris de un reprezentant autorizat al Lorent Bloom."
+      },
+      "assignment": {
+        "heading": "16.4. Cesiunea",
+        "content": "Nu puteți cesiona, transfera sau delega niciunul dintre drepturile sau obligațiile dumneavoastră în temeiul acestor Termeni fără consimțământul prealabil scris al Lorent Bloom. Lorent Bloom poate cesiona sau transfera liber acești Termeni, în întregime sau parțial, inclusiv în legătură cu o fuziune, achiziție, reorganizare sau vânzare de active."
+      },
+      "governingLanguage": {
+        "heading": "16.5. Limba prevalentă",
+        "content": "Acești Termeni pot fi puși la dispoziție în mai multe limbi, pentru comoditatea utilizatorilor. În cazul oricărei neconcordanțe sau conflict între versiunile lingvistice, versiunea în limba română va prevala ca text oficial."
+      },
+      "electronicCommunications": {
+        "heading": "16.6. Comunicările electronice",
+        "content": "Prin utilizarea Platformei, vă exprimați acordul de a primi comunicări, notificări și informări de la Lorent Bloom în formă electronică, inclusiv prin email, prin mesaje în cadrul Platformei sau prin postări pe Platformă. Sunteți de acord că astfel de comunicări electronice îndeplinesc orice cerință legală ca astfel de comunicări să fie făcute în scris."
+      },
+      "governingLaw": {
+        "heading": "16.7. Legea aplicabilă",
+        "content": "Acești Termeni sunt guvernați și interpretați în conformitate cu legislația Republicii Moldova, inclusiv, fără a se limita la, Legea nr. 284/2004 privind comerțul electronic, Legea nr. 133/2011 privind protecția datelor cu caracter personal, Legea nr. 105/2003 privind protecția consumatorilor și Codul Civil al Republicii Moldova."
+      },
+      "noAgency": {
+        "heading": "16.8. Inexistența relației de reprezentare",
+        "content": "Niciuna dintre prevederile acestor Termeni nu creează vreo relație de muncă, agenție, parteneriat, asociere în participațiune sau franciză între dumneavoastră și Lorent Bloom. Nu aveți autoritatea de a angaja Lorent Bloom sau de a acționa în numele acestuia în orice problemă și nu vă veți prezenta, în mod expres sau implicit, ca având o astfel de autoritate."
+      },
+      "noThirdPartyBeneficiaries": {
+        "heading": "16.9. Absența beneficiarilor terți",
+        "content": "Acești Termeni sunt încheiați exclusiv în beneficiul utilizatorului și al Lorent Bloom. Niciun terț nu are dreptul de a executa vreo prevedere a acestor Termeni, cu excepția cazurilor în care normele imperative acordă în mod expres astfel de drepturi unor terți determinați."
+      }
     },
     "contact": {
-      "heading": "15. Informații de Contact",
-      "content": "Dacă aveți întrebări despre acești Termeni și Condiții, vă rugăm să ne contactați la support@lorentbloom.com"
+      "heading": "17. Informații de Contact",
+      "entity": "Lorent Bloom funcționează în prezent ca o platformă în faza pre-lansare. Persoana juridică pentru operarea Platformei este în curs de înființare în Republica Moldova; după finalizarea înregistrării, datele actualizate ale persoanei juridice (denumirea, IDNO și adresa sediului social) vor fi publicate în prezenta Secțiune. Până la finalizarea înregistrării, Platforma funcționează fără procesarea plăților utilizatorilor și pune la dispoziție doar instrumente tehnice care permit utilizatorilor să se conecteze între ei.",
+      "content": "Pentru întrebări despre acești Termeni și Condiții sau pentru exercitarea oricăror drepturi, vă rugăm să ne contactați la support@lorentbloom.com."
     }
   },
   "faq": {
@@ -2152,73 +2280,281 @@
     "contractPending": "Contractul asteapta semnatura proprietarului",
     "contractSigned": "Contract semnat complet"
   },
+  "privacy-policy": {
+    "title": "Politica de Confidențialitate",
+    "lastUpdated": "Ultima actualizare: 11 mai 2026",
+    "metadata": {
+      "title": "Politica de Confidențialitate a platformei de închiriere",
+      "description": "Aflați cum Lorent Bloom colectează, utilizează, păstrează și protejează datele dumneavoastră cu caracter personal, precum și drepturile pe care vi le acordă legislația Republicii Moldova."
+    },
+    "introduction": {
+      "heading": "1. Introducere și operator",
+      "content": "Prezenta Politică de Confidențialitate (denumită în continuare „Politica\") explică modul în care platforma Lorent Bloom (denumită în continuare „Platformă\", „Serviciu\", „Lorent Bloom\", „noi\", „nouă\" sau „nostru\") colectează, utilizează, păstrează, divulgă și protejează datele dumneavoastră cu caracter personal atunci când accesați sau utilizați Platforma.",
+      "controller": "În sensul prezentei Politici și al Legii Republicii Moldova nr. 133 din 07.08.2011 privind protecția datelor cu caracter personal, Lorent Bloom acționează în calitate de operator al datelor cu caracter personal prelucrate prin intermediul Platformei. Informațiile despre persoana juridică ce operează Platforma sunt stabilite în Secțiunea 17 a prezentei Politici.",
+      "scope": "Prezenta Politică se aplică tuturor datelor cu caracter personal prelucrate în legătură cu utilizarea Platformei. Prin utilizarea Platformei, confirmați că ați citit, înțeles și acceptat termenii prezentei Politici împreună cu Termenii și Condițiile noastre.",
+      "agreement": "Dacă nu sunteți de acord cu prezenta Politică, vă rugăm să nu utilizați Platforma."
+    },
+    "regulatoryFramework": {
+      "heading": "2. Cadrul de reglementare",
+      "content": "Prelucrăm datele cu caracter personal în conformitate cu legislația aplicabilă a Republicii Moldova și cu standardele internaționale recunoscute, în special:",
+      "list": {
+        "item1": "Constituția Republicii Moldova (în special articolul 28 privind dreptul la viața intimă);",
+        "item2": "Legea nr. 133 din 07.08.2011 privind protecția datelor cu caracter personal;",
+        "item3": "Hotărârea Guvernului nr. 1123 din 14.12.2010 privind cerințele de securitate la prelucrarea datelor cu caracter personal;",
+        "item4": "Hotărârea Guvernului nr. 296 din 15.05.2012 privind aprobarea Registrului operatorilor de date cu caracter personal;",
+        "item5": "Legea nr. 105/2003 privind protecția consumatorilor;",
+        "item6": "Legea nr. 284/2004 privind comerțul electronic;",
+        "item7": "Legea nr. 308/2017 privind prevenirea și combaterea spălării banilor și finanțării terorismului (în cazul în care Lorent Bloom va introduce în viitor funcționalități de plată);",
+        "item8": "Codul Civil al Republicii Moldova;",
+        "item9": "principiile internaționale recunoscute în domeniul protecției datelor, inclusiv cele consacrate în Convenția Consiliului Europei 108+ și, ca referință, în Directiva 95/46/CE și GDPR."
+      },
+      "commitment": "Ne angajăm să asigurăm prelucrarea legală, echitabilă, transparentă și proporțională a datelor dumneavoastră cu caracter personal în orice moment."
+    },
+    "dataCollected": {
+      "heading": "3. Datele pe care le colectăm",
+      "intro": "Colectăm datele cu caracter personal în trei categorii: datele pe care le furnizați direct, datele colectate automat și datele primite de la terți. Tratăm numărul de identificare personală al Republicii Moldova (IDNP) și datele din documentele de identitate ca date cu caracter personal sensibile care necesită protecție specială.",
+      "directData": {
+        "heading": "3.1. Datele pe care le furnizați direct",
+        "content": "Atunci când vă înregistrați, creați anunțuri, comunicați cu alți utilizatori sau interacționați cu Platforma, colectăm datele pe care le furnizați activ, inclusiv:",
+        "list": {
+          "item1": "adresa de email (obligatorie pentru înregistrare);",
+          "item2": "prenumele și numele;",
+          "item3": "numărul de telefon;",
+          "item4": "datele de autentificare (parola, doar în formă hash-uită);",
+          "item5": "numărul de identificare personală al Republicii Moldova (IDNP) și datele din documentele de identitate, atunci când este necesară verificarea identității (a se vedea Secțiunea 3.4);",
+          "item6": "conținutul anunțurilor, inclusiv descrierile bunurilor, categoriile și fotografiile;",
+          "item7": "mesajele și fotografiile schimbate prin chat-ul intern al Platformei la fiecare etapă a unei tranzacții de închiriere;",
+          "item8": "contractele de închiriere confirmate electronic de ambele părți prin Platformă;",
+          "item9": "orice alte informații pe care le transmiteți voluntar prin formulare, cereri de asistență sau feedback."
+        }
+      },
+      "automaticData": {
+        "heading": "3.2. Datele colectate automat",
+        "content": "Atunci când utilizați Platforma, anumite informații tehnice și comportamentale sunt colectate automat, inclusiv:",
+        "list": {
+          "item1": "adresa IP și localizarea geografică aproximativă derivată din aceasta;",
+          "item2": "informațiile despre dispozitiv (tip, model, sistem de operare, browser, rezoluția ecranului, setările de limbă);",
+          "item3": "activitatea pe Platformă (pagini vizitate, interogări de căutare, click-uri, timpul petrecut, URL-uri de referință);",
+          "item4": "datele de autentificare și sesiune (timpul de conectare, identificatorii de sesiune, evenimentele de schimbare a parolei);",
+          "item5": "cookie-uri și tehnologii similare (a se vedea Politica privind Cookie-urile separată)."
+        }
+      },
+      "thirdPartyData": {
+        "heading": "3.3. Datele provenite de la terți și din surse publice",
+        "content": "Putem primi date limitate despre dumneavoastră de la terți, inclusiv: informații tehnice și statistice de la furnizori de analiză; date de la furnizori de autentificare, dacă utilizați un serviciu de logare al unei terțe părți; informații de la furnizori de prevenire a fraudei și conformitate; date disponibile legal în registre publice. Folosim astfel de date exclusiv în scopurile prevăzute în prezenta Politică și numai dacă există un temei legal pentru aceasta."
+      },
+      "sensitiveData": {
+        "heading": "3.4. Date sensibile — IDNP și documente de identitate",
+        "content": "Numărul de identificare personală al Republicii Moldova (IDNP) și datele din documentele de identitate sunt tratate drept date cu caracter personal sensibile în temeiul Legii nr. 133/2011. Prelucrăm astfel de date doar atunci când este strict necesar, pe baza dublă a: (a) consimțământului dumneavoastră explicit, exprimat la momentul verificării identității, și (b) executării contractului dintre dumneavoastră și Lorent Bloom. Vă puteți retrage consimțământul oricând, caz în care vom înceta utilizarea IDNP-ului pentru prelucrări ulterioare și îl vom șterge, cu excepția cazului în care păstrarea este impusă de lege (de exemplu, pentru investigarea fraudei, soluționarea disputelor sau în scopuri contabile)."
+      }
+    },
+    "purposes": {
+      "heading": "4. Scopurile prelucrării",
+      "content": "Prelucrăm datele cu caracter personal exclusiv în următoarele scopuri:",
+      "list": {
+        "item1": "crearea, autentificarea și securizarea conturilor de utilizator;",
+        "item2": "publicarea, verificarea administrativă și gestionarea anunțurilor;",
+        "item3": "verificarea identității utilizatorului prin IDNP și documente justificative;",
+        "item4": "facilitarea contractelor de închiriere între utilizatori (inclusiv fluxul de semnătură electronică) și păstrarea evidenței chat-ului și a fotografiilor, conform Termenilor și Condițiilor;",
+        "item5": "încredere și siguranță, inclusiv detectarea și prevenirea fraudei, abuzurilor, hărțuirilor și a conținutului care încalcă acești Termeni sau legislația aplicabilă;",
+        "item6": "comunicarea cu dumneavoastră, inclusiv notificări tranzacționale, anunțuri de serviciu și răspunsuri la solicitările de asistență;",
+        "item7": "respectarea obligațiilor legale (inclusiv cerințe fiscale, contabile, de reglementare și judiciare);",
+        "item8": "operarea, întreținerea, securitatea, depanarea și îmbunătățirea Platformei și a funcționalităților sale;",
+        "item9": "exercitarea și apărarea pretențiilor legale, atât ale utilizatorilor, cât și ale Lorent Bloom."
+      },
+      "noProfiling": "Nu luăm în prezent decizii cu privire la dumneavoastră bazate exclusiv pe prelucrare automatizată, care să producă efecte juridice semnificative sau efecte similare. Dacă astfel de prelucrare automatizată va fi introdusă vreodată, prezenta Politică va fi actualizată, iar dumneavoastră veți fi informat în prealabil."
+    },
+    "legalBases": {
+      "heading": "5. Temeiurile juridice ale prelucrării",
+      "content": "Prelucrăm datele cu caracter personal în baza următoarelor temeiuri juridice prevăzute de art. 5 al Legii nr. 133/2011:",
+      "list": {
+        "item1": "(a) executarea contractului dintre dumneavoastră și Lorent Bloom (acești Termeni și Politica de Confidențialitate) sau demersuri întreprinse la cererea dumneavoastră înainte de încheierea unui contract (cum ar fi înregistrarea contului);",
+        "item2": "(b) respectarea obligațiilor legale aplicabile Lorent Bloom (de exemplu, cerințe fiscale, antifraudă și judiciare);",
+        "item3": "(c) interesele legitime urmărite de Lorent Bloom în operarea, securizarea și îmbunătățirea Platformei, inclusiv prevenirea fraudei, integritatea sistemelor și încrederea utilizatorilor — cu condiția ca aceste interese să nu fie prevalate de drepturile și libertățile dumneavoastră;",
+        "item4": "(d) consimțământul dumneavoastră explicit, atunci când este necesar (în special pentru prelucrarea IDNP și pentru orice comunicări de marketing care nu sunt esențiale). Vă puteți retrage consimțământul oricând, fără a afecta legalitatea prelucrării efectuate înainte de retragere."
+      },
+      "idnpBasis": "În mod specific, prelucrarea IDNP și a datelor din documentele de identitate se efectuează pe o bază juridică dublă: consimțământul explicit (art. 6 al Legii nr. 133/2011) și executarea contractului. Aceasta este cea mai puternică poziție juridică disponibilă conform legislației moldovenești privind protecția datelor pentru identificatori sensibili."
+    },
+    "retention": {
+      "heading": "6. Păstrarea datelor",
+      "intro": "Păstrăm datele cu caracter personal doar atât timp cât este necesar pentru atingerea scopurilor pentru care au fost colectate, în conformitate cu legislația aplicabilă. Perioadele specifice de păstrare sunt următoarele:",
+      "list": {
+        "item1": "datele necesare pentru funcționarea unui cont activ sunt păstrate pe toată durata activității acestuia;",
+        "item2": "după închiderea contului, datele cu caracter personal sunt păstrate până la 3 (trei) ani în scopuri juridice, fiscale, contabile, de prevenire a fraudei și de soluționare a disputelor, cu excepția cazului în care o perioadă mai lungă este impusă de lege;",
+        "item3": "IDNP-ul și datele din documentele de identitate sunt șterse la închiderea contului sau mai devreme, la retragerea consimțământului, cu excepția cazului în care păstrarea este impusă de legislația aplicabilă sau de o investigație ori dispută în curs;",
+        "item4": "conținutul chat-ului, fotografiile încărcate prin chat și contractele de închiriere semnate electronic pot fi păstrate aceeași perioadă ca alte înregistrări tranzacționale și pot fi folosite drept material probatoriu în disputele dintre utilizatori;",
+        "item5": "jurnalele tehnice (jurnale de acces, securitate, erori) sunt păstrate până la 12 (douăsprezece) luni, cu excepția cazului în care o perioadă mai lungă este impusă din motive de securitate sau legale;",
+        "item6": "dacă un cont rămâne inactiv mai mult de 12 (douăsprezece) luni consecutive, vă putem notifica și, în absența unui răspuns sau a unei obligații restante, putem șterge contul și datele cu caracter personal asociate;",
+        "item7": "atunci când păstrarea nu mai este justificată, datele sunt șterse în mod securizat sau anonimizate ireversibil."
+      }
+    },
+    "recipients": {
+      "heading": "7. Cui transmitem datele dumneavoastră",
+      "intro": "Nu vindem datele dumneavoastră cu caracter personal. Le transmitem doar în măsura necesară pentru a opera Platforma, a respecta legea sau a proteja drepturile utilizatorilor și ale Lorent Bloom, și doar către următoarele categorii de destinatari:",
+      "list": {
+        "item1": "furnizori de găzduire și de infrastructură cloud, care stochează și prelucrează date în numele nostru în baza unor obligații contractuale de confidențialitate și securitate;",
+        "item2": "furnizori de comunicații (de exemplu, furnizori de email și SMS) folosiți pentru livrarea notificărilor tranzacționale;",
+        "item3": "furnizori de servicii de verificare a identității, atunci când este aplicabil, exclusiv pentru confirmarea IDNP-ului și a documentelor de identitate;",
+        "item4": "furnizori de analiză, care primesc date agregate sau pseudonimizate pentru a ne ajuta să înțelegem utilizarea Platformei;",
+        "item5": "consilieri profesioniști (juridici, contabili, auditori), care sunt obligați să respecte confidențialitatea;",
+        "item6": "autorități guvernamentale, de reglementare, judiciare sau de aplicare a legii, atunci când acest lucru este impus de o solicitare legală obligatorie sau de legea aplicabilă;",
+        "item7": "succesori, în caz de fuziune, achiziție, reorganizare sau vânzare de active, situație în care prezenta Politică va continua să se aplice datelor dumneavoastră până la și cu excepția cazului în care vă este comunicată o nouă politică conform Secțiunii 15."
+      },
+      "safeguards": "Toți destinatarii care acționează în numele nostru sunt obligați prin acorduri scrise care îi obligă să mențină un nivel de protecție a datelor cel puțin echivalent cu cel impus de legislația moldovenească și să utilizeze datele cu caracter personal exclusiv în scopurile pe care le indicăm. În prezent nu indicăm în prezenta Politică numele specifice ale furnizorilor; categoriile de mai sus descriu tipurile de destinatari care pot prelucra date în numele nostru pe măsură ce stack-ul nostru tehnologic evoluează.",
+      "publicData": "Informațiile pe care alegeți să le faceți publice pe Platformă (cum ar fi părți din anunțurile sau profilul dumneavoastră vizibile altor utilizatori) sunt accesibile terților prin natura lor. Trebuie să dați dovadă de discernământ în privința oricăror informații pe care alegeți să le faceți vizibile public."
+    },
+    "internationalTransfers": {
+      "heading": "8. Transferul internațional al datelor",
+      "content": "Datele cu caracter personal pot fi prelucrate de Lorent Bloom sau de furnizorii noștri de servicii în locații din afara Republicii Moldova, de exemplu acolo unde serviciile de găzduire, comunicații sau analiză sunt furnizate de pe servere situate în străinătate.",
+      "safeguards": "Atunci când datele cu caracter personal sunt transferate în afara Republicii Moldova, asigurăm un nivel adecvat de protecție aplicând una sau mai multe dintre următoarele garanții: (a) transferuri către jurisdicții recunoscute ca asigurând un nivel adecvat de protecție conform deciziilor moldovenești sau ale Comisiei Europene; (b) transferuri către părți la Convenția Consiliului Europei 108 și la versiunea modernizată 108+; (c) clauze contractuale standard sau garanții contractuale echivalente care obligă destinatarul la obligații de protecție a datelor comparabile cu cele impuse de Legea nr. 133/2011; (d) alte garanții aprobate de Centrul Național pentru Protecția Datelor cu Caracter Personal al Republicii Moldova."
+    },
+    "yourRights": {
+      "heading": "9. Drepturile dumneavoastră",
+      "intro": "În temeiul Legii nr. 133/2011, aveți următoarele drepturi cu privire la datele dumneavoastră cu caracter personal:",
+      "list": {
+        "item1": "dreptul de acces — de a obține confirmarea dacă vă prelucrăm datele și de a primi o copie a acestor date;",
+        "item2": "dreptul la rectificare — de a solicita corectarea datelor inexacte sau incomplete;",
+        "item3": "dreptul la ștergere („dreptul de a fi uitat\") — de a solicita ștergerea datelor dumneavoastră atunci când temeiul juridic pentru prelucrare nu mai există, sub rezerva obligațiilor legale de păstrare;",
+        "item4": "dreptul la restricționarea prelucrării — de a solicita limitarea prelucrării în circumstanțe specifice (de exemplu, pe durata verificării acurateții datelor contestate);",
+        "item5": "dreptul de a vă opune — prelucrării bazate pe interesele noastre legitime, inclusiv pentru marketing direct;",
+        "item6": "dreptul la portabilitatea datelor — de a primi datele într-un format structurat, utilizat în mod curent și care poate fi citit automat și, atunci când este fezabil din punct de vedere tehnic, de a le transmite altui operator;",
+        "item7": "dreptul de a retrage consimțământul — în orice moment, fără a afecta legalitatea prelucrării efectuate înainte de retragere (în special pentru prelucrarea IDNP);",
+        "item8": "dreptul de a depune o plângere la Centrul Național pentru Protecția Datelor cu Caracter Personal al Republicii Moldova (datele de contact în Secțiunea 16)."
+      }
+    },
+    "exerciseRights": {
+      "heading": "10. Cum vă exercitați drepturile",
+      "content": "Pentru a exercita oricare dintre drepturile enumerate în Secțiunea 9, contactați-ne la support@lorentbloom.com. Pentru a putea răspunde în siguranță, vă putem solicita să vă confirmați identitatea înainte de a acționa pe baza unei cereri.",
+      "timing": "Ne propunem să răspundem la toate cererile în termen de 1 (o) lună calendaristică de la data primirii. Dacă o cerere este deosebit de complexă sau dacă sunt primite mai multe cereri simultan, putem prelungi acest termen cu până la 2 (două) luni suplimentare, situație în care vă vom informa despre prelungire și despre motivele acesteia.",
+      "fees": "Exercitarea drepturilor dumneavoastră este gratuită. Cu toate acestea, în cazul în care o cerere este vădit nefondată, repetitivă sau excesivă, putem fie să percepem o taxă rezonabilă, fie să refuzăm să acționăm pe baza cererii, în conformitate cu Legea nr. 133/2011.",
+      "complaint": "Dacă considerați că prelucrarea datelor dumneavoastră cu caracter personal de către noi încalcă legislația aplicabilă, puteți depune oricând o plângere la Centrul Național pentru Protecția Datelor cu Caracter Personal al Republicii Moldova (a se vedea Secțiunea 16). Vă încurajăm să ne contactați mai întâi, astfel încât să putem încerca să rezolvăm problemele direct."
+    },
+    "security": {
+      "heading": "11. Măsuri de securitate",
+      "intro": "Implementăm măsuri tehnice și organizatorice adecvate pentru a proteja datele cu caracter personal împotriva prelucrării neautorizate sau ilegale și împotriva pierderii, distrugerii sau deteriorării accidentale, ținând cont de natura datelor, de riscurile implicate și de stadiul actual al tehnologiei.",
+      "technical": "Măsurile tehnice includ: criptarea în tranzit (TLS/HTTPS); criptarea datelor sensibile în repaus, atunci când este cazul; controlul accesului și permisiuni bazate pe rol; jurnalizarea auditării accesului la datele cu caracter personal; evaluări regulate de securitate și teste de penetrare ale Platformei; stocarea securizată a parolelor folosind hash-uire criptografică; și segregarea datelor de producție de mediile de dezvoltare.",
+      "organizational": "Măsurile organizatorice includ: principiul „need-to-know\" pentru accesul personalului la datele cu caracter personal; obligații de confidențialitate care leagă personalul nostru și contractanții; instruire în domeniul protecției datelor și al securității informațiilor; proceduri de răspuns la incidente și notificare a încălcărilor; și revizuirea regulată a posturii noastre de securitate.",
+      "disclaimer": "În ciuda acestor măsuri, niciun sistem sau mijloc de transmitere prin Internet nu poate fi garantat ca fiind complet sigur. Sunteți responsabil să păstrați confidențialitatea datelor de autentificare și să ne notificați prompt la support@lorentbloom.com cu privire la orice suspiciune de acces neautorizat la contul dumneavoastră.",
+      "breachNotification": "În cazul unei încălcări a securității datelor cu caracter personal care ar putea genera un risc ridicat pentru drepturile și libertățile dumneavoastră, Lorent Bloom vă va notifica pe dumneavoastră și Centrul Național pentru Protecția Datelor cu Caracter Personal al Republicii Moldova fără întârzieri nejustificate, în conformitate cu Legea nr. 133/2011. Notificările adresate dumneavoastră vor descrie natura încălcării, consecințele probabile, măsurile întreprinse sau propuse pentru remediere și pașii pe care îi puteți face pentru a vă proteja."
+    },
+    "marketing": {
+      "heading": "12. Comunicări de marketing",
+      "transactional": "Vă putem trimite comunicări tranzacționale necesare pentru funcționarea Platformei — de exemplu, confirmări de cont, notificări de securitate, actualizări privind starea anunțurilor și răspunsuri la cererile de asistență. Întrucât aceste mesaje sunt necesare pentru livrarea Serviciului, nu puteți renunța la ele cât timp aveți un cont.",
+      "promotional": "Comunicările promoționale sau de marketing le vom trimite doar cu consimțământul dumneavoastră prealabil, atunci când consimțământul este impus de lege, sau acolo unde este permis în baza interesului nostru legitim de a informa utilizatorii existenți despre servicii conexe. Puteți renunța oricând, gratuit, la toate comunicările promoționale, folosind mecanismul de dezabonare inclus în astfel de comunicări sau contactându-ne la support@lorentbloom.com.",
+      "status": "În prezent, Lorent Bloom nu desfășoară campanii active de marketing. În cazul în care această situație se va schimba, prezenta Politică va fi actualizată în conformitate cu Secțiunea 15."
+    },
+    "cookies": {
+      "heading": "13. Cookie-uri",
+      "content": "Utilizăm cookie-uri și tehnologii similare pentru autentificare, gestionarea sesiunilor, securitate, preferințe și analiză. Detaliile despre categoriile de cookie-uri utilizate, opțiunile dumneavoastră și modul de gestionare a preferințelor cookie sunt stabilite în Politica privind Cookie-urile separată, care face parte din prezenta Politică de Confidențialitate."
+    },
+    "children": {
+      "heading": "14. Protecția datelor minorilor",
+      "content": "Platforma este destinată exclusiv persoanelor cu vârsta de cel puțin 18 ani care dispun de capacitate juridică deplină pentru a încheia contracte obligatorii în conformitate cu legislația Republicii Moldova, conform Secțiunii 2.1 a Termenilor noștri. Nu colectăm cu bună știință date cu caracter personal de la minori. Dacă vom afla că am colectat date cu caracter personal de la o persoană sub 18 ani fără autoritate parentală verificabilă, vom șterge aceste date și vom închide contul în cel mai scurt timp posibil. Dacă credeți că un minor a furnizat date cu caracter personal Platformei, vă rugăm să ne contactați la support@lorentbloom.com."
+    },
+    "changes": {
+      "heading": "15. Modificări ale prezentei Politici",
+      "content": "Lorent Bloom poate modifica prezenta Politică din când în când. Modificările materiale vor fi notificate utilizatorilor cu cel puțin 14 (paisprezece) zile calendaristice înainte de intrarea în vigoare, prin publicarea Politicii actualizate pe această pagină cu data „Ultima actualizare\" reînnoită și prin trimiterea unei notificări la adresa de email înregistrată sau afișarea unei notificări în cadrul Platformei. Modificările pur editoriale sau tehnice care nu afectează drepturile utilizatorilor pot intra în vigoare imediat după publicare. Modificările nu se aplică retroactiv prelucrării efectuate înainte de data lor efectivă. Continuarea utilizării Platformei după data efectivă constituie acceptarea Politicii actualizate."
+    },
+    "dpa": {
+      "heading": "16. Autoritatea pentru protecția datelor",
+      "content": "Autoritatea de supraveghere pentru protecția datelor cu caracter personal în Republica Moldova este Centrul Național pentru Protecția Datelor cu Caracter Personal. Aveți dreptul de a depune oricând o plângere la această autoritate.",
+      "address": "Adresa: str. Sergei Lazo 48, Chișinău MD-2004, Republica Moldova. Site web: datepersonale.md."
+    },
+    "contact": {
+      "heading": "17. Contactați-ne",
+      "entity": "Lorent Bloom funcționează în prezent ca o platformă în faza pre-lansare. Persoana juridică pentru operarea Platformei este în curs de înființare în Republica Moldova; după finalizarea înregistrării, datele actualizate ale persoanei juridice (denumirea, IDNO și adresa sediului social) vor fi publicate în prezenta Secțiune și în Secțiunea 17 a Termenilor noștri.",
+      "content": "Pentru orice întrebări despre prezenta Politică de Confidențialitate, pentru exercitarea oricăror drepturi sau pentru a depune o plângere privind modul în care gestionăm datele dumneavoastră cu caracter personal, vă rugăm să ne contactați la support@lorentbloom.com.",
+      "governingLanguage": "Prezenta Politică de Confidențialitate poate fi pusă la dispoziție în mai multe limbi pentru comoditatea utilizatorilor. În cazul oricărei neconcordanțe sau conflict între versiunile lingvistice, versiunea în limba română va prevala ca text oficial, în conformitate cu Secțiunea 16.5 a Termenilor noștri."
+    }
+  },
   "cookie-policy": {
     "title": "Politica privind Cookie-urile",
-    "lastUpdated": "Ultima actualizare: 25 ianuarie 2026",
-    "intro": "Această Politică privind cookie-urile (denumită în continuare «Politica») explică modul în care platforma Lorent Bloom (denumită în continuare «Lorent Bloom», «noi», «serviciul nostru») utilizează cookie-urile și tehnologii similare atunci când vizitați și utilizați site-ul web. Prin utilizarea Platformei, sunteți de acord cu utilizarea cookie-urilor în conformitate cu această Politică.",
+    "lastUpdated": "Ultima actualizare: 11 mai 2026",
+    "intro": "Această Politică privind cookie-urile (denumită în continuare „Politica\") explică modul în care platforma Lorent Bloom (denumită în continuare „Lorent Bloom\", „noi\", „serviciul nostru\") utilizează cookie-urile și tehnologii similare atunci când vizitați și utilizați site-ul web. Prezenta Politică trebuie citită împreună cu Politica noastră de Confidențialitate și cu Termenii și Condițiile, pe care le completează.",
     "metadata": {
-      "title": "Politica Cookie - Lorent Bloom",
-      "description": "Aflați cum platforma Lorent Bloom utilizează cookie-urile și cum le puteți gestiona."
+      "title": "Politica privind Cookie-urile a platformei de închiriere",
+      "description": "Aflați cum Lorent Bloom utilizează cookie-urile, ce categorii sunt desfășurate și cum puteți gestiona oricând preferințele de cookie."
     },
     "whatAreCookies": {
       "heading": "1. Ce sunt cookie-urile",
       "content": "Cookie-urile sunt fișiere text mici care sunt stocate pe dispozitivul dumneavoastră (computer, smartphone, tabletă) atunci când vizitați site-uri web. Acestea permit site-ului să recunoască dispozitivul dumneavoastră, să asigure funcționarea corectă a serviciului și să îmbunătățească experiența utilizatorului."
     },
+    "operator": {
+      "heading": "2. Operatorul și legea aplicabilă",
+      "content": "Prezenta Politică privind cookie-urile este publicată de Lorent Bloom, care acționează în calitate de operator și controlor al datelor responsabil pentru cookie-urile și tehnologiile similare desfășurate pe Platformă. Informațiile despre persoana juridică care operează Platforma sunt stabilite în Secțiunea 17 a Termenilor noștri. Prezenta Politică este guvernată de legislația Republicii Moldova, inclusiv de Legea nr. 133/2011 privind protecția datelor cu caracter personal și de Legea nr. 284/2004 privind comerțul electronic, și face parte din acordul integrat descris în Secțiunea 16.2 a Termenilor noștri."
+    },
     "cookieTypes": {
-      "heading": "2. Tipurile de cookie-uri pe care le folosim",
+      "heading": "3. Tipurile de cookie-uri pe care le folosim",
       "intro": "Lorent Bloom utilizează următoarele categorii de cookie-uri:",
       "required": {
-        "heading": "2.1. Cookie-uri obligatorii (tehnice)",
+        "heading": "3.1. Cookie-uri obligatorii (tehnice)",
         "content": "Aceste cookie-uri sunt necesare pentru funcționarea corectă a Platformei și nu pot fi dezactivate în setările sistemului. Acestea sunt utilizate, în special, pentru:",
         "list": {
           "item1": "autentificarea utilizatorilor;",
           "item2": "păstrarea sesiunii;",
-          "item3": "asigurarea securității;",
+          "item3": "asigurarea securității (inclusiv protecția împotriva atacurilor CSRF și prevenirea abuzurilor);",
           "item4": "funcționarea corectă a funcțiilor de bază ale site-ului."
         },
-        "note": "Fără aceste cookie-uri, utilizarea Platformei nu este posibilă."
+        "note": "Fără aceste cookie-uri, utilizarea Platformei nu este posibilă. Cookie-urile obligatorii sunt desfășurate fără un consimțământ separat, întrucât desfășurarea lor este strict necesară pentru a furniza Serviciul solicitat de utilizator."
       },
       "functional": {
-        "heading": "2.2. Cookie-uri funcționale",
-        "content": "Cookie-urile funcționale permit Platformei să rețină alegerile dumneavoastră (cum ar fi limba, regiunea, setările interfeței) și să ofere o experiență mai personalizată."
+        "heading": "3.2. Cookie-uri funcționale",
+        "content": "Cookie-urile funcționale permit Platformei să rețină alegerile dumneavoastră (cum ar fi limba, regiunea, setările interfeței, starea bannerului de cookie) și să ofere o experiență mai personalizată. Cookie-urile funcționale sunt desfășurate numai cu consimțământul dumneavoastră prealabil."
       },
       "analytics": {
-        "heading": "2.3. Cookie-uri analitice",
-        "content": "Cookie-urile analitice sunt utilizate pentru a colecta informații anonimizate despre modul în care utilizatorii interacționează cu Platforma. Acest lucru ne ajută să:",
+        "heading": "3.3. Cookie-uri analitice",
+        "content": "Cookie-urile analitice sunt utilizate pentru a colecta informații agregate și pseudonimizate despre modul în care utilizatorii interacționează cu Platforma. Acest lucru ne ajută să:",
         "list": {
-          "item1": "analizăm traficul;",
+          "item1": "analizăm traficul și tiparele de utilizare;",
           "item2": "îmbunătățim funcționalitatea serviciului;",
           "item3": "identificăm erori tehnice."
         },
-        "note": "Datele colectate nu permit identificarea directă a utilizatorului."
+        "note": "Cookie-urile analitice sunt desfășurate numai cu consimțământul dumneavoastră prealabil. Datele colectate prin cookie-urile analitice sunt prelucrate în formă pseudonimizată și nu permit identificarea directă a utilizatorului."
+      },
+      "cookieInventory": {
+        "heading": "3.4. Cookie-uri desfășurate în prezent de Platformă",
+        "content": "O listă completă și actualizată a cookie-urilor desfășurate de Platformă — inclusiv numele cookie-urilor, furnizorii, scopurile și duratele de păstrare — este disponibilă prin panoul de preferințe pentru cookie-uri accesibil în cadrul Platformei (a se vedea Secțiunea 5). Lorent Bloom se angajează să mențină această listă actualizată și exactă; dacă stack-ul tehnic se modifică, lista este actualizată în consecință. Mai jos este o prezentare neexhaustivă a cookie-urilor uzuale desfășurate de Platformă:",
+        "list": {
+          "item1": "cookie-uri de sesiune și autentificare (Obligatorii, șterse la încheierea sesiunii sau la scurt timp după);",
+          "item2": "cookie-uri de securitate, inclusiv token-uri de protecție CSRF (Obligatorii, de scurtă durată);",
+          "item3": "cookie-uri de limbă și preferințe ale interfeței (Funcționale, persistente până la 12 luni);",
+          "item4": "cookie-uri pentru starea bannerului de cookie (Obligatorii, persistente până la 12 luni);",
+          "item5": "identificatori de analiză, atunci când ați acordat consimțământul explicit (Analitice, persistente până la 12 luni)."
+        }
       }
     },
     "thirdPartyCookies": {
-      "heading": "3. Cookie-uri terțe",
-      "content": "Lorent Bloom poate utiliza servicii terțe (cum ar fi furnizori de analiză sau de plăți) care pot plasa cookie-uri pe dispozitivul dumneavoastră în cadrul funcționării lor.",
-      "disclaimer": "Nu controlăm cookie-urile terților și vă recomandăm să consultați politicile lor de confidențialitate și de utilizare a cookie-urilor."
+      "heading": "4. Cookie-uri terțe",
+      "content": "Lorent Bloom poate utiliza servicii terțe (cum ar fi furnizori de găzduire sau de analiză) care pot plasa cookie-uri pe dispozitivul dumneavoastră în cadrul funcționării lor. Atunci când astfel de cookie-uri conduc la prelucrarea datelor dumneavoastră cu caracter personal, această prelucrare este descrisă suplimentar în Politica noastră de Confidențialitate, inclusiv temeiurile juridice, perioadele de păstrare și drepturile dumneavoastră în calitate de persoană vizată.",
+      "disclaimer": "Nu controlăm cookie-urile terților și vă recomandăm să consultați politicile lor de confidențialitate și de utilizare a cookie-urilor. Atunci când cookie-urile terților intră într-o categorie neobligatorie (cum ar fi analiza), acestea vor fi desfășurate numai cu consimțământul dumneavoastră prealabil prin bannerul de cookie."
     },
     "managingCookies": {
-      "heading": "4. Gestionarea cookie-urilor",
-      "content": "Puteți modifica oricând setările cookie-urilor în browserul dumneavoastră, inclusiv:",
+      "heading": "5. Gestionarea cookie-urilor",
+      "content": "Puteți gestiona cookie-urile în două moduri. În primul rând, puteți modifica oricând preferințele pentru cookie-uri direct în Platformă, folosind panoul de preferințe pentru cookie-uri accesibil din bannerul de cookie afișat la prima vizită sau din subsolul Platformei. Sunt furnizate controale granulare pe categorii (Funcționale / Analitice), iar modificările se aplică imediat. În al doilea rând, puteți modifica setările cookie-urilor în browserul dumneavoastră, inclusiv:",
       "list": {
         "item1": "blocarea tuturor cookie-urilor;",
         "item2": "ștergerea cookie-urilor salvate;",
         "item3": "primirea notificărilor când cookie-urile sunt salvate."
       },
-      "note": "Vă rugăm să rețineți că dezactivarea sau restricționarea cookie-urilor poate duce la funcționarea incorectă a unor funcții ale Platformei."
+      "note": "Vă rugăm să rețineți că dezactivarea sau restricționarea cookie-urilor poate duce la funcționarea incorectă a unor funcții ale Platformei. Cookie-urile obligatorii nu pot fi dezactivate, întrucât sunt necesare pentru funcționarea de bază a Serviciului."
     },
     "consent": {
-      "heading": "5. Consimțământul pentru utilizarea cookie-urilor",
-      "content": "La prima vizită pe Platformă, vi se poate afișa o notificare despre utilizarea cookie-urilor. Continuând să utilizați site-ul sau făcând clic pe butonul de consimțământ, confirmați acordul dumneavoastră pentru utilizarea cookie-urilor în conformitate cu această Politică."
+      "heading": "6. Consimțământul pentru utilizarea cookie-urilor",
+      "content": "Cookie-urile obligatorii (Secțiunea 3.1) sunt desfășurate fără un consimțământ separat, întrucât sunt strict necesare pentru a furniza Serviciul. Pentru toate celelalte categorii de cookie-uri (Funcționale, Analitice și orice categorii viitoare), Lorent Bloom solicită consimțământul dumneavoastră explicit și afirmativ prin bannerul de cookie afișat la prima dumneavoastră vizită pe Platformă.",
+      "explicit": "Continuarea utilizării Platformei fără acțiune asupra bannerului de cookie nu va fi interpretată drept consimțământ. Consimțământul este acordat numai prin apăsarea butonului „Accept\" sau a opțiunii echivalente din bannerul de cookie ori prin activarea unor categorii specifice de cookie-uri în panoul de preferințe pentru cookie-uri. Consimțământul poate fi acordat pe categorii distincte.",
+      "withdrawal": "Vă puteți retrage consimțământul oricând, gratuit, prin panoul de preferințe pentru cookie-uri sau prin ștergerea cookie-urilor din browserul dumneavoastră. Retragerea consimțământului nu afectează legalitatea prelucrării efectuate înainte de retragere."
     },
     "changes": {
-      "heading": "6. Modificări ale Politicii Cookie",
-      "content": "Lorent Bloom își rezervă dreptul de a aduce modificări acestei Politici în orice moment. Versiunea actualizată intră în vigoare din momentul publicării pe Platformă."
+      "heading": "7. Modificări ale Politicii Cookie",
+      "content": "Lorent Bloom poate modifica prezenta Politică din când în când. Modificările materiale vor fi notificate utilizatorilor cu cel puțin 14 (paisprezece) zile calendaristice înainte de intrarea în vigoare, prin publicarea Politicii actualizate pe această pagină cu data „Ultima actualizare\" reînnoită și, dacă este cazul, prin afișarea unei notificări în cadrul Platformei sau pe bannerul de cookie. Modificările pur editoriale sau tehnice care nu afectează drepturile utilizatorilor pot intra în vigoare imediat după publicare. Modificările nu se aplică retroactiv cookie-urilor setate înainte de data efectivă."
+    },
+    "governingLanguage": {
+      "heading": "8. Limba prevalentă",
+      "content": "Prezenta Politică privind cookie-urile poate fi pusă la dispoziție în mai multe limbi pentru comoditatea utilizatorilor. În cazul oricărei neconcordanțe sau conflict între versiunile lingvistice, versiunea în limba română va prevala ca text oficial, în conformitate cu Secțiunea 16.5 a Termenilor noștri."
     },
     "contact": {
-      "heading": "7. Informații de contact",
-      "content": "Dacă aveți întrebări legate de utilizarea cookie-urilor, vă rugăm să ne contactați la: support@lorentbloom.com"
+      "heading": "9. Informații de contact",
+      "content": "Dacă aveți întrebări legate de utilizarea cookie-urilor sau dacă doriți să vă exercitați drepturile cu privire la datele cu caracter personal prelucrate prin cookie-uri, vă rugăm să ne contactați la: support@lorentbloom.com"
     }
   },
   "product-detail": {

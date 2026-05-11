@@ -10,6 +10,7 @@ interface GenerateBreadcrumbsProps {
     faq: string;
     howToRentOut: string;
     termsOfPolicy: string;
+    privacyPolicy: string;
     accountSettings: string;
     profile: string;
     account: string;
@@ -84,6 +85,7 @@ export function generateBreadcrumbs({
       faq: t.faq,
       "how-to-rent-out": t.howToRentOut,
       "terms-of-policy": t.termsOfPolicy,
+      "privacy-policy": t.privacyPolicy,
       "account-settings": t.accountSettings,
       profile: t.profile,
       account: t.account,

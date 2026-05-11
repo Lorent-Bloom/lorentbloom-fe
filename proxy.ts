@@ -16,6 +16,7 @@ const publicPaths = [
   "/product-search",
   "/terms-of-policy",
   "/cookie-policy",
+  "/privacy-policy",
   "/contact-us",
   "/customer/account/confirm",
 ];

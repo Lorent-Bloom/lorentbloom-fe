@@ -1,69 +1,90 @@
 {
   "title": "Politica privind Cookie-urile",
-  "lastUpdated": "Ultima actualizare: 25 ianuarie 2026",
-  "intro": "Această Politică privind cookie-urile (denumită în continuare «Politica») explică modul în care platforma Lorent Bloom (denumită în continuare «Lorent Bloom», «noi», «serviciul nostru») utilizează cookie-urile și tehnologii similare atunci când vizitați și utilizați site-ul web. Prin utilizarea Platformei, sunteți de acord cu utilizarea cookie-urilor în conformitate cu această Politică.",
+  "lastUpdated": "Ultima actualizare: 11 mai 2026",
+  "intro": "Această Politică privind cookie-urile (denumită în continuare „Politica\") explică modul în care platforma Lorent Bloom (denumită în continuare „Lorent Bloom\", „noi\", „serviciul nostru\") utilizează cookie-urile și tehnologii similare atunci când vizitați și utilizați site-ul web. Prezenta Politică trebuie citită împreună cu Politica noastră de Confidențialitate și cu Termenii și Condițiile, pe care le completează.",
   "metadata": {
-    "title": "Politica Cookie - Lorent Bloom",
-    "description": "Aflați cum platforma Lorent Bloom utilizează cookie-urile și cum le puteți gestiona."
+    "title": "Politica privind Cookie-urile a platformei de închiriere",
+    "description": "Aflați cum Lorent Bloom utilizează cookie-urile, ce categorii sunt desfășurate și cum puteți gestiona oricând preferințele de cookie."
   },
   "whatAreCookies": {
     "heading": "1. Ce sunt cookie-urile",
     "content": "Cookie-urile sunt fișiere text mici care sunt stocate pe dispozitivul dumneavoastră (computer, smartphone, tabletă) atunci când vizitați site-uri web. Acestea permit site-ului să recunoască dispozitivul dumneavoastră, să asigure funcționarea corectă a serviciului și să îmbunătățească experiența utilizatorului."
   },
+  "operator": {
+    "heading": "2. Operatorul și legea aplicabilă",
+    "content": "Prezenta Politică privind cookie-urile este publicată de Lorent Bloom, care acționează în calitate de operator și controlor al datelor responsabil pentru cookie-urile și tehnologiile similare desfășurate pe Platformă. Informațiile despre persoana juridică care operează Platforma sunt stabilite în Secțiunea 17 a Termenilor noștri. Prezenta Politică este guvernată de legislația Republicii Moldova, inclusiv de Legea nr. 133/2011 privind protecția datelor cu caracter personal și de Legea nr. 284/2004 privind comerțul electronic, și face parte din acordul integrat descris în Secțiunea 16.2 a Termenilor noștri."
+  },
   "cookieTypes": {
-    "heading": "2. Tipurile de cookie-uri pe care le folosim",
+    "heading": "3. Tipurile de cookie-uri pe care le folosim",
     "intro": "Lorent Bloom utilizează următoarele categorii de cookie-uri:",
     "required": {
-      "heading": "2.1. Cookie-uri obligatorii (tehnice)",
+      "heading": "3.1. Cookie-uri obligatorii (tehnice)",
       "content": "Aceste cookie-uri sunt necesare pentru funcționarea corectă a Platformei și nu pot fi dezactivate în setările sistemului. Acestea sunt utilizate, în special, pentru:",
       "list": {
         "item1": "autentificarea utilizatorilor;",
         "item2": "păstrarea sesiunii;",
-        "item3": "asigurarea securității;",
+        "item3": "asigurarea securității (inclusiv protecția împotriva atacurilor CSRF și prevenirea abuzurilor);",
         "item4": "funcționarea corectă a funcțiilor de bază ale site-ului."
       },
-      "note": "Fără aceste cookie-uri, utilizarea Platformei nu este posibilă."
+      "note": "Fără aceste cookie-uri, utilizarea Platformei nu este posibilă. Cookie-urile obligatorii sunt desfășurate fără un consimțământ separat, întrucât desfășurarea lor este strict necesară pentru a furniza Serviciul solicitat de utilizator."
     },
     "functional": {
-      "heading": "2.2. Cookie-uri funcționale",
-      "content": "Cookie-urile funcționale permit Platformei să rețină alegerile dumneavoastră (cum ar fi limba, regiunea, setările interfeței) și să ofere o experiență mai personalizată."
+      "heading": "3.2. Cookie-uri funcționale",
+      "content": "Cookie-urile funcționale permit Platformei să rețină alegerile dumneavoastră (cum ar fi limba, regiunea, setările interfeței, starea bannerului de cookie) și să ofere o experiență mai personalizată. Cookie-urile funcționale sunt desfășurate numai cu consimțământul dumneavoastră prealabil."
     },
     "analytics": {
-      "heading": "2.3. Cookie-uri analitice",
-      "content": "Cookie-urile analitice sunt utilizate pentru a colecta informații anonimizate despre modul în care utilizatorii interacționează cu Platforma. Acest lucru ne ajută să:",
+      "heading": "3.3. Cookie-uri analitice",
+      "content": "Cookie-urile analitice sunt utilizate pentru a colecta informații agregate și pseudonimizate despre modul în care utilizatorii interacționează cu Platforma. Acest lucru ne ajută să:",
       "list": {
-        "item1": "analizăm traficul;",
+        "item1": "analizăm traficul și tiparele de utilizare;",
         "item2": "îmbunătățim funcționalitatea serviciului;",
         "item3": "identificăm erori tehnice."
       },
-      "note": "Datele colectate nu permit identificarea directă a utilizatorului."
+      "note": "Cookie-urile analitice sunt desfășurate numai cu consimțământul dumneavoastră prealabil. Datele colectate prin cookie-urile analitice sunt prelucrate în formă pseudonimizată și nu permit identificarea directă a utilizatorului."
+    },
+    "cookieInventory": {
+      "heading": "3.4. Cookie-uri desfășurate în prezent de Platformă",
+      "content": "O listă completă și actualizată a cookie-urilor desfășurate de Platformă — inclusiv numele cookie-urilor, furnizorii, scopurile și duratele de păstrare — este disponibilă prin panoul de preferințe pentru cookie-uri accesibil în cadrul Platformei (a se vedea Secțiunea 5). Lorent Bloom se angajează să mențină această listă actualizată și exactă; dacă stack-ul tehnic se modifică, lista este actualizată în consecință. Mai jos este o prezentare neexhaustivă a cookie-urilor uzuale desfășurate de Platformă:",
+      "list": {
+        "item1": "cookie-uri de sesiune și autentificare (Obligatorii, șterse la încheierea sesiunii sau la scurt timp după);",
+        "item2": "cookie-uri de securitate, inclusiv token-uri de protecție CSRF (Obligatorii, de scurtă durată);",
+        "item3": "cookie-uri de limbă și preferințe ale interfeței (Funcționale, persistente până la 12 luni);",
+        "item4": "cookie-uri pentru starea bannerului de cookie (Obligatorii, persistente până la 12 luni);",
+        "item5": "identificatori de analiză, atunci când ați acordat consimțământul explicit (Analitice, persistente până la 12 luni)."
+      }
     }
   },
   "thirdPartyCookies": {
-    "heading": "3. Cookie-uri terțe",
-    "content": "Lorent Bloom poate utiliza servicii terțe (cum ar fi furnizori de analiză sau de plăți) care pot plasa cookie-uri pe dispozitivul dumneavoastră în cadrul funcționării lor.",
-    "disclaimer": "Nu controlăm cookie-urile terților și vă recomandăm să consultați politicile lor de confidențialitate și de utilizare a cookie-urilor."
+    "heading": "4. Cookie-uri terțe",
+    "content": "Lorent Bloom poate utiliza servicii terțe (cum ar fi furnizori de găzduire sau de analiză) care pot plasa cookie-uri pe dispozitivul dumneavoastră în cadrul funcționării lor. Atunci când astfel de cookie-uri conduc la prelucrarea datelor dumneavoastră cu caracter personal, această prelucrare este descrisă suplimentar în Politica noastră de Confidențialitate, inclusiv temeiurile juridice, perioadele de păstrare și drepturile dumneavoastră în calitate de persoană vizată.",
+    "disclaimer": "Nu controlăm cookie-urile terților și vă recomandăm să consultați politicile lor de confidențialitate și de utilizare a cookie-urilor. Atunci când cookie-urile terților intră într-o categorie neobligatorie (cum ar fi analiza), acestea vor fi desfășurate numai cu consimțământul dumneavoastră prealabil prin bannerul de cookie."
   },
   "managingCookies": {
-    "heading": "4. Gestionarea cookie-urilor",
-    "content": "Puteți modifica oricând setările cookie-urilor în browserul dumneavoastră, inclusiv:",
+    "heading": "5. Gestionarea cookie-urilor",
+    "content": "Puteți gestiona cookie-urile în două moduri. În primul rând, puteți modifica oricând preferințele pentru cookie-uri direct în Platformă, folosind panoul de preferințe pentru cookie-uri accesibil din bannerul de cookie afișat la prima vizită sau din subsolul Platformei. Sunt furnizate controale granulare pe categorii (Funcționale / Analitice), iar modificările se aplică imediat. În al doilea rând, puteți modifica setările cookie-urilor în browserul dumneavoastră, inclusiv:",
     "list": {
       "item1": "blocarea tuturor cookie-urilor;",
       "item2": "ștergerea cookie-urilor salvate;",
       "item3": "primirea notificărilor când cookie-urile sunt salvate."
     },
-    "note": "Vă rugăm să rețineți că dezactivarea sau restricționarea cookie-urilor poate duce la funcționarea incorectă a unor funcții ale Platformei."
+    "note": "Vă rugăm să rețineți că dezactivarea sau restricționarea cookie-urilor poate duce la funcționarea incorectă a unor funcții ale Platformei. Cookie-urile obligatorii nu pot fi dezactivate, întrucât sunt necesare pentru funcționarea de bază a Serviciului."
   },
   "consent": {
-    "heading": "5. Consimțământul pentru utilizarea cookie-urilor",
-    "content": "La prima vizită pe Platformă, vi se poate afișa o notificare despre utilizarea cookie-urilor. Continuând să utilizați site-ul sau făcând clic pe butonul de consimțământ, confirmați acordul dumneavoastră pentru utilizarea cookie-urilor în conformitate cu această Politică."
+    "heading": "6. Consimțământul pentru utilizarea cookie-urilor",
+    "content": "Cookie-urile obligatorii (Secțiunea 3.1) sunt desfășurate fără un consimțământ separat, întrucât sunt strict necesare pentru a furniza Serviciul. Pentru toate celelalte categorii de cookie-uri (Funcționale, Analitice și orice categorii viitoare), Lorent Bloom solicită consimțământul dumneavoastră explicit și afirmativ prin bannerul de cookie afișat la prima dumneavoastră vizită pe Platformă.",
+    "explicit": "Continuarea utilizării Platformei fără acțiune asupra bannerului de cookie nu va fi interpretată drept consimțământ. Consimțământul este acordat numai prin apăsarea butonului „Accept\" sau a opțiunii echivalente din bannerul de cookie ori prin activarea unor categorii specifice de cookie-uri în panoul de preferințe pentru cookie-uri. Consimțământul poate fi acordat pe categorii distincte.",
+    "withdrawal": "Vă puteți retrage consimțământul oricând, gratuit, prin panoul de preferințe pentru cookie-uri sau prin ștergerea cookie-urilor din browserul dumneavoastră. Retragerea consimțământului nu afectează legalitatea prelucrării efectuate înainte de retragere."
   },
   "changes": {
-    "heading": "6. Modificări ale Politicii Cookie",
-    "content": "Lorent Bloom își rezervă dreptul de a aduce modificări acestei Politici în orice moment. Versiunea actualizată intră în vigoare din momentul publicării pe Platformă."
+    "heading": "7. Modificări ale Politicii Cookie",
+    "content": "Lorent Bloom poate modifica prezenta Politică din când în când. Modificările materiale vor fi notificate utilizatorilor cu cel puțin 14 (paisprezece) zile calendaristice înainte de intrarea în vigoare, prin publicarea Politicii actualizate pe această pagină cu data „Ultima actualizare\" reînnoită și, dacă este cazul, prin afișarea unei notificări în cadrul Platformei sau pe bannerul de cookie. Modificările pur editoriale sau tehnice care nu afectează drepturile utilizatorilor pot intra în vigoare imediat după publicare. Modificările nu se aplică retroactiv cookie-urilor setate înainte de data efectivă."
+  },
+  "governingLanguage": {
+    "heading": "8. Limba prevalentă",
+    "content": "Prezenta Politică privind cookie-urile poate fi pusă la dispoziție în mai multe limbi pentru comoditatea utilizatorilor. În cazul oricărei neconcordanțe sau conflict între versiunile lingvistice, versiunea în limba română va prevala ca text oficial, în conformitate cu Secțiunea 16.5 a Termenilor noștri."
   },
   "contact": {
-    "heading": "7. Informații de contact",
-    "content": "Dacă aveți întrebări legate de utilizarea cookie-urilor, vă rugăm să ne contactați la: support@lorentbloom.com"
+    "heading": "9. Informații de contact",
+    "content": "Dacă aveți întrebări legate de utilizarea cookie-urilor sau dacă doriți să vă exercitați drepturile cu privire la datele cu caracter personal prelucrate prin cookie-uri, vă rugăm să ne contactați la: support@lorentbloom.com"
   }
 }
