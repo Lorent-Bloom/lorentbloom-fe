@@ -1,18 +1,12 @@
 import { z } from "zod";
 
 /**
- * Moldovan IDNP validation (13 digits: 2TTTXXXYYYYYK)
- * - 2: Identifier for natural persons
- * - TTT: Last 3 digits of year IDNP was assigned
- * - XXX: Civil status code
- * - YYYYY: Sequential registration number
- * - K: Check digit
+ * Moldovan IDNP validation (13 digits)
  */
 const validateMoldovanIDNP = (value: string): boolean => {
   if (!value) return false;
   const cleaned = value.replace(/\s/g, "");
-  if (!/^2\d{12}$/.test(cleaned)) return false;
-  return true;
+  return /^\d{13}$/.test(cleaned);
 };
 
 /**
@@ -43,7 +37,7 @@ export const NameSectionSchema = z.object({
     .string()
     .min(1, "IDNP is required")
     .refine((val) => validateMoldovanIDNP(val), {
-      message: "Invalid IDNP format (must be 13 digits starting with 2)",
+      message: "Invalid IDNP format (must be 13 digits)",
     }),
 });
 

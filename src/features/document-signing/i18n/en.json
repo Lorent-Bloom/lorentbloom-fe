@@ -27,9 +27,9 @@
   "missingContractData": "Contract data is missing. Please try again.",
   "failedToSign": "Failed to sign the contract. Please try again.",
   "idnpLabel": "IDNP (Personal Identification Number)",
-  "idnpPlaceholder": "2001234567890",
-  "idnpHint": "Enter your Moldovan IDNP (13 digits starting with 2)",
-  "invalidIdnp": "Invalid IDNP format. Must be 13 digits starting with 2.",
+  "idnpPlaceholder": "0123456789012",
+  "idnpHint": "Enter your Moldovan IDNP (13 digits)",
+  "invalidIdnp": "Invalid IDNP format. Must be 13 digits.",
   "previewLanguage": "Preview Language",
   "previewLanguageHint": "Preview the contract in different languages. The signed document will always be in Romanian."
 }

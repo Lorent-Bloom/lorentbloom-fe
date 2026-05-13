@@ -27,12 +27,12 @@ const PREVIEW_LANGUAGES = [
 ] as const;
 
 /**
- * Moldovan personal number validation (13 digits: 2TTTXXXYYYYYK)
+ * Moldovan personal number validation (13 digits)
  */
 const validatePersonalNumber = (value: string): boolean => {
   if (!value) return false;
   const cleaned = value.replace(/\s/g, "");
-  return /^2\d{12}$/.test(cleaned);
+  return /^\d{13}$/.test(cleaned);
 };
 
 export function SigningFlow({

@@ -27,9 +27,9 @@
   "missingContractData": "Datele contractului lipsesc. Va rugam sa incercati din nou.",
   "failedToSign": "Nu s-a putut semna contractul. Va rugam sa incercati din nou.",
   "idnpLabel": "IDNP (Numar de Identificare Personala)",
-  "idnpPlaceholder": "2001234567890",
-  "idnpHint": "Introduceti IDNP-ul dvs. (13 cifre incepand cu 2)",
-  "invalidIdnp": "Format IDNP invalid. Trebuie sa contina 13 cifre incepand cu 2.",
+  "idnpPlaceholder": "0123456789012",
+  "idnpHint": "Introduceti IDNP-ul dvs. (13 cifre)",
+  "invalidIdnp": "Format IDNP invalid. Trebuie sa contina 13 cifre.",
   "previewLanguage": "Limba Previzualizarii",
   "previewLanguageHint": "Previzualizati contractul in diferite limbi. Documentul semnat va fi intotdeauna in limba romana."
 }
